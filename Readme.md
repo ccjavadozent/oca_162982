@@ -12,12 +12,17 @@
 ## Aufgaben
 
 #### 12.09
-- Eclispe einrichten
-    - Java Perspective aktivieren und für sich anpassen
+- <Eclipse.md>
+- <Git.md>  
+    
 - Neues Projekt erzeugen
 - Neue Klasse anlegen
 - sout und main Templates testen
 - Ctrl+F11 zum starten einer main testen
+
+- 'Java ist auch eine Insel'. Einführung lesen
+
+- Optional: Über Git nachschlagen. Evtl. eigenes Repo bit Github anlegen.
 
 #### 11.09
 
@@ -29,17 +34,7 @@
     - Die zip-Datei herunterladen
 - jdk entpacken	
 
-- Eclipse herunterladen: https://www.eclipse.org/downloads/packages/
-    - **Eclipse IDE for Enterprise Java Developers**
-	
-- Eclipse entpacken
-
-- die 'eclipse.ini' anpassen. Folgende zwei Zeilen am Anfang der ini-Datei hinzufügen:
-
-		-vm
-		Der\absoluter\Pfad\zu\dem\bin-Ordner\aus\jdk-11
-
-- eclipse.exe ausführen und das Workspace akzeptieren.
+- <Eclipse.md>  
 
 - 'Java ist auch eine Insel' kennenlernen. (Einführung lesen)
 
@@ -48,6 +43,7 @@
 - Kursinhalte: https://github.com/ccjavadozent/oca_162982.git
 
 - Buch 1 (Insel-Buch). Java ist auch eine Insel (auch online https://www.rheinwerk-verlag.de/openbook/)
+Exakt: <http://openbook.rheinwerk-verlag.de/javainsel/>
 - Buch 2 (OCA-Buch). OCA Java SE 8 Programmer I Exam Guide 
 
 - Comcave-Klausur: 27.11.2019 (Multiple-Choice, 90 Min, alle Hilfsmitteln erlaubt)
