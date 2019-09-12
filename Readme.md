@@ -12,8 +12,8 @@
 ## Aufgaben
 
 #### 12.09
-- [Eclipse einrichten](Eclipse.md "Eclipse einrichten")    
-- [Git mit Eclipse](Git.md "Git mit Eclipse")    
+- [Eclipse.md: Eclipse einrichten](Eclipse.md "Eclipse.md")    
+- [Git.md: Git mit Eclipse](Git.md "Git.md")    
     
 - Neues Projekt erzeugen
 - Neue Klasse anlegen
@@ -34,7 +34,7 @@
     - Die zip-Datei herunterladen
 - jdk entpacken	
 
-- [Eclipse einrichten](Eclipse.md "Eclipse einrichten")    
+- [Eclipse.md: Eclipse einrichten](Eclipse.md "Eclipse.md")    
 
 - 'Java ist auch eine Insel' kennenlernen. (Einführung lesen)
 
