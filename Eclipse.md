@@ -11,8 +11,8 @@ Empfohlen: Nach adoptopenjdk im Internet suchen und die letzte für eigenes Betr
 - Evtl. in der eclipce.ini den Pfad zu der VM eintragen, mit der Eclipse gestartet werden soll. 
 Dazu dann folgene Zeilen am Anfang der ini-Datei hinzufügen: 
 
-	-vm
-	Absoluter\Pfad\zu\dem\JDK-Verzeichnis\bin
+		-vm
+		Absoluter\Pfad\zu\dem\JDK-Verzeichnis\bin
 
 > Die zweite Zeile soll bitte den echten Pfad auf Ihrem Rechner beschreiben. 
 
