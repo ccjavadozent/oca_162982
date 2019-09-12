@@ -45,7 +45,7 @@
 
 ## Allgemein
 
-- Kursinhalte: https://bitbucket.org/ccjavad/oca_162982.git
+- Kursinhalte: https://github.com/ccjavadozent/oca_162982.git
 
 - Buch 1 (Insel-Buch). Java ist auch eine Insel (auch online https://www.rheinwerk-verlag.de/openbook/)
 - Buch 2 (OCA-Buch). OCA Java SE 8 Programmer I Exam Guide 
