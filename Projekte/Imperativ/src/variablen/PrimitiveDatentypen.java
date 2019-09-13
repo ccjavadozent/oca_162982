@@ -1,5 +1,8 @@
 package variablen;
 
+/*
+ * Primitive Typen werden auch elementare Typen genannt
+ */
 public class PrimitiveDatentypen {
 	
 	public static void main(String[]args) {
@@ -31,17 +34,29 @@ public class PrimitiveDatentypen {
 		
 		
 		/*
+		 * 
 		 	Zeichen-Typ
+		 *
 		 */
-		char ch;	// 16 (nichtnegativ)
+		char ch;	// 16 bit (nichtnegativ)
 		
 		
 		/*
+		 * 
 		 	Wahrheits-Typ
+		 *
 		 */
 		boolean bool; 	// ?
 		
-	}
+		
+		System.out.println( "Max. int: " + Integer.MAX_VALUE );
+		System.out.println( "Min. int: " + Integer.MIN_VALUE );
+		System.out.println( "Max. long: " + Long.MAX_VALUE );
+		System.out.println( "Max. float: " + Float.MAX_VALUE );
+		System.out.println( "Max. double: " + Double.MAX_VALUE );
+		
+		
+	} // end of main
 	
 	
 }
