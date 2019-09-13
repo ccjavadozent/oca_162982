@@ -18,6 +18,8 @@
 
 - Zuweisungsoperator 
 
+> für den Dozenten: D-Literale zeigen
+
 #### 12.09
 - [Eclipse.md: Eclipse einrichten](Eclipse.md "Eclipse.md")    
 - [Git.md: Git mit Eclipse](Git.md "Git.md")    

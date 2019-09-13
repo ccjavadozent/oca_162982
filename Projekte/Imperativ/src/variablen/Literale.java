@@ -12,6 +12,15 @@ public class Literale {
 		 */
 		
 		int var1 = 12; // dezimales int-Literal
+		// 1. in einem CPU-Register A (Breite 32-bit) die 12 hochladen
+		// 2. Bitte 32 bits unter dem Namen var1 auf dem Stack reservieren
+		// 3. Aus dem CPU-Register A die Bits in den Block var1 kopieren
+		
+		
+//		int z = 12L;
+		// 1. in einem Register B (Breite 64-bit) die 12 hochladen
+		// 2. Bitte 32 bits unter dem Namen z auf dem Stack reservieren
+		// 3. Aus dem CPU-Register B die Bits in den Block z kopieren
 		
 		int var2 = -22;
 		
@@ -66,6 +75,8 @@ public class Literale {
 		double d5 = -2E-3; // -2 * 10 hoch -3
 		System.out.println("d5 = " + d5); // -0.002
 		
+		double d6 = 1D;
+		double d7 = 1d;
 		
 		/*
 		 * float Literale
@@ -79,9 +90,12 @@ public class Literale {
 		float f4 = .1f + .1f + .1f;
 		System.out.println("f4 = " + f4);
 		
+		float f5;
+		
+		f5 = 12f;
 		
 		/*
-		 * Zeichen-Literale
+		 * char-Literale
 		 */
 		
 		char ch1 = 'a'; // char-Literal  
