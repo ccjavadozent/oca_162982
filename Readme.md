@@ -13,6 +13,14 @@
 
 #### 16.09
 - Bitte die Tabelle mit Operatoren im Insel-Buch finden (nicht auswendig lernen)
+- Zuweisungsoperator 
+- Arithmetische Operatoren
+- Zuweisung mit Operation 
+- Inkrement, Dekrement (Post- und Prä-)
+- Logische Operatoren
+- Vergleichsoperatoren
+
+- Optional: Beim Lernen können Sie für sich Kontrollfragen definieren (s. z.B. das Package 'kontrollfragen', die Datei 'Variablen-q.md')
 
 #### 13.09
 - Primitive (elementare) Datentypen
