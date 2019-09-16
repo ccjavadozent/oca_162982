@@ -75,8 +75,8 @@ public class Literale {
 		double d5 = -2E-3; // -2 * 10 hoch -3
 		System.out.println("d5 = " + d5); // -0.002
 		
-		double d6 = 1D;
-		double d7 = 1d;
+		double d6 = 1D; // double-Literal = 1.0
+		double d7 = 1d; // double-Literal = 1.0
 		
 		/*
 		 * float Literale
