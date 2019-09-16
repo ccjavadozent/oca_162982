@@ -35,10 +35,15 @@ public class Arithmetische {
 		
 		long var4 = 13;
 		
-//		int var5 = a + var4; // int <= long ( Das Ergebnis der Addition hier ist long)
+//		int var5 = a + var4; // int <= long ( Das Ergebnis der Addition hier ist long )
 		
-		int var6 = (int) a + var4;
+//		int var6 = (int) a + var4; // int <= long
 		
+		int var7 = (int) (a + var4); // int <= (int)long
+		System.out.println( "var7: " + var7 );
+		
+		int var8 = (int)var4 + a; // int <= int + int
+		System.out.println("var8: " + var8);
 		
 		
 	}

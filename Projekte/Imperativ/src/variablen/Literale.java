@@ -7,6 +7,11 @@ public class Literale {
 
 	public static void main(String[] args) {
 		
+		
+		int welt = 1_000_000; // (Unterstrich ist zur besseren Lesbarkeit erlaubt)
+		int hallo = 1_0_00_000; // Sinnlos, aber geht 
+		
+		
 		/*
 		 * int-Literale
 		 */

@@ -11,6 +11,9 @@
 
 ## Aufgaben
 
+#### 16.09
+- Bitte die Tabelle mit Operatoren im Insel-Buch finden (nicht auswendig lernen)
+
 #### 13.09
 - Primitive (elementare) Datentypen
 - Literale
