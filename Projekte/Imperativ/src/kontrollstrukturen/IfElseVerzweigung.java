@@ -48,6 +48,23 @@ public class IfElseVerzweigung {
 		}
 		
 		
+		/*
+		 * Exam
+		 */
+		
+//		if(true) {
+//			
+//		} else if { // Compilerfehler
+//			
+//		}
+		
+		
+		
+//		if(true) {
+//			
+//		} else (day==1) { // Compilerfehler
+//			
+//		}
 		
 		System.out.println("end of main");
 	}

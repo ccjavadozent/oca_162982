@@ -13,6 +13,10 @@
 
 #### 17.09
 - Eine statische Methode in einer Klasse definieren. Danach die Methode in einer anderen Klasse in der main aufrufen.
+- if / if-else / if-else if...
+- for-Schleife
+- Verzeichnis 'Aufgaben', Datei 'Kontrollstrukturen - for.md'
+
 
 #### 16.09
 - Bitte die Tabelle mit Operatoren im Insel-Buch finden (nicht auswendig lernen)
