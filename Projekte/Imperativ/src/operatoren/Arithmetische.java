@@ -46,6 +46,27 @@ public class Arithmetische {
 		System.out.println("var8: " + var8);
 		
 		
+		System.out.println("------------------------------");
+		System.out.println("--- % - Operator");
+		System.out.println("------------------------------");
+		
+		System.out.println( "1. 10%2 = " + ( 10%2 ) ); // 0
+		System.out.println( "2. 3%2 = " + ( 3%2 ) ); // 1
+		System.out.println( "3. 1%2 = " + ( 1%2 ) ); // 1
+		// System.out.println( "4. 1%0 = " + ( 1%0 ) ); // java.lang.ArithmeticException: / by zero
+		
+		System.out.println("------------------------------");
+		System.out.println("--- Dividieren");
+		System.out.println("------------------------------");
+		
+		int x = 0;
+		// System.out.println( "5. (5 / x) = " + (5 / x) ); // java.lang.ArithmeticException: / by zero
+		
+		 System.out.println( "6. (5. / x) = " + (5. / x) ); // Infinity
+		
+		 double d = Double.POSITIVE_INFINITY; // nicht in der Prüfung
+		 System.out.println( 1 + d ); // nicht in der Prüfung
+		
 	}
 
 }

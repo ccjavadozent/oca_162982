@@ -3,13 +3,21 @@
 
 ## Primitive Datentypen
 
-Welche davon sind primitive Datentypen?
+Welche sind primitive Datentypen?
 
-- character
-* char
+* byte
+* short
 - integer
 * int
+* long
+* float
+* double
+- character
+* char
+- bool
+* boolean
  
 > die anderen gibt es gar nicht 
+
 
 

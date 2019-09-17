@@ -11,6 +11,9 @@
 
 ## Aufgaben
 
+#### 17.09
+- Eine statische Methode in einer Klasse definieren. Danach die Methode in einer anderen Klasse in der main aufrufen.
+
 #### 16.09
 - Bitte die Tabelle mit Operatoren im Insel-Buch finden (nicht auswendig lernen)
 - Zuweisungsoperator 
