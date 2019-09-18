@@ -1,6 +1,6 @@
 package kontrollstrukturen;
 
-public class ForSchleife {
+public class Schleifen01_ForSchleife {
 	
 	
 	public static void main(String[] args) {

@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-public class WhileSchleife {
+public class Schleifen02_WhileSchleife {
 
 	public static void main(String[] args) {
 		

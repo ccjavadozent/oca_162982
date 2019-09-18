@@ -1,6 +1,6 @@
 package kontrollstrukturen;
 
-public class DoWhileSchleife {
+public class Schleifen03_DoWhileSchleife {
 
 	public static void main(String[] args) {
 		
