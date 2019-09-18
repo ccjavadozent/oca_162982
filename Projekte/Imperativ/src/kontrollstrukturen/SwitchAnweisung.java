@@ -96,12 +96,12 @@ public class SwitchAnweisung {
 		/*
 		 * Konstanten in switch bei case sind erlaubt, Variablen nicht!
 		 */
-		final int var = 2; // Konstante
-		// var = 2; // Compilerfehler
+		final int dayTwo = 2; // Konstante
+		// dayTwo = 3; // Compilerfehler
 		
 		switch( day ) {
 			case 1: 
-			case var: // var ist eine Konstante
+			case dayTwo: // dayTwo ist eine Konstante
 		}
 		
 	}
