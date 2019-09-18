@@ -17,6 +17,12 @@
 - Marker (Labels)
 - switch-Anweisung
 
+- Aufgaben/Kontrollstrukturen - while - do-while.md
+- Aufgaben/Kontrollstrukturen - switch.md
+- Kontrollstrukturen - switch - if - Ampelfarben.md
+
+
+
 #### 17.09
 - Eine statische Methode in einer Klasse definieren. Danach die Methode in einer anderen Klasse in der main aufrufen.
 - if / if-else / if-else if...
