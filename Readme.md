@@ -11,6 +11,12 @@
 
 ## Aufgaben
 
+#### 18.09
+- while / do-while Schleifen
+- break, continue
+- Marker (Labels)
+- switch-Anweisung
+
 #### 17.09
 - Eine statische Methode in einer Klasse definieren. Danach die Methode in einer anderen Klasse in der main aufrufen.
 - if / if-else / if-else if...
