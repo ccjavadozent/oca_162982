@@ -83,6 +83,27 @@ public class SwitchAnweisung {
 				break;
 		}
 		
+		
+		/*
+		 * Konstanten dürfen sich nicht wiederholen!
+		 */
+		switch( day ) {
+//			case 1: 
+//			case 1:
+		}
+
+		
+		/*
+		 * Konstanten in switch bei case sind erlaubt, Variablen nicht!
+		 */
+		final int var = 2; // Konstante
+		// var = 2; // Compilerfehler
+		
+		switch( day ) {
+			case 1: 
+			case var: // var ist eine Konstante
+		}
+		
 	}
 
 }
