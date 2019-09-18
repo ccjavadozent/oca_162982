@@ -39,6 +39,8 @@ public class IfElseVerzweigung {
 		 * ...
 		 * else
 		 */
+		day = -1;
+		
 		if( day < 6 && day > 0 ) {
 			System.out.println("3. Arbeitstag");
 		} else if( day==6 || day==7 ) {
