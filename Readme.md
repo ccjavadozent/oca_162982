@@ -19,8 +19,7 @@
 
 - Aufgaben/Kontrollstrukturen - while - do-while.md
 - Aufgaben/Kontrollstrukturen - switch.md
-- Kontrollstrukturen - switch - if - Ampelfarben.md
-
+- Aufgaben/Kontrollstrukturen - switch - if - Ampelfarben.md
 
 
 #### 17.09

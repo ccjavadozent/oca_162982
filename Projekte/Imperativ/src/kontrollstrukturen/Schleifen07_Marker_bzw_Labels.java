@@ -65,7 +65,9 @@ public class Schleifen07_Marker_bzw_Labels {
 				
 				if(i==1) {
 					// continue jerry; // ist hier dasselbe wie continue;
-					continue tom; // Schleife jerry beenden und mit dem nächsten Schleifendurchlauf von tom weitermachen (i
+					
+					continue tom; 	// Schleife jerry beenden, aktuellen Schleifendurchlauf von tom abbrechen
+									// und mit dem nächsten Schleifendurchlauf von tom weitermachen
 				}
 				
 				System.out.print(k + " ");

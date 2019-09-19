@@ -96,12 +96,37 @@ public class SwitchAnweisung {
 		/*
 		 * Konstanten in switch bei case sind erlaubt, Variablen nicht!
 		 */
-		final int dayTwo = 2; // Konstante
-		// dayTwo = 3; // Compilerfehler
+		final byte dayTwo = 2; // Konstante
+//		dayTwo = 3; // Compilerfehler
 		
 		switch( day ) {
 			case 1: 
 			case dayTwo: // dayTwo ist eine Konstante
+		}
+		
+		
+		/*
+		 * Nur 'compiler-time constant value' für ein case! 
+		 * 
+		 * 'compiler-time constant value': Die Konstante muss mitt einem Literal (!)
+		 * in derselben (!) Anweisung initialisiert werden, 
+		 * in der sie auch eingeführt wird. 
+		 */
+		
+		final int c1; // KEIN 'compiler-time constant value'
+		c1 = 1;
+		
+		final int c2 = new java.util.Random().nextInt(1) + 2; // KEIN 'compiler-time constant value'
+		
+		final int c3 = day; // KEIN 'compiler-time constant value' 
+
+		final int c4 = 4; // 'compiler-time constant value' 
+		
+		switch(day) {
+//			case c1:	// Compilerfehler
+//			case c2:	// Compilerfehler
+//			case c3:	// Compilerfehler
+			case c4:
 		}
 		
 	}
