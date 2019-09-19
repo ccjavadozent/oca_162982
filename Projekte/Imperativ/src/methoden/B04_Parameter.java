@@ -8,12 +8,26 @@ package methoden;
  */
 public class B04_Parameter {
 	
+	/*
+	 * kleine Aufgabe:
+	 * 
+	 * Verbessern Sie bitte die Methode addAndPrint so, dass sie keine Summe berechnet, sondern eine Fehlermeldung
+	 * ausgibt, falls das Addieren der Parameter int-Bereich sprengt.
+	 */
 	static void addAndPrint(int a, int b) {
 		// int a = 2, b = 3;
+
+		long summe = (long)a + b;
 		
-		int sum = a + b;
+		if( summe > Integer.MAX_VALUE || summe < Integer.MIN_VALUE) {
+			System.out.println("Fehler: " + a + " + " + b + " sprengt int-Bereich");
+			
+		} else {
+			
+			System.out.println(a + " + " + b + " = " + summe);
+		}
 		
-		System.out.println(a + " + " + b + " = " + sum);
+		
 	}
 
 	
@@ -21,19 +35,14 @@ public class B04_Parameter {
 
 		addAndPrint(6, 7);
 		
-		addAndPrint(-6, 6);
+		addAndPrint(1, Integer.MAX_VALUE); 
 		
-		addAndPrint(8, -8); 
+		
 		
 		System.out.println("end of main");
 	}
 
 	
-	/*
-	 * kleine Aufgabe:
-	 * 
-	 * Verbessern Sie bitte die Methode addAndPrint so, dass sie keine Summe berechnet, sondern eine Fehlermeldung
-	 * ausgibt, falls das Addieren der Parameter int-Bereich sprengt.
-	 */
+	
 	
 }

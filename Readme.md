@@ -11,6 +11,17 @@
 
 ## Aufgaben
 
+#### 19.09
+- statische Methoden
+- lokale Variablen
+- Parameter
+- s. auch verzeichnis 'Diagramme', Datei 'Stack und Heap.pptx'
+
+- Optional (als Wiederholung von Kontrollstrukturen): Aufgaben/Kontrollstrukturen.md
+
+- Aufgaben/Methoden.md
+
+
 #### 18.09
 - while / do-while Schleifen
 - break, continue
