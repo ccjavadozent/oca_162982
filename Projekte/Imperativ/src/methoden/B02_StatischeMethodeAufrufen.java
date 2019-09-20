@@ -6,6 +6,8 @@ public class B02_StatischeMethodeAufrufen {
 
 //		 sayHello(); // Compilerfehler: Methode nicht gefunden, wenn sie in dieser Klasse NICHT existiert
 		
+		methoden.B01_StatischeMethodeDefinieren.sayHello();
+		
 		B01_StatischeMethodeDefinieren.sayHello();
 	
 		B02_StatischeMethodeAufrufen.sayBye();

@@ -26,23 +26,18 @@ public class B04_Parameter {
 			
 			System.out.println(a + " + " + b + " = " + summe);
 		}
-		
-		
 	}
 
 	
 	public static void main(String[] args) {
 
+		// addAndPrint(); // Argumente fehlen
+		
 		addAndPrint(6, 7);
 		
 		addAndPrint(1, Integer.MAX_VALUE); 
 		
-		
-		
 		System.out.println("end of main");
 	}
-
-	
-	
 	
 }

@@ -2,7 +2,7 @@ package methoden;
 
 /*
  * - Lokale Variablen sind Variable, die eine Methode für sich selbst definiert.
- * - Lokale variablen landen auf dem Stack
+ * - Lokale Variablen landen auf dem Stack
  * - Lokale Variablen sind ab der Stelle der Definition (der Einführung) bis zum Ende des Blockes gültig
  * - Lokale Variablen einer Methode sind für die anderen Methoden nicht erreichbar 
  *    (außer den Anfangswert für einen Parameter als Argument beim Aufruf übergeben).
@@ -19,7 +19,8 @@ public class B03_lokaleVariablen {
 
 		int x; // lokal, nicht initialisiert
 		
-		// System.out.println(x); // Compilerfehler
+		// System.out.println(x); // Compilerfehler: x ist nicht initialisiert
+		System.out.println(args); // OK, Parameter von dem Aufrufer initialisiert (von der JVM)
 		
 		x = 22;
 		
@@ -29,14 +30,14 @@ public class B03_lokaleVariablen {
 		{
 			int y = 33;
 			
-			// int x; // x gibt es bereits
+			// int x; // Compilerfehler: x gibt es bereits
 			
 			System.out.println("1. x = " + x);
 			System.out.println("1. y = " + y);
 			
 		} // ab hier keine y
 		
-		
+		// System.out.println(y); // Compilerfehler: keine gültige y
 		
 		{
 			int y = 77;
@@ -46,9 +47,9 @@ public class B03_lokaleVariablen {
 		}
 		
 		
-		for(int y, z; x==1000 ;) {
+		for(int y, z; x==1000 ;) { // y und z sind nur in der for-Schleife gültig
 			
-		} // y und z sind nur in der for-Schleife gültig
+		} 
 		
 		
 		//so kann man auch lokale Variablen definieren:

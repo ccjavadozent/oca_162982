@@ -11,6 +11,10 @@
 
 ## Aufgaben
 
+#### 20.09
+
+- Aufgaben/Methoden - Fakultät.md
+
 #### 19.09
 - statische Methoden
 - lokale Variablen
@@ -91,8 +95,10 @@
 
 - Kursinhalte: https://github.com/ccjavadozent/oca_162982.git
 
-- Buch 1 (Insel-Buch). Java ist auch eine Insel (auch online unter https://www.rheinwerk-verlag.de/openbook/)
-Exakte Adresse: http://openbook.rheinwerk-verlag.de/javainsel/
+- Buch 1 (Insel-Buch). Java ist auch eine Insel 
+
+		Exakte Adresse: http://openbook.rheinwerk-verlag.de/javainsel/
+		(es und weitere Bücher: https://www.rheinwerk-verlag.de/openbook/)
 - Buch 2 (OCA-Buch). OCA Java SE 8 Programmer I Exam Guide 
 
 - Comcave-Klausur: 27.11.2019 (Multiple-Choice, 90 Min, alle Hilfsmitteln erlaubt)

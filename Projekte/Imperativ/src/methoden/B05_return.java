@@ -25,8 +25,12 @@ public class B05_return {
 			return;
 		}
 		
+//		return; // Nach dieser Zeile ist der Code 'unreachable'
+		
 		System.out.println("x ist null");
 		System.out.println("Zeile C");
+		
+		return;
 	}
 	
 }

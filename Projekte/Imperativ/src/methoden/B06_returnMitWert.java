@@ -1,6 +1,6 @@
 package methoden;
 
-public class B06_return_mit_Wert {
+public class B06_returnMitWert {
 	
 	/*
 	 * return mit einem Wert ist eine Art Zuweisung.
@@ -28,7 +28,6 @@ public class B06_return_mit_Wert {
 		
 		
 		// byte y = add(7, 3); // Compilerfehler bei der Zuweisung: byte <= int
-		
 		
 	}
 
