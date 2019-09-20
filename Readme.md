@@ -13,7 +13,12 @@
 
 #### 20.09
 
+- statische Methode (alles)
+- Rekursive Aufrufe
+
 - Aufgaben/Methoden - Fakultät.md
+- Optional: Aufgaben/Methoden - Zeitspanne.md
+
 
 #### 19.09
 - statische Methoden
