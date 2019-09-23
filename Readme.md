@@ -11,25 +11,23 @@
 
 ## Aufgaben
 
-#### 20.09
+#### 23.09
+- Projekt 'Objektorientiert'
+- Diagramme/Scopes.pptx
 
+#### 20.09
 - statische Methode (alles)
 - Rekursive Aufrufe
-
 - Aufgaben/Methoden - Fakultät.md
 - Optional: Aufgaben/Methoden - Zeitspanne.md
-
 
 #### 19.09
 - statische Methoden
 - lokale Variablen
 - Parameter
 - s. auch verzeichnis 'Diagramme', Datei 'Stack und Heap.pptx'
-
 - Optional (als Wiederholung von Kontrollstrukturen): Aufgaben/Kontrollstrukturen.md
-
 - Aufgaben/Methoden.md
-
 
 #### 18.09
 - while / do-while Schleifen

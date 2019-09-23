@@ -48,7 +48,7 @@ public class B07_ZuweisungenSindUeberall {
 		
 //		byte res1 = getShort(); // byte <= short
 		
-		setByte(12); // Keine int-Literal-Ausnahme hier!!! byte b = 12
+//		setByte(12); // Compilerfehler. Keine int-Literal-Ausnahme hier!!! byte b <= int
 	}
 
 }
