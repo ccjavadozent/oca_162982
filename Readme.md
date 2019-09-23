@@ -14,6 +14,8 @@
 #### 23.09
 - Projekt 'Objektorientiert'
 - Diagramme/Scopes.pptx
+- Diagramme/Klassen Objekte Referenzen.pptx
+- Denken Sie bitte 3-5 Beispiele für Klassen aus. Jede Klasse sollte 2-3 Attribute haben. Bilden Sie Objekte, speichern Sie die Objekt-Adressen in Referenzen, Ändern Sie und lesen Sie die Attribute der Objekte. Versuchen Sie auch Schritt-für-Schritt Bilder zu malen, die die Speicherbelegung präsentieren. 
 
 #### 20.09
 - statische Methode (alles)
