@@ -4,7 +4,7 @@ package klassen;
  * Klasse: Schablone zum Bilden von Planeten. Wie ine Bauplan!!!
  */
 class Planet {
-	String name;
+	String name; // Attribut bzw. Feld bzw. Instanz-Variable bzw. Objekt-Variable bzw...
 	int x, y;
 }
 
@@ -23,8 +23,8 @@ public class B03_PlanetenMitKlassen {
 		/*
 		 * Planet 1. Name: Erde, Koordinaten x = 12, y = 13 
 		 */
-		Planet p1 = new Planet();
-		p1.name = "Erde";
+		Planet p1 = new Planet(); // Objekt mit 'new' bilden und seine Referenz in der Referenz p1 kopieren
+		p1.name = "Erde"; // Objekt finden (seine Adresse steht in p1) und sein attribut überschreiben
 		p1.x = 12;
 		p1.y = 13;
 
@@ -37,6 +37,10 @@ public class B03_PlanetenMitKlassen {
 		p2.name = "Mars";
 		p2.x = 70;
 		p2.y = 90;
+		
+		printPlanet(p2);
+		
+		movePlanet(p2, 103, 7000);
 		
 		printPlanet(p2);
 		
@@ -60,8 +64,20 @@ public class B03_PlanetenMitKlassen {
 	 * Definieren Sie eine statische Methode 'movePlanet', die die Koordinaten eines Planeten ändert.
 	 * Die gewünschten neuen Koordinaten bekommt 'movePlanet' als Argumente
 	 */
+	static void movePlanet(Planet planet, int newX, int newY) {
+		planet.x = newX;
+		planet.y = newY;
+	}
 	
 }
+
+
+
+
+
+
+
+
 
 
 
