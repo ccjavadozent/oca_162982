@@ -42,10 +42,22 @@ public class B03_PlanetenMitKlassen {
 		
 		movePlanet(p2, 103, 7000);
 		
-		printPlanet(p2);
+		printPlanet(p2); // Planet: Mars, Koordinaten: x: 103, y: 7000
+		
+		springen(p2);
+		
+		printPlanet(p2); // // Planet: Mars, Koordinaten: x: ????????, y: 7000
 		
 	} // end of main
 
+	/*
+	 * test
+	 */
+	static void springen(Planet p) {
+		p = new Planet();
+		p.x = 121314;
+	}
+	
 	
 //	static void printPlanet(String name, int x, int y) {
 //		System.out.println("*************************************************");
@@ -54,7 +66,7 @@ public class B03_PlanetenMitKlassen {
 	
 	static void printPlanet(Planet planet) {
 		System.out.println("*************************************************");
-		System.out.println("Planet: " + planet.name + ", Koordinaten: " + planet.x + ", " + planet.y);
+		System.out.println("Planet: " + planet.name + ", Koordinaten: x: " + planet.x + ", y: " + planet.y);
 	}
 	
 	/*
@@ -68,6 +80,7 @@ public class B03_PlanetenMitKlassen {
 		planet.x = newX;
 		planet.y = newY;
 	}
+	
 	
 }
 

@@ -41,8 +41,10 @@ public class B01_StatischeVariablen {
 		System.out.println("** in der testScope");
 		
 		System.out.println("1. static var: " + B01_StatischeVariablen.var); // Zugriff mit dem Klassennamen
-		System.out.println("2. static var: " + var); // Vereinfachter Zugriff auf die statisc var innerhalb der Klasse, die die Variable definiert
-		// auch static import kann eingesetzt werden
+		System.out.println("2. static var: " + var); // Vereinfachter Zugriff auf die statisc var innerhalb der Klasse, 
+													 //die die Variable definiert.
+		
+		// auch 'import static' kann eingesetzt werden
 		
 	}
 }
