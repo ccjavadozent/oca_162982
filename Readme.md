@@ -11,6 +11,16 @@
 
 ## Aufgaben
 
+#### 24.09
+- Klassen, Methoden, Attribute
+- this
+- Konstruktoren
+- Optional: toString-Überschreiben
+
+- Überladen von Methoden/Konstruktore
+
+- Aufgaben/Klassen - Geometrie.md
+
 #### 23.09
 - Projekt 'Objektorientiert'
 - Diagramme/Scopes.pptx

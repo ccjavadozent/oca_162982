@@ -14,7 +14,7 @@ class Auto {
 	 * Statische Methode. Hat nichts mit Objekten vom Typ 'Auto' zu tun
 	 */
 	static int getRandomBaujahr() {
-		return new java.util.Random().nextInt(19) + MIN_BAUJAHR;
+		return new java.util.Random().nextInt(2000-MIN_BAUJAHR) + MIN_BAUJAHR;
 	}
 	
 	/*
