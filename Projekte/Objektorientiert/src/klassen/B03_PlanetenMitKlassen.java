@@ -46,7 +46,7 @@ public class B03_PlanetenMitKlassen {
 		
 		springen(p2);
 		
-		printPlanet(p2); // // Planet: Mars, Koordinaten: x: ????????, y: 7000
+		printPlanet(p2); // // Planet: Mars, Koordinaten: x: 103, y: 7000
 		
 	} // end of main
 
@@ -54,7 +54,7 @@ public class B03_PlanetenMitKlassen {
 	 * test
 	 */
 	static void springen(Planet p) {
-		p = new Planet();
+		p = new Planet(); // Parameter p wird (sinnlos) überschrieben
 		p.x = 121314;
 	}
 	
