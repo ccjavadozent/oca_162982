@@ -13,7 +13,9 @@
 
 #### 25.09
 - Projekt 'Objektorientiert'
-- Überladen von Methoden/Konstruktoren (s. auch 'src/methoden/B09_Ueberladen.java' im Projekt 'Imperativ') 
+- Überladen von Methoden/Konstruktoren (s. auch 'src/methoden/B09_Ueberladen.java' im Projekt 'Imperativ')
+- this (auch für einen Konstruktoraufruf)
+- Aufgaben/Klassen - Personen.md 
 
 
 #### 24.09

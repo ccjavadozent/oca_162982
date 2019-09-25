@@ -14,6 +14,16 @@ class Hund {
 	public Hund(String name, int alter) {
 		this(name, alter, "-");
 	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		
+		Hund that = (Hund) obj;
+		
+		return this.name.equals(that.name) 
+				&& alter == that.alter 
+				&& besitzer.equals(that.besitzer); 
+	}
 }
 
 
@@ -52,8 +62,15 @@ public class AufgabeTiere {
 		 * 
 		 */
 		
+		Hund h1 = new Hund("Rex", 3, "Max");
+		Hund h2 = new Hund("Rex", 3, "Max");
 		
-
+		System.out.println( h1 == h2 );
+		System.out.println( h1.equals(h2) );
+		
+		Hund h3 = new Hund("Lassie", 3, "Max");
+		
+		System.out.println(h1.equals(h3));
 	}
 
 }
