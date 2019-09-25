@@ -5,11 +5,18 @@ class OS {
 	private int majorVersion;
 	private int minorVersion;
 	
+	/*
+	 * Ein Konstruktor, der selbst alle Attribute initialisiert
+	 * (majorVersion und minorVersion bekommen implizit die Nullwerte)
+	 */
 	OS(String name) {
 		this.name = name;
 	}
 	
 	
+	/*
+	 * Ein Konstruktor, der mit this den anderen überladenen Konstruktor aufruft
+	 */
 	OS(String name, int majorVersion) {
 //		OS(name, majorVersion, 0); // Compilerfehler 
 		this(name, majorVersion, 0); // Den Constructor (String, int, int) aufrufen
