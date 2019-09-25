@@ -17,7 +17,9 @@ class Hund {
 		this.alter = alter; // richtig: links Attribut, rechts lokale Variable
 	}
 	
-	
+	/*
+	 * toString wurde überschrieben:
+	 */
 	public String toString() {
 		return "Hund " + name + ", Alter: " + this.alter;
 	}

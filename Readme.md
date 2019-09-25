@@ -11,15 +11,19 @@
 
 ## Aufgaben
 
+#### 25.09
+- Projekt 'Objektorientiert'
+- Überladen von Methoden/Konstruktoren (s. auch 'src/methoden/B09_Ueberladen.java' im Projekt 'Imperativ') 
+
+
 #### 24.09
+- Projekt 'Objektorientiert'
 - Klassen, Methoden, Attribute
 - this
 - Konstruktoren
 - Optional: toString-Überschreiben
-
-- Überladen von Methoden/Konstruktore
-
-- Aufgaben/Klassen - Geometrie.md
+- Überladen von Methoden/Konstruktoren (s. auch 'src/methoden/B09_Ueberladen.java' im Projekt 'Imperativ') 
+- Aufgaben/Klassen - Geometrie.md (s. Package 'aufgaben.geometrie.klassen')
 
 #### 23.09
 - Projekt 'Objektorientiert'

@@ -21,6 +21,7 @@ class C1 {
 		
 		C1() {
 			super();
+			this.x = 0; 
 		}
 	 */
 }

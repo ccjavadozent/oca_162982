@@ -8,7 +8,7 @@ class Auto {
 	/*
 	 * Statisches Attribut. Hat nichts mit Objekten vom Typ 'Auto' zu tun
 	 */
-	public static int MIN_BAUJAHR = 1886;
+	public static final int MIN_BAUJAHR = 1886;
 	
 	/*
 	 * Statische Methode. Hat nichts mit Objekten vom Typ 'Auto' zu tun
@@ -39,7 +39,6 @@ class Auto {
 public class B04_EineKlasseDefinierenUndVerwenden {
 
 	public static void main(String[] args) {
-		
 		Auto a1 = new Auto();
 
 		// System.out.println(a1.modell); // a1 ist vom Typ 'Auto', Klasse 'Auto' beschreibt kein Attribut 'modell'
