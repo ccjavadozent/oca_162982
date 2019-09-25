@@ -47,6 +47,8 @@ public class AufgabeTiere {
 		 * Bitte bilden Sie zwei nach Inhalt gleiche Hund-Objekte.
 		 * Vergleichen Sie die mit der equals. Sorgen Sie dafür, dass die equals korrekt arbeitet.
 		 * 
+		 * Bitte bilden Sie zwei nach Inhalt UNgleiche Hund-Objekte.
+		 * Vergleichen Sie die mit der equals. Sorgen Sie dafür, dass die equals korrekt arbeitet.
 		 * 
 		 */
 		
