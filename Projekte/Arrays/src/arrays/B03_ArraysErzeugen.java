@@ -16,6 +16,13 @@ public class B03_ArraysErzeugen {
 		 * Variante 2. Nur beim sofortigen Initialisieren einer neuen Referenz:
 		 */
 		int[] arr2 = { 12, 13, 14 };
+		int[] arr2a = { 12, 13, 14, }; // dasselbe wie für arr2
+		
+		int[] arr2b = {
+			1,	
+			2,	
+			3,	
+		};
 		
 		/*
 		 * Variante 3

@@ -14,6 +14,12 @@
 #### 26.09
 - Projekt 'Arrays'
 
+- Array bilden (3 Varianten)
+- foreach
+
+- Diagramme/Arrays.pptx
+- Aufgaben/Arrays.md
+- Optional: Aufgaben/Arrays - test equals.md
 
 #### 25.09
 - Projekt 'Objektorientiert'
