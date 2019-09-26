@@ -11,6 +11,10 @@
 
 ## Aufgaben
 
+#### 26.09
+- Projekt 'Arrays'
+
+
 #### 25.09
 - Projekt 'Objektorientiert'
 - Überladen von Methoden/Konstruktoren (s. auch 'src/methoden/B09_Ueberladen.java' im Projekt 'Imperativ')

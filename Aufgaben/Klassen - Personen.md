@@ -35,7 +35,7 @@ Sorgen Sie dafür, dass auch folgender Code ein neues Person-Objekt erzeugt:
 
 
 		Person p = new PersonBuilder()
-								.forname("John")
+								.vorname("John")
 								.nachname("Doe")
 								.geburtsjahr(1987)
 								.build();
