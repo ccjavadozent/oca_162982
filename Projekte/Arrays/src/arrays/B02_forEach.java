@@ -40,6 +40,7 @@ public class B02_forEach {
 			index++;
 		}
 		
+		kleineAufgabe();
 	} // end of main
 	
 	/*
@@ -47,10 +48,31 @@ public class B02_forEach {
 	 * 
 	 * - Bitte ein boolean-Array der Länge 200 anlegen.
 	 * - Array ausgeben
-	 * - Jede gerade Position mit dem wert true belegen
+	 * - Jede gerade Position mit dem Wert true belegen
 	 * - Array ausgeben
 	 * 
 	 */
+	static void kleineAufgabe() {
+		System.out.println("*** Aufgabe: ");
+		
+		boolean[] arr = new boolean[200];
+		
+		for (boolean b : arr) {
+			System.out.print(b + " ");
+		}
+		System.out.println();
+		
+		for(int i = 0; i<arr.length; i++) {
+			if(i%2 == 0) {
+				arr[i] = true;
+			}
+		}
+		
+		for (boolean b : arr) {
+			System.out.print(b + " ");
+		}
+		System.out.println();
+	}
 
 }
 
