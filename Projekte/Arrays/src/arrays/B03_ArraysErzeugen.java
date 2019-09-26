@@ -1,6 +1,6 @@
 package arrays;
 
-public class B03_ArrayErzeugen {
+public class B03_ArraysErzeugen {
 
 	public static void main(String[] args) {
 
@@ -13,7 +13,7 @@ public class B03_ArrayErzeugen {
 		arr1[2] = 14;
 		
 		/*
-		 * Variante 2
+		 * Variante 2. Nur beim sofortigen Initialisieren einer neuen Referenz:
 		 */
 		int[] arr2 = { 12, 13, 14 };
 		
@@ -35,6 +35,17 @@ public class B03_ArrayErzeugen {
 //		 sum( {12, 13, 14} ); // Compilerfehler
 		
 		sum( new int[] {12, 13, 14} );
+		
+		
+		/*
+		 * Unterschide beim Zuweisen
+		 */
+		
+		int[] arr4;
+		
+		arr4 = new int[3];
+//		arr4 = { 0, 0, 0 }; // Compilerfehler: geht nur beim sofortigen Initialisieren
+		arr4 = new int[] { 0, 0, 0 };
 		
 	} // end of main
 
