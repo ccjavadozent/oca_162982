@@ -11,6 +11,16 @@
 
 ## Aufgaben
 
+#### 27.09
+
+- Mehrdimensionale Arrays
+- Mehrdimensionale Arrays ausgeben
+- Optional: die Methode `toString` aus der Klasse `java.util.Arrays`
+
+- Aufgaben/Arrays - 2D.md
+- Aufgaben/Arrays - Hafen.md
+
+
 #### 26.09
 - Projekt 'Arrays'
 
