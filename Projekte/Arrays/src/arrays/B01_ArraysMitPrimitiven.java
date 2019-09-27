@@ -24,6 +24,13 @@ public class B01_ArraysMitPrimitiven {
 		System.out.println(arr1[100]); // java.lang.ArrayIndexOutOfBoundsException
 		
 		
+		short[] tmp = { 1, 2, 3 }; // Geht mit int-Literalen
+
+		int x = 2;
+		short[] ref = { 1, x, 3 }; 
+
+		
+		
 	}
 
 }
