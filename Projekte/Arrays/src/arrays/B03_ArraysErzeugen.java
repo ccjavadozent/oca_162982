@@ -71,6 +71,9 @@ public class B03_ArraysErzeugen {
 	 * Unterschiede bei return 
 	 */
 	static int[] buildArray() {
+//		int[] arr = { 12, 13, 14 };
+//		return arr;	// geht auch
+		
 		// return {12, 13, 14}; // Compilerfehler
 		return new int[] {
 			12, 13, 14

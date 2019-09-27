@@ -41,6 +41,8 @@ public class B02_forEach {
 		}
 		
 		kleineAufgabe();
+		
+		kleineAufgabe2();
 	} // end of main
 	
 	/*
@@ -53,7 +55,7 @@ public class B02_forEach {
 	 * 
 	 */
 	static void kleineAufgabe() {
-		System.out.println("*** Aufgabe: ");
+		System.out.println("*** Aufgabe 1: ");
 		
 		boolean[] arr = new boolean[200];
 		
@@ -73,6 +75,19 @@ public class B02_forEach {
 		}
 		System.out.println();
 	}
+	
+	static void kleineAufgabe2() {
+		System.out.println("*** Aufgabe 2: ");
+		
+		int[] arr = { 1, 2, 3 };
+		
+		for(int i : arr) {
+			System.out.print(arr[i] + " ");
+		}
+		
+		//Ausgabe: 2, 3, ArrayIndexOutOfBoundsException
+	}
+	
 
 }
 
