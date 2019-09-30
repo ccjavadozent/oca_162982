@@ -11,22 +11,25 @@
 
 ## Aufgaben
 
-#### 27.09
+#### 30.09
+- Projekt 'Arrays'
+- Projekt 'JavaAPI'
+- Aufgaben/IntMatrix.md (Optional: ein einfaches interaktives Konsolenprogramm sich überlegen, in dem mit Matrizen gearbeitet wird) 
 
+
+
+#### 27.09
 - Mehrdimensionale Arrays
 - Mehrdimensionale Arrays ausgeben
 - Optional: die Methode `toString` aus der Klasse `java.util.Arrays`
-
 - Aufgaben/Arrays - 2D.md
 - Aufgaben/Arrays - Hafen.md
 
 
 #### 26.09
 - Projekt 'Arrays'
-
 - Array bilden (3 Varianten)
 - foreach
-
 - Diagramme/Arrays.pptx
 - Aufgaben/Arrays.md
 - Optional: Aufgaben/Arrays - test equals.md
