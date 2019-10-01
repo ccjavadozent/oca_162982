@@ -30,6 +30,9 @@ Z.B. bei AdoptOpenJdk herunterladen.
 
 ## Die jar-Datei muss zu finden sein 
 
+- Entweder den Pfad zu der jar-Datei mit den Packages des Programms in die Umgebungsvariable 'CLASSPATH' eintragen
+- Oder beim Start der JVM die Option -cp verwenden und dabei den Pfad setzen zu der jar-Datei mit den Packages des Programms
+- Oder (bei der ausführbaren jar-Datei) met der Option -jar den Pfad zu der jar-Datei mit den Packages des Programms übergeben
 
 ## So startet man das Java-Programm
 
@@ -41,4 +44,3 @@ Z.B. bei AdoptOpenJdk herunterladen.
 
 		java -jar Pfad\zu\der\Jardatei
 
-		
