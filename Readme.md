@@ -18,12 +18,11 @@
 #### 01.10
 - Varargs-Methoden (Projekt 'Imperativ', Package 'methoden')
 
+
 #### 30.09
 - Projekt 'Arrays'
 - Projekt 'JavaAPI'
 - Aufgaben/IntMatrix.md (Optional: ein einfaches interaktives Konsolenprogramm sich überlegen, in dem mit Matrizen gearbeitet wird) 
-
-
 
 #### 27.09
 - Mehrdimensionale Arrays
