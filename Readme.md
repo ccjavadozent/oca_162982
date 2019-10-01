@@ -18,6 +18,9 @@
 #### 01.10
 - Varargs-Methoden (Projekt 'Imperativ', Package 'methoden')
 
+- Projekt 'Objektorientiert'
+- Klasse laden, statische Initblöcke (Projekt 'Objektorientiert', Package 'klassen')
+- Aufgaben/Kampfarena.md
 
 #### 30.09
 - Projekt 'Arrays'
