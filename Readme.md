@@ -8,8 +8,15 @@
 - 13:30 - 15:00 Uhr (per Chat sich melden)
 - 15:15 - 16:45 Uhr (im Skype-Nachmittagsraum)
 
+## Achtung! Do. (3.10) ist frei!
+
+## Achtung! Fr. (4.10) ist nicht frei! Der Dozent ist nicht da, aber Sie bekommen Aufgaben
+
 
 ## Aufgaben
+
+#### 01.10
+- Varargs-Methoden (Projekt 'Imperativ', Package 'methoden')
 
 #### 30.09
 - Projekt 'Arrays'
