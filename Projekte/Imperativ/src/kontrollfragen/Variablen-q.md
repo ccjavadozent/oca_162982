@@ -21,3 +21,15 @@ Welche sind primitive Datentypen?
 
 
 
+
+## Primitive Datentypen
+
+Kompiliert folgender Code?
+
+		int x = 22L;
+ 
+- Ja
+* Nein
+
+> long-Literal  
+

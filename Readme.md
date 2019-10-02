@@ -15,6 +15,22 @@
 
 ## Aufgaben
 
+#### 02.10 (auch für den 4.10)
+- init-Blöcke (statische und nicht-statische)
+- Konstanten (Attribute), wann müssen sie spätestens initialisiert werden?
+- Garabage Collector (Datei 'GarbageCollector.pptx' aus dem Verzeichnis 'Diagramme')
+
+- Wdh: Themen aus dem Projekt 'Imperativ'
+- Wdh: Themen aus dem Projekt 'Arrays'
+- Wdh: Themen aus dem Projekt 'Objektorientiert'
+
+- Die früheren Aufgaben, die noch nicht erledigt sind bitte selbständig lösen.
+
+- Aufgaben/Lotto.md
+
+- Optional: zu besprochenen Kontrollfragen formulieren (evtl. mit dem Format wie in der Datei 'Imperativ\src\kontrollfragen\Variablen-q.md')
+
+
 #### 01.10
 - Varargs-Methoden (Projekt 'Imperativ', Package 'methoden')
 
