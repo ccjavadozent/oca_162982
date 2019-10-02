@@ -25,7 +25,7 @@ class Stern {
 }
 
 
-public class B09_KlasseLaden_static_int {
+public class B09_KlasseLaden_static_init_blocks {
 
 	public static void main(String[] args) throws Exception {
 

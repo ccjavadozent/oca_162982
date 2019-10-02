@@ -9,6 +9,11 @@ package klassen;
  * - Jede Klasse hat mindestens einen Constructor
  * 
  * - Für die Klasse ohne expliziten Konstruktoren generiert der Compiler den default-Constructor
+ * 
+ *  - Der Compiler sorgt (intelligent) dafür, dass in jedem Konstruktor als erstes ein 
+ *         anderer Konstruktor mit this oder super aufgerufen wird (s. Bsp. 10) 
+ * 
+ * - Der Compiler sorgt (intelligent) dafür, dass in jedem Konstruktor alle Attribute initialisiert wurden (s. Bsp. 10)
  */
 
 
