@@ -13,6 +13,8 @@
 #### 07.10
 - Optional: Klassendiagramm mit Umlet (s. die Datei 'Umlet.md')
 - Ein Klassendiagramm für Ihre Lösung der Aufgabe 'Aufgaben/Arrays - Hafen.md'
+
+- Insel-Buch: Vererbung
 - Optional: Einfache Vererbungshierearchien sich überlegen und programmieren (s. Bsp. 01)
 
 
