@@ -8,12 +8,10 @@
 - 13:30 - 15:00 Uhr (per Chat sich melden)
 - 15:15 - 16:45 Uhr (im Skype-Nachmittagsraum)
 
-## Achtung! Do. (3.10) ist frei!
-
-## Achtung! Fr. (4.10) ist nicht frei! Der Dozent ist nicht da, aber Sie bekommen Aufgaben
-
-
 ## Aufgaben
+
+#### 07.10
+- Optional: Klassendiagramm mit Umlet (s. die Datei 'Umlet.md')
 
 #### 02.10 (auch für den 4.10)
 - init-Blöcke (statische und nicht-statische)

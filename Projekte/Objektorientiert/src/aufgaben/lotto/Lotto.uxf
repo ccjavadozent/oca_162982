@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>780</x>
+      <y>442</y>
+      <w>494</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>LottoSpiel
+--
+LottoSpiel(anzahlKugel : int, anzahlKugelGesamt : int)
+ziehen() : void
+toString() : String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1313</x>
+      <y>390</y>
+      <w>156</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>LottoTipp</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>221</x>
+      <y>481</y>
+      <w>416</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Soll Texte nach folgendem Muster generieren:
+Spiel 7 aus 49. [3, 7, 11, 28, 35, 40, 48]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>624</x>
+      <y>520</y>
+      <w>182</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=..</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
