@@ -59,7 +59,7 @@
 
 > Dabei soll der Gewinn nach folgendem Muster berechnet werden:
 
-        0 richtige: 0 Euro
+        0 richtige: 0 Euro			10 hoch (Anzahl richtige - 1)
         1 richtige: 1 Euro
         2 richtige: 10 Euro
         3 richtige: 100 Euro
