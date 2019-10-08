@@ -12,6 +12,12 @@
 
 #### 08.10
 
+- Vererbung
+- Konstruktoren
+- Regeln bei der Referenzenzuweisung
+- Aufgaben/Vererbung - Dozent-Teilnehmer.md
+- Aufgaben/GC.md
+
 - Aufgaben/Vererbung - Geometrie.md. 
 
 > Bitte neue Klassen definieren. 
@@ -35,9 +41,7 @@
 - Wdh: Themen aus dem Projekt 'Imperativ'
 - Wdh: Themen aus dem Projekt 'Arrays'
 - Wdh: Themen aus dem Projekt 'Objektorientiert'
-
 - Die früheren Aufgaben, die noch nicht erledigt sind bitte selbständig lösen.
-
 - Aufgaben/Lotto.md
 
 - Optional: zu besprochenen Kontrollfragen formulieren (evtl. mit dem Format wie in der Datei 'Imperativ\src\kontrollfragen\Variablen-q.md')
