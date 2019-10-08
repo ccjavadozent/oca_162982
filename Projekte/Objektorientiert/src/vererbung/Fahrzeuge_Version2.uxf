@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>10</x>
-      <y>350</y>
+      <x>100</x>
+      <y>400</y>
       <w>310</w>
       <h>100</h>
     </coordinates>
@@ -20,8 +20,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>370</x>
-      <y>350</y>
+      <x>460</x>
+      <y>400</y>
       <w>310</w>
       <h>100</h>
     </coordinates>
@@ -36,8 +36,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>180</x>
-      <y>90</y>
+      <x>270</x>
+      <y>140</y>
       <w>310</w>
       <h>140</h>
     </coordinates>
@@ -54,8 +54,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>150</x>
-      <y>220</y>
+      <x>240</x>
+      <y>270</y>
       <w>210</w>
       <h>150</h>
     </coordinates>
@@ -65,8 +65,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>330</x>
-      <y>220</y>
+      <x>420</x>
+      <y>270</y>
       <w>210</w>
       <h>150</h>
     </coordinates>
@@ -76,20 +76,21 @@
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>80</x>
-      <y>260</y>
-      <w>100</w>
-      <h>40</h>
+      <x>110</x>
+      <y>310</y>
+      <w>160</w>
+      <h>50</h>
     </coordinates>
-    <panel_attributes>IS-A
+    <panel_attributes>PKW IS-A Fahrzeug
+PKW extends Fahrzeug
 bg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>270</y>
+      <x>260</x>
+      <y>320</y>
       <w>100</w>
       <h>40</h>
     </coordinates>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>10</zoom_level>
+  <zoom_level>14</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>120</x>
-      <y>220</y>
-      <w>310</w>
-      <h>140</h>
+      <x>0</x>
+      <y>266</y>
+      <w>434</w>
+      <h>196</h>
     </coordinates>
     <panel_attributes>PKW
 --
@@ -23,10 +23,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>220</y>
-      <w>310</w>
-      <h>160</h>
+      <x>504</x>
+      <y>266</y>
+      <w>434</w>
+      <h>224</h>
     </coordinates>
     <panel_attributes>LKW
 --

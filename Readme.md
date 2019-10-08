@@ -15,7 +15,7 @@
 - Ein Klassendiagramm für Ihre Lösung der Aufgabe 'Aufgaben/Arrays - Hafen.md'
 
 - Insel-Buch: Vererbung
-- Optional: Einfache Vererbungshierearchien sich überlegen und programmieren (s. Bsp. 01)
+- Optional: Einfache Vererbungshierearchien sich überlegen und programmieren (s. Bsp. 01 im Package 'vererbung')
 
 
 #### 02.10 (auch für den 4.10)
