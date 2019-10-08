@@ -10,6 +10,15 @@
 
 ## Aufgaben
 
+#### 08.10
+
+- Aufgaben/Vererbung - Geometrie.md. 
+
+> Bitte neue Klassen definieren. 
+> Danach die neue Lösung mit der alten Lösung vergleichen (Klassen - Geometrie.md). 
+> Und (wichtig) die Aufgabestellungen vergleichen 
+
+
 #### 07.10
 - Optional: Klassendiagramm mit Umlet (s. die Datei 'Umlet.md')
 - Ein Klassendiagramm für Ihre Lösung der Aufgabe 'Aufgaben/Arrays - Hafen.md'
