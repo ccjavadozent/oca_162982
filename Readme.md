@@ -10,6 +10,15 @@
 
 ## Aufgaben
 
+#### 09.10
+
+- Casting (Referenzen)
+- instanceof
+- Referenzenzuweisung
+- Polymorphismus
+
+- Aufgaben/Polymorphie - Geometrie.md
+
 #### 08.10
 
 - Vererbung
