@@ -15,8 +15,8 @@
 - Vererbung
 - Konstruktoren
 - Regeln bei der Referenzenzuweisung
-- Aufgaben/Vererbung - Dozent-Teilnehmer.md
-- Aufgaben/GC.md
+- Aufgaben/Vererbung - Dozent-Teilnehmer.md (Lösung im Package 'aufgaben.javakurs')
+- Aufgaben/GC.md ( Lösung in Diagramme/AufgabeGarbageCollector.pptx )
 
 - Aufgaben/Vererbung - Geometrie.md. 
 
