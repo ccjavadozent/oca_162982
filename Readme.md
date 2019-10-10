@@ -10,8 +10,13 @@
 
 ## Aufgaben
 
-#### 09.10
+#### 10.10
+- Polymorphismus (wie ein polimorphischer Aufruf entsteht)
+- Überschreiben (Regeln)
+- KleineAufgabePolymorphie.java aus dem Package 'aufgaben'
+- Aufgaben/Polymorphie - Tiere.md
 
+#### 09.10
 - Casting (Referenzen)
 - instanceof
 - Referenzenzuweisung
