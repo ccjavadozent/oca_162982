@@ -23,6 +23,8 @@ public class B08_Ohne_Polymorphie {
 		startenUndFahren(pkw);
 
 		startenUndFahren(new Fahrrad());
+
+		System.out.println(pkw);
 	}
 
 	/*
@@ -43,8 +45,6 @@ public class B08_Ohne_Polymorphie {
 		else {
 			System.out.println("Der Typ wird nicht unterstützt: " + fahrzeug.getClass());
 		}
-		
-		
 	}
 	
 }
