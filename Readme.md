@@ -10,6 +10,13 @@
 
 ## Aufgaben
 
+#### 11.10
+
+- Vererbung bei den Arrays
+- Wiederholung
+
+- Optional: Aufgaben/Polymorphie - Bruteforce.md
+
 #### 10.10
 - Polymorphismus (wie ein polimorphischer Aufruf entsteht)
 - Überschreiben (Regeln)
