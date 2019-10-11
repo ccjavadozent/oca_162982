@@ -2,7 +2,30 @@ package aufgaben;
 
 abstract class IntOperation {
 	abstract int execute(int x);
+	
+	IntOperation andThen(IntOperation secondOperation) {
+		return new TwoOperations(this, secondOperation);
+	}
 }
+
+
+class TwoOperations extends IntOperation {
+	
+	private IntOperation firstOperation;
+	private IntOperation secondOperation;
+	
+	public TwoOperations(IntOperation firstOperation, IntOperation secondOperation) {
+		this.firstOperation = firstOperation;
+		this.secondOperation = secondOperation;
+	}
+
+	@Override
+	int execute(int x) {
+		int y = firstOperation.execute(x);
+		return secondOperation.execute(y);
+	}
+}
+
 
 class AddOne extends IntOperation {
 	
@@ -101,8 +124,8 @@ public class KleineAufgabePolymorphie {
 		int result = op.execute(2);
 		System.out.println( "result = " + result ); // -19
 		
-								
 		
-	}
+		
+	} // end of main
 
 }
