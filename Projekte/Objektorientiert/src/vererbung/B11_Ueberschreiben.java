@@ -8,7 +8,7 @@ package vererbung;
  * Überschreiben: Die aus der Basisklasse geerbte Methode mit einer neuen Definition ersetzen
  * 
  * 
- * ********* Regeln beim Überschreiben ************
+ * ********* Regeln beim Überschreiben/Implementieren abstrakter Methoden ************
  * 
  * 1. Die Sichtbarkeit darf nicht verschärft werden
  * 2. Rückgabetyp darf nicht geändert werden (Ausnahme: kovarianter Typ)

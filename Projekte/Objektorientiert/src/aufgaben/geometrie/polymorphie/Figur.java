@@ -23,6 +23,10 @@ public abstract class Figur {
 	 * 	 return -1;
 	 *	}
 	 */
+//	 public double getFlaeche() {
+//		 return -1;
+//	 }
+	
 	public abstract double getFlaeche();
 	
 	public String getDisplayKoordinaten() {
