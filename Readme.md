@@ -14,6 +14,8 @@
 - Interfaces
 - Aufgaben/Interfaces - Geometrie.md
 
+- Aufgaben/Vererbung - IS-A .md
+
 #### 11.10
 
 - Vererbung bei den Arrays
