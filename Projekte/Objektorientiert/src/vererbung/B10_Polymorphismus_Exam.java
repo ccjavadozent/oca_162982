@@ -1,5 +1,7 @@
 package vererbung;
 
+import java.util.Random;
+
 /*
  * - Polymorphismus (late binding) gibt es NUR für Instanzmethoden
  */
@@ -74,6 +76,22 @@ public class B10_Polymorphismus_Exam {
 		System.out.println( "10. " + ((Bar)foo).att ); // 7, early binding
 		
 		System.out.println( "11. " + foo.getAtt() ); // 7, LATE BINDING!!!!!!!!
+		
+		System.out.println( "12. " + ((Bar)foo).getAtt() ); // 7, Late binding
+		
+		System.out.println( "13. " + ((Foo)foo).getAtt() ); // 7, Late binding
+		
+		
+		foo = null;
+		
+		if(new Random().nextBoolean()) {
+			foo = new Foo();
+		} else {
+			foo = new Bar();
+		}
+		
+		System.out.println("14. " + foo.getAtt()); // ??, late binding
+		
 	}
 
 }

@@ -10,6 +10,10 @@
 
 ## Aufgaben
 
+#### 12.10
+- Interfaces
+- Aufgaben/Interfaces - Geometrie.md
+
 #### 11.10
 
 - Vererbung bei den Arrays
