@@ -2,7 +2,7 @@ package interfaces;
 
 import java.util.Arrays;
 
-public class ArraysSortieren {
+public class B02_ArraysSortieren_WieEinInterfaceKomponentenVerbindet {
 	
 	
 	static class Auto implements Comparable<Auto> {
@@ -35,7 +35,7 @@ public class ArraysSortieren {
 		System.out.println( Arrays.toString(autos) );
 		
 		/*
-		 * Sortiert aufsteigend.
+		 * Sortiert aufsteigend in der natürlichen Reihenfolge.
 		 */
 		Arrays.sort(autos);
 		

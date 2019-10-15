@@ -11,6 +11,10 @@
 ## Aufgaben
 
 #### 14.10
+- Projekt 'Interfaces'
+- KleineAufgabeComparable.java 
+
+#### 14.10
 - Interfaces
 - Aufgaben/Interfaces - Geometrie.md
 
