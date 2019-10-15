@@ -1,6 +1,17 @@
 package aufgaben;
 
-class Size {
+interface Vergleichbar {
+	/**
+	 * Kontrakt:
+	 * 	vergleicheMit soll etwas positives liefern, wenn this größer als b ist;
+	 *  etwas negatives, wenn this kleiner als b ist; Null, wenn this gleich b ist
+	 * @param b
+	 * @return
+	 */
+	int vergleicheMit(Vergleichbar b);
+}
+
+class Size implements Vergleichbar {
 	private int value;
 
 	public Size(int value) {
@@ -15,13 +26,18 @@ class Size {
 	public int getValue() {
 		return value;
 	}
+	
+	public int vergleicheMit(Vergleichbar b) {
+		Size s2 = (Size) b;
+		
+		return this.value - s2.value;
+	}
 }
 
-class Kreis {
+class Kreis implements Vergleichbar {
 	private int radius;
 
 	public Kreis(int radius) {
-		super();
 		this.radius = radius;
 	}
 	
@@ -32,6 +48,10 @@ class Kreis {
 	
 	public int getRadius() {
 		return radius;
+	}
+	
+	public int vergleicheMit(Vergleichbar b) {
+		return radius - ((Kreis)b).radius;
 	}
 }
 
@@ -65,15 +85,36 @@ public class KleineAufgabeInterfaces {
 		
 		System.out.println( getMax(kA, kB) ); // Kreis. Radius = 77
 		
+		// getMax(kA, sA); // ClassCastException
+		
+		Kreis maxKreis = (Kreis) getMax(kA, kB); // Casting ist nötig
+		Size maxSize = (Size) getMax(sA, sB); // Casting ist nötig
+		
 	} // end of main
 	
+	
 	/*
-	 * Lösdung 1 (nicht so gut). Ohne Polymorphie
+	 * Lösung 2 mit Interface und Polymorphie.
+	 * Keine perfekte Lösung:
+	 * 	- erlaubt Size vergleicheMit Kreis (ClassCastException)  
+	 *  - Rückgabetyp ist unbequem
 	 */
-	static Object getMax(Object a, Object b) {
+	static Vergleichbar getMax(Vergleichbar a, Vergleichbar b) {
+		if( a.vergleicheMit(b) > 0 ) {
+			return a;
+		} else {
+			return b;
+		}
+	}
+	
+	
+	/*
+	 * Lösung 1 (nicht so gut). Ohne Polymorphie
+	 */
+	static Object getMaxV1(Object a, Object b) {
 		if(a instanceof Size) {
 			Size sA = (Size) a;
-			Size sB = (Size) b;
+			Size sB = (Size) b; // evtl. ClassCastException
 			
 			if( sA.getValue() > sB.getValue() ) {
 				return a;

@@ -43,6 +43,9 @@ public class B15_Interfaces {
 		var.laufen();
 	}
 
+	/*
+	 * App
+	 */
 	public static void main(String[] args) {
 
 		Dozent dozent = new Dozent();
