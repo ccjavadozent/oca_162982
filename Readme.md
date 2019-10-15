@@ -10,9 +10,14 @@
 
 ## Aufgaben
 
-#### 14.10
+#### 15.10
 - Projekt 'Interfaces'
-- KleineAufgabeComparable.java 
+- Interfaces Comparable und Comparator
+- Arrays.sort und Arrays.binarySearch
+- Aufgaben/Interfaces - Comparable - Comparator - Person.md
+
+- KleineAufgabeComparable.java
+ 
 
 #### 14.10
 - Interfaces
