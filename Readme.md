@@ -10,6 +10,12 @@
 
 ## Aufgaben
 
+#### 16.10
+- Projekt 'Interfaces'
+- this/super s. das Projekt 'Objektorientiert', Package 'vererbung', B16
+
+- Projekt 'JavaAPI'
+
 #### 15.10
 - Projekt 'Interfaces'
 - Interfaces Comparable und Comparator
