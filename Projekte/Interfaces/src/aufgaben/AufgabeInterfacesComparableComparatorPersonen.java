@@ -1,6 +1,7 @@
 package aufgaben;
 
 import java.util.Arrays;
+import java.util.Comparator;
 //import java.util.Comparator;
 
 public class AufgabeInterfacesComparableComparatorPersonen {
@@ -20,7 +21,13 @@ public class AufgabeInterfacesComparableComparatorPersonen {
 		
 		@Override
 		public int compareTo(Person p2) {
-			return 0;
+			int res = this.nachname.compareTo(p2.nachname);
+			
+			if(res==0) {
+				res = this.vorname.compareTo(p2.vorname);
+			}
+			
+			return res;
 		}
 		
 	} // End of Person 
@@ -37,10 +44,30 @@ public class AufgabeInterfacesComparableComparatorPersonen {
 		
 		print(personen); 
 
-		Arrays.sort(personen); // 
-		
 		System.out.println("*** Aufgsteigend sortiert: ");
+		Arrays.sort(personen); // 
 		print(personen);
+		
+		System.out.println("*** Suche nach John Black");
+		
+		Person key = new Person("John", "Black");
+		int pos = Arrays.binarySearch(personen, key);
+		System.out.println("Position: " + pos); // 0
+		
+		
+		System.out.println("*** Abgsteigend sortiert: ");
+		
+		Comparator<Person> cmp = Comparator.reverseOrder(); 
+		Arrays.sort(personen, cmp);
+		print(personen);
+
+		System.out.println("*** Suche nach John Smith");
+		
+		key = new Person("John", "Smith");
+		pos = Arrays.binarySearch(personen, key, cmp); // bitte die richtige binarySearch bei alternativen Sortierung verwenden
+		System.out.println("Position: " + pos);
+		
+		
 		
 	} // end of main
 	
