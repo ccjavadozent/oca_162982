@@ -14,7 +14,9 @@
 - Projekt 'Interfaces'
 - this/super s. das Projekt 'Objektorientiert', Package 'vererbung', B16
 
-- Projekt 'JavaAPI'
+- Aufgaben/Interfaces - default.md
+- Projekt 'JavaAPI', String-API
+
 
 #### 15.10
 - Projekt 'Interfaces'
