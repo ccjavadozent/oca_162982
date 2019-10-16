@@ -1,6 +1,8 @@
 package vererbung;
 
 /*
+ * (s. auch das Projekt 'Interfaces')
+ * 
  * - Interface ist auch eine Typ-Beschreibung (wie eine Klasse), aber abstrakt
  * 
  * - Zu einem Interface kann eine Klasse eine IS-A-Beziehung definieren

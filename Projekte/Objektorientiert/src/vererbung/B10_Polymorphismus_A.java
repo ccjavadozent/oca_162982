@@ -6,7 +6,7 @@ package vererbung;
  * Polymorphismus gibt es nur bim Aufruf einer Instanzmethode
  */
 
-public class B10_Polymorphismus {
+public class B10_Polymorphismus_A {
 	
 	static class Auto {
 		void fahren() {

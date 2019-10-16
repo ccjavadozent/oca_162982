@@ -9,7 +9,7 @@ public class B04_NachPrimitivenZahlenSuchen {
 		int[] array = { 2, 5, 1, 7, 22 };
 		
 		/*
-		 * binarySearch 
+		 * binarySearch kann nur mit einem sortierten Array arbeiten
 		 */
 		Arrays.sort(array);
 		
@@ -46,6 +46,14 @@ public class B04_NachPrimitivenZahlenSuchen {
 		
 		pos = Arrays.binarySearch(array, 3);
 		System.out.println("Gesucht nach 3, Position: " + pos); // -3
+		
+		
+		System.out.println("*** Kleine Aufgabe zum Wachwerden");
+		array = new int[] { 22, 1, 2 };
+		System.out.println("array: " + Arrays.toString(array)); 
+		
+		pos = Arrays.binarySearch(array, 22); // eigentlich ist das Ergebnis nicht definiert
+		System.out.println("Gesucht nach 22 im NICHT-sortierten Array, Position: " + pos); // -4
 		
 		
 	} // end of main
