@@ -44,6 +44,7 @@ public class KlasseString_API {
 		System.out.println("     0123456789012345678901234567890123");
 		System.out.println("s1 = " + s1);
 		
+		
 		System.out.println("*** int indexOf(int)");
 		
 		int ch = 't';  // int (32 bit) <= char (16 bit)
@@ -55,11 +56,28 @@ public class KlasseString_API {
 		ch = -22; // sinnlos (es kann im String kein Zeichen mit dem Wert -22 geben), aber kompiliert. 
 		System.out.println( "index of -22: " + s1.indexOf(-22)  ); // -1 
 		
+		
 		System.out.println("*** int indexOf(String)");
 		index = s1.indexOf("ist");
 		System.out.println("index für den Unterstring 'ist': " + index); // 6
 		
+
+		System.out.println("*** int indexOf(int ch, int offset)");
+		ch = 't';
+		index = s1.indexOf(ch, 5);
+		System.out.println("index of t (offset = 5): " + index); // 8
 		
+		System.out.println("*** int indexOf(String substr, int offset)");
+		index = s1.indexOf("ist", 16);
+		System.out.println("index of 'ist' (offset = 16): " + index); // 25
+		
+		System.out.println("*** int lastIndexOf(int ch)");
+		
+		System.out.println("last index of t: " + s1.lastIndexOf(ch)); // 27
+		System.out.println("last index of t (offset = 25): " + s1.lastIndexOf(ch, 25)); // 17 (unter index=25 suchen)
+		
+		System.out.println("last index of 'ist': " + s1.lastIndexOf("ist")); // 25
+		System.out.println("last index of 'ist' (offset=20): " + s1.lastIndexOf("ist", 20)); // 6
 		
 	}
 	
