@@ -33,7 +33,7 @@ public class B16_this_und_super {
 			System.out.println( PKW.this.baujahr );		// 2019    (this und PKW.this ist dasselbe)
 			
 			System.out.println( super.baujahr ); 		// 1970
-			 System.out.println( PKW.super.baujahr ); 	// 1970		(super und PKW.super ist dasselbe)
+			System.out.println( PKW.super.baujahr ); 	// 1970		(super und PKW.super ist dasselbe)
 			
 			System.out.println( hersteller );		
 			System.out.println( this.hersteller );

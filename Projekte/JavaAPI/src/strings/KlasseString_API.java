@@ -8,21 +8,89 @@ public class KlasseString_API {
 		
 		length_und_charAt();
 		
-		toUpperCase_und_toUpperCase();
+		toUpperCase_und_toLowerCase();
+		
+		isEmpty();
+		
+		endsWith_und_startsWith();
+		
+		concat();
 	} // end of main
+
+	/*
+	 * concat
+	 */
+	static void concat() {
+		System.out.println("*** String concat(String)");
+		
+		String a = "Java";
+		String b = " ist toll";
+		
+		System.out.println("mit +: " + a + b);
+		System.out.println("mit concat: " + a.concat(b));
+		
+		// System.out.println(a); // Java 
+	}
 	
-	static void toUpperCase_und_toUpperCase() {
+	
+	/*
+	 * endsWith, startsWith (2X)
+	 */
+	static void endsWith_und_startsWith() {
+		System.out.println("*** boolean endsWith(String suffix)");
+		
+		//          0123456789012345...
+		String s = "Heute ist Donnerstag";
+		
+		System.out.println("s = " + s);
+		System.out.println( "endsWith(\"tag\"): " + s.endsWith("tag") ); // true
+		System.out.println( "endsWith(\"Tag\"): " + s.endsWith("Tag") ); // false
+
+		System.out.println("*** boolean startsWith(String prefix)");
+		System.out.println( "startsWith(\"Heute\"): " + s.startsWith("Heute") ); // true
+		
+		System.out.println("*** boolean startsWith(String prefix, int offset)");
+		System.out.println( "startsWith(\"ist\", 6): " + s.startsWith("ist", 6) ); // true
+		System.out.println( "startsWith(\"ist\", 5): " + s.startsWith("ist", 5) ); // false
+		
+	}
+	
+	/*
+	 * isEmpty
+	 */
+	static void isEmpty() {
+		System.out.println("*** boolean isEmpty()");
+		
+		String s = "java";
+		System.out.println( "\"java\".isEmpty(): " + s.isEmpty() ); // Ausgabe: "java".isEmpty(): false
+		
+		s = "";
+		System.out.println( "\"\".isEmpty(): " + s.isEmpty() ); // Ausgabe: "".isEmpty(): true
+		
+		s = null;
+		// s.isEmpty(); NullPointerException 
+	}
+	
+	/*
+	 * toUpperCase, toLowerCase
+	 */
+	static void toUpperCase_und_toLowerCase() {
 		
 		System.out.println("*** String toUpperCase()");
 		
 		String s = "jAvA_%";
 		
-		System.out.println("s = " + s);
+		System.out.println("s = " + s); // jAvA_%
 		
 		System.out.println("toUpperCase: " + s.toUpperCase());
 		System.out.println("toLowerCase: " + s.toLowerCase());
+
+		System.out.println("s = " + s); // jAvA_%
 	}
 
+	/*
+	 * length, charAt
+	 */
 	static void length_und_charAt() {
 		System.out.println("*** int length()");
 		
@@ -38,7 +106,7 @@ public class KlasseString_API {
 	static void konstruktoren() { 
 		System.out.println("*** Konstruktoren");
 		String s1 = new String();
-		String s2 = new String("Java");
+		String s2 = new String("JavaÜd");
 	}
 	
 	

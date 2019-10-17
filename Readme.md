@@ -17,27 +17,21 @@
 - Aufgaben/Interfaces - default.md
 - Projekt 'JavaAPI', String-API
 
-
 #### 15.10
 - Projekt 'Interfaces'
 - Interfaces Comparable und Comparator
 - Arrays.sort und Arrays.binarySearch
 - Aufgaben/Interfaces - Comparable - Comparator - Person.md
-
 - KleineAufgabeComparable.java
- 
 
 #### 14.10
 - Interfaces
 - Aufgaben/Interfaces - Geometrie.md
-
 - Aufgaben/Vererbung - IS-A .md
 
 #### 11.10
-
 - Vererbung bei den Arrays
 - Wiederholung
-
 - Optional: Aufgaben/Polymorphie - Bruteforce.md
 
 #### 10.10
@@ -51,49 +45,39 @@
 - instanceof
 - Referenzenzuweisung
 - Polymorphismus
-
 - Aufgaben/Polymorphie - Geometrie.md
 
 #### 08.10
-
 - Vererbung
 - Konstruktoren
 - Regeln bei der Referenzenzuweisung
 - Aufgaben/Vererbung - Dozent-Teilnehmer.md (Lösung im Package 'aufgaben.javakurs')
 - Aufgaben/GC.md ( Lösung in Diagramme/AufgabeGarbageCollector.pptx )
-
 - Aufgaben/Vererbung - Geometrie.md. 
 
 > Bitte neue Klassen definieren. 
 > Danach die neue Lösung mit der alten Lösung vergleichen (Klassen - Geometrie.md). 
 > Und (wichtig) die Aufgabestellungen vergleichen 
 
-
 #### 07.10
 - Optional: Klassendiagramm mit Umlet (s. die Datei 'Umlet.md')
 - Ein Klassendiagramm für Ihre Lösung der Aufgabe 'Aufgaben/Arrays - Hafen.md'
-
 - Insel-Buch: Vererbung
 - Optional: Einfache Vererbungshierearchien sich überlegen und programmieren (s. Bsp. 01 im Package 'vererbung')
-
 
 #### 02.10 (auch für den 4.10)
 - init-Blöcke (statische und nicht-statische)
 - Konstanten (Attribute), wann müssen sie spätestens initialisiert werden?
 - Garabage Collector (Datei 'GarbageCollector.pptx' aus dem Verzeichnis 'Diagramme')
-
 - Wdh: Themen aus dem Projekt 'Imperativ'
 - Wdh: Themen aus dem Projekt 'Arrays'
 - Wdh: Themen aus dem Projekt 'Objektorientiert'
 - Die früheren Aufgaben, die noch nicht erledigt sind bitte selbständig lösen.
 - Aufgaben/Lotto.md
-
 - Optional: zu besprochenen Kontrollfragen formulieren (evtl. mit dem Format wie in der Datei 'Imperativ\src\kontrollfragen\Variablen-q.md')
-
 
 #### 01.10
 - Varargs-Methoden (Projekt 'Imperativ', Package 'methoden')
-
 - Projekt 'Objektorientiert'
 - Klasse laden, statische Initblöcke (Projekt 'Objektorientiert', Package 'klassen')
 - Aufgaben/Kampfarena.md
@@ -110,7 +94,6 @@
 - Aufgaben/Arrays - 2D.md
 - Aufgaben/Arrays - Hafen.md
 
-
 #### 26.09
 - Projekt 'Arrays'
 - Array bilden (3 Varianten)
@@ -124,7 +107,6 @@
 - Überladen von Methoden/Konstruktoren (s. auch 'src/methoden/B09_Ueberladen.java' im Projekt 'Imperativ')
 - this (auch für einen Konstruktoraufruf)
 - Aufgaben/Klassen - Personen.md 
-
 
 #### 24.09
 - Projekt 'Objektorientiert'
@@ -160,18 +142,15 @@
 - break, continue
 - Marker (Labels)
 - switch-Anweisung
-
 - Aufgaben/Kontrollstrukturen - while - do-while.md
 - Aufgaben/Kontrollstrukturen - switch.md
 - Aufgaben/Kontrollstrukturen - switch - if - Ampelfarben.md
-
 
 #### 17.09
 - Eine statische Methode in einer Klasse definieren. Danach die Methode in einer anderen Klasse in der main aufrufen.
 - if / if-else / if-else if...
 - for-Schleife
 - Verzeichnis 'Aufgaben', Datei 'Kontrollstrukturen - for.md'
-
 
 #### 16.09
 - Bitte die Tabelle mit Operatoren im Insel-Buch finden (nicht auswendig lernen)
@@ -181,14 +160,12 @@
 - Inkrement, Dekrement (Post- und Prä-)
 - Logische Operatoren
 - Vergleichsoperatoren
-
 - Optional: Beim Lernen können Sie für sich Kontrollfragen definieren (s. z.B. das Package 'kontrollfragen', die Datei 'Variablen-q.md')
 
 #### 13.09
 - Primitive (elementare) Datentypen
 - Literale
 - Bezeichner (Identifier)
-
 - Zuweisungsoperator 
 
 > für den Dozenten: D-Literale zeigen
@@ -196,28 +173,21 @@
 #### 12.09
 - [Eclipse.md: Eclipse einrichten](Eclipse.md "Eclipse.md")    
 - [Git.md: Git mit Eclipse](Git.md "Git.md")    
-    
 - Neues Projekt erzeugen
 - Neue Klasse anlegen
 - sout und main Templates testen
 - Ctrl+F11 zum starten einer main testen
-
 - 'Java ist auch eine Insel'. Einführung lesen
-
 - Optional: Über Git nachschlagen. Evtl. eigenes Repo bit Github anlegen.
 
 #### 11.09
-
 - Am Empfang nach den Büchern fragen.
-
 - jdk herunterladen (https://adoptopenjdk.net/)
     - Empfohlen: OpenJDK 11 (LTS)
     - Die Version für Ihr Betriebssystem (meist Windows x64) wählen
     - Die zip-Datei herunterladen
 - jdk entpacken	
-
 - [Eclipse.md: Eclipse einrichten](Eclipse.md "Eclipse.md")    
-
 - 'Java ist auch eine Insel' kennenlernen. (Einführung lesen)
 
 ## Allgemein
