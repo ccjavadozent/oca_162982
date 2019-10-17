@@ -6,17 +6,93 @@ public class KlasseString_API {
 
 //		konstruktoren();
 		
+		System.out.println();
 		length_und_charAt();
 		
+		System.out.println();
 		toUpperCase_und_toLowerCase();
 		
+		System.out.println();
 		isEmpty();
 		
+		System.out.println();
 		endsWith_und_startsWith();
 		
+		System.out.println();
 		concat();
+		
+		System.out.println();
+		equals_und_equalsIgnoreCase();
+		
+		System.out.println();
+		indexOf_und_lastIndexOf();
+		
 	} // end of main
+	
+	
 
+	/*
+	 * indexOf (überladen) und lastIndexOf (überladen)
+	 */
+	static void indexOf_und_lastIndexOf() {
+		System.out.println("*** indexOf und lastIndexOf");
+		
+		//                     |         |         |
+		//           0123456789012345678901234567890123
+		String s1 = "Heute ist Donnerstag, es ist -22°C";
+		
+		System.out.println("     0123456789012345678901234567890123");
+		System.out.println("s1 = " + s1);
+		
+		System.out.println("*** int indexOf(int)");
+		
+		int ch = 't';  // int (32 bit) <= char (16 bit)
+		int index = s1.indexOf(ch);
+		System.out.println("index of t: " + index); // 3
+		
+		System.out.println( "index of Y: " + s1.indexOf('Y')  ); // -1
+
+		ch = -22; // sinnlos (es kann im String kein Zeichen mit dem Wert -22 geben), aber kompiliert. 
+		System.out.println( "index of -22: " + s1.indexOf(-22)  ); // -1 
+		
+		System.out.println("*** int indexOf(String)");
+		index = s1.indexOf("ist");
+		System.out.println("index für den Unterstring 'ist': " + index); // 6
+		
+		
+		
+	}
+	
+	/*
+	 * equals, equalsIgnoreCase
+	 */
+	static void equals_und_equalsIgnoreCase() {
+		System.out.println("*** equals oder == ?");
+		
+		String s1 = "java";
+		String s2 = "java";
+		String s3 = new String("java");
+		
+		System.out.println("s1 == s2: " + (s1==s2)); // true (Referenzenvergleich)
+		System.out.println("s1 == s3: " + (s1==s3)); // false (Referenzenvergleich)
+		
+		System.out.println( "s1.equals(s2): " + s1.equals(s2) ); // true
+		System.out.println( "s1.equals(s3): " + s1.equals(s3) ); // true (Objektinhalte vergliechen) 
+		
+		System.out.println("*** boolean equalsIgnoreCase(String)");
+		
+		System.out.println( "ja_va! mit JA_VA! mit ignore case: " + "ja_va!".equalsIgnoreCase("JA_VA!") ); // true
+		
+		String sA = "Heute";
+		String sB = "HEUTE";
+		
+		boolean gleich = sA.equals(sB);
+		System.out.println( "Ist Heute gleich HEUTE? -> " + gleich ); // false
+		
+		gleich = sA.equalsIgnoreCase(sB);
+		System.out.println( "Ist Heute gleich HEUTE (ignore case)? -> " + gleich ); // true
+	}
+	
 	/*
 	 * concat
 	 */
