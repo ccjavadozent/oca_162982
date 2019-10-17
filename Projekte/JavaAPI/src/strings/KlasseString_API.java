@@ -27,9 +27,81 @@ public class KlasseString_API {
 		System.out.println();
 		indexOf_und_lastIndexOf();
 		
+		System.out.println();
+		substring();
+		
+		System.out.println();
+		replace();
+		
+		System.out.println();
+		static_valueOf();
 	} // end of main
 	
+	/*
+	 * valueOf (für alles mögliche überladen)
+	 */
+	static void static_valueOf() {
+		System.out.println("*** String valueOf(XXX)");
+		
+		System.out.println( "String.valueOf(-12): " + String.valueOf(-12) ); // -12
+		System.out.println( "String.valueOf(+12): " + String.valueOf(+12) ); // 12
+		System.out.println( "String.valueOf(-2e-2): " + String.valueOf(-2e-2) ); // -0.02
+		
+		char[] arr = { 'J', 'a', 'v', 'a' };
+		System.out.print("arr = ");
+		System.out.println(arr); // Java (da es die spezielle println(char[]) gibt)
+		
+		System.out.println( "String.valueOf(char[]): "+ String.valueOf(arr) ); // Java
+		
+		Object obj = arr;
+		System.out.println( "String.valueOf(Object): " + String.valueOf(obj) ); // [C@368239c8
+	}
+
+	/*
+	 * replace (2x überladen)
+	 */
+	static void replace() {
+		System.out.println("*** replace(char oldChar, char newChar)");
+		
+		String s = "Java ist Klasse";
+		System.out.println("s = " + s);
+		
+		String newString = s.replace('a', 'A');
+		System.out.println("a replaced with A: " + newString); // JAvA ist KlAsse
+		
+		System.out.println("*** replace(oldSubstr, newSubstr)");
+		
+		s = "Java (Sprache) und Java (Insel)";
+		System.out.println("s = " + s);
+		
+		String oldSubstr = "Java";
+		String newSubstr = "JAVA";
+		newString = s.replace(oldSubstr, newSubstr);
+		
+		System.out.println("Java replaced with JAVA: " + newString);
+
+	}
 	
+	/*
+	 * substring (2x)
+	 */
+	static void substring() {
+		System.out.println("*** String substring(int beginIndex)");
+		
+		//          0123456789012
+		String s = "C++ ist toll!";
+		System.out.println("s = " + s);
+		
+		String substring = s.substring(4);
+		System.out.println("substring(4): " + substring); // "ist toll!"
+		
+		System.out.println("*** String substring(int beginIndex, int endIndex)");
+		substring = s.substring(2, 9);
+		System.out.println("substring(2, 9): " + substring); // "+ ist t"
+		
+//		System.out.println(s.substring(-20)); //Exception
+//		System.out.println(s.substring(0, 1000)); //Exception
+	}
 
 	/*
 	 * indexOf (überladen) und lastIndexOf (überladen)
@@ -71,13 +143,13 @@ public class KlasseString_API {
 		index = s1.indexOf("ist", 16);
 		System.out.println("index of 'ist' (offset = 16): " + index); // 25
 		
-		System.out.println("*** int lastIndexOf(int ch)");
+		System.out.println("*** int lastIndexOf 4x überladen");
 		
 		System.out.println("last index of t: " + s1.lastIndexOf(ch)); // 27
-		System.out.println("last index of t (offset = 25): " + s1.lastIndexOf(ch, 25)); // 17 (unter index=25 suchen)
+		System.out.println("last index of t (under 25): " + s1.lastIndexOf(ch, 25)); // 17 (unter index=25 suchen)
 		
 		System.out.println("last index of 'ist': " + s1.lastIndexOf("ist")); // 25
-		System.out.println("last index of 'ist' (offset=20): " + s1.lastIndexOf("ist", 20)); // 6
+		System.out.println("last index of 'ist' (under 20): " + s1.lastIndexOf("ist", 20)); // 6
 		
 	}
 	
