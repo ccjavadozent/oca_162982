@@ -9,7 +9,7 @@ public class KleineAufgabeStringIndexOf {
 		/*
 		 * A1.
 		 * 
-		 * Siuchen Sie bitte alle Positionen im String s, wo der Unterstring 'Do' steht.
+		 * Suchen Sie bitte alle Positionen im String s, wo der Unterstring 'Do' steht.
 		 * geben Sie die Positionen aus: 
 		 */
 		
