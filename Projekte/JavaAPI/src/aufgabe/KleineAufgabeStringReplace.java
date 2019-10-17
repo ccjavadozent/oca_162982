@@ -9,7 +9,7 @@ public class KleineAufgabeStringReplace {
 		/*
 		 * Ersetzen Sie bitte alle Donnerstag-Unterstrings mit 'Freitag'
 		 */
-		
+		System.out.println(s.replace("Donnerstag", "Freitag"));
 	}
 
 }

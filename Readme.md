@@ -10,6 +10,15 @@
 
 ## Aufgaben
 
+#### 17.10
+- Klasse 'String'
+- String-API
+- String-Pool
+- Aufgaben/String - Methoden.md
+- Aufgaben/String - Silben.md
+
+- Optional: Was bedeutet 'Strings are immutable'?
+
 #### 16.10
 - Projekt 'Interfaces'
 - this/super s. das Projekt 'Objektorientiert', Package 'vererbung', B16
