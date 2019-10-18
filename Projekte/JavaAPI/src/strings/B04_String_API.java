@@ -1,6 +1,6 @@
 package strings;
 
-public class B04_KlasseString_API {
+public class B04_String_API {
 
 	public static void main(String[] args) {
 

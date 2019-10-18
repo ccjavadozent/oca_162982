@@ -24,8 +24,16 @@ public class B06_StringBuilder {
 	
 	static void a1() {
 		System.out.println("*** Kleine Aufgabe");
-		// Konkatenieren Sie bitte alle Zahlen zwischen 0 bis 1000 (exklusive), 
-		// aber verwenden Sie den StringBuilder
+		// bitte alle Zahlen zwischen 0 bis 1000 (exklusive), 
+		// mit einem StringBuilder zu einem String sammeln
+		
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < 1000; i++) {
+			sb.append(i);
+		}
+		
+		System.out.println(sb.length()); 
+		System.out.println(sb); 
 	}
 	
 }
