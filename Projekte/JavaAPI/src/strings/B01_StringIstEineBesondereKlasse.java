@@ -1,6 +1,6 @@
 package strings;
 
-public class StringIstEineBesondereKlasse {
+public class B01_StringIstEineBesondereKlasse {
 
 	public static void main(String[] args) {
 

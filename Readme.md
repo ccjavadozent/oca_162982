@@ -10,7 +10,13 @@
 
 ## Aufgaben
 
+#### 18.10
+- Projekt 'JavaAPI'
+- Klasse 'String'
+- Diagramme/Strings.pptx
+
 #### 17.10
+- Projekt 'JavaAPI'
 - Klasse 'String'
 - String-API
 - String-Pool

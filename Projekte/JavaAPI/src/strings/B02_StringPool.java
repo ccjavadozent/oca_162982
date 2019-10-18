@@ -10,7 +10,7 @@ package strings;
  * 		Beim Laden der Klasse erzeugt die VM für die Texte aus der Literalen-Liste, 
  * 		die es noch nicht im String-Pool gibt neue String-Objekte und fügt sie dem String-Pool zu.
  */
-public class StringPool {
+public class B02_StringPool {
 
 	public static void main(String[] args) {
 		String s = "mo"; // hole die Referenz für 'mo'-String aus dem String-Pool
