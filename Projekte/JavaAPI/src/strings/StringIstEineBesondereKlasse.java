@@ -34,6 +34,11 @@ public class StringIstEineBesondereKlasse {
 		
 		String s3 = "java";
 		
+		System.out.println("Anführungszeichen mit der Escape-Sequenz: \"");
+		System.out.println("\"".length()); // 1
+		System.out.println("\n".length()); // 1
+		System.out.println("Backslash im String: \\"); 
+		
 		/*
 		 * 3. String-Pool (s. Bsp. 'StringPool')
 		 */
