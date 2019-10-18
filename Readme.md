@@ -14,6 +14,10 @@
 - Projekt 'JavaAPI'
 - Klasse 'String'
 - Diagramme/Strings.pptx
+- Klasse 'StringBuilder'
+- Bitte die Methoden von StringBuilder testen (s. die Liste im Bsp. 07, Package 'strings')
+
+- Aufgabe aus LesenAusEinerTextdateiIstNichtInDerPruefung.java im Package 'strings'
 
 #### 17.10
 - Projekt 'JavaAPI'
