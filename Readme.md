@@ -15,6 +15,8 @@
 - Projekt 'Imperativ', Package 'methoden', Bsp. 11
 
 - Projekt 'JavaAPI', Package 'format'
+- Aufgabe aus der Datei 'KleineAufgabeFormat.java' (Package 'aufgaben')
+- Aufgaben/Personen - Sort - Format.md
 
 #### 18.10
 - Projekt 'JavaAPI'

@@ -20,6 +20,6 @@ public class KleineAufgabeFormat {
 		print(array);
 		
 		
-	}
+	} 
 
 }
