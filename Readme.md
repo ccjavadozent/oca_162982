@@ -10,6 +10,14 @@
 
 ## Aufgaben
 
+#### 22.10
+- Wrapper-Klassen
+- Autoboxing/Autounboxing
+- Konstantenpools 
+- Wrapper-Klassen-API
+
+- Optional: Testen Sie wann die überladene Methode mit dem Wrapper-Klassen-Parameter ausgewählt wird (Suche nach der richtigen überladenen Methode aus dem Projekt 'Imperativ') 
+
 #### 21.10
 - Richtige überladene Methode finden
 - Projekt 'Imperativ', Package 'methoden', Bsp. 11

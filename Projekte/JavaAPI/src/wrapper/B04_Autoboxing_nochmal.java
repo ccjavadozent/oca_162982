@@ -1,5 +1,7 @@
 package wrapper;
 
+import java.util.Arrays;
+
 public class B04_Autoboxing_nochmal {
 
 	public static void main(String[] args) {
@@ -82,7 +84,7 @@ public class B04_Autoboxing_nochmal {
 		 * Achtung!
 		 * 
 		 * Es gibt den Operator '<' nur für primitive, ABER
-		 * - den Operator '==' gibtes sowohl für primitive alas auch für Referenzen!!!
+		 * - den Operator '==' gibt es sowohl für primitive als auch für Referenzen!!!
 		 * 
 		 * - Unboxing wird bevorzugt, wenn entweder Unboxing oder Boxing nötig ist
 		 * 
@@ -102,6 +104,25 @@ public class B04_Autoboxing_nochmal {
 		Number n2 = 12F;
 		System.out.println(n2 == f2); // Referenzenvergleich 
 		
+		
+		System.out.println("---------------------------------");
+		
+		Object obj = 12; // Autoboxing zm Integer
+		System.out.println( "Typ des Objektes hinter obj: " + obj.getClass().getSimpleName() ); // Integer
+		
+		Object[] arr = {
+			17, // Integer.valueOf(17)
+			13F, // Float.valueOf(13F)
+			14D,  // Double.valueOf(14D)
+			15L // Long.valueOf(15L)
+		};
+		
+		System.out.println( "Objekt auf Pos. 0 im Array: " + arr[0].getClass().getSimpleName() ); // Integer
+		System.out.println( "Objekt auf Pos. 2 im Array: " + arr[2].getClass().getSimpleName() ); // Double
+		
+		// Arrays.sort(arr); // ClassCastException, da es Geschwistertypen im Array sind
+		
+				
 		
 	} // end of main
 
