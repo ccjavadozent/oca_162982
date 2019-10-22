@@ -16,7 +16,7 @@
 
 - Projekt 'JavaAPI', Package 'format'
 - Aufgabe aus der Datei 'KleineAufgabeFormat.java' (Package 'aufgaben')
-- Aufgaben/Personen - Sort - Format.md
+- Aufgaben/Personen - Sort - Format.md (Lösung im Projekt 'JavaAPI', Package 'aufgaben.personen')
 
 #### 18.10
 - Projekt 'JavaAPI'
