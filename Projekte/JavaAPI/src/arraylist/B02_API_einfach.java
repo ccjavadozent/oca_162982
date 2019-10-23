@@ -78,6 +78,38 @@ public class B02_API_einfach {
 		
 		System.out.println("E. list: " + list); // [di, mi]
 		
+		
+		// list.add(-1, "mo"); // java.lang.IndexOutOfBoundsException
+		
+		list.add(0, "mo");
+		list.add(list.size(), "do");
+		
+		System.out.println("F. list: " + list); // [mo, di, mi, do]
+		
+		/*
+		 * E set(int index, E element) 
+		 */
+		index = 0;
+		String str = list.set(index, "Montag"); // liefert den alten Wert zurück
+		System.out.println("str: " + str); // mo
+		
+		System.out.println("G. list: " + list); // [Montag, di, mi, do]
+		
+		/*
+		 * E get(int index) 
+		 */
+		System.out.println("list.get(1): " + list.get(1)); // di
+		
+		/*
+		 * int indexOf(Object element)
+		 * int lastIndexOf(Object element)
+		 */
+		list.add(1, "mi");
+		System.out.println("H. list: " + list); // [Montag, mi, di, mi, do]
+		
+		System.out.println("indexOf 'mi': " + list.indexOf("mi")); // 1
+		System.out.println("lastIndexOf 'mi': " + list.lastIndexOf("mi")); // 3
+		
 	} // end of main
 	
 	

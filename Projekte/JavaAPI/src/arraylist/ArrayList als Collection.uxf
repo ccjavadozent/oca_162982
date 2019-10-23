@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>40</x>
-      <y>530</y>
+      <x>140</x>
+      <y>560</y>
       <w>160</w>
       <h>70</h>
     </coordinates>
@@ -16,8 +16,8 @@ ArrayList</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>50</x>
-      <y>390</y>
+      <x>150</x>
+      <y>420</y>
       <w>150</w>
       <h>80</h>
     </coordinates>
@@ -30,8 +30,8 @@ ArrayList</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>290</x>
-      <y>360</y>
+      <x>390</x>
+      <y>390</y>
       <w>210</w>
       <h>50</h>
     </coordinates>
@@ -41,8 +41,8 @@ ArrayList</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>100</x>
-      <y>460</y>
+      <x>200</x>
+      <y>490</y>
       <w>30</w>
       <h>100</h>
     </coordinates>
@@ -52,8 +52,8 @@ ArrayList</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>380</y>
+      <x>270</x>
+      <y>410</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -63,8 +63,8 @@ ArrayList</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>50</x>
-      <y>230</y>
+      <x>150</x>
+      <y>260</y>
       <w>150</w>
       <h>80</h>
     </coordinates>
@@ -77,8 +77,8 @@ ArrayList</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>280</x>
-      <y>130</y>
+      <x>380</x>
+      <y>160</y>
       <w>180</w>
       <h>50</h>
     </coordinates>
@@ -88,8 +88,8 @@ ArrayList</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>170</y>
+      <x>270</x>
+      <y>200</y>
       <w>230</w>
       <h>120</h>
     </coordinates>
@@ -99,8 +99,34 @@ ArrayList</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>100</x>
-      <y>300</y>
+      <x>200</x>
+      <y>330</y>
+      <w>30</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>140</x>
+      <y>80</y>
+      <w>180</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>template=E
+&lt;&lt;interface&gt;&gt;
+/Iterable/
+--
+iterator() : Iterator</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>200</x>
+      <y>170</y>
       <w>30</w>
       <h>120</h>
     </coordinates>
