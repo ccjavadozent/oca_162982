@@ -52,15 +52,61 @@ public class B02_API_einfach {
 		
 		System.out.println("C. list: " + list); // [mo, mi]
 		
+		// a1();
+		
+		/*
+		 * 
+		 * Operationen mit index
+		 * 
+		 * 
+		 */
+		
+		/*
+		 * void add(int index, E element)
+		 */
+		int index = 1;
+		list.add(index, "di");
+		
+		System.out.println("D. list: " + list); // [mo, di, mi]
+		
+		/*
+		 * E remove(int index)
+		 */
+		index = 0;
+		String element = list.remove(index);
+		System.out.println("remove(0): " + element); // mo
+		
+		System.out.println("E. list: " + list); // [di, mi]
 		
 	} // end of main
 	
+	
+	
 	static void a1() {
+		System.out.println("*** A1, remove(Object)");
+		
 		// - Erstellen Sie folgende Liste mit Strings:
 		//    mo, fr, di, fr, mi, fr, do, fr.
 		// - Geben Sie die Liste aus.
 		// - Verwenden Sie bitte die Methode 'boolean remove(Object)' solange, bis es kein String "fr" mehr gibt.
 		// - Geben Sie die Liste aus.
+		
+		ArrayList<String> list = new ArrayList<>();
+		list.add("mo");
+		list.add("fr");
+		list.add("di");
+		list.add("fr");
+		list.add("mi");
+		list.add("fr");
+		list.add("do");
+		list.add("fr");
+		
+		System.out.println("1: " + list);
+		
+		while( list.remove("fr") ) {
+			System.out.println("while: " + list);
+		}
+		
 	}
 
 }
