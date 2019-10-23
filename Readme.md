@@ -13,7 +13,8 @@
 #### 23.10
 
 - Suche nach der richtigen überladenen Methode (s. das Projekt 'Imperativ', Package 'methoden', Bsp. 11)
-- ArrayList
+- ArrayList (s. die Beispiele im Projekt 'JavaAPI')
+- Aufgaben/ArrayList.md
 
 #### 22.10
 - Wrapper-Klassen

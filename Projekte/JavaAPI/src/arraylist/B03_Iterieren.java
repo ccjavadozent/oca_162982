@@ -44,6 +44,7 @@ public class B03_Iterieren {
 		}
 		System.out.println();
 		
+		kleineAufgabe();
 	} // 
 
 	/*
@@ -56,31 +57,22 @@ public class B03_Iterieren {
 	 * A3
 	 * - Geben Sie untereinander die Elemente der ArrayList aus
 	 */
-	
-	
-	
-	
-	
+	static void kleineAufgabe() {
+		System.out.println("*** kleine Aufgabe");
+		
+		String[] arr = { "mo", "di", "heute" };
+		
+		ArrayList<String> list = new ArrayList<>();
+		
+		for (int i = 0; i < arr.length; i++) {
+			list.add( arr[i] );
+		}
+		
+		for (String string : list) {
+			System.out.println(string);
+		}
+	}
 	
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
