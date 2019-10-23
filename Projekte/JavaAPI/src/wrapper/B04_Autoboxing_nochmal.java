@@ -36,7 +36,7 @@ public class B04_Autoboxing_nochmal {
 		
 		
 		Integer var7 = null;
-		// int var8 = var7; // NullPointerException, da Autounboxing: var7.intValue()
+//		int var8 = var7; // NullPointerException, da Autounboxing: var7.intValue()
 		
 		System.out.println("------------------------------");
 		
@@ -98,10 +98,10 @@ public class B04_Autoboxing_nochmal {
 		System.out.println( "i1 == f2: " + (i1 == f2) ); // Autounboxing und Vergleich der primitiven
 		
 		Integer i2 = 13;
-		// System.out.println(i2 == f2); // Compilerfheler: Referenzenvergleich zwei Geschwistertypen-Referenzen
+//		 System.out.println(i2 == f2); // Compilerfheler: Referenzenvergleich zwei Geschwistertypen-Referenzen
 		System.out.println( "i2 < f2: " + (i2 < f2) ); // Autounboxing und Vergleich der primitiven 
 		
-		Number n2 = 12F;
+		Number n2 = 12;
 		System.out.println(n2 == f2); // Referenzenvergleich 
 		
 		

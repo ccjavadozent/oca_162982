@@ -10,6 +10,10 @@
 
 ## Aufgaben
 
+#### 23.10
+
+- Suche nach der richtigen überladenen Methode (s. das Projekt 'Imperativ', Package 'methoden', Bsp. 11)
+
 #### 22.10
 - Wrapper-Klassen
 - Autoboxing/Autounboxing

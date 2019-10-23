@@ -16,19 +16,21 @@ public class B11_Richtige_ueberladene_finden {
 	static void m(long x) { System.out.println("long"); }
 //	static void m(float x) { System.out.println("float"); }
 	
-//	static void m(int... x) { System.out.println("int..."); } // int[] x
-	static void m(float... x) { System.out.println("float..."); }
+//	static void m(Integer x) { System.out.println("Integer"); }
+//	static void m(Long x) { System.out.println("Long"); }
+//	static void m(Number x) { System.out.println("Number"); }
+	
+	static void m(int... x) { System.out.println("int..."); } // int[] x
+//	static void m(float... x) { System.out.println("float..."); }
 	
 //	static void m(Hund x) { System.out.println("Hund"); } 
 //	static void m(Katze x) { System.out.println("Katze"); } 
-	static void m(Tier x) { System.out.println("Tier"); } 
+//	static void m(Tier x) { System.out.println("Tier"); } 
 //	static void m(Object x) { System.out.println("Object"); } 
 
 	public static void main(String[] args) {
 
-//		int var = 1;
-		Hund var = null;
-		
+		Integer var = 1;
 		m( var ); 
 		
 	} // end of main
@@ -42,14 +44,12 @@ public class B11_Richtige_ueberladene_finden {
 	 * 2. Widening nach der Liste:
 	 * 		byte -> short -> int -> long -> float -> double
 	 * 
-	 * ...
+	 * 3. Autoboxing vom Argument 
+	 * 		(auch Parameter-Basistypen für die Wrapperklasse nach dem Autoboxing passen)
 	 * 
-	 * 
-	 * X. Alle Suchschritte für Varargs-Methoden durchführen (bis einem Treffer)
+	 * 4. Alle Suchschritte für Varargs-Methoden durchführen (bis einem Treffer)
 	 * 
 	 */
-	
-	
 	
 	/*
 	 * Compiler-Suche nach der richtigen aufgerufenen Methode bei Referenzen als Argumenten:
@@ -58,9 +58,9 @@ public class B11_Richtige_ueberladene_finden {
 	 * 
 	 * 2. Basistyp-Parameter
 	 * 
-	 * ...
+	 * 3. Autounboxing (inkl. Widening)
 	 *
-	 * X. Alle Suchschritte für Varargs-Methoden durchführen (bis einem Treffer)
+	 * 4. Alle Suchschritte für Varargs-Methoden durchführen (bis einem Treffer)
 	 * 
 	 */
 }

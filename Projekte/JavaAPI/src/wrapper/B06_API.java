@@ -1,5 +1,7 @@
 package wrapper;
 
+import java.util.Arrays;
+
 public class B06_API {
 
 	public static void main(String[] args) {
@@ -69,6 +71,17 @@ public class B06_API {
 		 */
 		int var7 = Integer.parseInt("+12");
 		System.out.println("var7 = " + var7);
+		
+		
+		/*
+		 * Alle Wrapper-Klassen sind Comparable 
+		 */
+		
+		Boolean[] arr = { true, Boolean.valueOf(false), Boolean.valueOf("moin"), Boolean.TRUE, false };
+		
+		Arrays.sort(arr);
+		
+		System.out.println("arr sortiert: " + Arrays.toString(arr));
 		
 	} // end of main
 
