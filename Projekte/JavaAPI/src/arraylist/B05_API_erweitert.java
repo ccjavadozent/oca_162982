@@ -1,8 +1,16 @@
 package arraylist;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
+
+class StringCmpOnLength implements Comparator<String> {
+	@Override
+	public int compare(String s1, String s2) {
+		return s1.length() - s2.length();
+	}
+}
 
 public class B05_API_erweitert {
 
@@ -52,9 +60,22 @@ public class B05_API_erweitert {
 		}
 		
 		/*
-		 * 
+		 * sort(Comparator) 
 		 */
+		System.out.println("*** sort(Comparator)");
+		List<String> wochentage = new ArrayList<>();
+		wochentage.add("montag");
+		wochentage.add("di");
+		wochentage.add("mittw.");
+		wochentage.add("freitagabend");
+		wochentage.add("samstag");
 		
+		System.out.println("wochentage vorm Sortieren: " + wochentage);
+		
+		Comparator<String> cmp = new StringCmpOnLength();
+		wochentage.sort(cmp);
+		
+		System.out.println("wochentage nach dem Sortieren nach Länge: " + wochentage);
 		
 		
 	} // end of main
