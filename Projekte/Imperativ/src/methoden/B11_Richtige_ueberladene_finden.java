@@ -58,7 +58,7 @@ public class B11_Richtige_ueberladene_finden {
 	 * 
 	 * 2. Basistyp-Parameter
 	 * 
-	 * 3. Autounboxing (inkl. Widening)
+	 * 3. Beim Wrapper-Klassen-Argument: Autounboxing (inkl. Widening)
 	 *
 	 * 4. Alle Suchschritte für Varargs-Methoden durchführen (bis einem Treffer)
 	 * 

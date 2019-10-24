@@ -30,6 +30,8 @@ public class B01_Dynamischer_Container {
 
 		System.out.println( "4. list: " + list ); // [3, 7, -12]
 		
+		System.out.println( "get(1): " + list.get(1) );
+		
 	} 
 
 }
