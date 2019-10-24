@@ -62,7 +62,7 @@ public class B05_API_erweitert {
 	/*
 	 * Kleine Aufgabe:
 	 * 
-	 * - Erzeugen Sie eine ArrayList mit "montag", "di", "wittw.", "freitagabend", "samstag"
+	 * - Erzeugen Sie eine ArrayList mit "montag", "di", "mittw.", "freitagabend", "samstag"
 	 * - Verwenden Sie bitte die sort-Methode der Klasse 'ArrayList' 
 	 *   um die Liste nach Länge der Strings zu sortieren
 	 * 
