@@ -77,33 +77,14 @@ public class B05_API_erweitert {
 		
 		System.out.println("wochentage nach dem Sortieren nach Länge: " + wochentage);
 		
+		/*
+		 * In der Klasse java.util.Collections gibt es die Methoden sort und binarySearch für Listen
+		 * 
+		 */
 		
 	} // end of main
 
-	/*
-	 * Kleine Aufgabe:
-	 * 
-	 * - Erzeugen Sie eine ArrayList mit "montag", "di", "mittw.", "freitagabend", "samstag"
-	 * - Verwenden Sie bitte die sort-Methode der Klasse 'ArrayList' 
-	 *   um die Liste nach Länge der Strings zu sortieren
-	 * 
-	 * 
-	 */
-	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

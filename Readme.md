@@ -10,6 +10,14 @@
 
 ## Aufgaben
 
+#### 24.10
+- ArrayList (s. die Beispiele im Projekt 'JavaAPI')
+- Sichtbarkeiten (s. das Projekt 'Objektorientiert')
+- Optional: Importanweisungen (s. das Projekt 'Objektorientiert')
+- Aufgaben/ArrayList.md
+- Optional: Aufgaben/ArrayList - erweitert.md
+
+
 #### 23.10
 
 - Suche nach der richtigen überladenen Methode (s. das Projekt 'Imperativ', Package 'methoden', Bsp. 11)
