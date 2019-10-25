@@ -17,13 +17,20 @@
 - Importanweisungen 
 - Optional: manuelles Compilieren und Starten: s. das Unterverzeichnis 'java_javac' im Repositorium-Verzeichnis
 
+- Aufgabe aus dem Projekt 'Interfaces' aus src/aufgaben/filtern/AufgabeFiltern.java
+
+- Optional: Aufgaben/Wrapper - Zahlen laden.md
+- Optional: Aufgaben/String - StringBuilder.md
+
+- Wdh. Interfaces
+
+
 #### 24.10
 - ArrayList (s. die Beispiele im Projekt 'JavaAPI')
 - Sichtbarkeiten (s. das Projekt 'Kapselung')
 - Optional: Importanweisungen (s. das Projekt 'Kapselung')
 - Aufgaben/ArrayList.md
 - Optional: Aufgaben/ArrayList - erweitert.md
-
 
 #### 23.10
 

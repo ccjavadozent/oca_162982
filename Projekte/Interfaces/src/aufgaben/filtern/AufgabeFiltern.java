@@ -46,6 +46,8 @@ public class AufgabeFiltern {
 		ArrayList<Integer> listStartenMit1 = filtern(list, logikZumAuswählenDerZahlenDieMit1Starten);
 		System.out.println("list positive: " + listPositive); // 12, 13, 14, 15
 		
+		// Tipp: Denken Sie an die Methode Arrays.sort(Object[], Comparator). 
+		// Sie bekommt die Logik zum Vergleichen der Elemente auch übergeben.
 		
 	} // end of main
 
@@ -62,3 +64,25 @@ public class AufgabeFiltern {
 	}
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
