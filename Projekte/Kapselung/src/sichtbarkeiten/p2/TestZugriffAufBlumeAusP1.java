@@ -1,6 +1,6 @@
 package sichtbarkeiten.p2;
 
-import sichtbarkeiten.p1.Blume;
+import sichtbarkeiten.p1.Blume; // not visible
 
 public class TestZugriffAufBlumeAusP1 {
 

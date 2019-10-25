@@ -10,10 +10,17 @@
 
 ## Aufgaben
 
+#### 25.10
+
+- Projekt 'Kapselung'
+- Sichtbarkeiten 
+- Importanweisungen 
+- Optional: manuelles Compilieren und Starten: s. das Unterverzeichnis 'java_javac' im Repositorium-Verzeichnis
+
 #### 24.10
 - ArrayList (s. die Beispiele im Projekt 'JavaAPI')
-- Sichtbarkeiten (s. das Projekt 'Objektorientiert')
-- Optional: Importanweisungen (s. das Projekt 'Objektorientiert')
+- Sichtbarkeiten (s. das Projekt 'Kapselung')
+- Optional: Importanweisungen (s. das Projekt 'Kapselung')
 - Aufgaben/ArrayList.md
 - Optional: Aufgaben/ArrayList - erweitert.md
 
