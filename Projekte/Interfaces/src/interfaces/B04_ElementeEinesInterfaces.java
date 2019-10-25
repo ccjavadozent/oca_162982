@@ -1,7 +1,7 @@
 package interfaces;
 
 /*
- * ALLE Elemente in einem Interface sind PUBLIC !!!!!!
+ * ALLE Elemente in einem Interface sind PUBLIC !!!!!! (Java 8)
  */
 
 interface MyInterface {
