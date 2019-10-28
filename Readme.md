@@ -8,6 +8,8 @@
 - 13:30 - 15:00 Uhr (per Chat sich melden)
 - 15:15 - 16:45 Uhr (im Skype-Nachmittagsraum)
 
+### Achtung! 31.10 und 01.11 sind frei!
+
 ## Aufgaben
 
 #### 25.10
