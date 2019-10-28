@@ -11,7 +11,7 @@ import java.util.Comparator;
  * Dafür nötig:
  * 		- Interface Comparator realisieren (eine neue Klasse schreiben, compare-Methode implementieren)
  * 		- Neues Objekt von der neuen Klasse erzeugen
- * 		- sort aufrufen, die Referenz auf das neue Comparator übergeben und 
+ * 		- sort aufrufen, die Referenz auf das neue Comparator-Objket übergeben und 
  * 			mit dem Objekt den Verweis auf die konkrete Realisierung der Methode 'compare'  
  * 
  * Design-Probleme und Lösungen:
@@ -21,7 +21,7 @@ import java.util.Comparator;
  * 			Es wird immer ähnlicher Dienstcode nötig: Klasse realisieren...
  * 
  * 		- Lösung vor Java 8: anomyme Klassen
- * 		- Lösung nach Java 8: Lambda-Funktionen (nur bei funktionallen Interfaces)
+ * 		- Lösung ab Java 8: Lambda-Funktionen (nur bei funktionallen Interfaces)
  * 
  * 
  * Problem 2:

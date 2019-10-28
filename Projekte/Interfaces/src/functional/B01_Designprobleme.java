@@ -11,7 +11,7 @@ import java.util.Comparator;
  * Dafür nötig:
  * 		- Interface Comparator realisieren (eine neue Klasse schreiben, compare-Methode implementieren)
  * 		- Neues Objekt von der neuen Klasse erzeugen
- * 		- sort aufrufen, die Referenz auf das neue Comparator übergeben und 
+ * 		- sort aufrufen, die Referenz auf das neue Comparator-Objekt übergeben und 
  * 			mit dem Objekt den Verweis auf die konkrete Realisierung der Methode 'compare'  
  * 
  * Design-Probleme:
