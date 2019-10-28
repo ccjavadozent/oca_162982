@@ -14,6 +14,8 @@
 
 #### 28.10
 - Projekt 'Interfaces', Package 'functional'
+- Innere (nested) Klassen (nicht in der Prüfung, aber empfehlenswert) 
+- Aufgaben/Nested - Auto.md
 
 
 #### 25.10
