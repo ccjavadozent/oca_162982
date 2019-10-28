@@ -12,8 +12,11 @@
 
 ## Aufgaben
 
-#### 25.10
+#### 28.10
+- Projekt 'Interfaces', Package 'functional'
 
+
+#### 25.10
 - Projekt 'Kapselung'
 - Sichtbarkeiten 
 - Importanweisungen 
