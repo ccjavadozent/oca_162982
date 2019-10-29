@@ -13,9 +13,12 @@
 ## Aufgaben
 
 #### 28.10
+- für Dozenten: Bsp. nichstatischer innerer Klasse
+
 - Projekt 'Interfaces', Package 'functional'
 - Innere (nested) Klassen (nicht in der Prüfung, aber empfehlenswert) 
 - Aufgaben/Nested - Auto.md
+
 
 
 #### 25.10
