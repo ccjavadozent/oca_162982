@@ -12,6 +12,10 @@
 
 ## Aufgaben
 
+#### 29.10
+- Lambdas
+- Aufgaben/Lambdas.md
+
 #### 28.10
 - für Dozenten: Bsp. nichstatischer innerer Klasse
 
