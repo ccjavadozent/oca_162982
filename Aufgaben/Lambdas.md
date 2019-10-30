@@ -39,10 +39,10 @@ gegeben ist das Interface `ListCombiner`:
 
 Definieren Sie mit einer Lambda-Funktion eine ListCombiner-Realisierung, mit der zwei Listen zu einer neuen kombiniert werden. Testen Sie Ihre Lösung:
 
-	List<Integer list1 = new ArrayList<>();
+	List<Integer> list1 = new ArrayList<>();
 	// 2-3 Integer zur list1 hinzufügen...
 	
-	List<Integer list2 = new ArrayList<>();
+	List<Integer> list2 = new ArrayList<>();
 	// 2-3 Integer zur lisr2 hinzufügen...
 	
 	ListPair combiner = null; // hier die Lambda-Funktion

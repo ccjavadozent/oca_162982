@@ -1,5 +1,9 @@
 package aufgaben.lambdas;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Predicate;
+
 class Kreis {
 	private int radius;
 
@@ -30,15 +34,28 @@ public class KleineAufgabePredicate {
 		 * 		R = 3, R = 17, R = 2, R = 22, R = 8
 		 * 
 		 * A2.
-		 * 	Definieren Sie ine Predicate für Kreise, mit dem Kreise mit dem Radius > 10 akzeptiert werden.
+		 * 	Definieren Sie ine Predicate für Kreise, mit dem die Kreise mit dem Radius > 10 akzeptiert werden.
 		 * 
-		 *  Testen Sie den Predicate in einer foreach-Schleife, die nur die Kreise ausgibt, 
+		 *  Testen Sie das Predicate in einer foreach-Schleife, die nur die Kreise ausgibt, 
 		 *    die das Predicate akzeptiert
 		 * 
 		 */
 		
+		List<Kreis> list = new ArrayList<>();
+		list.add(new Kreis(3));
+		list.add(new Kreis(17));
+		list.add(new Kreis(2));
+		list.add(new Kreis(22));
+		list.add(new Kreis(8));
 		
+		Predicate<Kreis> p = kreis -> kreis.getRadius() > 10;
 		
-	}
+		for (Kreis kreis : list) {
+			if( p.test(kreis) ) {
+				System.out.println(kreis);
+			}
+		}
+		
+	} // end of main
 
 }
