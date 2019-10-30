@@ -12,6 +12,13 @@
 
 ## Aufgaben
 
+#### 30.10
+
+- Lambdas
+- Aufgaben/Lambdas und Predicate - JavaTipp.md
+
+- Predicate, Consumer, Comparator
+
 #### 29.10
 - Lambdas
 - Aufgaben/Lambdas.md
