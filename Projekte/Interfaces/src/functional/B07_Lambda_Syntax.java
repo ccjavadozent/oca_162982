@@ -43,6 +43,12 @@ public class B07_Lambda_Syntax {
 		FormatInt f4 = x -> {
 			return "<" + x + ">";
 		};
+//		FormatInt f4b = int x -> {	// Compilerfehler (Klammer nötig)
+//			return "<" + x + ">";
+//		};
+		FormatInt f4b = (int x) -> {
+			return "<" + x + ">";
+		};
 		
 		/*
 		 * Lambda. Rumpf ohne geschw. Klammer - nur wenn der Rumf aus einer einzigen Anweisung besteht 

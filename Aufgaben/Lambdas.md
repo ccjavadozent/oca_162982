@@ -52,5 +52,5 @@ Definieren Sie mit einer Lambda-Funktion eine ListCombiner-Realisierung, mit der
 ###### A4. Optional.
 Die Klasse `CPU` definiert Instanz-Attribute `int anzahlKerne` und `String hersteller`. Erzeugen Sie eine ArrayList mit 3-4 Elementen von Typ `CPU`. 
 
-Geben Sie alle Hersteller-Namen der Elemente der Liste aus, verwenden Sie dafür die Methode `forEach` der Klasse `ArrayList` und eine Lambda-Funktion, die das Interface realisiert.  
+Geben Sie alle Hersteller-Namen der Elemente der Liste aus, verwenden Sie dafür die Methode `forEach` der Klasse `ArrayList` und eine Lambda-Funktion, die das Interface 'java.util.function.Consumer' realisiert.  
 
