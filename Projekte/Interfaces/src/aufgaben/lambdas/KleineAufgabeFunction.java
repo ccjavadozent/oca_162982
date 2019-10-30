@@ -9,9 +9,12 @@ public class KleineAufgabeFunction {
 		/*
 		 * definieren Sie bitte eine Lambda-Function, die ein Integer verdoppelt
 		 */
-		Function<Integer, Integer> f1 = null;
+		Function<Integer, Integer> f1 = x -> 2*x;
 		
-		System.out.println( f1.apply(12) ); // 24
+		int result = f1.apply(12);
+		System.out.println( result ); // 24
+		
+		
 		
 	}
 
