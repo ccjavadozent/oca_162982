@@ -24,7 +24,7 @@ public class B01_DasLebenOhneEnums {
 		
 		System.out.println("*** Vor einer Ampel: ");
 		
-		byte farbe = getAmpelFarbe(); // Design-Schwäche: zu viele sinnlose Werte für die farbe möglich. Sinnvoll sind nur 3 Werte) 
+		byte farbe = getAmpelFarbe(); // Design-Schwäche: zu viele sinnlose Werte für die 'farbe' möglich. Sinnvoll sind nur 3 Werte) 
 	
 		switch(farbe) {
 			case ROT:

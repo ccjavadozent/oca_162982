@@ -1,10 +1,19 @@
 package enums;
 
+import java.util.Random;
+
 class AmpelFarbeAlsKlasse {
 	public static final AmpelFarbeAlsKlasse ROT = new AmpelFarbeAlsKlasse();
 	public static final AmpelFarbeAlsKlasse GELB = new AmpelFarbeAlsKlasse();
 	public static final AmpelFarbeAlsKlasse GRUEN = new AmpelFarbeAlsKlasse();
+	
+	public static AmpelFarbeAlsKlasse[] values() {
+		return new AmpelFarbeAlsKlasse[] { ROT, GELB, GRUEN };
+	}
+	
+	private AmpelFarbeAlsKlasse() {}
 }
+
 
 public class B02_EigenerTypMitClass {
 	
@@ -47,5 +56,12 @@ public class B02_EigenerTypMitClass {
 	 * 
 	 * Realisieren Sie die Klasse AmpelFarbeAlsKlasse so, dass es nur drei Konstanten ROT, GELB und GRUEN als Werte möglich sind.
 	 */
+	static AmpelFarbeAlsKlasse getAmpelFarbe() {
+//		return new AmpelFarbeAlsKlasse();
+		
+		AmpelFarbeAlsKlasse[] alleFarben = AmpelFarbeAlsKlasse.values();
+		int index = new Random().nextInt(4); // Bug hier, aber garantiert keine falsche Farbe
+		return alleFarben[index];
+	}
 	
 }
