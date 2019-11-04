@@ -9,7 +9,7 @@ public class LambdasSindBesonders {
 	public static void main(String[] args) {
 		
 		/*
-		 * Unterschied in der Realisierung einer 'normalen' Klasse und eine Lambda ist nicht in der Prüfung
+		 * Unterschied in der Realisierung einer 'normalen' Klasse und einer Lambda ist nicht in der Prüfung
 		 */
 		
 		class Montag {

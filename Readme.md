@@ -9,6 +9,9 @@
 
 ## Aufgaben
 
+#### 04.11
+- Projekt 'JavaAPI', Package 'enums'
+
 #### 30.10
 - Lambdas
 - Aufgaben/Lambdas und Predicate - JavaTipp.md

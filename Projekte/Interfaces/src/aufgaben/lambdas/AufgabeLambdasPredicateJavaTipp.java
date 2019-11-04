@@ -73,7 +73,7 @@ public class AufgabeLambdasPredicateJavaTipp {
 		t6.addThemen("Interfaces", "Sichtbarkeiten");
 		
 		JavaTipp[] tipps = {
-			t1, t2, t3, t4, t5	
+			t1, t2, t3, t4, t5, t6
 		};
 		
 
@@ -83,7 +83,24 @@ public class AufgabeLambdasPredicateJavaTipp {
 //			}
 //		}
 		
+		System.out.println("\n*** A3. Alle Tipps: ");
 		printIf(tipps, param -> true);
+		
+		System.out.println("\n*** A4. Tipps mit dem Unterstring 'Klasse' im Tipp-Text: ");
+		printIf(tipps, tipp -> tipp.getText().contains("Klasse"));
+		
+		System.out.println("\n*** A5. Tipps mit genau zwei Themen: ");
+		printIf(tipps, tipp -> tipp.getThemen().size()==2);
+		
+		System.out.println("\n*** A6. Tipps mit dem Thema 'Klassen': ");
+		Predicate<JavaTipp> predicateContainsKlassen = tipp -> tipp.getThemen().contains("Klassen"); 
+		printIf(tipps, predicateContainsKlassen);
+		
+		System.out.println("\n*** A7. Tipps mit dem Thema 'Klassen' aber ohne Thema 'Vererbung': ");
+		Predicate<JavaTipp> predicateContainsKlassenButVererbung = predicateContainsKlassen
+									.and( tipp -> !tipp.getThemen().contains("Vererbung"));
+		
+		printIf(tipps, predicateContainsKlassenButVererbung);
 		
 		System.out.println("end of main");
 		
@@ -91,9 +108,10 @@ public class AufgabeLambdasPredicateJavaTipp {
 	
 	static void printIf(JavaTipp[] tipps, Predicate<JavaTipp> filter) {
 		
+		int index = 1;
 		for (JavaTipp tipp : tipps) {
 			if( filter.test(tipp) ) {
-				System.out.println("Java-Tipp: " + tipp.getText());
+				System.out.println(index++ + ". Java-Tipp: " + tipp.getText());
 				System.out.println("Themen: " + tipp.getThemen());
 			}
 		}
