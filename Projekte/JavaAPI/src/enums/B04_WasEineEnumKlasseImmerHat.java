@@ -1,15 +1,29 @@
 package enums;
 
+import java.util.Arrays;
 
 enum Size {
 	BIG, SMALL
 }
 
 class Groesse {
-	static final Groesse GROSS = new Groesse();
-	static final Groesse KLEIN = new Groesse();
+	static final Groesse GROSS = new Groesse("GROSS");
+	static final Groesse KLEIN = new Groesse("KLEIN");
 	
-	private Groesse() {}
+	static Groesse[] values() {
+		return new Groesse[] { GROSS, KLEIN };
+	}
+	
+	private String name;
+	
+	private Groesse(String name) {
+		this.name = name;
+	}
+	
+	@Override
+	public String toString() {
+		return name;
+	}
 }
 
 public class B04_WasEineEnumKlasseImmerHat {
@@ -43,6 +57,15 @@ public class B04_WasEineEnumKlasseImmerHat {
 		System.out.println(g1); // GROSS
 		System.out.println(Groesse.KLEIN); // KLEIN
 		
-	}
+		/*
+		 * statische Methode values()
+		 */
+		Size[] allSizes = Size.values();
+		System.out.println( "Size.values(): " + Arrays.toString(allSizes) );
+		
+		Groesse[] alleGroessen = Groesse.values();
+		System.out.println("Groesse.values(): " + Arrays.toString(alleGroessen));
+		
+	} // end of main
 
 }

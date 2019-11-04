@@ -11,6 +11,8 @@
 
 #### 04.11
 - Projekt 'JavaAPI', Package 'enums'
+- OCA-Buch: enums, was braucht man für die OCA-Prüfung von enums zu wissen
+- Optional: Aufgaben/Enums - Hunderassen.md (Um die Aufgabe zu lösen, muss man wissen, wie in einer enum-Klasse zusätzlicher Code definiert werden kann)
 
 #### 30.10
 - Lambdas
