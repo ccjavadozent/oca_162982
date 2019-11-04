@@ -1,4 +1,3 @@
-
 ## Wissensvermittlung
 - 08:00 - 09:30 Uhr
 - 09:45 - 11:15 Uhr
@@ -8,15 +7,11 @@
 - 13:30 - 15:00 Uhr (per Chat sich melden)
 - 15:15 - 16:45 Uhr (im Skype-Nachmittagsraum)
 
-### Achtung! 31.10 und 01.11 sind frei!
-
 ## Aufgaben
 
 #### 30.10
-
 - Lambdas
 - Aufgaben/Lambdas und Predicate - JavaTipp.md
-
 - Predicate, Consumer, Comparator
 
 #### 29.10
@@ -24,27 +19,19 @@
 - Aufgaben/Lambdas.md
 
 #### 28.10
-- für Dozenten: Bsp. nichstatischer innerer Klasse
-
 - Projekt 'Interfaces', Package 'functional'
 - Innere (nested) Klassen (nicht in der Prüfung, aber empfehlenswert) 
 - Aufgaben/Nested - Auto.md
-
-
 
 #### 25.10
 - Projekt 'Kapselung'
 - Sichtbarkeiten 
 - Importanweisungen 
 - Optional: manuelles Compilieren und Starten: s. das Unterverzeichnis 'java_javac' im Repositorium-Verzeichnis
-
 - Aufgabe aus dem Projekt 'Interfaces' aus src/aufgaben/filtern/AufgabeFiltern.java
-
 - Optional: Aufgaben/Wrapper - Zahlen laden.md
 - Optional: Aufgaben/String - StringBuilder.md
-
 - Wdh. Interfaces
-
 
 #### 24.10
 - ArrayList (s. die Beispiele im Projekt 'JavaAPI')
@@ -54,7 +41,6 @@
 - Optional: Aufgaben/ArrayList - erweitert.md
 
 #### 23.10
-
 - Suche nach der richtigen überladenen Methode (s. das Projekt 'Imperativ', Package 'methoden', Bsp. 11)
 - ArrayList (s. die Beispiele im Projekt 'JavaAPI')
 - Aufgaben/ArrayList.md
@@ -64,13 +50,11 @@
 - Autoboxing/Autounboxing
 - Konstantenpools 
 - Wrapper-Klassen-API
-
 - Optional: Testen Sie wann die überladene Methode mit dem Wrapper-Klassen-Parameter ausgewählt wird (Suche nach der richtigen überladenen Methode aus dem Projekt 'Imperativ') 
 
 #### 21.10
 - Richtige überladene Methode finden
 - Projekt 'Imperativ', Package 'methoden', Bsp. 11
-
 - Projekt 'JavaAPI', Package 'format'
 - Aufgabe aus der Datei 'KleineAufgabeFormat.java' (Package 'aufgaben')
 - Aufgaben/Personen - Sort - Format.md (Lösung im Projekt 'JavaAPI', Package 'aufgaben.personen')
@@ -81,7 +65,6 @@
 - Diagramme/Strings.pptx
 - Klasse 'StringBuilder'
 - Bitte die Methoden von StringBuilder testen (s. die Liste im Bsp. 07, Package 'strings')
-
 - Aufgabe aus LesenAusEinerTextdateiIstNichtInDerPruefung.java im Package 'strings'
 
 #### 17.10
@@ -91,13 +74,11 @@
 - String-Pool
 - Aufgaben/String - Methoden.md
 - Aufgaben/String - Silben.md
-
 - Optional: Was bedeutet 'Strings are immutable'?
 
 #### 16.10
 - Projekt 'Interfaces'
 - this/super s. das Projekt 'Objektorientiert', Package 'vererbung', B16
-
 - Aufgaben/Interfaces - default.md
 - Projekt 'JavaAPI', String-API
 

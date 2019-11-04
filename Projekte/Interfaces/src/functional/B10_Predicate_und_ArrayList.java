@@ -2,6 +2,7 @@ package functional;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Consumer;
 import java.util.function.Predicate;
 
 public class B10_Predicate_und_ArrayList {
@@ -72,6 +73,16 @@ public class B10_Predicate_und_ArrayList {
 		
 		listCopy.removeIf( isUngeradeOderZero );
 		System.out.println("neue Liste ohne 0 und ohne ungeraden: " + listCopy); // [12, 100]
+		
+		System.out.println("-------------------------");
+		
+		/*
+		 * Evtl. in einfachen Fragen: forEach(Consumer).
+		 * 
+		 * Z.B.: alle Elemente einer ArrayList einem Consumer fürs Ausgeben übergeben:
+		 */
+		Consumer<Integer> action = element -> System.out.println(element);
+		listCopy.forEach(action);
 		
 	} 
 
