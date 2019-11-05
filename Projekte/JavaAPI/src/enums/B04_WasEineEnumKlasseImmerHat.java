@@ -3,26 +3,42 @@ package enums;
 import java.util.Arrays;
 
 enum Size {
-	BIG, SMALL
+	SMALL, BIG
 }
 
-class Groesse {
-	static final Groesse GROSS = new Groesse("GROSS");
-	static final Groesse KLEIN = new Groesse("KLEIN");
+class Groesse  implements Comparable<Groesse> {
+	
+	static final Groesse KLEIN = new Groesse("KLEIN", 0);
+	static final Groesse GROSS = new Groesse("GROSS", 1);
 	
 	static Groesse[] values() {
-		return new Groesse[] { GROSS, KLEIN };
+		return new Groesse[] { KLEIN, GROSS };
 	}
 	
-	private String name;
+	private final String name;
+	private final int ordinal;
 	
-	private Groesse(String name) {
+	private Groesse(String name, int ordinal) {
 		this.name = name;
+		this.ordinal = ordinal;
+	}
+	
+	public final int ordinal() {
+		return ordinal;
+	}
+	
+	public final String name() {
+		return name;
 	}
 	
 	@Override
 	public String toString() {
 		return name;
+	}
+	
+	@Override
+	public int compareTo(Groesse g2) {
+		return ordinal - g2.ordinal;
 	}
 }
 
@@ -65,6 +81,25 @@ public class B04_WasEineEnumKlasseImmerHat {
 		
 		Groesse[] alleGroessen = Groesse.values();
 		System.out.println("Groesse.values(): " + Arrays.toString(alleGroessen));
+		
+		/*
+		 * ordinal()
+		 */
+		int ordinal = s1.ordinal();
+		System.out.println("Size.BIG.ordinal(): " + ordinal);
+		System.out.println("Groesse.GROSS.ordinal(): " + Groesse.GROSS.ordinal());
+		
+		/*
+		 * name();
+		 */
+		System.out.println("Size.SMALL.name(): " + Size.SMALL.name());
+		System.out.println("Groesse.GROSS.name(): " + Groesse.GROSS.name());
+		
+		/*
+		 * Comparable 
+		 */
+		Arrays.sort( Size.values() ); // OK
+		Arrays.sort( Groesse.values() ); // OK (Comparable)
 		
 	} // end of main
 
