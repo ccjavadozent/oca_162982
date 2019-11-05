@@ -11,6 +11,9 @@
 
 #### 05.11
 - Projekt 'Exceptions'
+- Das Thema 'Exceptions' im Insel-Buch
+- Werfen, Propagieren, Abfangen
+- Throwable, Exception, RuntimeException, Error. Vererbungshierarchie
 
 #### 04.11
 - Projekt 'JavaAPI', Package 'enums'
