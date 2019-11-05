@@ -1,4 +1,4 @@
-package aufgabe;
+package aufgaben;
 
 import java.util.Arrays;
 import java.util.Random;

@@ -29,7 +29,7 @@ enum Namen implements Runnable { // Runnable deklariert eine abstrakte Methode '
 	abstract String displayName(); // muss für jede Konstante realisiert werden
 	
 	void test() {
-		displayName();
+		System.out.println( displayName() );
 		run();
 	}
 	
@@ -40,6 +40,8 @@ public class B06_EnumKannAbstractSein {
 
 	public static void main(String[] args) {
 
+		Namen.JERRY.test();
+		
 	}
 
 }

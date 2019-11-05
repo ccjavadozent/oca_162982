@@ -2,6 +2,10 @@ package enums;
 
 import java.util.Random;
 
+/*
+ * Exam-Inhalte:
+ */
+
 enum AmpelFarbe {
 	ROT, GELB, GRUEN
 }
@@ -15,6 +19,7 @@ public class B03_AufzaehlungMitEnum {
 		AmpelFarbe farbe = getAmpelFarbe();  
 		
 		switch(farbe) {
+//			case AmpelFarbe.ROT: // <- leider kompiliert es nicht
 			case ROT:
 				System.out.println("Rot! Stehen bleiben!");
 				break;

@@ -1,4 +1,4 @@
-package aufgabe;
+package aufgaben;
 
 public class KleineAufgabeStringIndexOf {
 

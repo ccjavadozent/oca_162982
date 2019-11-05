@@ -9,6 +9,9 @@
 
 ## Aufgaben
 
+#### 05.11
+- Projekt 'Exceptions'
+
 #### 04.11
 - Projekt 'JavaAPI', Package 'enums'
 - OCA-Buch: enums, was braucht man für die OCA-Prüfung von enums zu wissen
