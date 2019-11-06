@@ -57,6 +57,9 @@ public class B08_CheckedExceptions {
 		
 //		DateFormat.getInstance().parse("hallo welt"); // Compilerfehler: deklariert ParseException (checked)
 		
+		/*
+		 * s. weitere Beispile der checked Exceptions im Package 'checked'
+		 */
 		
 	} // end of main
 

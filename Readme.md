@@ -9,6 +9,13 @@
 
 ## Aufgaben
 
+#### 06.11
+- Exceptions
+- checked/unchecked
+- throws-Klausel und Überschreiben
+- Aufgaben/Exceptions - ParseDate.md (s. Bsp. im Package 'checked')
+
+
 #### 05.11
 - Projekt 'Exceptions'
 - Das Thema 'Exceptions' im Insel-Buch
