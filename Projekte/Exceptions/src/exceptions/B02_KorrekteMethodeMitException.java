@@ -2,13 +2,7 @@ package exceptions;
 
 public class B02_KorrekteMethodeMitException {
 
-	/**
-	 * 
-	 * @param a
-	 * @param b
-	 * @return
-	 */
-	static int add(int a, int b) {
+	public static int add(int a, int b) {
 		long result = (long)a + b;
 		
 		if(result < Integer.MIN_VALUE || result > Integer.MAX_VALUE) {
