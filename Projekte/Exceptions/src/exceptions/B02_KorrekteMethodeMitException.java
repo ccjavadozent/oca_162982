@@ -25,7 +25,6 @@ public class B02_KorrekteMethodeMitException {
 		int a = 1;
 		int b = Integer.MAX_VALUE;
 		
-		
 		try {
 			int entfernung = add(a, b);
 			System.out.println("Entfernung: " + entfernung);

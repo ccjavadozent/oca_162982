@@ -11,6 +11,14 @@ public class B01_KorrekteMethodeDefinieren {
 
 	static boolean isAddOk = true; // keine gute Lösung
 
+	/**
+	 * Achtung! Nach jedem Aufruf soll der Flag 'isAddOk' überprüft werden!
+	 * Achtung! Die Lösung ist nicht threadsicher!
+	 * 
+	 * @param a
+	 * @param b
+	 * @return
+	 */
 	static int add(int a, int b) {
 		isAddOk = true;
 		
@@ -24,8 +32,7 @@ public class B01_KorrekteMethodeDefinieren {
 		
 		return (int)result;
 	}
-	
-	
+		
 	
 	
 	public static void main(String[] args) {
