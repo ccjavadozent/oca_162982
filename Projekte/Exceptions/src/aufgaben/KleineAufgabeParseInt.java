@@ -18,4 +18,13 @@ public class KleineAufgabeParseInt {
 		System.out.println( isInteger("10") ); // true
 		System.out.println( isInteger("hallo welt") ); // false
 	}
+	
+	static boolean isInteger(String text) {
+		try {
+			Integer.parseInt(text);
+			return true;
+		} catch (NumberFormatException e) {
+			return false;
+		}
+	}
 }
