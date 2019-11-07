@@ -8,6 +8,17 @@
 - 15:15 - 16:45 Uhr (im Skype-Nachmittagsraum)
 
 ## Aufgaben
+######
+für Dozent: Multicatch, Rethrowing, JUnit
+
+#### 07.11
+- Exceptions (OCA-Buch, Projekt 'Exceptions')
+- Optional: Klassendiagramm für Exceptions mit den Klassen aus dem Bsp. 12 erstellen
+
+- Projekt 'Dev'
+- Argumente für die main-Methode testen.
+
+- Wdh.: Verzeichnis 'java_javac'
 
 #### 06.11
 - Exceptions

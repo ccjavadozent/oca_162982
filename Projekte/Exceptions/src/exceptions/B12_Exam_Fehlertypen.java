@@ -1,5 +1,6 @@
 package exceptions;
 
+import java.util.Scanner;
 
 class Foo {
 	static {
@@ -20,6 +21,8 @@ public class B12_Exam_Fehlertypen {
 		
 		/*
 		 * Error (können nicht dynamisch korrigiert werden)
+		 * 
+		 *   StackOverflowError, ExceptionInInitializerError, NoClassDefFoundError
 		 */
 		try {
 			testStackOverflowError();
@@ -34,22 +37,35 @@ public class B12_Exam_Fehlertypen {
 			System.out.println("ExceptionInInitializerError abgefangen");
 		}
 		
-		//NoClassDefFoundError wäre denkbar, wenn eine Klasse gar nicht gefunden wird 
-		NoClassDefFoundError e2;
+		// NoClassDefFoundError wäre denkbar, wenn eine Klasse gar nicht gefunden wird
+		// https://dzone.com/articles/java-classnotfoundexception-vs-noclassdeffounderro
+
+
+		// AssertionError: Fehler, der beim testen geworfen werden kann (nicht in der Prüfung)
 		
-//		try {
-//			Class.forName("KlasseDieEsNichtGibt");
-//			
-//		} catch (ClassNotFoundException e) { 
-//			System.out.println("ClassNotFoundException abgefangen");
-//		}
 		
 		/*
-		 * Exception
+		 * Exception, RuntimeException
+		 * 
+		 * - Oft von den Java-Operatoren geworfen (unwahrscheinlich von einem Entwickler in seiner Methode mti throw new)
+		 * 	ClassCastException, NullPointerException, ArrayIndexoutOfBoundsException, ArithmeticException
+		 * 
+		 * - Oft vom Entwickler geworfen:
+		 * 	IllegalArgumentException (darunter auch NumberFormatException), IllegalStateException
+		 * 
 		 */
+		
+		Scanner sc = new Scanner("a b c");
+		System.out.println( sc.next() );
+		sc.close();
+		try {
+			System.out.println( sc.next() ); // IllegalStateException: Scanner closed
+		} catch (IllegalStateException e) {
+			System.out.println("IllegalStateException abgefangen");
+		}
+		
 
 	}
-	
 	
 	static void testStackOverflowError() {
 		testStackOverflowError();
