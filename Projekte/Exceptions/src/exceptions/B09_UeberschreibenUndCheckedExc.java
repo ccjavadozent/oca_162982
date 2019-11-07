@@ -11,7 +11,7 @@ import java.text.ParseException;
  */
 
 
-class AutoException extends Exception {} // ???
+class AutoException extends Exception {} // checked
 
 class MotorSchadenException extends AutoException {}
 
