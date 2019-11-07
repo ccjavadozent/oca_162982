@@ -8,8 +8,8 @@
 - 15:15 - 16:45 Uhr (im Skype-Nachmittagsraum)
 
 ## Aufgaben
-######
-für Dozent: Multicatch, Rethrowing, JUnit
+
+###### für Dozent: Multicatch, Rethrowing, JUnit
 
 #### 07.11
 - Exceptions (OCA-Buch, Projekt 'Exceptions')
