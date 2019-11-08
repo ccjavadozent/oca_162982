@@ -12,8 +12,15 @@
 ###### für Dozent: Multicatch, Rethrowing, JUnit, final, Kovarianz
 
 #### 08.11
+- Projekt 'Dev'
+- Argumente für die main-Methode 
 
 - Aufgaben/Taschenrechner.md
+- s. die Datei 'App Argumente und Properties.md' aus dem Projektverzeichnis 
+
+- Aufgaben/DeutscheStaedte.md
+- s. die Datei 'Externe Libs.md' aus dem Projektverzeichnis und die Klasse `test_ext_lib.UseJSoup`
+
 
 #### 07.11
 - Exceptions (OCA-Buch, Projekt 'Exceptions')

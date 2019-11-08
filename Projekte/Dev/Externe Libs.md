@@ -4,7 +4,9 @@
 
 einfach die externe Libs (ihre Jars) dem Classpath hinzufügen
 
+
 ## unter Eclipse:
+
 > als Beispiel wird die JSoup-Bibliothek genommen: https://jsoup.org/
 
 
@@ -14,7 +16,14 @@ einfach die externe Libs (ihre Jars) dem Classpath hinzufügen
 
 - Optional: sources und javadoc Jars  
 
-- Z.B. in einem Unterverzeichnis 'lib' im Projektverzeichnis speichern 
+- Die Jars Z.B. in einem Unterverzeichnis 'lib' im Projektverzeichnis speichern 
 
-### 
+### In Classpath eintragen
 
+- Rechts auf den Projektnamen clicken: 
+- im Contextmenu: Build Path/Configure Build Path...
+- Im neuen Fenster: auf dem Tab 'Libraries' den Eintrag 'Classpath' wählen 
+- Mit Schaltfläche 'Add Jars' die Jar-Datei finden
+
+> Im neuen Eintrag (Jar-Datei unter Build Path) kann man optional auch Javadoc und Sourcecode Jars angeben
+ 
