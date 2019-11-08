@@ -9,7 +9,11 @@
 
 ## Aufgaben
 
-###### für Dozent: Multicatch, Rethrowing, JUnit
+###### für Dozent: Multicatch, Rethrowing, JUnit, final, Kovarianz
+
+#### 08.11
+
+- Aufgaben/Taschenrechner.md
 
 #### 07.11
 - Exceptions (OCA-Buch, Projekt 'Exceptions')

@@ -53,6 +53,9 @@ public class B12_Exam_Fehlertypen {
 		 * - Oft vom Entwickler geworfen:
 		 * 	IllegalArgumentException (darunter auch NumberFormatException), IllegalStateException
 		 * 
+		 * 
+		 * - checked: IOException, ParseException
+		 * 
 		 */
 		
 		Scanner sc = new Scanner("a b c");
