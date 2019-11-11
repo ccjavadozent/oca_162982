@@ -13,6 +13,11 @@
 
 #### 11.11
 - Projekt 'JavaAPI', Package 'datetime'
+- Objekte bilden mit statischen Methoden
+- Unveränderlichkeit
+- Überlegen Sie, welche Methoden die Klassen 'LocalTime' und 'LocalDateTime' haben können im Vergleich zu den Methoden der Klasse 'LocalDate' aus dem Bsp. 'B05'
+
+- Aufgaben/DateAndTime - Calendar.md
 
 
 #### 08.11

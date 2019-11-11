@@ -8,7 +8,7 @@ public class B03_Datum_Zeit_Objekte_bilden {
 	public static void main(String[] args) {
 
 		/*
-		 * Für ALLE Klassen aus java.time:
+		 * Für ALLE Klassen aus java.time.*:
 		 * 
 		 *  - Haben keine sichtbaren Konstruktoren
 		 * 	- Objekte werden mit statischen Fabrikmethoden erzeugt!!!
