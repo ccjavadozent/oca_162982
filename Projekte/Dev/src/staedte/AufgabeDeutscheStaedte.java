@@ -49,7 +49,7 @@ public class AufgabeDeutscheStaedte {
 		
 		List<Stadt> staedte = new ArrayList<>();
 		
-		// Header und Footer ignoriert (also ab 2 bis 83 )
+		// Header und Footer ignoriert (verwende Table-rows ab 2 bis 83 )
 		for (int i = 2; i < 83; i++) {
 			Element zeile = alleZeilen.get(i);
 			Stadt s = parseStadt(zeile);
