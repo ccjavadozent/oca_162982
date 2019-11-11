@@ -4,6 +4,7 @@
 
 einfach die externe Libs (ihre Jars) dem Classpath hinzufügen
 
+	java -cp C:\extlib.jar;C:\classes mypck.MyApp
 
 ## unter Eclipse:
 

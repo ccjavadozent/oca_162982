@@ -41,7 +41,7 @@ Parsen Sie den Text mit den Städte-Daten und finden Sie zu jeder Stadt aus der 
 >Tipp: Sie können eine externe Lösung einsetzen. S. Jsoup-Bibliothek: [http://jsoup.org/]( http://jsoup.org/ )
 
 #### A4.
-Erstellen Sie eine Liste (ArrayList) erstellen mit den Elementen vom Typ "Stadt" und geben Sie die Liste aus. 
+Erstellen Sie eine Liste (ArrayList) mit den Elementen vom Typ "Stadt" und geben Sie die Liste aus. 
 
 
 #### A5.
