@@ -36,7 +36,7 @@
 - Konstruktoren (auch 'default')
 - IS-A-Beziehungen
 - Was dürfen und was müssen abstrakte bzw. 'konkrete' Klassen
-- final
+- final (s. auch Projekt 'Objektorientiert', Package 'vererbung', B17)
 - String-API
 - Casting (Compilerfehler/ClassCastException)
 - Varargs-Methoden
@@ -46,29 +46,31 @@
 
 ## Aufgaben
 
-###### für Dozent: Multicatch, Rethrowing, JUnit, final, Kovarianz
+###### für Dozent: Multicatch, Rethrowing, JUnit, Kovarianz
 
 #### 12.11 - 27.11
 - Projekt
-- Klausurvorbereitung
+    - Git (eigenes Repo für das Projekt) 
+    - Klassendiagramme (oder auch andere UML-Diagramme)
+    - Konfiguration der Anwendung (s. App Argumente und Properties.md aus dem Projekt 'Dev')
+    - Unit-Tests (s. JUnit.md aus dem Projekt 'Dev')
+    - GUI (Swing oder Javafx)
+    - ...
 
+- Klausurvorbereitung
 
 #### 11.11
 - Projekt 'JavaAPI', Package 'datetime'
 - Objekte bilden mit statischen Methoden
 - Unveränderlichkeit
 - Überlegen Sie, welche Methoden die Klassen 'LocalTime' und 'LocalDateTime' haben können im Vergleich zu den Methoden der Klasse 'LocalDate' aus dem Bsp. 'B05'
-
 - Aufgaben/DateAndTime - Calendar.md
-
 
 #### 08.11
 - Projekt 'Dev'
 - Argumente für die main-Methode 
-
 - Aufgaben/Taschenrechner.md
 - s. die Datei 'App Argumente und Properties.md' aus dem Projektverzeichnis 
-
 - Aufgaben/DeutscheStaedte.md
 - s. die Datei 'Externe Libs.md' aus dem Projektverzeichnis und die Klasse `test_ext_lib.UseJSoup`
 
@@ -76,10 +78,8 @@
 #### 07.11
 - Exceptions (OCA-Buch, Projekt 'Exceptions')
 - Optional: Klassendiagramm für Exceptions mit den Klassen aus dem Bsp. 12 erstellen
-
 - Projekt 'Dev'
 - Argumente für die main-Methode testen.
-
 - Wdh.: Verzeichnis 'java_javac'
 
 #### 06.11
@@ -87,7 +87,6 @@
 - checked/unchecked
 - throws-Klausel und Überschreiben
 - Aufgaben/Exceptions - ParseDate.md (s. Bsp. im Package 'checked')
-
 
 #### 05.11
 - Projekt 'Exceptions'
