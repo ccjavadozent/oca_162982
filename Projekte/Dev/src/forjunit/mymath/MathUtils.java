@@ -15,4 +15,13 @@ public class MathUtils {
 	 * ob im Parameter eine int-Zahl zu erkennen ist 
 	 * 
 	 */
+	public static boolean isInteger(String integerAsText) {
+		try {
+			Integer.parseInt(integerAsText);
+			return true;
+			
+		} catch (Exception e) {
+			return false;
+		}
+	}
 }

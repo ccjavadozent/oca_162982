@@ -28,4 +28,18 @@ class MathUtilsTest {
 		
 	}
 	
+	@Test
+	void testIsInteger() {
+		
+		boolean expected = false;
+		boolean actual = MathUtils.isInteger("hallo");
+		assertEquals(expected, actual);
+		
+		actual = MathUtils.isInteger("10");
+		assertEquals(true, actual);
+		
+		actual = MathUtils.isInteger("+1213");
+		assertEquals(true, actual);
+	}
+	
 }
