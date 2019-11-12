@@ -135,8 +135,6 @@ public class B05_API_LocalDate {
 		LocalDate date3 = LocalDate.of(year, monthEnum, dayOfMonth);
 		
 		System.out.println("date3: " + date3);
-
-		
 		
 
 	} // end of main

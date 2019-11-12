@@ -18,6 +18,8 @@ public class B03_Datum_Zeit_Objekte_bilden {
 		
 		LocalDate date = LocalDate.now();
 		System.out.println("date: " + date);	// 2019-11-11
+		
+		LocalDateTime tmp = date.atStartOfDay(); // es muss keine statische Methode sein, aber KEIN new-Aufruf
 	
 		
 //		new LocalTime(); // Compilerfehler!

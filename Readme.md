@@ -7,9 +7,51 @@
 - 13:30 - 15:00 Uhr (per Chat sich melden)
 - 15:15 - 16:45 Uhr (im Skype-Nachmittagsraum)
 
+
+## Allgemein
+
+- Kursinhalte: https://github.com/ccjavadozent/oca_162982.git
+
+- Buch 1 (Insel-Buch). Java ist auch eine Insel 
+
+		Exakte Adresse: http://openbook.rheinwerk-verlag.de/javainsel/
+		(es und weitere Bücher: https://www.rheinwerk-verlag.de/openbook/)
+- Buch 2 (OCA-Buch). OCA Java SE 8 Programmer I Exam Guide 
+
+- Comcave-Klausur: 27.11.2019, 08:30 Uhr (Multiple-Choice, 90 Min, alle Hilfsmitteln erlaubt)
+- Oracle-Prüfung: 12.12.2019	
+
+## Comcave-Klausur-Themen
+- primitive Datentypen (auch Variablen, Identifier, Literale)
+- Vergleichsoperatoren
+- arithmetische Operatoren
+- Kontrollstrukturen (alle, break, continue)
+- Arrays (maximal 2D-Arrays)
+    - Arrays erzeugen
+    - Zuweisungen der Array-Referenzen
+    - Zugriff auf die Elemente
+    - foreach
+- Klassen, Objekte, Referenzen, Stack, Heap 
+- Sichtbarkeiten
+- Konstruktoren (auch 'default')
+- IS-A-Beziehungen
+- Was dürfen und was müssen abstrakte bzw. 'konkrete' Klassen
+- final
+- String-API
+- Casting (Compilerfehler/ClassCastException)
+- Varargs-Methoden
+- Regeln beim Überschreiben
+- Verbreitete Exceptions/Errors
+- Lambdas-Syntax
+
 ## Aufgaben
 
 ###### für Dozent: Multicatch, Rethrowing, JUnit, final, Kovarianz
+
+#### 12.11 - 27.11
+- Projekt
+- Klausurvorbereitung
+
 
 #### 11.11
 - Projekt 'JavaAPI', Package 'datetime'
@@ -303,16 +345,3 @@
 - jdk entpacken	
 - [Eclipse.md: Eclipse einrichten](Eclipse.md "Eclipse.md")    
 - 'Java ist auch eine Insel' kennenlernen. (Einführung lesen)
-
-## Allgemein
-
-- Kursinhalte: https://github.com/ccjavadozent/oca_162982.git
-
-- Buch 1 (Insel-Buch). Java ist auch eine Insel 
-
-		Exakte Adresse: http://openbook.rheinwerk-verlag.de/javainsel/
-		(es und weitere Bücher: https://www.rheinwerk-verlag.de/openbook/)
-- Buch 2 (OCA-Buch). OCA Java SE 8 Programmer I Exam Guide 
-
-- Comcave-Klausur: 27.11.2019 (Multiple-Choice, 90 Min, alle Hilfsmitteln erlaubt)
-- Oracle-Prüfung: 12.12.2019	
