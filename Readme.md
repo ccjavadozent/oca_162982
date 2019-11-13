@@ -57,6 +57,8 @@
     - GUI (Swing oder Javafx)
     - ...
 
+> Ein mögliches Projekt: Aufgaben/TicTacToe.md
+
 - Klausurvorbereitung
 
 #### 11.11
