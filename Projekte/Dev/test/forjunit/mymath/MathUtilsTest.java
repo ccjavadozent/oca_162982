@@ -3,6 +3,8 @@ package forjunit.mymath;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 
 class MathUtilsTest {
 
@@ -40,6 +42,19 @@ class MathUtilsTest {
 		
 		actual = MathUtils.isInteger("+1213");
 		assertEquals(true, actual);
+	}
+	
+	
+	@ParameterizedTest(name = "Test Nr. {index}. Text zum überprüfen: {0}, Erwartet: {1} ")
+	@CsvSource( {
+		"10, true",
+		"-10, true",
+		"+10, true",
+		"hallo, false",
+	} )
+	void parameterizedTestIsInteger(String zahlAlsText, boolean expected) {
+		boolean actual = MathUtils.isInteger(zahlAlsText);
+		assertEquals(expected, actual);
 	}
 	
 }

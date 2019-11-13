@@ -36,8 +36,8 @@
 ## JUnit Tests starten
 
 ### Eine Test-Klasse aktivieren:
-- Wenn eine testklasse im Editor im Fokus ist: Alt+Shift+X, danach T
-- Alternativ: Unter Package-Explorer rechts auf die Testklasse, dann ran As-> JUnit Test
+- Wenn eine Testklasse im Editor im Fokus ist: Alt+Shift+X, danach T
+- Alternativ: Unter Package-Explorer rechts auf die Testklasse, dann Ran As -> JUnit Test
 
 ### Mehrere Test-Klassen aktivieren:
 
