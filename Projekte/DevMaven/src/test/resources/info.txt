@@ -1,0 +1,2 @@
+in dem Verzechnis src/test/resources werden Projekt-Ressourcen in ihren Packages gespeichert 
+(Bilder, Konfigurationsdateien...), die nur beim Testen verwendet werden.

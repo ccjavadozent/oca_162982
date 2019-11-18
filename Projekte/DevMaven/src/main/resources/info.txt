@@ -1,0 +1,1 @@
+in dem Verzechnis src/main/resources werden Projekt-Ressourcen in ihren Packages gespeichert (Bilder, Konfigurationsdateien...)
