@@ -21,7 +21,7 @@ public class B01_ArraysMitPrimitiven {
 		Rechteck r1 = new Rechteck();
 		System.out.println(r1.breite);
 		
-		System.out.println(arr1[100]); // java.lang.ArrayIndexOutOfBoundsException
+		System.out.println(arr1[100]); // java.lang.ArrayIndexOutOfBoundsException geworfen
 		
 		
 		short[] tmp = { 1, 2, 3 }; // Geht mit int-Literalen
