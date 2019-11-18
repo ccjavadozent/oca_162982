@@ -7,6 +7,7 @@
 - 13:30 - 15:00 Uhr (per Chat sich melden)
 - 15:15 - 16:45 Uhr (im Skype-Nachmittagsraum)
 
+## Achtung! Mittwoch (20.11) ist frei!
 
 ## Allgemein
 
@@ -45,8 +46,7 @@
 - Lambdas-Syntax
 
 ## Aufgaben
-
-###### für Dozent: Multicatch, Rethrowing, JUnit, Kovarianz
+###### für Dozent: Kovarianz?, Maven + Logging
 
 #### 12.11 - 27.11
 - Projekt
@@ -60,6 +60,9 @@
 > Ein mögliches Projekt: Aufgaben/TicTacToe.md
 
 - Klausurvorbereitung
+
+- Optional: s. Maven.md im Projekt 'dev'
+- Optional: s. Logging.md im Projekt 'dev'
 
 #### 11.11
 - Projekt 'JavaAPI', Package 'datetime'
