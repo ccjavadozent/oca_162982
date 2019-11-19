@@ -13,13 +13,10 @@ public class UseJavaUtilLogger {
 	
 
 	public static void main(String[] args) {
-
 		
 //		log.setLevel(Level.OFF);
 //		log.setLevel(Level.ALL);
 		log.setLevel(Level.WARNING); // nur Nachrichten ab 'WARNING' unf wichtiger präsentieren
-		
-		
 		
 		log.info("info msg");
 		log.warning("warning msg");

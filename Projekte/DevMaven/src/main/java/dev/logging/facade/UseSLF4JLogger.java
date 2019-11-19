@@ -3,6 +3,8 @@ package dev.logging.facade;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import personen.Person;
+
 public class UseSLF4JLogger {
 	
 	private static Logger log = LoggerFactory.getLogger(UseSLF4JLogger.class);
@@ -15,6 +17,10 @@ public class UseSLF4JLogger {
 		log.info("info msg");
 		log.warn("warn msg");
 		log.error("error msg");
+		
+		
+		Person p = new Person("Jerry");
+		System.out.println("main hat die Person: " + p.getName());
 		
 	}
 

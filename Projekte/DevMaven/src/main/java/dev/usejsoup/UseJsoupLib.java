@@ -3,7 +3,7 @@ package dev.usejsoup;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
-public class UsenJsoupLib {
+public class UseJsoupLib {
 
 	public static void main(String[] args) {
 

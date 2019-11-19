@@ -23,4 +23,8 @@
 > Logback im Internet: http://logback.qos.ch/
 
 > Logback einbinden als Logger-Realisierung: https://mvnrepository.com/artifact/ch.qos.logback/logback-classic
-> Achtung! Logback wird von Slf44 nativ unterstützt und braucht keine Binding. 
+> Achtung! Logback wird von Slf4j nativ unterstützt und braucht keine Binding.
+
+> Logback-Konfigurationen bitte im Netz suchen. z.B. Appender:
+> http://logback.qos.ch/manual/appenders.html
+ 
