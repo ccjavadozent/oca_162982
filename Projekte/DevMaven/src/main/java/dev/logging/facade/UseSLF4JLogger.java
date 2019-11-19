@@ -22,6 +22,9 @@ public class UseSLF4JLogger {
 		Person p = new Person("Jerry");
 		System.out.println("main hat die Person: " + p.getName());
 		
+		log.debug("main hat die neue Person erstellt: {}", p.getName()); // wenn es hier keine Ausgaben gibt, 
+																		// die Logging-Stufe in der logback.xml ändern
+		
 	}
 
 }

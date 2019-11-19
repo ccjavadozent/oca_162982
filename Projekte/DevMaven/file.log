@@ -1,3 +1,3 @@
-252  [main] INFO  dev.logging.facade.UseSLF4JLogger - info msg
-255  [main] WARN  dev.logging.facade.UseSLF4JLogger - warn msg
-255  [main] ERROR dev.logging.facade.UseSLF4JLogger - error msg
+235  [main] INFO  dev.logging.facade.UseSLF4JLogger - info msg
+237  [main] WARN  dev.logging.facade.UseSLF4JLogger - warn msg
+237  [main] ERROR dev.logging.facade.UseSLF4JLogger - error msg
