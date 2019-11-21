@@ -1,5 +1,10 @@
 package vererbung;
 
+/**
+ * https://de.wikipedia.org/wiki/Kovarianz_und_Kontravarianz
+ *
+ */
+
 public class Kovarianz {
 	
 	static class Auto {}
