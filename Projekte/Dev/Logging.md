@@ -28,3 +28,8 @@
 > Logback-Konfigurationen bitte im Netz suchen. z.B. Appender:
 > http://logback.qos.ch/manual/appenders.html
  
+## Eclipse-Template für den Logger:
+
+	private static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory
+				.getLogger(java.lang.invoke.MethodHandles.lookup().lookupClass());
+

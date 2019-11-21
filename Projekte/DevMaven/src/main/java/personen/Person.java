@@ -1,11 +1,9 @@
 package personen;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 public class Person {
 	
-	private static final Logger LOG = LoggerFactory.getLogger( Person.class ); 
+	private static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory
+				.getLogger(java.lang.invoke.MethodHandles.lookup().lookupClass());
 
 	private String name;
 	

@@ -7,8 +7,6 @@
 - 13:30 - 15:00 Uhr (per Chat sich melden)
 - 15:15 - 16:45 Uhr (im Skype-Nachmittagsraum)
 
-## Achtung! Mittwoch (20.11) ist frei!
-
 ## Allgemein
 
 - Kursinhalte: https://github.com/ccjavadozent/oca_162982.git
@@ -63,6 +61,7 @@
 
 - Optional: s. Maven.md im Projekt 'dev'
 - Optional: s. Logging.md im Projekt 'dev'
+- Optional: Kovarianz (s. Projekt 'Objektorientiert', Package 'vererbung', Kovarianz-Dateien)
 
 #### 11.11
 - Projekt 'JavaAPI', Package 'datetime'
