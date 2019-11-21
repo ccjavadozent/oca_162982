@@ -27,7 +27,7 @@ public class Kovarianz {
 		 * 3. Nur invariante oder kovariante checked Exceptions erlaubt
 		 */
 		
-		public PKW getAuto() throws java.io.IOException { return null; }
+		public PKW getAuto() throws java.io.FileNotFoundException { return null; }
 	}
 	
 
