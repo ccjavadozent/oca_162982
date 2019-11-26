@@ -7,13 +7,14 @@
 - 13:30 - 15:00 Uhr (per Chat sich melden)
 - 15:15 - 16:45 Uhr (im Skype-Nachmittagsraum)
 
-## Dozent: Klausurzeit im CC-Launcher: Abwesenheitsabfragen deaktivieren
-## Dozent: Klausurzeit im CC-Launcher: Abwesenheitsabfragen deaktivieren
-## Dozent: Klausurzeit im CC-Launcher: Abwesenheitsabfragen deaktivieren
-## Dozent: Klausurzeit im CC-Launcher: Abwesenheitsabfragen deaktivieren
-## Dozent: Klausurzeit im CC-Launcher: Abwesenheitsabfragen deaktivieren
-## Dozent: Klausurzeit im CC-Launcher: Abwesenheitsabfragen deaktivieren
-## Dozent: Klausurzeit im CC-Launcher: Abwesenheitsabfragen deaktivieren
+## Dozent: Klausurzeit im CC-Launcher: Anwesenheitsabfragen deaktivieren
+## Dozent: Klausurzeit im CC-Launcher: Anwesenheitsabfragen deaktivieren
+## Dozent: Klausurzeit im CC-Launcher: Anwesenheitsabfragen deaktivieren
+## Dozent: Klausurzeit im CC-Launcher: Anwesenheitsabfragen deaktivieren
+## Dozent: Klausurzeit im CC-Launcher: Anwesenheitsabfragen deaktivieren
+## Dozent: Klausurzeit im CC-Launcher: Anwesenheitsabfragen deaktivieren
+## Dozent: Klausurzeit im CC-Launcher: Anwesenheitsabfragen deaktivieren
+## Dozent: Klausurzeit im CC-Launcher: Anwesenheitsabfragen deaktivieren
 
 ## Allgemein
 
