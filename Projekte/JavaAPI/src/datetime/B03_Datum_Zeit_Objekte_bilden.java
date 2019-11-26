@@ -1,7 +1,6 @@
 package datetime;
 
 import java.time.*;
-import java.time.LocalTime;
 
 public class B03_Datum_Zeit_Objekte_bilden {
 

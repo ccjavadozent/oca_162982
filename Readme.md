@@ -7,6 +7,14 @@
 - 13:30 - 15:00 Uhr (per Chat sich melden)
 - 15:15 - 16:45 Uhr (im Skype-Nachmittagsraum)
 
+## Dozent: Klausurzeit im CC-Launcher: Abwesenheitsabfragen deaktivieren
+## Dozent: Klausurzeit im CC-Launcher: Abwesenheitsabfragen deaktivieren
+## Dozent: Klausurzeit im CC-Launcher: Abwesenheitsabfragen deaktivieren
+## Dozent: Klausurzeit im CC-Launcher: Abwesenheitsabfragen deaktivieren
+## Dozent: Klausurzeit im CC-Launcher: Abwesenheitsabfragen deaktivieren
+## Dozent: Klausurzeit im CC-Launcher: Abwesenheitsabfragen deaktivieren
+## Dozent: Klausurzeit im CC-Launcher: Abwesenheitsabfragen deaktivieren
+
 ## Allgemein
 
 - Kursinhalte: https://github.com/ccjavadozent/oca_162982.git
@@ -44,7 +52,6 @@
 - Lambdas-Syntax
 
 ## Aufgaben
-###### für Dozent: Kovarianz?, Maven + Logging
 
 #### 12.11 - 27.11
 - Projekt

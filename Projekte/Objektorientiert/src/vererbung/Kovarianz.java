@@ -22,9 +22,9 @@ public class Kovarianz {
 		/*
 		 * Beim Überschreiben:
 		 * 
-		 * 1. Sichtbarkeit nicht verschärfen
-		 * 2. Rückgabetyp nicht ändern, bei Referenz-Typ als Rückgabe kovariante Typen möglich
-		 * 3. Nur invariante oder kovariante checked Exceptions erlaubt
+		 * 1. Sichtbarkeit darf nicht verschärft werden.
+		 * 2. Rückgabetyp darf nicht geändert werden (Invarianz), bei Referenz-Typ als Rückgabe sind kovariante Typen erlaubt.
+		 * 3. Nur invariante oder kovariante checked Exceptions erlaubt.
 		 */
 		
 		public PKW getAuto() throws java.io.FileNotFoundException { return null; }
