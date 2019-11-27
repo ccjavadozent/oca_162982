@@ -50,7 +50,7 @@
 - Oder drucken (2. Formular unterschreiben) und beide Formulare am CC-Standort abgeben.
 
 > Fragen Sie 2-3 Tage vor der Prüfung die Comcave-Admins, ob mit der Anmeldung alles OK ist.
-> Falls mit der Anmeldung alles OK ist, bekommen Sie keine Bestättigungsnachricht von Comcave. Kommen Sie einfach zu dem Prüfungstermin. 
+> Falls mit der Anmeldung alles OK ist, bekommen Sie keine Bestätigungsnachricht von Comcave. Kommen Sie einfach zu dem Prüfungstermin. 
 
 
 #### Achtung für die Prüfung!
