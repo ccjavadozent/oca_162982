@@ -9,13 +9,13 @@
 - Ende: 10:10 Uhr
 - Hilfsmitteln: alle
 
-- Fertige (gespeicherte!) Klausurdatei nach der Klausur bitte an ccjavad@gmail.com 
+- Fertige (gespeicherte!) Klausurdatei nach der Klausur bitte an ccjavad@gmail.com senden 
 oder in das private Chatfenster die Datei mit der Maus schieben
 
 - Pause nach der Klausur bis 10:25 Uhr
 
 
-- Bitte bis 10:05 Uhr nur besonders wichtige Nachrichten im gemeinsamen Chat posten  
+- Bitte bis 10:10 Uhr nur besonders wichtige Nachrichten im gemeinsamen Chat posten  
 
 #### Viel Erfolg!
 
