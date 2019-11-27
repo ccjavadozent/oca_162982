@@ -1,24 +1,3 @@
-#### Morgen!
-
-# Klausur
-
-- die Klausurdatei bitte in den Skype-Anlagen (unter Präsentieren/Inhalte verwalten) herunterladen
-> Bitte nicht mit 'Öffnen' sondern mit 'Weitere optionen' und dann 'Speichern unter...'
-
-- Start: 08:40 Uhr
-- Ende: 10:10 Uhr
-- Hilfsmitteln: alle
-
-- Fertige (gespeicherte!) Klausurdatei nach der Klausur bitte an ccjavad@gmail.com senden 
-oder in das private Chatfenster die Datei mit der Maus schieben
-
-- Pause nach der Klausur bis 10:25 Uhr
-
-
-- Bitte bis 10:10 Uhr nur besonders wichtige Nachrichten im gemeinsamen Chat posten  
-
-#### Viel Erfolg!
-
 ## Wissensvermittlung
 - 08:00 - 09:30 Uhr
 - 09:45 - 11:15 Uhr
@@ -39,32 +18,49 @@ oder in das private Chatfenster die Datei mit der Maus schieben
 - Buch 2 (OCA-Buch). OCA Java SE 8 Programmer I Exam Guide 
 
 - Comcave-Klausur: 27.11.2019, 08:30 Uhr (Multiple-Choice, 90 Min, alle Hilfsmitteln erlaubt)
+    - Note im CC-Portal
+    - Klausurbesprechung: 28.11, 08:00 Uhr
+
 - Oracle-Prüfung: 12.12.2019	
 
-## Comcave-Klausur-Themen
-- primitive Datentypen (auch Variablen, Identifier, Literale)
-- Vergleichsoperatoren
-- arithmetische Operatoren
-- Kontrollstrukturen (alle, break, continue)
-- Arrays (maximal 2D-Arrays)
-    - Arrays erzeugen
-    - Zuweisungen der Array-Referenzen
-    - Zugriff auf die Elemente
-    - foreach
-- Klassen, Objekte, Referenzen, Stack, Heap 
-- Sichtbarkeiten
-- Konstruktoren (auch 'default')
-- IS-A-Beziehungen
-- Was dürfen und was müssen abstrakte bzw. 'konkrete' Klassen
-- final (s. auch Projekt 'Objektorientiert', Package 'vererbung', B17)
-- String-API
-- Casting (Compilerfehler/ClassCastException)
-- Varargs-Methoden
-- Regeln beim Überschreiben
-- Verbreitete Exceptions/Errors
-- Lambdas-Syntax
+
+## Prüfungsanmeldung
+
+#### Zwei (!) Formulare ausfüllen
+
+###### 1. Formular `Pruefungsanmeldung_Neuanmeldung_Formular_200215.pdf` 
+- im CC-Portal (unter Downloads) oder in Skype-Anlagen herunterladen
+- Mit _richtigen_ Daten ausfüllen! (Eigene Adresse, Email-Adresse wo Sie jeden Tag reinschauen)
+
+###### 2. Formular `Pruefungsanmeldung_-_Weiterbildung_201909.pdf`
+- im CC-Portal (unter Downloads) oder in Skype-Anlagen herunterladen
+
+- Standort: Ihr Comcave-Standort
+- Prüfung: 1Z0-808 - Java SE 8 Programmer I 
+- Sprache: Englisch
+- Client-ID: bleibt leer
+- Email: bleibt leer
+- Anmeldung: Neuanmeldung
+- Gewünschter Termin: 12.12.2019, 09:00 Uhr
+- Alternativtermin: bleibt leer
+
+#### Formulare an Comcave
+- Per Email: pruefungsanmeldung@comcave.com
+- Oder drucken, 2. Formular unterschreiben und beide Formulare am CC-Standort abgeben.
+
+
+> Prüfungsbeschreibung von Oracle: https://education.oracle.com/java-se-8-programmer-i/pexam_1Z0-808
+
+
+
 
 ## Aufgaben
+
+#### 27.11 - 12.12
+- Prüfungsanmeldung (in den nächsten Tagen)
+- Wdh. mit dem OCA-Buch
+- Projekt (maximal 1 Stunde/Tag)
+
 
 #### 12.11 - 27.11
 - Projekt
