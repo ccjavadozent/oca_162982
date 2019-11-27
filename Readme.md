@@ -25,6 +25,7 @@
 
 
 ## Prüfungsanmeldung
+> Prüfungsbeschreibung von Oracle: https://education.oracle.com/java-se-8-programmer-i/pexam_1Z0-808
 
 #### Zwei (!) Formulare ausfüllen
 
@@ -44,15 +45,34 @@
 - Gewünschter Termin: 12.12.2019, 09:00 Uhr
 - Alternativtermin: bleibt leer
 
-#### Formulare an Comcave
+#### Formulare ausgefüllt an Comcave übergeben
 - Per Email: pruefungsanmeldung@comcave.com
-- Oder drucken, 2. Formular unterschreiben und beide Formulare am CC-Standort abgeben.
+- Oder drucken (2. Formular unterschreiben) und beide Formulare am CC-Standort abgeben.
+
+> Fragen Sie 2-3 Tage vor der Prüfung die Comcave-Admins, ob mit der Anmeldung alles OK ist.
+> Falls mit der Anmeldung alles OK ist, bekommen Sie keine Bestättigungsnachricht von Comcave. Kommen Sie einfach zu dem Prüfungstermin. 
 
 
-> Prüfungsbeschreibung von Oracle: https://education.oracle.com/java-se-8-programmer-i/pexam_1Z0-808
+#### Achtung für die Prüfung!
+- 2 (zwei!) gültige Identifikationsnachweise für die Prüfung mitnehmen (s. Beschreibung im 2. Formular).
+- Nach der Prüfung zu den Admins wieder gehen, dort bekommen Sie ein Zettel mit der Oracle-Testing-ID (nötig um Oracle-Certview-Bereich zu aktivieren).
+
+#### Oracle-Account
+
+> auch direkt nach der Prüfung möglich
+
+- Bei certview.oracle.com ein Account anlegen
+
+- Beim Registrieren bitte dieselben Daten wie im 1. Comcave-Formular verwenden
+    - Unter Funktion: Entwickler
+    - Unter Firmenname: privat
+    
+> Achtung! Passwort unbedingt notieren!
 
 
-
+> Danach auf die Oracle-Email achten: 
+> Sie müssen noch die EMail-Adresse verifizieren,
+> und nach der Prüfung Oracle-Certview-Bereich aktivieren (dafür ist Oracle-Testing-ID nötig)  
 
 ## Aufgaben
 
