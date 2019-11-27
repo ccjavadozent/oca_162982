@@ -5,7 +5,7 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>0</x>
-      <y>70</y>
+      <y>90</y>
       <w>320</w>
       <h>210</h>
     </coordinates>
@@ -16,7 +16,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>70</x>
-      <y>160</y>
+      <y>180</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -27,7 +27,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>130</x>
-      <y>200</y>
+      <y>220</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -38,7 +38,7 @@
     <id>UMLPackage</id>
     <coordinates>
       <x>410</x>
-      <y>110</y>
+      <y>130</y>
       <w>250</w>
       <h>150</h>
     </coordinates>
@@ -51,20 +51,19 @@ bg=orange</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>130</x>
-      <y>270</y>
-      <w>110</w>
+      <y>290</y>
+      <w>150</w>
       <h>120</h>
     </coordinates>
     <panel_attributes>lt=)-
-m1=require
-Interface X</panel_attributes>
+m1=require Interface X</panel_attributes>
     <additional_attributes>20.0;90.0;20.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
       <x>0</x>
-      <y>480</y>
+      <y>500</y>
       <w>320</w>
       <h>210</h>
     </coordinates>
@@ -75,7 +74,7 @@ Interface X</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>50</x>
-      <y>560</y>
+      <y>580</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -86,7 +85,7 @@ Interface X</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>160</x>
-      <y>610</y>
+      <y>630</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -97,7 +96,7 @@ Interface X</panel_attributes>
     <id>UMLPackage</id>
     <coordinates>
       <x>30</x>
-      <y>510</y>
+      <y>530</y>
       <w>250</w>
       <h>150</h>
     </coordinates>
@@ -110,7 +109,7 @@ bg=orange</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>140</x>
-      <y>370</y>
+      <y>390</y>
       <w>70</w>
       <h>130</h>
     </coordinates>
@@ -123,7 +122,7 @@ m2=provide
     <id>UMLGeneric</id>
     <coordinates>
       <x>380</x>
-      <y>70</y>
+      <y>90</y>
       <w>320</w>
       <h>210</h>
     </coordinates>
@@ -134,7 +133,7 @@ m2=provide
     <id>UMLPackage</id>
     <coordinates>
       <x>50</x>
-      <y>120</y>
+      <y>140</y>
       <w>250</w>
       <h>150</h>
     </coordinates>
@@ -147,7 +146,7 @@ bg=orange</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>440</x>
-      <y>150</y>
+      <y>170</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -158,20 +157,19 @@ bg=orange</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>510</x>
-      <y>270</y>
-      <w>170</w>
+      <y>290</y>
+      <w>220</w>
       <h>130</h>
     </coordinates>
     <panel_attributes>lt=)-
-m1=require
-Interface Comparable</panel_attributes>
+m1=require Interface Comparable</panel_attributes>
     <additional_attributes>20.0;100.0;20.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
       <x>380</x>
-      <y>480</y>
+      <y>500</y>
       <w>320</w>
       <h>210</h>
     </coordinates>
@@ -182,7 +180,7 @@ Interface Comparable</panel_attributes>
     <id>UMLPackage</id>
     <coordinates>
       <x>410</x>
-      <y>520</y>
+      <y>540</y>
       <w>250</w>
       <h>150</h>
     </coordinates>
@@ -195,7 +193,7 @@ bg=orange</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>440</x>
-      <y>570</y>
+      <y>590</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -206,7 +204,7 @@ bg=orange</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>540</x>
-      <y>620</y>
+      <y>640</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -217,7 +215,7 @@ bg=orange</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>520</x>
-      <y>380</y>
+      <y>400</y>
       <w>70</w>
       <h>120</h>
     </coordinates>

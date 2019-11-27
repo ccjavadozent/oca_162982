@@ -3,7 +3,7 @@ package packages; // <- führt dazu, dass die Topleveltypen dieser java-Datei
 
 
 /*
- * package-Angabe ist immer die erste übersetzbare Anweisung in der javas-Datei!
+ * package-Angabe ist immer die erste übersetzbare Anweisung in der java-Datei!
  * 
  * import-Anweisungen, wenn es die gibt, stehen immer danach.
  * 

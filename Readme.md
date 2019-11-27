@@ -1,3 +1,24 @@
+#### Morgen!
+
+# Klausur
+
+- die Klausurdatei bitte in den Skype-Anlagen (unter Präsentieren/Inhalte verwalten) herunterladen
+> Bitte nicht mit 'Öffnen' sondern mit 'Weitere optionen' und dann 'Speichern unter...'
+
+- Start: 08:40 Uhr
+- Ende: 10:10 Uhr
+- Hilfsmitteln: alle
+
+- Fertige (gespeicherte!) Klausurdatei nach der Klausur bitte an ccjavad@gmail.com 
+oder in das private Chatfenster die Datei mit der Maus schieben
+
+- Pause nach der Klausur bis 10:25 Uhr
+
+
+- Bitte bis 10:05 Uhr nur besonders wichtige Nachrichten im gemeinsamen Chat posten  
+
+#### Viel Erfolg!
+
 ## Wissensvermittlung
 - 08:00 - 09:30 Uhr
 - 09:45 - 11:15 Uhr
@@ -6,15 +27,6 @@
 ## Sprechstunden
 - 13:30 - 15:00 Uhr (per Chat sich melden)
 - 15:15 - 16:45 Uhr (im Skype-Nachmittagsraum)
-
-## Dozent: Klausurzeit im CC-Launcher: Anwesenheitsabfragen deaktivieren
-## Dozent: Klausurzeit im CC-Launcher: Anwesenheitsabfragen deaktivieren
-## Dozent: Klausurzeit im CC-Launcher: Anwesenheitsabfragen deaktivieren
-## Dozent: Klausurzeit im CC-Launcher: Anwesenheitsabfragen deaktivieren
-## Dozent: Klausurzeit im CC-Launcher: Anwesenheitsabfragen deaktivieren
-## Dozent: Klausurzeit im CC-Launcher: Anwesenheitsabfragen deaktivieren
-## Dozent: Klausurzeit im CC-Launcher: Anwesenheitsabfragen deaktivieren
-## Dozent: Klausurzeit im CC-Launcher: Anwesenheitsabfragen deaktivieren
 
 ## Allgemein
 

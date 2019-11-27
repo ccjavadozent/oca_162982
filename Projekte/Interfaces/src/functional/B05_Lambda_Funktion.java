@@ -55,7 +55,7 @@ public class B05_Lambda_Funktion {
 		/*
 		 * Lambda-Funktion
 		 */
-		Tankbar t5 = () -> { System.out.println("Lambda"); };
+		Tankbar t5 = () -> System.out.println("Lambda");
 		t5.tanken();
 		
 	} // end of main
