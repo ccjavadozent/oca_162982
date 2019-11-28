@@ -6,7 +6,7 @@
 > Fragen gibt es nach jedem Kapitel. Dazu gibt es auf der CD zu dem Buch die Software, mit der sie die Prüfung simulieren können.
 
 > Die Klausurnoten sind im CC-Portal.
-> Die Klausurbesprechung wird auf Freitag, 29.08, 08:00 Uhr verschoben. 
+> Die Klausurbesprechung wird auf Freitag, 29.11, 08:00 Uhr verschoben. 
 
 ## Wissensvermittlung
 - 08:00 - 09:30 Uhr
@@ -29,7 +29,7 @@
 
 - Comcave-Klausur: 27.11.2019, 08:30 Uhr (Multiple-Choice, 90 Min, alle Hilfsmitteln erlaubt)
     - Note im CC-Portal
-    - Klausurbesprechung: 28.11, 08:00 Uhr
+    - Klausurbesprechung: 29.11, 08:00 Uhr
 
 - Oracle-Prüfung: 12.12.2019	
 
