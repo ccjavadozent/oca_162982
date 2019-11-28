@@ -1,8 +1,12 @@
 # Achtung!
 
-## Massive Skype-Probleme überall!
+> Massive Skype-Probleme überall!
 
 > Bitte versuchen Sie solange selbständig die Fragen aus dem OCA-Buch zu beantworten.
+> Fragen gibt es nach jedem Kapitel. Dazu gibt es auf der CD zu dem Buch die Software, mit der sie die Prüfung simulieren können.
+
+> Die Klausurnoten sind im CC-Portal.
+> Die Klausurbesprechung wird auf Freitag, 29.08, 08:00 Uhr verschoben. 
 
 ## Wissensvermittlung
 - 08:00 - 09:30 Uhr
