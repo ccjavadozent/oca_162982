@@ -1,3 +1,9 @@
+# Achtung!
+
+## Massive Skype-Probleme überall!
+
+> Bitte versuchen Sie solange selbständig die Fragen aus dem OCA-Buch zu beantworten.
+
 ## Wissensvermittlung
 - 08:00 - 09:30 Uhr
 - 09:45 - 11:15 Uhr

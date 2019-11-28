@@ -25,11 +25,11 @@ class Fahrzeug {
 	
 	static {
 		K3 = new Random().nextInt();
-		// K3 = 3;
+//		 K3 = 3;
 	}
 	
 	static {
-		// K3 = 3;
+//		 K3 = 3;
 	}
 	
 	
