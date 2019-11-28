@@ -2,7 +2,7 @@
 
 > Massive Skype-Probleme überall!
 
-> Bitte versuchen Sie solange selbständig die Fragen aus dem OCA-Buch zu beantworten.
+> Das es massive Skype-Probleme gibt, versuchen Sie bitte heute selbständig die Fragen aus dem OCA-Buch zu beantworten.
 > Fragen gibt es nach jedem Kapitel. Dazu gibt es auf der CD zu dem Buch die Software, mit der sie die Prüfung simulieren können.
 
 > Die Klausurnoten sind im CC-Portal.
