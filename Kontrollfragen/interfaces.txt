@@ -1,0 +1,761 @@
+-----------
+QUESTION 1
+
+
+Gegeben:
+
+	class Elefant implements Runnable, Comparable<Elefant> {
+		public int compareTo(Elefant e2) {
+			return 0;
+		}
+		public void run() {}
+	}
+
+Was ist richtig?
+
+
+
+[ ] A. Die Klasse `Elefant` hat IS-A-Beziehung mit dem Interface `Runnable`.
+       
+[ ] B. Die Klasse `Elefant` hat IS-A-Beziehung mit dem Interface `Comparable`.
+       
+[ ] C. Der Code kompiliert nicht.
+       
+       
+       
+
+
+-----------
+QUESTION 2
+
+
+Gegeben:
+
+	interface MyInterface {
+		void m1() {}				// A
+		default void m2() {}	// B
+		void m3()					// C
+		static void m4() {} 	// D
+		static void m5(); 		// E
+	}
+
+Welche Zeilen kompilieren nicht?
+
+
+
+[ ] A. A.
+       
+[ ] B. B.
+       
+[ ] C. C.
+       
+[ ] D. D.
+       
+[ ] E. E.
+       
+       
+
+
+-----------
+QUESTION 3
+
+
+Gegeben:
+
+	interface MyInterface {
+		public abstract void m0();
+		void m1();
+		abstract void m2();
+	}
+
+Was haben alle Methoden aus dem Interface `MyInterface` gemeinsam (auch implizit)?
+
+
+
+[ ] A. Sie sind public.
+       
+[ ] B. Sie sind static.
+       
+[ ] C. Sie sind abstract.
+       
+[ ] D. Sie sind final.
+       
+       
+
+
+-----------
+QUESTION 4
+
+
+Gegeben:
+
+	interface MyInterface {
+		public static final int a1 = 1;
+		static final int a2 = 2;
+		final int a3 = 3;
+		int a4 = 4;
+	}
+
+Was haben alle Attribute aus dem Interface `MyInterface` gemeinsam (auch implizit)?
+
+
+
+[ ] A. Sie sind public.
+       
+[ ] B. Sie sind static.
+       
+[ ] C. Sie sind abstract.
+       
+[ ] D. Sie sind final.
+       
+       
+       
+       
+
+
+-----------
+QUESTION 5
+
+
+Gegeben:
+
+
+	interface IFoo {
+	    static void staticMethod1() { System.out.println("IFoo.staticMethod1"); }
+	    static void staticMethod2() { System.out.println("IFoo.staticMethod2"); }
+	    private static void staticMethod3() { System.out.println("IFoo.staticMethod3"); }
+	}
+	
+	class Bar implements IFoo {
+	    static void staticMethod2() { System.out.println("Bar.staticMethod2"); }
+	    private static void staticMethod3() { System.out.println("Bar.staticMethod3"); }
+	}
+	
+	public class Interfaces {
+	    
+	    public static void main(String[] args) {
+	        IFoo.staticMethod1();	// A
+	        IFoo.staticMethod2();	// B
+	        IFoo.staticMethod3();	// C
+	        
+	        Bar.staticMethod1();	// D
+	        Bar.staticMethod2();	// E
+	        
+	        IFoo v1 = new Bar();
+	        v1.staticMethod1();		// F
+	        v1.staticMethod2();		// G
+	        
+	        Bar v2 = new Bar();
+	        v2.staticMethod1();		// H
+	        v2.staticMethod2();		// I
+	    }
+	}
+
+
+Welche Zeilen kompilieren nicht mit Java 11? (Private Methoden sind in einem Interface seit Java 9 erlaubt).
+
+
+
+[ ] A. A.
+       
+[ ] B. B.
+       
+[ ] C. C.
+       
+[ ] D. D.
+       
+[ ] E. E.
+       
+[ ] F. F.
+       
+[ ] G. G.
+       
+[ ] H. H.
+       
+[ ] I. I.
+       
+       
+
+
+-----------
+QUESTION 6
+
+
+Gegeben:
+
+	interface TextFormat {
+		String fett(String text);
+	}
+	
+	class HtmlTextFormat extends TextFormat {
+		public String fett(String text) {
+			return "<b>" + text + "</b>";
+		}
+	}
+	
+	class MarkdownTextFormat extends TextFormat {
+		public String fett(String text) {
+			return "__" + text + "__";
+		}
+	}
+	
+	public class Main {
+		public static void main(String[] args) {
+			TextFormat fmt = new HtmlTextFormat();
+			fmt = new MarkdownTextFormat();
+			System.out.println( mdFmt.fett("Freitag") );
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. `<b>Freitag</b>`
+       
+( ) B. `__Freitag__`
+       
+( ) C. Compilerfehler.
+       
+( ) D. Exception.
+       
+       
+       
+
+
+-----------
+QUESTION 7
+
+
+Gegeben:
+
+	interface Fahrbar {
+		void motorAn() {}	// A
+		default void motorAus() {} // B
+		private default void bremsen() {} // C
+		final default void fahren() {} // D
+	}
+
+Was ist richtig?
+
+
+
+[ ] A. Compilerfehler in der Zeile A.
+       
+[ ] B. Compilerfehler in der Zeile B.
+       
+[ ] C. Compilerfehler in der Zeile C.
+       
+[ ] D. Compilerfehler in der Zeile D.
+       
+       
+
+
+-----------
+QUESTION 8
+
+
+Gegeben:
+
+	interface Fahrbar {
+		void motorAn();
+		void motorAus();
+		
+		default void fahren() {
+			motorAn();
+			//...
+			motorAus();
+		}
+	}
+	
+	class Oldtimer implements Fahrbar {
+		public void motorAn() { /* ... */ }
+		public void motorAus( { /* ... */ }
+	} 
+
+Was ist das Ergebnnis?
+
+
+
+( ) A. Compilerfehler im Interface `Fahrbar`.
+       
+( ) B. Compilerfehler in der Klasse `Oldtimer`.
+       
+( ) C. Keine Compilerfehler.
+       
+       
+
+
+-----------
+QUESTION 9
+
+
+Gegeben:
+
+	interface Fahrbar {
+		void motorAn();
+		void motorAus();
+		default void fahren() {
+			motorAn();
+			//...
+			motorAus();
+		}
+	}
+	
+	class Oldtimer implements Fahrbar {
+		public void motorAn() { /* ... */ }
+		public void motorAus()  { /* ... */ }
+		public void fahren()  { /* ... */ }
+	} 
+
+Was ist das Ergebnnis?
+
+
+
+( ) A. Compilerfehler im Interface `Fahrbar`.
+       
+( ) B. Compilerfehler in der Klasse `Oldtimer`.
+       
+( ) C. Keine Compilerfehler.
+       
+       
+
+
+-----------
+QUESTION 10
+
+
+Gegeben:
+
+	interface NameHolder {
+		default String getName() { return "Unknown"; }
+	}
+	
+	interface Lebewesen {
+		default String getName() { return "Noname"; }
+	}
+
+Welche Versionen der Klasse `Maus` kompilieren?
+
+
+
+[ ] A. Version 1:
+       
+       	class Maus implements NameHolder, Lebewesen {
+       		public String getName() {
+       			return "Mickey";
+       		}
+       	}
+       
+       
+[ ] B. Version 2:
+       
+       	class Maus implements NameHolder, Lebewesen {
+       	}
+       
+       
+[ ] C. Version 3:
+       
+       	class Maus implements NameHolder, Lebewesen {
+       		public String getName() {
+       			return Lebewesen.super.getName();
+       		}
+       	}
+       
+       
+[ ] D. Version 4:
+       
+       	class Maus implements NameHolder, Lebewesen {
+       		public String getName() {
+       			return super.getName();
+       		}
+       	}
+       
+       
+       
+       
+
+
+-----------
+QUESTION 11
+
+
+Gegeben:
+
+	String[] array = { "aaa", "hhhh", "aa" };
+	java.util.Arrays.sort(array, (s1, s2) -> s2.compareTo(s1));
+	System.out.println(array[0]);
+
+Was ist das Ergebnis?
+
+
+
+( ) A. hhhh
+       
+( ) B. aaa
+       
+( ) C. aa
+       
+       
+
+
+-----------
+QUESTION 12
+
+
+Gegeben:
+
+	interface Tankbar {
+		void tanken();
+	}
+	
+	public class Main {
+		public static void main(String[] args) {
+			Tankbar t = () -> System.out.println("Lambda");
+		}
+	}
+	
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Compilerfehler.
+       
+( ) B. Der Code kompiliert und läuft ohne Ausgabe.
+       
+( ) C. Der Code kompiliert und läuft mit der Ausgabe 'Lambda'.
+       
+       
+
+
+-----------
+QUESTION 13
+
+
+	interface I1 {} 
+	
+	interface I2 {
+		void m1();
+		void m2();
+	}
+	
+	interface I3 {
+		void m1();
+	}
+	
+	interface I4 {
+		void m1();
+		default void m2() {}
+	}
+	
+	@FunctionalInterface
+	interface I5 {
+		void m1();
+	}
+
+Welche sind funktionale Interfaces?
+
+
+
+[ ] A. I1.
+       
+[ ] B. I2.
+       
+[ ] C. I3.
+       
+[ ] D. I4.
+       
+[ ] E. I5.
+       
+       
+
+
+-----------
+QUESTION 14
+
+
+Gegeben:
+
+	interface Operation {
+		int execute(int x);
+	}
+
+Welche sind korrekte Lambda-Realisierungen?
+
+
+
+[ ] A. Version 1:
+       
+       	Operation o = (int x) -> { 
+       		return x*2; 
+       	};
+       
+       
+       
+[ ] B. Version 2:
+       
+       	Operation o = int x -> { 
+       		return x*2; 
+       	};
+       
+       
+       
+[ ] C. Version 3:
+       
+       	Operation o = (x) -> { 
+       		return x*2; 
+       	};
+       
+       
+       
+[ ] D. Version 4:
+       
+       	Operation o = x -> x*2;
+       
+       
+       
+[ ] E. Version 5:
+       
+       	Operation o = x -> return x*2;
+       
+       
+       
+
+
+-----------
+QUESTION 15
+
+
+Gegeben:
+
+	interface Operation {
+		int execute(int x);
+	}
+
+Welche ist korrekte Lambda-Realisierung?
+
+
+
+( ) A. Version 1:
+       
+       	Operation o = x -> {
+       		System.out.println(x); 
+       		return x*2; 
+       	};
+       
+       
+       
+( ) B. Version 2:
+       
+       	Operation o = x ->
+       		System.out.println(x); 
+       		return x*2; 
+       	;
+       
+       
+
+
+-----------
+QUESTION 16
+
+
+Gegeben:
+
+	interface GetString {
+		String get();
+	}
+
+	public class Main {
+		public static void main(String[] args) {
+			GetString g1 = () -> { return new String("hallo"); };
+			GetString g2 = () -> new String("hallo");
+			GetString g3 = () -> { return "hallo"; };
+			GetString g4 = () -> "hallo";
+		}
+	}
+
+Was ist richtig?
+
+
+
+( ) A. Genau eine Zeile kompiliert nicht.
+       
+( ) B. Mehrere Zeile kompilieren nicht.
+       
+( ) C. Alle Zeile kompilieren.
+       
+       
+       
+
+
+-----------
+QUESTION 17
+
+
+Gegeben:
+
+	interface UseString {
+		void use(String s);
+	}
+
+	public class Main {
+		public static void main(String[] args) {
+			UseString u1 = (String s) -> { new String("hallo"); };
+			UseString u2 = s -> { new String("hallo"); };
+			UseString u3 = s -> new String("hallo");
+			UseString u4 = s -> "hallo";
+		}
+	}
+
+Was ist richtig?
+
+
+
+( ) A. Genau eine Zeile kompiliert nicht.
+       
+( ) B. Mehrere Zeile kompilieren nicht.
+       
+( ) C. Alle Zeile kompilieren.
+       
+       
+       
+       
+
+
+-----------
+QUESTION 18
+
+
+Gegeben:
+
+	public class Main {
+		public static void main(String[] args) {
+			String var = "go";
+			Predicate<String> p = s -> (s + var).length() < 3;
+			System.out.println(p.test(var));
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. true.
+       
+( ) B. false.
+       
+( ) C. Compilerfehler.	
+       
+       
+
+
+-----------
+QUESTION 19
+
+
+Gegeben:
+
+	Predicate<Integer> p = value -> value > 0; // A
+	boolean result = p.test(22); // B
+	System.out.println(result);
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Compilerfehler in der Zeile A.
+       
+( ) B. Compilerfehler in der Zeile B.
+       
+( ) C. true
+       
+( ) D. false
+       
+       
+
+
+-----------
+QUESTION 20
+
+
+Gegeben:
+
+	List<Integer> list = new ArrayList<>();
+	list.add(12);
+	list.add(-3);
+	list.add(55);
+
+	list.removeIf( x -> x > 0 );
+	System.out.println(list.size());
+
+Was ist das Ergebnis?
+
+
+
+( ) A. 0
+       
+( ) B. 1
+       
+( ) C. 3
+       
+( ) D. Compilerfehler.
+       
+       
+       
+
+
+-----------
+QUESTION 21
+
+
+Gegeben:
+
+	public class Main {
+		public static void main(String[] args) {
+			java.util.function.Consumer<Integer> action = 
+				x -> System.out.print(x); // A
+			action.accept(75); // B
+		}
+	}
+	
+
+Was ist das Ergebnis?
+
+
+
+( ) A. 75.
+       
+( ) B. Compilerfehler in der Zeile A.
+       
+( ) C. Compilerfehler in der Zeile B.
+       
+       
+
+
+-----------
+QUESTION 22
+
+
+Gegeben:
+
+	List<Integer> list = new ArrayList<>();
+	list.add(12);
+	list.add(-3);
+	list.add(-55);
+
+	Consumer<Integer> action = element -> System.out.print(element);
+	list.forEach(action);
+
+Was ist das Ergebnis?
+
+
+
+( ) A. 12-3-55
+       
+( ) B. Compilerfehler.
+       
+       
+       
+
+

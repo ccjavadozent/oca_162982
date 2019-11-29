@@ -1,0 +1,2164 @@
+-----------
+QUESTION 1
+
+
+Welche sind primitive Datentypen?
+
+
+
+[ ] A. byte
+       
+[ ] B. short
+       
+[ ] C. integer
+       
+[ ] D. int
+       
+[ ] E. long
+       
+[ ] F. float
+       
+[ ] G. double
+       
+[ ] H. character
+       
+[ ] I. char
+       
+[ ] J. bool
+       
+[ ] K. boolean
+        
+       
+
+
+-----------
+QUESTION 2
+
+
+Welche Werte passen in den byte-Bereich?
+
+
+
+( ) A. [0 .. 256] 
+       
+( ) B. [-128 .. 127] 
+       
+( ) C. [-127 .. 128] 
+       
+       
+
+
+-----------
+QUESTION 3
+
+
+Was stimmt über den Typ 'char'?
+
+
+
+( ) A. char hat 16 bit 
+       
+( ) B. char Variablen können negativ sein
+       
+( ) C. char Variablen können NICHT negativ sein
+       
+       
+       
+
+
+-----------
+QUESTION 4
+
+
+Was kompiliert?
+
+
+
+[ ] A. char ch1 = 0;
+       
+[ ] B. char ch2 = "0";
+       
+[ ] C. char ch3 = '0';
+       
+[ ] D. char ch3 = '\uABCD';
+       
+       
+       
+
+
+-----------
+QUESTION 5
+
+
+Was kompiliert?
+
+
+
+[ ] A. int class = 12;
+       
+[ ] B. int _ = 12;
+       
+[ ] C. int __ = 12;
+       
+[ ] D. int INT = 12;
+       
+[ ] E. int x12 = 12;
+       
+[ ] F. int 12x = 12;
+       
+[ ] G. int $ = 12;
+       
+       
+
+
+-----------
+QUESTION 6
+
+
+Gegeben ist die main-Methode:
+
+		public static void main(String[] args) {
+			// Zeile A
+		}
+
+Welche Antworten kompilieren wenn man sie in der Zeile A einzeln einsetzt?
+
+
+
+[ ] A. `int a = 1_000_000;`
+       
+[ ] B. `int b = 1_0_00_000;`
+       
+[ ] C. `int c = _1_000;`
+       
+[ ] D. `int d = 1_000_;`
+       
+       
+       
+
+
+-----------
+QUESTION 7
+
+
+Gegeben ist die main-Methode:
+
+		public static void main(String[] args) {
+			// Zeile A
+		}
+
+Welche Antworten kompilieren wenn man sie in der Zeile A einzeln einsetzt?
+
+
+
+[ ] A. int var = -22;
+       
+[ ] B. int var = +22;
+       
+[ ] C. int var = 010;
+       
+[ ] D. int var = 0x123DEF;
+       
+[ ] E. int var = 0xDeadCafe;
+       
+[ ] F. int var = 0xbabe;
+       
+[ ] G. int var = 0b101010;
+       
+       
+       
+
+
+-----------
+QUESTION 8
+
+
+Gegeben ist die main-Methode:
+
+		public static void main(String[] args) {
+			// Zeile A
+		}
+
+Welche Antworten kompilieren wenn man sie in der Zeile A einzeln einsetzt?
+
+
+
+[ ] A. double d = 1.0;
+       
+[ ] B. double d = 1.;
+       
+[ ] C. double d = .123;
+       
+[ ] D. double d = 2e3;
+       
+[ ] E. double d = -2e-3;
+       
+[ ] F. double d = 2d;
+       
+[ ] G. double d = 2D;
+       
+       
+       
+
+
+-----------
+QUESTION 9
+
+
+Gegeben ist die main-Methode:
+
+		public static void main(String[] args) {
+			// Zeile A
+		}
+
+Welche Antworten kompilieren wenn man sie in der Zeile A einzeln einsetzt?
+
+
+
+[ ] A. float var = 1.0;
+       
+[ ] B. float var = 1.0f;
+       
+[ ] C. float var = 1.0F;
+       
+[ ] D. float var = 1F;
+       
+[ ] E. float var = 1;
+       
+[ ] F. float var = 1e2;
+       
+[ ] G. float var = 1L;
+       
+[ ] H. float var = 'a';
+       
+[ ] I. float var = true;
+       
+       
+       
+       
+
+
+-----------
+QUESTION 10
+
+
+Gegeben:
+
+	class Foo {
+	  static final int C1 = 3; 
+	} 
+	
+Was ist richtig?
+
+
+
+[ ] A. C1 ist eine lokale Konstante.
+       
+[ ] B. C1 ist eine statische Konstante.
+       
+[ ] C. C1 soll explizit initialisiert werden.
+       
+[ ] D. C1 kann in einem statischen Initialisierungsblock initialisiert werden.
+       
+       
+
+
+-----------
+QUESTION 11
+
+
+Gegeben:
+
+	class Foo {
+		Foo() {
+	   		final int C1 = 3;
+	   } 
+	} 
+
+
+Was ist richtig?
+
+
+
+( ) A. C1 ist eine lokale Konstante.
+       
+( ) B. C1 ist eine statische Konstante.
+       
+       
+       
+
+
+-----------
+QUESTION 12
+
+
+Gegeben:
+
+	public class Foo {
+		
+		static final int K0; 		// A
+		static final int K1 = 1; // B
+		static final int K2;		// C
+	
+		static {
+			K1 = 1;					// D
+			K2 = 2;					// E
+		}
+	}
+
+Welche Zeilen kompilieren?
+
+
+
+[ ] A. A
+       
+[ ] B. B
+       
+[ ] C. C
+       
+[ ] D. D
+       
+[ ] E. E
+       
+       
+
+
+-----------
+QUESTION 13
+
+
+Gegeben:
+
+	public class Foo {
+		
+		final int K0;		 	// A
+		final int K1 = 1; 		// B
+		final int K2;			// C
+		
+		{
+			K1 = 1;				// D
+			K2 = 2;				// E
+		}
+		
+		int K3;					// F
+		
+		Foo() {
+			K3 = 3;				// G
+		}
+	}
+
+Welche Zeilen kompilieren?
+
+
+
+[ ] A. A
+       
+[ ] B. B
+       
+[ ] C. C
+       
+[ ] D. D
+       
+[ ] E. E
+       
+[ ] F. F
+       
+[ ] G. G
+       
+       
+       
+
+
+-----------
+QUESTION 14
+
+
+Gegeben:
+
+	void m() {
+		int x = 22;
+		
+		Predicate<Integer> p = var -> {
+			x = 3;					// A
+			return x == 7;		// B
+		};
+	}
+
+Was ist richtig?
+
+
+
+( ) A. Der Code kompiliert.
+       
+( ) B. Compilerfehler in der Zeile A
+       
+( ) C. Compilerfehler in der Zeile B
+       
+       
+       
+
+
+-----------
+QUESTION 15
+
+
+Gegeben:
+
+	void m() {
+		final StringBuilder sb = new StringBuilder("java");
+		sb.append("!"); // A
+		sb = null; 		// B
+	}
+
+Was ist richtig?
+
+
+
+( ) A. Der Code kompiliert.
+       
+( ) B. Compilerfehler in der Zeile A
+       
+( ) C. Compilerfehler in der Zeile B
+       
+       
+       
+
+
+-----------
+QUESTION 16
+
+
+Wählen Sie arithmetischen Operatoren aus:
+
+
+
+[ ] A. '+'
+       
+[ ] B. '!'
+       
+[ ] C. '-'
+       
+[ ] D. '*'
+       
+[ ] E. '/'
+       
+[ ] F. '\'
+       
+[ ] G. '%'
+       
+       
+
+
+-----------
+QUESTION 17
+
+
+Was ist richtig über das Ergebnis einer arithmetischen Operation?
+
+
+
+( ) A. Das Ergebns einer arithmetischen Operation ist immer int.
+       
+( ) B. Das Ergebnis einer arithmetischen Operation hat den Typ des 'breitesten' (umfassenderen) Operanden, aber nicht 'enger' als int.
+       
+       
+
+
+-----------
+QUESTION 18
+
+
+Gegeben ist der Code:
+
+		byte a = 12;
+		byte b = 13;
+		// Zeile A
+
+Was kompiliert einzeln in der Zeile A?
+
+
+
+[ ] A. byte c = a + b;
+       
+[ ] B. byte c = (byte)a + b;
+       
+[ ] C. byte c = (byte)(a + b);
+       
+[ ] D. long c = a + b;
+       
+       
+       
+
+
+-----------
+QUESTION 19
+
+
+Gegeben ist der Code:
+
+		int a = 12;
+		long b = 13;
+		int c = a + b;
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Compilerfehler
+       
+( ) B. Der Code kompiliert und läuft, c ist 25.
+       
+       
+       
+
+
+-----------
+QUESTION 20
+
+
+Gegeben ist der Code:
+
+		int a = 0;
+		int b = 12 / a;
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Compilerfehler
+       
+( ) B. Laufzeitfehler (Exception)
+       
+( ) C. Infinity 
+       
+( ) D. NaN 
+       
+       
+       
+
+
+-----------
+QUESTION 21
+
+
+Gegeben ist der Code:
+
+		int a = 0;
+		double b = 12.0 / a;
+		System.out.println(b);
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Compilerfehler
+       
+( ) B. Laufzeitfehler (Exception)
+       
+( ) C. Infinity 
+       
+( ) D. NaN 
+       
+          
+       
+
+
+-----------
+QUESTION 22
+
+
+Welche sind 'conditional' Operatoren?
+
+
+
+[ ] A. `==`
+       
+[ ] B. `&&`
+       
+[ ] C. `||`
+       
+[ ] D. `?:`
+       
+       
+
+
+-----------
+QUESTION 23
+
+
+Welche sind 'logical' Operatoren?
+
+
+
+[ ] A. `!`
+       
+[ ] B. `^`
+       
+[ ] C. `~`
+       
+[ ] D. `&`
+       
+[ ] E. `|`
+       
+       
+
+
+-----------
+QUESTION 24
+
+
+Gegeben:
+
+	int x = 0;
+	int y = 0;
+
+	boolean result = x==1 & ++y==1;
+
+	System.out.println(result + " " + y);
+
+Was ist das Ergebnis?
+
+
+
+( ) A. false 0
+       
+( ) B. false 1
+       
+( ) C. Compilerfehler
+       
+       
+       
+
+
+-----------
+QUESTION 25
+
+
+Gegeben:
+
+	int x = 0;
+	int y = 0;
+
+	boolean result = x==1 && ++y==1;
+
+	System.out.println(result + " " + y);
+
+Was ist das Ergebnis?
+
+
+
+( ) A. false 0
+       
+( ) B. false 1
+       
+( ) C. Compilerfehler
+       
+       
+
+
+-----------
+QUESTION 26
+
+
+Gegeben:
+
+	System.out.print(false ^ false);
+	System.out.print(true ^ true);
+	System.out.print(true ^ false);
+	System.out.print(false ^ true);
+
+Was ist das Ergebnis?
+
+
+
+( ) A. falsefalsetruetrue
+       
+( ) B. falsetruetruetrue
+       
+       
+
+
+-----------
+QUESTION 27
+
+
+Gegeben:
+
+	int x = 2;
+	int y = x < 100 ? inc(x) < 100 ? 7 : inc(x) : x;
+	System.out.println( y + " " + x );
+	
+Was ist das Ergebnis?
+
+
+
+( ) A. 7 8.
+       
+( ) B. 7 2.
+       
+( ) C. 7 4.
+       
+( ) D. Compilerfehler.
+       
+       
+       
+       
+
+
+-----------
+QUESTION 28
+
+
+Gegeben:
+
+	int x = 22;
+	int y = x > 0 ? 1 : -1; 
+	System.out.println(y);
+
+Was ist das Ergebnis?
+
+
+
+( ) A. 1.
+       
+( ) B. -1.
+       
+( ) C. Compilerfehler.
+       
+       
+
+
+-----------
+QUESTION 29
+
+
+Gegeben:
+
+	int x = 22;
+	int y = x > 0 ? 77 : 3.5;
+	System.out.println(y);
+
+Was ist das Ergebnis?
+
+
+
+( ) A. 77.
+       
+( ) B. 3.5.
+       
+( ) C. 3.
+       
+( ) D. Compilerfehler.
+       
+       
+
+
+-----------
+QUESTION 30
+
+
+Welche sind Vergleichsoperatoren?
+
+
+
+[ ] A. `==` 
+       
+[ ] B. `!=` 
+       
+[ ] C. `<` 
+       
+[ ] D. `<=` 
+       
+[ ] E. `>` 
+       
+[ ] F. `>=` 
+       
+[ ] G. `instanceof` 
+       
+       
+
+
+-----------
+QUESTION 31
+
+
+Gegeben:
+
+	byte v1 = 0;
+	float v2 = 1F;
+	boolean v3 = true;
+	boolean v4 = false;
+	char v5 = 'a';
+	
+	System.out.println( /* Argument hier */ ); // Zeile A 
+
+Was kompiliert als Argument in der Zeile A?
+
+
+
+[ ] A. v1 == v2
+       
+[ ] B. v1 == v3
+       
+[ ] C. v2 == v3
+       
+[ ] D. v3 == v4
+       
+[ ] E. v1 == v5
+       
+[ ] F. v4 == v5
+       
+       
+
+
+-----------
+QUESTION 32
+
+
+Gegeben:
+
+	byte v1 = 0;
+	float v2 = 1F;
+	boolean v3 = true;
+	boolean v4 = false;
+	char v5 = 'a';
+	
+	System.out.println( /* Argument hier */ ); // Zeile A 
+
+Was kompiliert als Argument in der Zeile A?
+
+
+
+[ ] A. v1 <= v2
+       
+[ ] B. v1 <= v3
+       
+[ ] C. v2 <= v3
+       
+[ ] D. v3 <= v4
+       
+[ ] E. v1 <= v5
+       
+[ ] F. v4 <= v5
+       
+       
+
+
+-----------
+QUESTION 33
+
+
+Gegeben:
+
+	int x = 1;	// A
+	int y = x;	// B
+
+	byte a = 1;	// C
+	byte b = a;	// D
+	byte c = x; // E
+
+Welche Zeilen beinhalten das implizite Casting?
+
+
+
+( ) A. A
+       
+( ) B. B
+       
+( ) C. C
+       
+( ) D. D
+       
+( ) E. E
+       
+       
+
+
+-----------
+QUESTION 34
+
+
+Gegeben:
+
+	int x = 1;
+	System.out.println( x = 22 );
+
+Was ist das Ergebnis ?
+
+
+
+( ) A. Compilerfehler.
+       
+( ) B. false.
+       
+( ) C. 22
+       
+       
+
+
+-----------
+QUESTION 35
+
+
+Unter welchen Umständen kompiliert folgende if-Abfrage?
+     
+	 if(var = true) {
+	    //more code here
+	 }
+
+
+
+( ) A. Wenn 'var' von Typ `boolean` ist.
+       
+( ) B. Wenn 'var' von Typ `int` ist.
+       
+( ) C. Immer.
+          
+       
+
+
+-----------
+QUESTION 36
+
+   
+Kompiliert der Code?
+   
+		byte b = 2;
+		b = b + 2;
+
+
+
+( ) A. Nein.
+       
+( ) B. Ja.
+       
+       
+
+
+-----------
+QUESTION 37
+
+   
+Kompiliert der Code?
+   
+		byte b = 2;
+		b = (byte)b + 2;
+
+
+
+( ) A. Nein.
+       
+( ) B. Ja.
+       
+       
+
+
+-----------
+QUESTION 38
+
+
+Gegeben:
+
+	long v1 = Long.MAX_VALUE;
+	float v2 = v1;
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Compilerfehler.
+       
+( ) B. v2 bekommt den Wert von v1.  
+       
+       
+
+
+-----------
+QUESTION 39
+
+
+Gegeben:
+ 
+		byte x = 2; 
+		x += 5;		// A
+		x = x + 5;	// B
+
+Was ist richtig?
+
+
+
+( ) A. Zeile A kompiliert.
+       
+( ) B. Zeile B kompiliert.
+       
+       
+
+
+-----------
+QUESTION 40
+
+
+Gegeben:
+ 
+	byte b1 = 2;
+	b1 += 1000000;
+	
+Was ist richtig?
+
+
+
+( ) A. Der Code kompiliert.
+       
+( ) B. Compilerfehler.
+       
+       
+
+
+-----------
+QUESTION 41
+
+
+Gegeben:
+   
+	int x = 0;
+	System.out.print(x++);
+	System.out.print(x);
+	
+Was ist das Ergebnis?
+
+
+
+( ) A. 00
+       
+( ) B. 01
+       
+( ) C. 11
+       
+       
+       
+
+
+-----------
+QUESTION 42
+
+
+Gegeben:
+   
+	int x = 0;
+	System.out.print(++x);
+	System.out.print(x);
+	
+Was ist das Ergebnis?
+
+
+
+( ) A. 00
+       
+( ) B. 01
+       
+( ) C. 11
+       
+       
+
+
+-----------
+QUESTION 43
+
+
+Gegeben:
+   
+	int x = 0;
+	x = x++;
+	System.out.print(x);
+	x = ++x;
+	System.out.print(x);
+	
+Was ist das Ergebnis?
+
+
+
+( ) A. 01
+       
+( ) B. 11
+       
+( ) C. 12
+       
+
+
+-----------
+QUESTION 44
+
+
+Gegeben:
+
+	int a = 2, b = 3, c = 4;
+	
+	System.out.print(a + b * c);
+	System.out.print(" ");
+	System.out.println((a + b) * c);
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Compilerfehler
+       
+( ) B. 14 20
+       
+( ) C. 20 20
+       
+       
+       
+
+
+-----------
+QUESTION 45
+
+
+Gegeben:
+
+	int a = 2;
+	System.out.print( a + 3 + " - " + a + 3 );
+		
+Was ist das Ergebnis?
+
+
+
+( ) A. 23 - 23
+       
+( ) B. 23 - 5
+       
+( ) C. 5 - 23
+       
+( ) D. Compilerfehler
+       
+       
+       
+
+
+-----------
+QUESTION 46
+
+
+Gegeben:
+
+	int a = 6;
+	System.out.print( a > 0 && a * 2 == 12  );
+		
+Was ist das Ergebnis?
+
+
+
+( ) A. false
+       
+( ) B. true
+       
+( ) C. Compilerfehler
+       
+       
+       
+
+
+-----------
+QUESTION 47
+
+
+Gegeben:
+
+	int day = 4;
+	
+	if( day==4 )
+		System.out.print("a");
+		System.out.print("b");
+
+Was ist das Ergebnis?
+
+
+
+( ) A. a
+       
+( ) B. b
+       
+( ) C. ab
+       
+       
+
+
+-----------
+QUESTION 48
+
+
+Kompiliert folgender Code?
+    
+	int x = 1;
+	if( x = 1 ) {
+	    //more code here
+	}
+
+
+
+( ) A. Ja.
+       
+( ) B. Nein.
+       
+          
+       
+
+
+-----------
+QUESTION 49
+
+
+Unter welchen Umständen kompiliert folgender Code?
+    
+	if( x = y ) {
+	    //more code here
+	}
+
+
+
+( ) A. Wenn x und y beide vom Typ `int` sind.
+       
+( ) B. Wenn x und y beide vom Typ `boolean` sind.
+       
+( ) C. Unter keinen Umständen.
+       
+          
+       
+
+
+-----------
+QUESTION 50
+
+
+Gegeben:
+    
+	int day = 5;
+
+	if( day > 0 && day < 6 ) {
+		System.out.println("A");
+	} else if( day==6 || day==7 ) {
+		System.out.println("B");
+	} else if {
+		System.out.println("C");
+	}
+
+
+
+
+( ) A. A
+       
+( ) B. B
+       
+( ) C. C
+       
+( ) D. Compilerfehler
+       
+       
+       
+
+
+-----------
+QUESTION 51
+
+
+Gegeben:
+
+	for( ; ; ) {
+		System.out.println("laufe");
+	}
+	System.out.println("fertig");
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Ausgabe von 'fertig'.
+       
+( ) B. Schleife gibt endlos 'laufe' aus.
+       
+( ) C. Compilerfehler.
+       
+       
+
+
+-----------
+QUESTION 52
+
+
+Gegeben:
+
+	public static void main(String[] args) {
+		for (int i = get()+get(); i > get(); i-=get()) {
+			System.out.print("y ");
+		}
+	}
+	
+	static int get() {
+		System.out.print("x ");
+		return 1;
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. x x x y x x 
+       
+( ) B. x x y x x 
+       
+( ) C. Compilerfehler.
+       
+       
+       
+
+
+-----------
+QUESTION 53
+
+
+Gegeben:
+
+	int i=0;
+	for( ; i<3 ; ) {
+		System.out.print(i++ + " "); 
+	}
+		
+Was ist das Ergebnis?
+
+
+
+( ) A. 0 1 2
+       
+( ) B. 1 2 3
+       
+( ) C. Compilerfehler.
+       
+       
+
+
+-----------
+QUESTION 54
+
+
+	while( true )
+		System.out.println("laufe");
+
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Schleife läuft endlos und gibt immer wieder 'laufe' aus.
+       
+( ) B. Compilerfehler.
+       
+       
+
+
+-----------
+QUESTION 55
+
+
+	int x = 0;
+		
+	do {
+		System.out.print(++x);
+	} while(x < 3)
+	
+	System.out.println(" done");
+
+
+Was ist das Ergebnis?
+
+
+
+( ) A. 1 2 3 done
+       
+( ) B. 1 2 3 4 done
+       
+( ) C. Compilerfehler.
+       
+       
+
+
+-----------
+QUESTION 56
+
+
+gegeben:
+
+	for(int i=0 ;  ; i++) {
+	
+		if( i>3 ) {
+			break;
+		}
+		System.out.print(i);
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. 012345... usw.
+       
+( ) B. 0123
+       
+( ) C. Compilerfehler.
+       
+       
+       
+
+
+-----------
+QUESTION 57
+
+
+Gegeben:
+
+	int x = 0;
+			
+	do {
+		x++;
+		
+		if(x == 3) 
+			continue;
+		
+		System.out.print(x + " ");
+		
+	} while(x < 5);
+		
+Was ist das Ergebnis?
+
+
+
+
+( ) A. 1 2 3 4 5
+       
+( ) B. 1 2 4 5
+       
+( ) C. Compilerfehler.
+       
+       
+
+
+-----------
+QUESTION 58
+
+
+Gegeben:
+
+	tom: 
+	for (int i = 0; i < 5; i++) {
+	
+		System.out.print(i + " ");
+
+		jerry: 
+		for (int k = 0; k < 3; k++) {
+
+			if (i == 1)	break tom;
+			
+			if (k == 1) break jerry;
+
+			System.out.print(k + " ");
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+
+( ) A. 0 1 0 1
+       
+( ) B. 0 1
+       
+( ) C. 0 0 1
+       
+( ) D. Compilerfehler.
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+
+
+-----------
+QUESTION 59
+
+
+Welche Variablen (vom Typ her) kann eine switch-Anweisung analysieren?
+
+
+
+[ ] A. byte und Byte
+       
+[ ] B. short und Short
+       
+[ ] C. int und Integer
+       
+[ ] D. long und Long
+       
+[ ] E. char und Character
+       
+[ ] F. enum-Variablen
+       
+[ ] G. String-Variablen
+       
+[ ] H. Object-Variablen
+       
+       
+       
+
+
+-----------
+QUESTION 60
+
+
+Compiliert folgender Code?
+    
+		int x = 1;
+		final int K1 = 2;
+		
+		switch(x) {
+		    case 1:
+		    case K1:
+		}
+
+
+
+( ) A. Ja.
+       
+( ) B. Nein.
+       
+       
+
+
+-----------
+QUESTION 61
+
+
+Compiliert folgender Code?
+    
+		int x = 1;
+		final int K1;
+		K1 = 2;
+		
+		switch(x) {
+		    case 1:
+		    case K1:
+		}
+
+
+
+( ) A. Ja.
+       
+( ) B. Nein.
+       
+       
+
+
+-----------
+QUESTION 62
+
+
+Gegeben:
+    
+		int x = 1;
+
+Und folgende Fragmente:
+		
+		// Fragment A		
+		switch(x) {
+		    default:
+		}
+
+		// Fragment B		
+		switch(x) {
+		    default:
+		    case 1:
+		}
+
+		// Fragment C		
+		switch(x) {
+		    default:
+		    case 1:
+		    default:
+		}
+
+Welche Fragmente kompilieren?
+
+
+
+[ ] A. A
+       
+[ ] B. B
+       
+[ ] C. C
+       
+       
+
+
+-----------
+QUESTION 63
+
+
+Gegeben:
+    
+	int day = 2;
+	
+	switch( day ) {
+		default:
+			System.out.print("Arbeitstag ");
+		case 6:
+		case 7:
+			System.out.print("Wochenende ");
+			break;
+	}
+
+Was ist das Ergebnis?		
+
+
+
+( ) A. Arbeitstag
+       
+( ) B. Wochenende
+       
+( ) C. Arbeitstag Wochenende 
+       
+( ) D. Compilerfehler
+       
+       
+
+
+-----------
+QUESTION 64
+
+
+Gegeben:
+
+	static short foo(byte b) {
+	    return (short) 2;			// Zeile A
+	}
+	
+	static void test() {
+	    byte b = (byte) 2;		// Zeile B
+	
+	    foo((byte) 2);				// Zeile C
+	}
+
+In welchen Zeilen ist Casting überflüssig?
+
+
+
+[ ] A. A
+       
+[ ] B. B
+       
+[ ] C. C  
+       
+       
+
+
+-----------
+QUESTION 65
+
+   
+Woraus besteht jede statische Methode?
+
+
+
+[ ] A. Name
+       
+[ ] B. Liste der Parameter
+       
+[ ] C. Rückgabetyp
+       
+[ ] D. Rumpf
+       
+       
+
+
+-----------
+QUESTION 66
+
+
+Was ist eine Methoden-Signatur?
+
+
+
+( ) A. Methodenname und die Liste der Parametertypen. 
+       
+( ) B. Methodenname und die Liste der Parametertypen mit den Parameternamen. 
+       
+       
+       
+
+
+-----------
+QUESTION 67
+
+
+Gegeben:
+
+	static void m() {
+		int var = 3;
+		System.out.println(var); // Zeile B
+	}
+
+Was ist richtig?
+
+
+
+[ ] A. 'var' ist der Parameter der Methode 'm'.
+       
+[ ] B. 'var' ist eine lokale Variable.
+       
+[ ] C. 'var' muss explizit initialisiert werden, damit sie in der Zeile B ausgegeben werden kann. 
+       
+[ ] D. 'var' ist bis zum Ende der Methode 'm' gültig.
+       
+       
+       
+
+
+-----------
+QUESTION 68
+
+
+Gegeben:
+
+	static void m() {
+		// Zeile A
+		{
+			int var = 3;
+			System.out.println(var); // Zeile B
+		}
+		// Zeile C
+	}
+
+Was ist richtig?
+
+
+
+[ ] A. 'var' ist eine Blockvariable.
+       
+[ ] B. 'var' ist ein Methodenparameter.
+       
+[ ] C. 'var' in der Zeile A gültig. 
+       
+[ ] D. 'var' in der Zeile B gültig. 
+       
+[ ] E. 'var' in der Zeile C gültig. 
+       
+       
+       
+
+
+-----------
+QUESTION 69
+
+
+Gegeben:
+
+	static void m() {
+		int x = 1;		// Zeile A
+		{
+			int x = 2;	// Zeile B
+			int y = 3;	// Zeile C
+		}
+		int y = 4;		// Zeile D
+	}
+
+Welche Zeilen haben einen Compilerfehler?
+
+
+
+( ) A. A.
+       
+( ) B. B.
+       
+( ) C. C.
+       
+( ) D. D.
+       
+       
+       
+       
+
+
+-----------
+QUESTION 70
+
+
+Gegeben:
+
+	static void m(int var) {
+		// Zeile A
+		{
+			System.out.println(var); // Zeile B
+		}
+		// Zeile C
+	}
+
+Was ist richtig?
+
+
+
+[ ] A. 'var' ist ein Attribut.
+       
+[ ] B. 'var' ist ein Methodenparameter.
+       
+[ ] C. 'var' in der Zeile A gültig. 
+       
+[ ] D. 'var' in der Zeile B gültig. 
+       
+[ ] E. 'var' in der Zeile C gültig. 
+       
+       
+
+
+-----------
+QUESTION 71
+
+
+Gegeben:
+
+	class Foo {
+		static void m() {}
+		static void m(int x) {}
+	}
+
+Was ist richtig?
+
+
+
+[ ] A. 'm' ist überladen.
+       
+[ ] B. 'm' ist überschrieben.
+       
+[ ] C. Die Klasse kompiliert nicht, da zwei Methoden denselben Namen haben.
+       
+[ ] D. Die Klasse hat zwei gleichnamige Methoden mit unterschiedlichen Signaturen.
+       
+       
+       
+
+
+-----------
+QUESTION 72
+
+
+Gegeben:
+
+	class Foo {
+		static void m1() { return; }
+		static void m2() {	return 0; }
+		static int m3() { return; }
+		static int m4() { return 0; }
+		static void m5() { return; return; }
+	}
+
+Welche Methoden kompilieren nicht?
+
+
+
+[ ] A. m1.
+       
+[ ] B. m2.
+       
+[ ] C. m3.
+       
+[ ] D. m4.
+       
+[ ] E. m5.
+       
+       
+       
+
+
+-----------
+QUESTION 73
+
+
+Gegeben:
+
+	class Foo {
+		static int add(int a, int b) {
+			int sum = a + b;
+			return 3L;
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Der Code kompiliert.
+       
+( ) B. Es gibt einen Compilerfehler.
+       
+       
+       
+
+
+-----------
+QUESTION 74
+
+
+Gegeben:
+
+	class Foo {
+		static int add(int a, int b) {
+			return a + b;
+		}
+		public static void main(String[] args) {
+			add(2, 3);					// A
+			Foo.add(2, 3);				// B
+			int x = Foo.add(2, 3);	// C
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Der Code kompiliert.
+       
+( ) B. Compilerfehler in der Zeile A.
+       
+( ) C. Compilerfehler in der Zeile B.
+       
+( ) D. Compilerfehler in der Zeile C.
+       
+       
+       
+
+
+-----------
+QUESTION 75
+
+
+Gegeben:
+
+	package p1;
+	 
+	class Bar {
+		static int add(int a, int b) {
+			return a + b;
+		}
+	}
+	class Foo {
+		public static void main(String[] args) {
+			add(2, 3);						// A
+			Bar.add(2, 3);					// B
+			int y = p1.Bar.add(2, 3);	// C
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Der Code kompiliert.
+       
+( ) B. Compilerfehler in der Zeile A.
+       
+( ) C. Compilerfehler in der Zeile B.
+       
+( ) D. Compilerfehler in der Zeile C.
+       
+       
+       
+
+
+-----------
+QUESTION 76
+
+
+Gegeben:
+
+	class Foo {
+		public static void main(String[] args) {
+			main(args);
+			System.out.println( "main" ); 
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+[ ] A. Compilerfehler.
+       
+[ ] B. Der Code läuft endlos und gibt immer wieder 'main' aus.
+       
+[ ] C. Der Code läuft endlos ohne Ausgaben.
+       
+[ ] D. Der Code läuft ohne Ausgaben bis es eine StackOverflowException gibt.
+       
+       
+       
+       
+
+
+-----------
+QUESTION 77
+
+
+Gegeben:
+
+	public static void main(String... args) {
+
+		sum()							// A
+		sum(2);						// B
+		sum(2, 3); 					// C
+		sum( new int[] {2, 3} ); // D
+		sum(2, 3, 4);				// E
+		sum(2, 3, 4, 5);			// F
+		
+		int[] arr = { 1, 2, 3 };
+		sum(arr);						// G
+	} 
+
+	static int sum(int... arr) {
+		int result = 0;
+		
+		for (int x : arr) {
+			result += x;
+		}
+		
+		return result;
+	}
+
+Welche Zeilen kompilieren nicht?	
+
+
+
+( ) A. Keine
+       
+( ) B. A.
+       
+( ) C. B.
+       
+( ) D. C.
+       
+( ) E. D.
+       
+( ) F. E.
+       
+( ) G. F.
+       
+( ) H. G.
+       
+       
+       
+
+
+-----------
+QUESTION 78
+
+
+Gegeben:
+
+	public class Foo {
+		public static void main(String... args) {
+			System.out.println(args.length);
+		}
+	}
+
+Und folgende Konsolenaufruf:
+
+	java Foo
+
+Was ist das Ergebnis, wenn die JVM die Klasse `Foo` finden kann?  
+
+
+
+[ ] A. null
+       
+[ ] B. 0
+       
+[ ] C. NullPointerException
+       
+[ ] D. Fehler: Hauptmethode in Klasse Foo nicht gefunden. 
+       
+       
+
+
+-----------
+QUESTION 79
+
+
+Gegeben:
+
+	public class Foo {
+		public static void print(int... a) {}
+		public static void print(int[] arr) {}
+	}
+
+
+Was ist das Ergebnis?  
+
+
+
+( ) A. Compilerfehler.
+       
+( ) B. Der Code kompiliert.
+       
+       
+       
+
+
+-----------
+QUESTION 80
+
+
+Gegeben:
+
+	public class Foo {
+		public static void m1(int... a) {}
+		public static void m2(int... a, String b) {}
+		public static void m3(int a, int... b) {}
+		public static void m4(int... a, String... b) {}
+	}
+
+
+Welche Methoden kompilieren?  
+
+
+
+[ ] A. m1.
+       
+[ ] B. m2.
+       
+[ ] C. m3.
+       
+[ ] D. m4.
+       
+
+

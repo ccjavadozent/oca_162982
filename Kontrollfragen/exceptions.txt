@@ -1,0 +1,493 @@
+-----------
+QUESTION 1
+
+
+Gegeben:
+   
+	static void m1() {
+		System.out.print("a ");
+		if(true) 
+			throw new ArithmeticException("test");
+		System.out.print("b ");
+	}
+	static void m2() {
+		System.out.print("c ");
+		m1();
+		System.out.print("d ");
+	}
+	public static void main(String[] args) {
+		System.out.print("m1 ");
+		m2();
+		System.out.print("m2 ");
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. m1 c a.
+       
+( ) B. m1 c a gefolgt von der ArithmeticException.
+       
+( ) C. m1 c a test b d m2
+       
+( ) D. m1 c a b d m2 gefolgt von der ArithmeticException.
+       
+( ) E. Compilerfehler.
+       
+       
+       
+
+
+-----------
+QUESTION 2
+
+
+Gegeben:
+   
+	static void m1() {
+		System.out.print("a ");
+		System.out.print(5/0);
+		System.out.print("b ");
+	}
+	
+	static void m2() {
+		System.out.print("c ");
+		m1();
+		System.out.print("d ");
+	}
+
+	public static void main(String[] args) {
+
+		System.out.print("m1 ");
+		
+		try {
+			m2();
+			System.out.print("m2 ");
+			
+		} catch (Exception e) {
+			System.out.print("m3 ");
+		} 
+		
+		System.out.print("m4 ");
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. m1 c a m2 m4.
+       
+( ) B. m1 c a m3 m4.
+       
+( ) C. m1 c a gefolgt von einer Exception.
+       
+( ) D. Compilerfehler.
+       
+       
+
+
+-----------
+QUESTION 3
+
+
+Gegeben:
+
+	try {
+		// Zeile A 		
+	} catch (Exception e) {
+		System.out.print("e ");	
+	} catch (ArithmeticException e) { 
+		System.out.print("ae ");	
+	}
+
+Was ist das Ergebnis wenn in der Zeile A eine `ArithmeticException` geworfen wird?
+
+
+
+( ) A. ae
+       
+( ) B. e
+       
+( ) C. e ae
+       
+( ) D. Compilerfehler
+       
+       
+
+
+-----------
+QUESTION 4
+
+
+Gegeben:
+
+	try {
+		// Zeile A 		
+	} catch (ArithmeticException e) { 
+		System.out.print("ae ");	
+	} catch (Exception e) {
+		System.out.print("e ");	
+	} 
+
+Was ist das Ergebnis wenn in der Zeile A eine `ArithmeticException` geworfen wird?
+
+
+
+( ) A. ae
+       
+( ) B. e
+       
+( ) C. e ae
+       
+( ) D. Compilerfehler
+       
+       
+
+
+-----------
+QUESTION 5
+
+
+Gegeben:
+
+	class StringException implements Predicate<IllegalArgumentException> {
+		public void test(IllegalArgumentException e) {
+			return true;
+		}
+	} 
+
+	public class Main {
+		public static void main(String[] args) throws StringException {
+			throw new StringException();
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Compilerfehler.
+       
+( ) B. Es wird die StringException geworfen.
+       
+       
+       
+
+
+-----------
+QUESTION 6
+
+
+Gegeben:
+
+	public class Main {
+		static void m1() { 
+			throw new NullPointerException();
+		}
+		
+		static void m2() throws NullPointerException {
+		}
+		
+		static void m3() throws NullPointerException, ArithmeticException { 
+		}
+		
+		static void m4() throws NullPointerException, Exception {  
+		}
+		public static void main(String[] args) throws Exception {
+			m1();
+			m2();
+			m3();
+			m4();
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Compilerfehler.
+       
+( ) B. Beim Aufruf der main-Methode wird NullPointerException geworfen.
+       
+( ) C. Beim Aufruf der main-Methode wird die Anwendung ohne Exceptions ausgeführt.
+       
+       
+
+
+-----------
+QUESTION 7
+
+
+Gegeben:
+
+	public class Main {
+		static void m1() { 
+			throw new NullPointerException();
+		}
+		
+		static void m2() throws NullPointerException {
+		}
+		
+		static void m3() throws NullPointerException, ArithmeticException { 
+		}
+		
+		static void m4() throws NullPointerException, IOException {  
+		}
+		public static void main(String[] args) {
+			m1();
+			m2();
+			m3();
+			m4();
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Compilerfehler.
+       
+( ) B. Beim Aufruf der main-Methode wird NullPointerException geworfen.
+       
+( ) C. Beim Aufruf der main-Methode wird die Anwendung ohne Exceptions ausgeführt.
+       
+       
+
+
+-----------
+QUESTION 8
+
+
+Gegeben:
+
+	String s = null;
+	s = s.toUpperCase();
+   
+Welche Exception wird geworfen?
+
+
+
+( ) A. Keine
+       
+( ) B. NullPointerException
+       
+( ) C. ArithmeticException
+       
+          
+       
+
+
+-----------
+QUESTION 9
+
+
+Gegeben:
+
+	String s = "null";
+	s = s.toUpperCase();
+
+Welche Exception wird geworfen?
+
+
+
+( ) A. Keine
+       
+( ) B. NullPointerException
+       
+( ) C. ArithmeticException
+       
+       
+
+
+-----------
+QUESTION 10
+
+
+Gegeben:
+
+	System.out.println( 5 / 0 );
+   
+Welche Exception wird geworfen?
+
+
+
+( ) A. Keine
+       
+( ) B. NullPointerException
+       
+( ) C. ArithmeticException
+       
+       
+
+
+-----------
+QUESTION 11
+
+
+Gegeben:
+
+	System.out.println( 5. / 0 );
+
+Welche Exception wird geworfen?
+
+
+
+( ) A. Keine
+       
+( ) B. NullPointerException
+       
+( ) C. ArithmeticException
+       
+       
+       
+
+
+-----------
+QUESTION 12
+
+
+Gegeben:
+
+	int[] arr = { 1, 2, 3 };
+	System.out.println( arr[3] );
+
+Welche Exception wird geworfen?
+
+
+
+( ) A. Keine
+       
+( ) B. NullPointerException
+       
+( ) C. ArrayIndexOutOfBoundsException
+       
+       
+
+
+-----------
+QUESTION 13
+
+
+Gegeben:
+
+	Object obj = new String("Java");
+	String s = (String)obj;
+	
+Welche Exception wird geworfen?
+
+
+
+( ) A. Keine
+       
+( ) B. NullPointerException
+       
+( ) C. ClassCastException
+       
+       
+       
+
+
+-----------
+QUESTION 14
+
+
+Gegeben:
+
+	Object obj = new StringBuilder("Java");
+	String s = (String)obj;
+	
+Welche Exception wird geworfen?
+
+
+
+( ) A. Keine
+       
+( ) B. NullPointerException
+       
+( ) C. ClassCastException
+       
+       
+       
+
+
+-----------
+QUESTION 15
+
+
+Gegeben:
+
+	class Auto {
+		void fahren() throws NullPointerException {}
+	}
+	class VW extends Auto {
+		void fahren() throws Exception {}
+	}
+	class Opel extends Auto {
+		void fahren() {}
+	}
+	class Mazda extends Auto {
+		void fahren() throws IllegalStateException {}
+	}
+	public class Main {
+		public static void main(String[] args) {
+			Auto a = new VW();
+			a.fahren();
+		}
+	}
+
+Was ist richtig?
+
+
+
+( ) A. Compilerfehler in der Klasse `Auto`.
+       
+( ) B. Compilerfehler in der Klasse `VW`.
+       
+( ) C. Compilerfehler in der Klasse `Opel`.
+       
+( ) D. Compilerfehler in der Klasse `Mazda`.
+       
+( ) E. Compilerfehler in der Klasse `Main`.
+       
+       
+
+
+-----------
+QUESTION 16
+
+
+Gegeben:
+
+	static void test() {
+		try {
+			otherMethod();
+			
+			System.out.print("a ");
+		
+		} catch (Exception e) {
+			System.out.print("b ");
+			
+		} finally { 
+			System.out.print("c ");
+		} 
+	}
+
+Bekannt ist, dass der Code kompiliert.
+Was könnte das Ergebnis sein, wenn die Methode `test` aufgerufen wird?
+
+
+
+[ ] A. a b c
+       
+[ ] B. b c
+       
+[ ] C. a c
+       
+[ ] D. c gefolgt von einem Error
+       
+[ ] E. keine Ausgaben, die Anwendung friert ein.
+       
+       
+
+

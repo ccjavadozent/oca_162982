@@ -1,0 +1,359 @@
+-----------
+QUESTION 1
+
+
+Welche Aussage beschreibt die Kapselung (encapsulation)?
+
+
+
+( ) A. Trennen zwischen der Funktionsbeschreibung und der Funktionsrealisierung. 
+       
+( ) B. Wiederverwenden der Definitionen aus der Basisklasse.
+       
+( ) C. Verweden der Sichtbarkeiten (access modifiers) zum Verstecken der Attribute in einer Klasse.
+       
+( ) D. Bilden neuer Objekte.
+       
+( ) E. Auswahl der aufzurufenden Instanzmethode zur Laufzeit.
+       
+       
+       
+
+
+-----------
+QUESTION 2
+
+
+Gegeben:
+
+	public class Kreis {
+		int radius;
+		double flaeche;
+		
+		public Kreis(int radius) {
+			setRadius(radius);
+		}
+	
+		public void setRadius(int radius) {
+			this.radius = radius;
+			flaeche = Math.PI * radius * radius;
+		}
+		
+		public final int getRadius() {
+			return radius;
+		}
+		
+		public final double getFlaeche() {
+			return flaeche;
+		}
+	}
+
+Wie sollte die Klasse geändert werden, damit garantiert werden kann, dass die Methode `getFlaeche` immer den richtigen Wert liefert (abhängig von dem aktiellen Radius-Wert)?  
+
+
+
+[ ] A. Die beiden Attribute `radius` und `flaeche` sollten `private` werden.
+       
+[ ] B. Der Konstruktor sollte `protected` werden.
+       
+[ ] C. Nur das Attribut `flaeche` sollte `private` werden.
+       
+[ ] D. Nur das Attribut `radius` sollte `private` werden.
+       
+[ ] E. Die Methode `setRadius` sollte `final` werden.
+       
+[ ] F. Die Methode `getFlaeche` sollte `static` werden.
+       
+       
+       
+
+
+-----------
+QUESTION 3
+
+
+Was ist richtig?
+
+
+
+[ ] A. Klassen aus dem Package 'java.lang' müssen nicht importiert werden.
+       
+[ ] B. Klassen aus dem Package 'java.util' müssen nicht importiert werden.
+       
+[ ] C. Nur 'sichtbare' Elemente können importiert werden.
+       
+[ ] D. Mit der import-Anweisung können Topleveltypen aus einem Package importiert werden.
+       
+       
+
+
+-----------
+QUESTION 4
+
+
+Gegeben:
+
+	01. package p1;
+	02. public class Main {
+	03. 	public static void main(String[] args) {
+	04. 		String v1;	// A
+	05. 		java.lang.String v2;	// B
+	06. 		ArrayList<Integer> v3;	// C
+	07. 		java.util.ArrayList<Integer> v4;	// D
+	08. 	}
+	09. }
+
+Welche Zeilen kompilieren?
+
+
+
+[ ] A. A.
+       
+[ ] B. B.
+       
+[ ] C. C.
+       
+[ ] D. D.
+       
+       
+
+
+-----------
+QUESTION 5
+
+
+Gegeben:
+
+	01. package p1;
+	02. 
+	03. import static java.util.Arrays.*;
+	04.
+	05. public class Main {
+	06. 	public static void main(String[] args) {
+	07. 		int[] arr = { 1, 3, 2 };
+	08. 		java.util.Arrays.sort(arr);	// A
+	09. 		Arrays.sort(arr);	// B
+	10. 		sort(arr);	// C
+	11. 	}
+	12. }
+
+Welche Zeilen kompilieren?
+
+
+
+[ ] A. A.
+       
+[ ] B. B.
+       
+[ ] C. C.
+       
+       
+       
+
+
+-----------
+QUESTION 6
+
+
+Gegeben sind zwei Java-Dateien:
+
+Auto.java
+	
+	01. package autos;
+	02. 
+	03. public class Auto {
+	04. 	protected static class Motor {
+	05.			protected Motor() {}
+	06.		}
+	07. }
+	
+Rennwagen.java
+
+	01. package rennen;
+	02. import autos.Auto;
+	03. 
+	04. public class Rennwagen extends Auto {
+	05. 	public void fahren() {
+	06. 		Motor m1;
+	07. 		m1 = new Motor();
+	08. 	}
+	09. 	
+	10. 	public static void main(String[] args) {
+	11. 		Motor m1;
+	12. 		m1 = new Motor();
+	13. 	}
+	14. }
+
+Was ist richtig über die Datei 'Rennwagen.java'?
+
+
+
+[ ] A. Zeile 6 kompiliert.
+       
+[ ] B. Zeile 7 kompiliert.
+       
+[ ] C. Zeile 11 kompiliert.
+       
+[ ] D. Zeile 12 kompiliert.
+       
+       
+
+
+-----------
+QUESTION 7
+
+
+Gegeben ist die Datei 'Values.java', die nicht kompiliert:
+
+	01. import java.util.*;
+	02. package numbers;
+	03. public class MyNumbers {
+	04. 	
+	05.		private ArrayList<Integer> values;  
+	06.		
+	07. }
+
+Was muss gemacht werden, damit alle Compilerfehler verschwinden?
+
+
+
+[ ] A. Die Zeilen 01 und 02 vertauschen.
+       
+[ ] B. Die Zeile 01 nach der Zeile 03 verschieben.
+       
+[ ] C. Den vollqualifizierten Namen `java.list.ArrayList` für das Attribut in der Zeile 05 verwenden.
+       
+[ ] D. Die Klasse `MyNumbers` in `Values` umbenennen.
+       
+[ ] E. Den expliziten Konstruktor definieren, in dem das Attribut `values` initialisiert wird.
+       
+       
+       
+
+
+-----------
+QUESTION 8
+
+
+Gegeben sind zwei Java-Dateien:
+
+Auto.java
+	
+	package autos;
+	 
+	public class Auto {
+		public int v1 = 1;
+		protected int v2 = 2;
+		int v3 = 3;
+		private int v4 = 4;
+	}
+	
+Main.java
+
+	package rennen;
+	import autos.Auto;
+	
+	public class Rennwagen extends Auto {
+		public void start() {
+			Auto a = new Auto();
+			System.out.println( a.v1 ); // A
+			System.out.println( a.v2 ); // B
+			System.out.println( a.v3 ); // C
+			System.out.println( a.v4 ); // D
+			
+			System.out.println( this.v1 ); // E
+			System.out.println( this.v2 ); // F
+			System.out.println( this.v3 ); // G
+			System.out.println( this.v4 ); // H
+		} 
+	}
+
+Welche Zeilen kompilieren?
+
+
+
+[ ] A. A.
+       
+[ ] B. B.
+       
+[ ] C. C.
+       
+[ ] D. D.
+       
+[ ] E. E.
+       
+[ ] F. F.
+       
+[ ] G. G.
+       
+[ ] H. H.
+       
+       
+
+
+-----------
+QUESTION 9
+
+
+Gegeben sind zwei Java-Dateien:
+
+Auto.java
+	
+	package autos;
+	 
+	public class Auto {
+		public static final int MIN_BJ = 1880;
+	}
+	
+Rennwagen.java
+
+	package rennen;
+	import autos.Auto;
+	
+	public class Rennwagen extends Auto {
+		static int MIN_BJ = 1990;
+	
+		public void start() {
+			System.out.print( autos.Auto.MIN_BJ + " " );
+			System.out.print( Auto.MIN_BJ + " " );
+			System.out.print( MIN_BJ );
+		} 
+		
+		public static void main(String[] args) {
+			new Rennwagen().start();
+		}
+	}
+
+Falls beide Dateien kompilieren, wird danach die main-Methode aus der Klasse `Rennwagen` gestartet. Was ist das Ergebnis?
+
+
+
+( ) A. Compilerfehler.
+       
+( ) B. 1880 1880 1880.
+       
+( ) C. 1880 1880 1990.
+       
+       
+
+
+-----------
+QUESTION 10
+
+
+Die 'private' Elemente der Klasse `p1.Foo` sind
+
+
+
+( ) A. sichtbar nur in der Klasse `Foo`.
+       
+( ) B. sichtbar im Package `p1`.
+       
+( ) C. sichtbar in allen Klassen im Package `p1` und in anderen Packages in den Klassen, die von der Klasse `Foo` erben.
+       
+( ) D. überall sichtbar.
+       
+       
+       
+
+

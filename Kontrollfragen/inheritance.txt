@@ -1,0 +1,1305 @@
+-----------
+QUESTION 1
+
+
+Welche Vorteile bekommt man mit Vererbung?
+
+
+
+( ) A. Gleicher Code wird in der Basisklasse nur ein Mal definiert und in abgeleiteten Klassen geerbt.
+       
+( ) B. Durch Vererbung ist das Definieren unveränderlicher Objekte einfacher.
+       
+       
+
+
+-----------
+QUESTION 2
+
+
+Welche Klasse ist die Basisklasse für alle Java-Klassen?
+
+
+
+( ) A. Object
+       
+( ) B. Java
+       
+       
+       
+
+
+-----------
+QUESTION 3
+
+
+Mit welchem Schlüßelwort wird die "IS-A" Beziehung zwischen Klassen in Java realisiert?
+
+
+
+( ) A. extends
+       
+( ) B. inherits
+       
+       
+
+
+-----------
+QUESTION 4
+
+
+Gegeben:
+
+	class Text {}
+	class HtmlText extends Text {}
+
+Wie stehen die Typen `Text` und `HtmlText` zueinander?
+
+
+
+( ) A. `Text` und `HtmlText` sind Geschwistertypen.
+       
+( ) B. `Text` IST-EIN `HtmlText`.
+       
+( ) C. `HtmlText` IST-EIN `Text`.
+       
+       
+       
+
+
+-----------
+QUESTION 5
+
+   
+Wird folgender Code kompilieren, wenn die Klasse `Hund` von der Klasse `Tier` erbt?
+
+		    Hund h = new Hund();
+		    System.out.println( h instanceof Tier );
+
+
+
+( ) A. Ja.
+       
+( ) B. Nein.
+       
+       
+
+
+-----------
+QUESTION 6
+
+
+Wird folgender Code kompilieren, wenn die Klasse `Hund` und die Klasse `Katze` die Klasse `Tier` erweitern (`Hund` und `Katze` sind Geschwisterklassen)?
+
+		  Hund h = new Hund();
+		  System.out.println( h instanceof Katze );
+
+
+
+( ) A. Ja.
+       
+( ) B. Nein.
+       
+       
+       
+
+
+-----------
+QUESTION 7
+
+
+Gegeben:
+
+	final class Tier {}
+	class Hund extends Tier {}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Compilerfehler.
+       
+( ) B. Der Code kompiliert.
+       
+       
+       
+
+
+-----------
+QUESTION 8
+
+
+Gegeben: 
+
+	Object[] arr = new String[2];
+	System.out.println("|" + arr[0] + "|");
+
+Was ist das Ergebnis?
+
+
+
+( ) A. ||
+       
+( ) B. |null|
+       
+( ) C. Compilerfehler
+       
+( ) D. Exception
+       
+       
+       
+
+
+-----------
+QUESTION 9
+
+
+Gegeben: 
+
+		int[] a1 = null;
+		Integer[] a2 = null;
+		
+		a2 = a1;				// A
+		
+		Number[] a3 = a1;	// B
+		Number[] a4 = a2;	// C
+		
+		Object[] a5 = a1;	// D
+		Object[] a6 = a2;	// E
+		
+		Object x = a1;		// F
+		Object y = a2;		// G
+
+Welche Zeilen kompilieren nicht?
+
+
+
+[ ] A. A.
+       
+[ ] B. B.
+       
+[ ] C. C.
+       
+[ ] D. D.
+       
+[ ] E. E.
+       
+[ ] F. F.
+       
+[ ] G. G.
+       
+       
+       
+
+
+-----------
+QUESTION 10
+
+
+Gegeben: 
+
+	Object[] a1 = { 1, 2, 3 };
+	System.out.print( a1.getClass().getSimpleName() + ", " );
+	
+	Integer[] a2 = { 1, 2, 3 };
+	System.out.println( a2.getClass().getSimpleName() );
+		
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Object[], Integer[] 
+       
+( ) B. Object[], Object[] 
+       
+( ) C. Integer[], Integer[] 
+       
+       
+       
+
+
+-----------
+QUESTION 11
+
+
+Gegeben: 
+
+	Object[] a1 = { 1, 2 };
+	a1[0] = 7.2;							// A
+	System.out.print(a1[0] + " "); 		
+	
+	Integer[] a2 = { 1, 2 };
+	a1 = a2;
+	
+	a1[0] = 7.3; 						// B
+	System.out.print(a1[0]); 		
+
+Was ist richtig?
+
+
+
+( ) A. 7.2 7.3
+       
+( ) B. Compilerfehler in der Zeile A 
+       
+( ) C. Compilerfehler in der Zeile B 
+       
+( ) D. Exception in der Zeile A 
+       
+( ) E. Exception in der Zeile B 
+       
+       
+
+
+-----------
+QUESTION 12
+
+
+Gegeben sind die Klassen:
+
+	class Tier {}
+	class Hund extends Tier {}
+	class Katze extends Tier {}
+	
+und folgendes Codefragment:
+
+	Hund h = null; 
+	Katze k = null;
+	
+	Tier t = h;	// A
+	h = t;			// B
+	t = k;			// C
+	h = k;			// D
+
+Welche Zeilen beinhalten einen Compilerfehler?
+
+
+
+[ ] A. A.
+       
+[ ] B. B.
+       
+[ ] C. C.
+       
+[ ] D. D.
+       
+[ ] E. Keine.
+       
+       
+       
+
+
+-----------
+QUESTION 13
+
+
+Gegeben:
+
+	abstract class Figur {
+		int x, y;
+		abstract double getFlaeche();
+	}
+	
+	class Werkstueck {
+		private int masse;
+		
+		public int getMasse() {
+			return masse;
+		}
+	}
+	
+	class Kreis { // Zeile A
+	}
+
+Wie kann die Klasse `Kreis` in der Zeile A die Klassen `Figur` und `Werkstueck` glechzeitig erweitern?
+
+
+
+( ) A. Kreis extends Figur, Werkstueck
+       
+( ) B. Kreis extends Figur extends Werkstueck
+       
+( ) C. Es geht nicht. 
+       
+       
+
+
+-----------
+QUESTION 14
+
+
+Gegeben:
+
+	class C1 { }
+
+Wie sieht der default-Constructor der Klasse `C1` aus?
+
+
+
+( ) A. C1() { }
+       
+( ) B. C1() { super(); }
+       
+( ) C. C1() { this(); }
+       
+( ) D. Die Klasse hat keinen default-Constructor.
+       
+       
+
+
+-----------
+QUESTION 15
+
+
+Gegeben:
+
+	class C1 {
+		C1(int x) {}
+		
+		void C1() {}
+		
+		public String toString() {
+			return "C1";	
+		}
+	}
+
+	class Main {
+		public static void main(String[] args) {
+			C1 x = new C1();
+			System.out.println( x );
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. C1
+       
+( ) B. Compilerfehler.
+       
+       
+       
+
+
+-----------
+QUESTION 16
+
+
+Gegeben:
+
+	class BaseA {
+		int x;
+		public BaseA(int x) {
+			this.x = x;
+		}
+	}
+	
+	class DerivedA extends BaseA {
+	}
+	
+Was ist richtig?
+
+
+
+( ) A. Die Klasse `BaseA` kompiliert nicht.
+       
+( ) B. Die Klasse `DerivedA` kompiliert nicht.
+       
+( ) C. Beide Klassen kompilieren.
+       
+       
+
+
+-----------
+QUESTION 17
+
+
+Gegeben:
+
+	class Tier {
+		private int x;
+		public Tier(int x) {
+			this.x = x;
+		}
+	}
+	
+	class Hund extends Tier {
+		private int y;
+		Hund() {
+			// Zeile A
+		}
+	}
+	
+Was kompiliert in der Zeile A?
+
+
+
+[ ] A. super(2);
+       this(3);
+       
+       
+[ ] B. super(2);
+       this.y = 3;
+       
+       
+[ ] C. super.x = 2;
+       this.y = 3;
+       
+       
+[ ] D. this.y = 3;
+       super(2);
+       
+       
+       
+       
+       
+       
+
+
+-----------
+QUESTION 18
+
+
+Gegeben:
+
+	abstract
+	final 				// Zeile A
+	class Foo {
+		protected		// Zeile B
+		abstract
+		final 			// Zeile C
+		void m()
+		{}				// Zeile D
+		;				// Zeile E
+	}
+
+Welche Zeilen müssen entfernt werden, damit die Klasse `Foo`kompiliert?
+
+
+
+[ ] A. A.
+       
+[ ] B. B.
+       
+[ ] C. C.
+       
+[ ] D. D.
+       
+[ ] E. E.
+       
+       
+       
+
+
+-----------
+QUESTION 19
+
+
+Gegeben:
+
+	abstract class C0 { }
+	abstract class C1 { abstract void m(); }
+	abstract class C2 { void m(); }
+	abstract class C3 { void m() {} }
+	class C4 { void m(); }
+	class C5 { abstract void m(); }
+
+Welche Klassen kompilieren?
+
+
+
+[ ] A. C0.
+       
+[ ] B. C1.
+       
+[ ] C. C2.
+       
+[ ] D. C3.
+       
+[ ] E. C4.
+       
+[ ] F. C5.
+       
+       
+       
+
+
+-----------
+QUESTION 20
+
+
+Gegeben:
+
+	abstract class Lebewesen { }
+	class Tier extends Lebewesen { }
+	abstract class Hund extends Tier { }
+	class Katze extends Tier { }
+
+Welche klassen kompilieren nicht?
+
+
+
+( ) A. Lebewesen.
+       
+( ) B. Tier.
+       
+( ) C. Hund.
+       
+( ) D. Katze.
+       
+( ) E. Alle Klassen kompilieren.
+       
+       
+       
+
+
+-----------
+QUESTION 21
+
+
+Gegeben:
+
+	abstract class Lebewesen { 
+		void laufen() {
+			System.out.println("Lebewesen");
+		}
+	}
+	class Tier extends Lebewesen {
+		void laufen() {
+			System.out.println("Tier");
+		}
+	}
+	class Main {
+		public static void main(String[] args) {
+			Lebewesen x = new Lebewesen();
+			x.laufen();
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Lebewesen.
+       
+( ) B. Tier.
+       
+( ) C. Compilerfehler in der Klasse `Lebewesen`.
+       
+( ) D. Compilerfehler in der Klasse `Tier`.
+       
+( ) E. Compilerfehler in der Klasse `Main`.
+       
+       
+
+
+-----------
+QUESTION 22
+
+
+Gegeben ist folgender Code:
+
+		class A {
+			void m() { System.out.print("A "); }
+		}
+		
+		abstract class B extends A {
+			abstract void m();
+		}
+		
+		class C extends B {
+			void m() { System.out.print("C "); }
+		}
+		
+		public class TestABC {
+			public static void main(String[] args) {
+				A a = new C();
+				a.m();
+				
+				C c = new C();
+				c.m();
+			}
+		}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Compilerfehler.
+       
+( ) B. A C.
+       
+( ) C. C C.
+       
+       
+       
+
+
+-----------
+QUESTION 23
+
+
+Gegeben:
+
+	class Auto {}
+	class PKW extends Auto {}
+	class Lastwagen extends Auto {}
+	
+	class Main {
+		public static void main(String[] args) {
+			Auto var = new PKW(); 
+			System.out.print(var instanceof Auto);
+			System.out.print(" ");
+			System.out.print(var instanceof PKW);	
+			System.out.print(" ");
+			System.out.print(var instanceof Lastwagen);
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. false true false
+       
+( ) B. true false false
+       
+( ) C. true true false
+       
+( ) D. Compilerfehler.
+       
+       
+
+
+-----------
+QUESTION 24
+
+
+Gegeben:
+
+	class Auto {}
+	class PKW extends Auto {}
+	class Lastwagen extends Auto {}
+	
+	class Main {
+		public static void main(String[] args) {
+			PKW var = new PKW(); 
+			System.out.print(var instanceof Auto);
+			System.out.print(" ");
+			System.out.print(var instanceof PKW);	
+			System.out.print(" ");
+			System.out.print(var instanceof Lastwagen);
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. false true false
+       
+( ) B. true false false
+       
+( ) C. true true false
+       
+( ) D. Compilerfehler.
+       
+       
+
+
+-----------
+QUESTION 25
+
+
+Gegeben:
+
+	class Person {
+		public String toString() {
+			return "Person";
+		}
+	}
+	
+	class Dozent extends Person {
+		public String toString() {
+			return "Dozent";
+		}
+	}
+	
+	class Main {
+		public static void main(String[] args) {
+			Person p = new Dozent();
+			System.out.println(p + " " + (Dozent)p);
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Person Dozent.
+       
+( ) B. Dozent Dozent.
+       
+( ) C. Compilerfehler.
+       
+( ) D. ClassCastException.
+       
+       
+
+
+-----------
+QUESTION 26
+
+
+Gegeben:
+
+	class Person {
+		public String toString() {
+			return "Person";
+		}
+	}
+	
+	class Dozent extends Person {
+		public String toString() {
+			return "Dozent";
+		}
+	}
+	
+	class Main {
+		public static void main(String[] args) {
+			Dozent p = new Dozent();
+			System.out.println(p + " " + (Person)p);
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Dozent Person.
+       
+( ) B. Dozent Dozent.
+       
+( ) C. Person Person.
+       
+( ) D. Compilerfehler.
+       
+( ) E. ClassCastException.
+       
+       
+       
+
+
+-----------
+QUESTION 27
+
+
+Gegeben:
+
+	class Person {
+	}
+	
+	class Dozent extends Person {
+		int gehalt = 800;
+	}
+	
+	class Main {
+		public static void main(String[] args) {
+			Person p = new Dozent();
+			System.out.println(p.gehalt);				// A
+			System.out.println((Dozent)p.gehalt);		// B
+			System.out.println(((Dozent)p).gehalt);	// C
+		}
+	}
+
+Was ist richtig?
+
+
+
+[ ] A. 800 800 800.
+       
+[ ] B. Compilerfehler in der Zeile A.
+       
+[ ] C. Compilerfehler in der Zeile B.
+       
+[ ] D. Compilerfehler in der Zeile C.
+       
+       
+       
+
+
+-----------
+QUESTION 28
+
+
+Gegeben:
+
+	class Tier {}
+	class Hund extends Tier {}
+	class Katze extends Tier {}
+	
+	class Main {
+		public static void main(String[] args) {
+			Tier tier = new Tier();
+			Hund hund = new Hund();
+			Katze katze = new Katze();
+			
+			System.out.println( (Tier)tier ); // A
+			System.out.println( (Tier)hund ); // B
+			
+			System.out.println( (Katze)tier ); // C
+			System.out.println( (Katze)Hund ); // D
+		}
+	}
+
+Was ist richtig?
+
+
+
+( ) A. Compilerfehler in der Zeile A.
+       
+( ) B. Compilerfehler in der Zeile B.
+       
+( ) C. Compilerfehler in der Zeile C.
+       
+( ) D. Compilerfehler in der Zeile D.
+       
+( ) E. Der Code kompiliert, zur Laufzeit gibt es die ClassCastException.
+       
+       
+       
+
+
+-----------
+QUESTION 29
+
+
+Gegeben:
+
+	class Base {
+		static int x = 1;
+		static int getX() { return x; }
+	}
+	
+	class Derived extends Base {
+		static int x = 2;
+		static int getX() { return x; }
+	}
+	
+	class Main {
+		public static void main(String[] args) {
+			Base var = null;
+			System.out.print( var.x + " " );
+			System.out.print( var.getX() + " " );
+			System.out.print( ((Derived)var).x + " " );
+			System.out.print( ((Derived)var).getX() );
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. 1 1 1 1.
+       
+( ) B. 1 1 2 2.
+       
+( ) C. 1 1 1 2.
+       
+( ) D. Compilerfehler.
+       
+( ) E. NullPointerException.
+       
+       
+       
+
+
+-----------
+QUESTION 30
+
+
+Gegeben:
+
+	class Base {
+		int x = 1;
+		int getX() { return x; }
+	}
+	
+	class Derived extends Base {
+		int x = 2;
+		int getX() { return x; }
+	}
+	
+	class Main {
+		public static void main(String[] args) {
+			Base var = new Derived();
+			System.out.print( var.x + " " );
+			System.out.print( var.getX() + " " );
+			System.out.print( ((Derived)var).x + " " );
+			System.out.print( ((Derived)var).getX() );
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. 1 1 1 1.
+       
+( ) B. 1 1 2 2.
+       
+( ) C. 1 2 2 2.
+       
+( ) D. Compilerfehler.
+       
+       
+       
+
+
+-----------
+QUESTION 31
+
+
+Gegeben:
+
+	class Base {
+		void m() {}
+	}
+	class DerivedA extends Base {
+		private void m() {}
+	}
+	class DerivedB extends Base {
+		int m() { return 3; }
+	}
+	class DerivedC extends Base {
+		void m() throws Exception { }
+	}
+
+Was ist richtig?
+
+
+
+[ ] A. Klasse `DerivedA` kompiliert nicht.
+       
+[ ] B. Klasse `DerivedB` kompiliert nicht.
+       
+[ ] C. Klasse `DerivedC` kompiliert nicht.
+       
+[ ] D. Alle Klassen kompilieren.
+       
+       
+       
+
+
+-----------
+QUESTION 32
+
+
+Gegeben sind die Klassen:
+
+	class TextFormat {
+		public String toString() {
+			return "Formatter";
+		}
+	}
+	
+	class HtmlTextFormat extends TextFormat {
+		public String toString() {
+			return "Html" + super.toString();
+		}
+	}
+	
+	class MarkdownTextFormat extends TextFormat {
+		public String toString() {
+			return "MarkdownFormatter";
+		}
+	}
+	
+	public class Main {
+		public static void main(String[] args) {
+			TextFormat fmt = new HtmlTextFormat();
+			System.out.println( fmt );
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Formatter.
+       
+( ) B. HtmlFormatter.
+       
+( ) C. MarkdownFormatter.
+       
+( ) D. Compilerfehler.
+       
+       
+       
+
+
+-----------
+QUESTION 33
+
+
+Gegeben:
+
+	class Base {
+		static int x = 1;
+		static int getX() { return x; }
+	}
+	
+	class Derived extends Base {
+		static int x = 2;
+		static int getX() { return x; }
+	}
+	
+	public class Main {
+		public static void main(String[] args) {
+			Base var = new Derived();
+			System.out.println( var.x );
+			System.out.println( var.getX() );
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. 1 1.
+       
+( ) B. 1 2.
+       
+( ) C. 2 2.
+       
+( ) D. Compilerfehler.
+       
+       
+
+
+-----------
+QUESTION 34
+
+
+Gegeben:
+
+	class Base {
+		int x = 1;
+		int getX() { return x; }
+	}
+	
+	class Derived extends Base {
+		int x = 2;
+		int getX() { return x; }
+	}
+	
+	public class Main {
+		public static void main(String[] args) {
+			Base var = new Derived();
+			System.out.println( var.x );
+			System.out.println( var.getX() );
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. 1 1.
+       
+( ) B. 1 2.
+       
+( ) C. 2 2.
+       
+( ) D. Compilerfehler.
+       
+       
+
+
+-----------
+QUESTION 35
+
+
+Gegeben:
+
+	class Base {
+		final int x = 1;					// A
+		final int getX() { return x; }	// B
+	}
+	
+	class Derived extends Base {
+		int x = 2;						// C
+		int getX() { return x; }		// D
+	}
+	
+	public class Main {
+		public static void main(String[] args) {
+			Base var = new Derived();
+			System.out.println( var.x );
+			System.out.println( var.getX() );
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Compilerfehler in der Zeile A.
+       
+( ) B. Compilerfehler in der Zeile B.
+       
+( ) C. Compilerfehler in der Zeile C.
+       
+( ) D. Compilerfehler in der Zeile D.
+       
+       
+       
+
+
+-----------
+QUESTION 36
+
+
+Gegeben:
+
+	class Base {
+		public final int x = 1;						// A
+		private final int getX() { return x; }	// B
+	}
+	
+	class Derived extends Base {
+		int x = 2;						// C
+		int getX() { return x; }		// D
+	}
+	
+Was ist das Ergebnis?
+
+
+
+[ ] A. Compilerfehler in der Zeile A.
+       
+[ ] B. Compilerfehler in der Zeile B.
+       
+[ ] C. Compilerfehler in der Zeile C.
+       
+[ ] D. Compilerfehler in der Zeile D.
+       
+[ ] E. Keine Compilerfehler.
+       
+       
+       
+
+
+-----------
+QUESTION 37
+
+
+Gegeben:
+
+	class IntValue{
+		int x;
+		IntValue(int x) {
+			this.x = x;
+		}
+	}
+	class DoubleValue {
+		double x;
+		DoubleValue(double x) {
+			this.x = x;
+		}
+		public boolean equals(Object obj) {
+			return ((DoubleValue)obj).x == x;
+		}
+	}
+	public class Main {
+		public static void main(String[] args) {
+			IntValue v1 = new IntValue(3);
+			IntValue v2 = new IntValue(3);
+			System.out.print((v1 == v2) + " ");
+			System.out.print(v1.equals(v2)+ " ");
+			DoubleValue v3 = new DoubleValue(3.);
+			DoubleValue v4 = new DoubleValue(3.);
+			System.out.print((v3 == v4) + " ");
+			System.out.print(v3.equals(v4));
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. false false false true
+       
+( ) B. false false false false
+       
+( ) C. false false true true
+       
+( ) D. false true false true
+       
+       
+
+
+-----------
+QUESTION 38
+
+
+Gegeben:
+
+	class Himmelskoerper {
+		final int groesse;
+		
+		public Himmelskoerper(int groesse) {
+			this.groesse = groesse;		// A
+		}
+		
+		public String toString() {
+			return " " + this.groesse;	// B
+		}
+	}
+	
+	class Asteroid extends Himmelskoerper {
+		public Asteroid(int groesse) {
+			super(groesse);		// C
+		}
+		
+		public Asteroid() {
+			this(10);		// D
+		}
+		
+		public String toString() {
+			return super.toString()	// E 
+					+ " " 
+					+  super.groesse 	// F
+					+ " " 
+					+ this.groesse;		// G
+		}
+	}
+
+Was ist richtig?
+
+
+
+( ) A. Compilerfehler in der Zeile A.
+       
+( ) B. Compilerfehler in der Zeile B.
+       
+( ) C. Compilerfehler in der Zeile C.
+       
+( ) D. Compilerfehler in der Zeile D.
+       
+( ) E. Compilerfehler in der Zeile E.
+       
+( ) F. Compilerfehler in der Zeile F.
+       
+( ) G. Compilerfehler in der Zeile G.
+       
+( ) H. Keine Compilerfehler.
+       
+       
+       
+( ) I. Wann wird Schlüsselwort 'this' implizit eingesetzt?
+       
+
+

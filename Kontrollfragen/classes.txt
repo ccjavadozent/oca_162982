@@ -1,0 +1,435 @@
+-----------
+QUESTION 1
+
+
+Gegeben:
+
+	public class Foo {
+		static int var = 100;
+		
+		public static void main(String[] args) {
+			int var = 10;
+			m(var);
+			System.out.println(var);
+		}
+		
+		static void m(int var) {
+			var++;
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Compilerfehler.
+       
+( ) B. 10.
+       
+( ) C. 11.
+       
+( ) D. 100.
+       
+( ) E. 101.
+       
+       
+
+
+-----------
+QUESTION 2
+
+
+Gegeben:
+
+	public class Main {
+		static int var = 22;
+		
+		public static void main(String[] args) {
+			int var;
+			System.out.println(var);
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. 0.
+       
+( ) B. 22.
+       
+( ) C. Compilerfehler.
+       
+       
+       
+
+
+-----------
+QUESTION 3
+
+
+Gegeben:
+
+	public class Planet {
+		String name;
+		
+		Planet getPlanet() {
+			return this;
+		}
+		
+		static Planet foo(Planet p) {
+			p = p.getPlanet();
+			p.name = "Erde";
+			return p;
+		}
+		
+		public static void main(String[] args) {
+			Planet p1 = new Planet();
+			Planet p2 = foo(p1);
+			System.out.println(p2.name);
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Compilerfehler
+       
+( ) B. NullPointerException
+       
+( ) C. null
+       
+( ) D. Erde
+       
+       
+
+
+-----------
+QUESTION 4
+
+
+Gegeben:
+
+	class Hund {
+		int alter;
+	
+		void setAlter(int alter) {
+			alter = alter;
+		}
+		
+		public String toString() {
+			return "Hund ist " + this.alter;
+		}
+	}
+	
+	public class Main {
+		public static void main(String[] args) {
+			Hund h = new Hund();
+			h.setAlter(3);
+			System.out.println(h);
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Compilerfehler
+       
+( ) B. NullPointerException
+       
+( ) C. Hund ist 3.
+       
+( ) D. Hund ist 0.
+       
+( ) E. Hund@abcdEFGH.
+       
+       
+
+
+-----------
+QUESTION 5
+
+
+Gegeben:
+
+	class OS {
+		private String name = "Linux";
+		private int version = 1;
+		
+		public OS(String name, int version) {
+			this.name = name;
+			this.version = version;
+		}
+		
+		public OS(String name) {
+			this(name, 1);
+		}
+		
+		public String toString() {
+			return name + " " + version;
+		}
+	}
+	
+	public class Main {
+		public static void main(String[] args) {
+			// Zeile A
+			
+			System.out.println(os1);
+		}
+	}
+
+Welche Antworten einzeln eingesetzt in der Zeile A führen zu der Ausgabe 'Linux 1'?
+
+
+
+[ ] A. OS os1 = new OS("Linux");
+       
+[ ] B. OS os1 = new OS();
+       
+[ ] C. OS os1 = new OS("Linux", 1);
+       
+[ ] D. OS os1 = new OS(1);
+       
+       
+
+
+-----------
+QUESTION 6
+
+
+Gegeben:
+
+	class Blume {
+		int preis;
+	
+		public Blume(int preis) {
+			this.preis = preis;
+		}
+	}
+	
+	public class Main {
+		public static void main(String[] args) {
+			Blume b1 = new Blume(12);
+			Blume b2 = new Blume(12);
+			System.out.print(b1==b2);
+			System.out.print(" ");
+			System.out.print(b1.equals(b2));
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+[ ] A. false false
+       
+[ ] B. false true
+       
+[ ] C. true false
+       
+[ ] D. true true
+       
+[ ] E. Compilerfehler
+       
+
+
+-----------
+QUESTION 7
+
+
+Gegeben:
+
+	class Tier {
+		static {
+			System.out.print("i1 ");
+		}
+		
+		Tier() {
+			System.out.print("c ");
+		}
+		
+		static {
+			System.out.print("i2 ");
+		}
+	}
+	
+	public class Main {
+		public static void main(String[] args) {
+			new Tier();
+			new Tier();
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Compilerfehler.
+       
+( ) B. i1 c i2 i1 c i2
+       
+( ) C. i1 i2 c i1 i2 c
+       
+( ) D. i1 i2 c c
+       
+( ) E. i1 c i2 c
+       
+( ) F. c c
+       
+       
+
+
+-----------
+QUESTION 8
+
+
+Gegeben:
+
+	class Tier {
+		{
+			System.out.print("i1 ");
+		}
+		
+		Tier() {
+			System.out.print("c ");
+		}
+		
+		{
+			System.out.print("i2 ");
+		}
+	}
+	
+	public class Main {
+		public static void main(String[] args) {
+			new Tier();
+			new Tier();
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Compilerfehler.
+       
+( ) B. i1 c i2 i1 c i2
+       
+( ) C. i1 i2 c i1 i2 c
+       
+( ) D. i1 i2 c c
+       
+( ) E. i1 c i2 c
+       
+( ) F. c c
+       
+       
+
+
+-----------
+QUESTION 9
+
+
+Gegeben:
+
+	class Fahrzeug {
+		static final int K1;			// A
+		static final int K2 = 2;		// B
+		static final int K3;			// C
+		
+		static {
+			K3 = 3;		// D
+		}
+	
+		static {
+			K3 = 3;		// E
+		}
+	
+		static final int K4;	// F
+		
+		static void init() { 
+			K4 = 4; 				// G
+		}
+	}
+
+Welche Zeilen kompilieren nicht?
+
+
+
+[ ] A. A.
+       
+[ ] B. B.
+       
+[ ] C. C.
+       
+[ ] D. D.
+       
+[ ] E. E.
+       
+[ ] F. F.
+       
+[ ] G. G.
+       
+       
+
+
+-----------
+QUESTION 10
+
+
+Gegeben:
+
+	class Fahrzeug {
+		final int k1;		// A
+		final int k2 = 2;	// B
+		final int k3;		// C
+		{ k3 = 3; }			// D
+	}	
+
+Welche Zeilen kompilieren nicht?
+
+
+
+( ) A. A.
+       
+( ) B. B.
+       
+( ) C. C.
+       
+( ) D. D.
+       
+       
+
+
+-----------
+QUESTION 11
+
+
+Gegeben:
+
+	class Fahrzeug {
+		final int k1;		// A
+		final int k2 = 2;	// B
+		final int k3;		// C
+		{ k3 = 3; }			// D
+		Fahrzeug() { }		// E
+	}	
+
+Welche Zeilen kompilieren nicht?
+
+
+
+( ) A. A.
+       
+( ) B. B.
+       
+( ) C. C.
+       
+( ) D. D.
+       
+( ) E. E.
+       
+       
+
+

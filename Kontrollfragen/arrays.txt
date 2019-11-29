@@ -1,0 +1,480 @@
+-----------
+QUESTION 1
+
+
+Was ist richtig über Arrays?
+
+
+
+( ) A. Mit einem Array ist es möglich mehrere Elemente vom selben primitiven Typ zu verwalten. 
+       
+( ) B. Mit einem Array ist es möglich mehrere Elemente vom unterschiedlichen primitiven Typen zu verwalten. 
+       
+       
+
+
+-----------
+QUESTION 2
+
+
+Gegeben ist der Code:
+
+	int[] arr = new int[10];
+
+Was ist richtig?
+
+
+
+[ ] A. `arr` ist eine Referenz vom Typ `int[].
+       
+[ ] B. Im Code wird ein neues Objekt vom Typ `int[] mit dem new-Operator erzeugt.
+       
+[ ] C. Das erzeugte Array hat das Attribut `length`.
+       
+[ ] D. Das erzeugte Array hat die Methode `length()`.
+       
+[ ] E. Est möglich die Länge des erzeugten Arrays nachträglich zu ändern.
+       
+[ ] F. Est möglich der Referenz `arr` nachträglich ein weiteres int-Array mit einer anderen Länge zuzuweisen.
+       
+[ ] G. Est möglich die einzelnen Positionen im Array mit neuen Werten zu überschreiben.
+       
+       
+
+
+-----------
+QUESTION 3
+
+
+Gegeben ist der Code:
+
+	final int arr[] = new int[10];
+
+Was ist richtig?
+
+
+
+[ ] A. `arr` ist eine Referenz vom Typ `int[].
+       
+[ ] B. Im Code wird ein neues Objekt vom Typ `int[] mit dem new-Operator erzeugt.
+       
+[ ] C. Das erzeugte Array hat das Attribut `length`.
+       
+[ ] D. Das erzeugte Array hat die Methode `length()`.
+       
+[ ] E. Est möglich die Länge des erzeugten Arrays nachträglich zu ändern.
+       
+[ ] F. Est möglich der Referenz `arr` nachträglich ein weiteres int-Array mit einer anderen Länge zuzuweisen.
+       
+[ ] G. Est möglich die einzelnen Positionen im Array mit neuen Werten zu überschreiben.
+       
+       
+       
+
+
+-----------
+QUESTION 4
+
+
+Gegeben ist der Code:
+
+		boolean[] arr = new boolean[3];
+		int index = arr.length;
+		System.out.println(arr[index]);
+
+Was ist das Ergebnis?
+
+
+
+( ) A. true
+       
+( ) B. false
+       
+( ) C. Compilerfehler
+       
+( ) D. Exception
+       
+       
+       
+
+
+-----------
+QUESTION 5
+
+
+Gegeben ist der Code:
+
+		float[] arr = new float[3];
+		
+		for( int i : arr ) {
+			System.out.print(arr[i] + " ");
+		}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Compilerfehler
+       
+( ) B. 0.0 0.0 0.0
+       
+( ) C. null null null
+       
+       
+
+
+-----------
+QUESTION 6
+
+
+Gegeben ist der Code:
+
+		int[] arr = new int[3];
+		
+		for( int x : arr ) {
+			x = 7;
+		}
+		
+		System.out.println(arr[0]);
+
+Was ist das Ergebnis?
+
+
+
+( ) A. 0
+       
+( ) B. 7
+       
+( ) C. Compilerfehler
+       
+       
+
+
+-----------
+QUESTION 7
+
+
+Gegeben:
+
+	int[] arr1 = new int[3];	// A
+	arr1 = new int[3];			// B
+	
+	int[] arr2 = { 12, 13, 14 };	// C
+	arr2 = { 12, 13, 14 };			// D
+	
+	int[] arr3 = new int[] { 12, 13, 14 };	// E
+	arr3 = new int[] { 12, 13, 14 };			// F
+	
+	int[] arr4 = new int[3] { 12, 13, 14 };	// G
+	arr4 = new int[3] { 12, 13, 14 };			// H
+
+Welche Zeilen haben einen Compilerfehler?
+
+
+
+[ ] A. A.
+       
+[ ] B. B.
+       
+[ ] C. C.
+       
+[ ] D. D.
+       
+[ ] E. E.
+       
+[ ] F. F.
+       
+[ ] G. G.
+       
+[ ] H. H.
+       
+       
+
+
+-----------
+QUESTION 8
+
+
+Was ist richtig über `java.util.Arrays`?
+
+
+
+( ) A. Es ist eine Utility-Klasse.
+       
+( ) B. Es ist ein Interface, das alle Arrays realisieren.
+       
+       
+
+
+-----------
+QUESTION 9
+
+
+Gegeben:
+
+	int[] arr = { 1, 2, 3 };
+
+Wie können die Elemente des einfachen int-Arrays `arr` ausgegeben werden?
+
+
+
+( ) A. `System.out.println(arr);`
+       
+( ) B. `System.out.println(arr.toString());`
+       
+( ) C. `System.out.println(java.util.Arrays.toString(arr));`
+       
+       
+       
+
+
+-----------
+QUESTION 10
+
+
+Gegeben:
+
+	public class Main {
+		public static void main(String[] args) {
+			// Zeile A
+		}
+	}
+	
+
+Welche Antworten kompilieren nicht in der Zeile A?
+   
+
+
+[ ] A. int []a1 = {};
+       
+[ ] B. int a2[] = {};
+       
+[ ] C. int []a3[] = {};
+       
+[ ] D. int [0]a4 = {};
+       
+[ ] E. int a5[0] = {};
+       
+       
+       
+       
+
+
+-----------
+QUESTION 11
+
+
+Gegeben:
+
+	public class Main {
+		public static void main(String[] args) {
+			Object[] a1	= new String[2];	// A
+			Object[] a2	= new int[2];		// B
+			Object[] a3	= new int[2][];		// C
+			Object a4		= new int[2][];		// D
+			int[][] a5	= new int[2][];		// E
+			int[] a6 []	= new int[2][];		// F
+			int a7[][]	= new int[2][];		// G
+		}
+	}
+	
+
+Welche Zeilen kompilieren?
+   
+
+
+[ ] A. A.
+       
+[ ] B. B.
+       
+[ ] C. C.
+       
+[ ] D. D.
+       
+[ ] E. E.
+       
+[ ] F. F.
+       
+[ ] G. G.
+       
+       
+       
+
+
+-----------
+QUESTION 12
+
+
+Gegeben:
+
+	class Dozent {
+		String name;
+	}
+	
+	public class Main {
+		public static void main(String[] args) {
+			Dozent d = new Dozent();
+			
+			Dozent[] arr = { d, d };
+			
+			arr[0].name = "Tom";
+			arr[1].name = "Jerry";
+			
+			System.out.println(d.name);
+		}
+	}
+	
+
+Was ist das Ergebnis?
+   
+
+
+( ) A. null.
+       
+( ) B. Tom.
+       
+( ) C. Jerry.
+       
+( ) D. Compilerfehler.
+       
+       
+       
+
+
+-----------
+QUESTION 13
+
+
+Gegeben:
+
+	String[][] arr = new String[3][2];
+
+Wie viele Objekte von Typ `String` (Elemente des Arrays) werden mit dem Code erzeugt?
+
+
+
+( ) A. 0
+       
+( ) B. 6
+       
+( ) C. 7
+       
+       
+          
+       
+
+
+-----------
+QUESTION 14
+
+
+Gegeben:
+
+	public class Main {
+		public static void main(String[] args) {
+			float f = 0;
+			float[] f1 = null;
+			float[][] f2 = null;
+			float[][][] f3 = null;
+			
+			f1 = f;			// A
+			f1[0] = f;		// B
+			f2[0] = f1;		// C
+			f3[0][0] = f1;	// D
+		}
+	}
+
+Welche Zeilen kompilieren?
+
+
+
+[ ] A. A.
+       
+[ ] B. B.
+       
+[ ] C. C.
+       
+[ ] D. D.
+       
+       
+       
+
+
+-----------
+QUESTION 15
+
+
+Gegeben:
+
+	public class Main {
+		public static void main(String[] args) {
+			int[] arrA, arrB[], arrC[][], arrD;
+			
+			arrA = new int[2]; 		// A
+			arrB = new int[2][2];		// B
+			arrC = new int[2][2][2]; // C
+			arrD = new int[2][2][2]; // D
+		}
+	}
+
+Welche Zeilen kompilieren?
+
+
+
+[ ] A. A.
+       
+[ ] B. B.
+       
+[ ] C. C.
+       
+[ ] D. D.
+       
+       
+
+
+-----------
+QUESTION 16
+
+
+	class Kreis {
+		int radius;
+		
+		public Kreis(int radius) {
+			this.radius = radius;
+		}
+	}
+	
+	public class Main {
+		public static void main(String[] args) {
+			
+			Kreis[][] kreise = {
+				{ new Kreis(1), new Kreis(2) },		// A
+				{ new Kreis(3), new Kreis(4) },		// B
+			};
+			
+			for (int i = 0; i < kreise.length; i++) {
+				for (int j = 0; j < kreise[i].length; j++) {	// C
+					System.out.print( kreise[i][j].radius + " " );	// D
+				}
+			}
+		}
+	}
+
+Was ist richtig?
+
+
+
+( ) A. Zeile A kompiliert nicht.
+       
+( ) B. Zeile B kompiliert nicht.
+       
+( ) C. Zeile C kompiliert nicht.
+       
+( ) D. Zeile D kompiliert nicht.
+       
+( ) E. 1 2 3 4
+       
+( ) F. Exception 
+       
+
+

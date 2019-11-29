@@ -1,0 +1,1531 @@
+-----------
+QUESTION 1
+
+
+Was ist richtig über folgende Typen aus dem Package 'java.util'?
+
+
+
+[ ] A. `Collection` ist ein Interface.
+       
+[ ] B. `List` ist eine Klasse.
+       
+[ ] C. Die Klasse `ArrayList` implementiert das Interface `List`
+          
+       
+       
+
+
+-----------
+QUESTION 2
+
+
+Vorausgesetzt wird folgende Java-Datei: 
+
+	01. import java.util.*;
+	02.
+	03.	 public class Main {
+	04. 	public static void main(String[] args) {
+	05. 		// Zeile A
+	06. 	}
+	07. }
+	
+	
+
+Welche Zuweisungen kompilieren in der Zeile A?
+
+
+
+[ ] A. List<String> a = new List<>();
+       
+[ ] B. List<String> b = new ArrayList<>();
+       
+[ ] C. ArrayList<String> c = new ArrayList<>();
+       
+[ ] D. Collection<String> d = new Collection<>();
+       
+[ ] E. Collection<String> e = new ArrayList<>();
+       
+[ ] F. Object f = new ArrayList<>();
+       
+       
+
+
+-----------
+QUESTION 3
+
+
+Welche Konstruktoren hat die Klasse `java.util.ArrayList`?
+   
+
+
+[ ] A. ArrayList()
+       
+[ ] B. ArrayList(int)
+       
+[ ] C. ArrayList(Collection)
+       
+[ ] D. ArrayList(String[])
+       
+       
+
+
+-----------
+QUESTION 4
+
+
+Welche Methoden hat die Klasse `java.util.ArrayList`?
+
+
+
+[ ] A. int size()
+       
+[ ] B. boolean isEmpty()
+       
+[ ] C. boolean add(E element)
+       
+[ ] D. void add(int index, E element)
+       
+[ ] E. boolean remove(Object element)
+       
+[ ] F. boolean remove(E element)
+       
+[ ] G. E remove(int index)
+       
+[ ] H. E set(int index, E element) 
+       
+[ ] I. E get(int index) 
+       
+[ ] J. int indexOf(Object element)
+       
+[ ] K. int lastIndexOf(Object element)
+       
+[ ] L. boolean contains(Object element)
+       
+[ ] M. boolean contains(E element)
+       
+       
+       
+
+
+-----------
+QUESTION 5
+
+
+Gegeben:
+
+	ArrayList<Integer> list = new ArrayList();
+	list.add(1);
+	list.add(1);
+	list.add(2);
+	list.add(2);
+	System.out.println(list.size());
+
+Was ist das Ergebnis?
+   
+
+
+( ) A. 2
+       
+( ) B. 4
+       
+( ) C. Compilerfehler
+       
+       
+
+
+-----------
+QUESTION 6
+
+
+Gegeben:
+
+	ArrayList<Integer> list = new ArrayList();
+	list.add(1);
+	list.add(1);
+	list.add(2);
+	list.add(2);
+	
+	for(Integer x : list) {
+		System.out.print(x + " ");
+	}
+
+Was ist das Ergebnis?
+   
+
+
+( ) A. 1 2
+       
+( ) B. 1 1 2 2
+       
+( ) C. Compilerfehler
+       
+       
+
+
+-----------
+QUESTION 7
+
+
+Gegeben ist die Klasse `Kreis`:
+
+	class Kreis {
+		int radius;
+
+		public Kreis(int radius) {
+			this.radius = radius;
+		}
+	}
+
+und folgender Code:
+
+	ArrayList<Kreis> list = new ArrayList();
+	list.add(new Kreis(3));
+	System.out.print( list.contains(new Kreis(3)) );
+
+Was ist das Ergebnis?
+   
+
+
+( ) A. false
+       
+( ) B. true
+       
+( ) C. Compilerfehler
+       
+       
+
+
+-----------
+QUESTION 8
+
+
+Gegeben ist die Klasse `Kreis`:
+
+	class Kreis {
+		public boolean equals(Kreis k) { return true; }
+	}
+
+und folgender Code:
+
+	ArrayList<Kreis> list = new ArrayList<>();
+	list.add(new Kreis());
+	System.out.print( list.contains(new Kreis()) );
+
+Was ist das Ergebnis?
+   
+
+
+( ) A. false
+       
+( ) B. true
+       
+( ) C. Compilerfehler
+       
+       
+
+
+-----------
+QUESTION 9
+
+
+Gegeben:
+
+	class Figur {}
+	class Kreis extends Figur {}
+	class Rechteck extends Figur {}
+	
+	public class Main {
+		
+		public static void main(String[] args) {
+			ArrayList<Kreis> list = new ArrayList<>();
+			list.add(new Figur());	// A
+			list.add(new Kreis());	// B
+			list.add(new Rechteck());// C
+		}
+	}
+
+Was ist richtig?
+   
+
+
+[ ] A. Der Code kompiliert.
+       
+[ ] B. Compilerfehler in der Zeile A.
+       
+[ ] C. Compilerfehler in der Zeile B.
+       
+[ ] D. Compilerfehler in der Zeile C.
+       
+       
+
+
+-----------
+QUESTION 10
+
+
+Gegeben:
+
+	enum AmpelFarbe { ROT, GELB, GRUEN }
+
+	public class Main {
+		public static void main(String[] args) {
+			AmpelFarbe farbe = AmpelFarbe.ROT;
+			System.out.println(farbe);
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Compilerfehler.
+       
+( ) B. AmpelFarbe@12ab34dc.
+       
+( ) C. ROT.
+       
+       
+
+
+-----------
+QUESTION 11
+
+
+Gegeben:
+
+	enum Size { SMALL, BIG }
+	
+	public class Main {
+		public static void main(String[] args) {
+			
+			Size s = Size.BIG;
+			switch(s) {
+				case SMALL:
+					System.out.println(s.name().toLowerCase());
+				break;
+				case BIG:
+					System.out.println(s.ordinal());
+				break;
+			}
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. 1.
+       
+( ) B. 2.
+       
+( ) C. Compilerfehler
+       
+       
+
+
+-----------
+QUESTION 12
+
+
+Gegeben:
+
+	enum Size { SMALL, BIG }
+	
+	public class Main {
+		public static void main(String[] args) {
+			Size[] allSizes = Size.values();
+			for(Size s : allSizes) {
+				System.out.print(s + " ");
+			}
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. SMALL BIG 
+       
+( ) B. Compilerfehler
+       
+       
+
+
+-----------
+QUESTION 13
+
+
+Gegeben:
+
+	enum Size { SMALL, BIG }
+	
+	public class Main {
+		public static void main(String[] args) {
+			Size[] sizes = {
+				Size.SMALL,
+				null,
+				Size.SMALL,
+				new Size(),
+				Size.BIG
+			};
+			System.out.println(sizes.length);
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. 4. 
+       
+( ) B. 5.
+       
+( ) C. Compilerfehler
+       
+       
+
+
+-----------
+QUESTION 14
+
+
+Gegeben:
+	
+	public class Main {
+		public static void main(String[] args) {
+			int v1 = (int)Math.random();
+			System.out.println( v1 == 0 );	// A
+			
+			int v2 = new java.util.Random().nextInt(10);
+			System.out.println( v2 > 0 );	// B
+		}
+	}
+
+Was ist richtig?
+
+
+
+[ ] A. Die Zeile A gibt immer 'true' aus.
+       
+[ ] B. Die Zeile A kann 'false' ausgeben.
+       
+[ ] C. Die Zeile B gibt immer 'true' aus.
+       
+[ ] D. Die Zeile B kann 'false' ausgeben.
+       
+
+
+-----------
+QUESTION 15
+
+
+Gegeben:
+
+	public class Main {
+		public static void main(String[] args) {
+			String s1 = "mo";
+			String s2 = "mo";
+			String s3 = new String("mo");
+			System.out.print(s1 == s2);
+			System.out.print(" ");
+			System.out.print(s1 == s3);
+			System.out.print(" ");
+			System.out.print(s1.equals(s3));
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. true true true
+       
+( ) B. true false true
+       
+( ) C. false false true
+       
+( ) D. false true false
+       
+       
+
+
+-----------
+QUESTION 16
+
+
+Gegeben:
+
+	public class Main {
+		public static void main(String[] args) {
+			String s1 = "java";
+			s1.toUpperCase().substring(1);
+			System.out.println(s1);
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. JAVA
+       
+( ) B. AVA
+       
+( ) C. ava
+       
+( ) D. java
+       
+       
+       
+
+
+-----------
+QUESTION 17
+
+
+Gegeben:
+
+	public class Main {
+		public static void main(String[] args) {
+			String s1 = "java";
+			s1 = s1.toUpperCase().substring(1);
+			System.out.println(s1);
+		}
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. JAVA
+       
+( ) B. AVA
+       
+( ) C. ava
+       
+( ) D. java
+       
+       
+
+
+-----------
+QUESTION 18
+
+
+Gegeben:
+
+	String s1 = new String();			// A
+	String s2 = new String("Java");		// B
+	String s3 = new String(77);			// C
+
+Welche Zeilen kompilieren?
+
+
+
+[ ] A. A.
+       
+[ ] B. B.
+       
+[ ] C. C.
+       
+       
+
+
+-----------
+QUESTION 19
+
+
+Gegeben:
+
+	String s1 = "Java";
+	System.out.print( s1.length() ); 
+	System.out.print( " " + s1.charAt(2) );
+	
+Was ist das Ergebis?
+
+
+
+( ) A. 4 a
+       
+( ) B. 4 v
+       
+( ) C. Compielrfehler
+       
+       
+       
+
+
+-----------
+QUESTION 20
+
+
+Gegeben:
+
+	String s = "jAvA!";
+	
+	System.out.print(s.toUpperCase());
+	System.out.println(" " + s.toLowerCase());
+	
+Was ist das Ergebis?
+
+
+
+( ) A. JAVA! java!
+       
+( ) B. jAvA! jAvA!
+       
+( ) C. Compilerfehler
+       
+( ) D. Exception
+       
+       
+
+
+-----------
+QUESTION 21
+
+
+Gegeben:
+
+	String s = null;
+	System.out.print(s.isEmpty());
+	
+Was ist das Ergebis?
+
+
+
+( ) A. true
+       
+( ) B. false
+       
+( ) C. Compilerfehler
+       
+( ) D. Exception
+       
+       
+       
+
+
+-----------
+QUESTION 22
+
+
+Gegeben:
+
+	String s = "Donnerstag";
+	System.out.print(s.startsWith("Do"));
+	System.out.print(s.endsWith("Tag"));
+	
+Was ist das Ergebis?
+
+
+
+( ) A. true true
+       
+( ) B. true false
+       
+( ) C. Compilerfehler
+       
+( ) D. Exception
+       
+       
+
+
+-----------
+QUESTION 23
+
+
+Gegeben:
+
+	String a = "a";
+	String b = "b";
+	String c = "c";
+	
+	System.out.print( a.concat(b).concat(c) );
+	System.out.print( a + b + c + " " );
+	
+Was ist das Ergebis?
+
+
+
+( ) A. abc abc
+       
+( ) B. abc abcbc
+       
+( ) C. Compilerfehler
+       
+( ) D. Exception
+       
+       
+       
+
+
+-----------
+QUESTION 24
+
+
+Gegeben:
+
+	String s = "Donnerstag";
+	System.out.print(s.indexOf('n') + " ");
+	System.out.print(s.lastIndexOf('n') + " ");
+	System.out.print(s.indexOf('n', 3) + " ");
+	System.out.print(s.lastIndexOf('n', 2) + " ");
+	System.out.print(s.indexOf(-12));
+	
+Was ist das Ergebis?
+
+
+
+( ) A. 2 3 3 2 -1
+       
+( ) B. Compilerfehler
+       
+( ) C. Exception
+       
+       
+
+
+-----------
+QUESTION 25
+
+
+Gegeben:
+
+	String s = "FREITAG";
+	System.out.print(s.substring(4));
+	System.out.print(s.substring(0, 4));
+	
+Was ist das Ergebis?
+
+
+
+( ) A. TAGFREI
+       
+( ) B. TAGFREIT
+       
+( ) C. Compilerfehler
+       
+( ) D. Exception
+       
+       
+
+
+-----------
+QUESTION 26
+
+
+Gegeben:
+
+	String s = "Java";
+	System.out.print(s.replace('a', 'A'));
+	System.out.print(s.replace("vA", "VA"'));
+
+	
+Was ist das Ergebis?
+
+
+
+( ) A. JAvAJAVA
+       
+( ) B. JAvAJAvA
+       
+( ) C. JAvAJava
+       
+( ) D. Compilerfehler
+       
+       
+
+
+-----------
+QUESTION 27
+
+
+Gegeben:
+
+	char[] arr = { 'J', 'a', 'v', 'a' };
+	System.out.print( String.valueOf(arr) );
+	System.out.print( " " );
+	System.out.print( String.valueOf(+8) );
+
+Was könnte das Ergebis sein?
+
+
+
+( ) A. [C@12ab13cd 8
+       
+( ) B. [C@12ab13cd +8
+       
+( ) C. Java 8
+       
+( ) D. Java +8
+       
+       
+       
+
+
+-----------
+QUESTION 28
+
+
+Gegeben:
+
+	String method() {
+	
+	    String s = "Hello";
+	    s += " ";
+	    s = s + "Java";
+	    s = s.toUpperCase();
+	    
+	    return s.toString();
+	}
+
+Wie viele String-Objekte werden bei jedem Aufruf der Methode `method` erzeugt?
+
+
+
+( ) A. 0.
+       
+( ) B. 1.
+       
+( ) C. 2.
+       
+( ) D. 3.
+       
+( ) E. 4.
+       
+
+
+-----------
+QUESTION 29
+
+
+In welcher Java-Version erschien StringBuilder?
+
+
+
+( ) A. 5
+       
+( ) B. 6
+       
+( ) C. 8
+       
+       
+       
+
+
+-----------
+QUESTION 30
+
+
+Gegeben:
+
+	StringBuilder sb1 = new StringBuilder();
+	StringBuilder sb2 = new StringBuilder("java");
+	StringBuilder sb3 = new StringBuilder(20);
+	System.out.print( sb1 + sb2 + sb3 );
+
+Was ist das Ergebnis?
+
+
+
+( ) A. java.
+       
+( ) B. java20.
+       
+( ) C. Compilerfehler
+       
+       
+       
+
+
+-----------
+QUESTION 31
+
+
+Gegeben:
+	
+	StringBuilder sb = new StringBuilder();
+	
+	sb.append(3.2);	
+	sb.append(2);
+	sb.append(" a ");
+	sb.append(true);
+	
+	System.out.println(sb);
+
+Was ist das Ergebnis?
+
+
+
+( ) A. 3.22 a true.
+       
+( ) B. Compilerfehler
+       
+( ) C. Exception
+       
+       
+       
+
+
+-----------
+QUESTION 32
+
+
+Gegeben:
+	
+	StringBuilder sb = new StringBuilder();
+	sb.append("FREITAG").delete(4, 7);	
+	System.out.println(sb);
+
+Was ist das Ergebnis?
+
+
+
+( ) A. FREI.
+       
+( ) B. FRE.
+       
+( ) C. Compilerfehler.
+       
+( ) D. Exception.
+       
+       
+       
+
+
+-----------
+QUESTION 33
+
+
+Gegeben:
+	
+	StringBuilder sb = new StringBuilder();
+	sb.append("JVA").insert(1, 'A');	
+	System.out.println(sb);
+
+Was ist das Ergebnis?
+
+
+
+( ) A. JAVA.
+       
+( ) B. Compilerfehler.
+       
+( ) C. Exception.
+       
+       
+       
+
+
+-----------
+QUESTION 34
+
+
+Gegeben:
+	
+	StringBuilder sb = new StringBuilder("Montag");
+	sb.replace(0, 3, "Frei");	
+	System.out.print(sb + " ");
+	System.out.println(sb.length());
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Montag 6.
+       
+( ) B. Freitag 7.
+       
+( ) C. Freiag 6.
+       
+( ) D. Compilerfehler.
+       
+( ) E. Exception.
+       
+       
+
+
+-----------
+QUESTION 35
+
+
+Gegeben:
+	
+	StringBuilder sb = new StringBuilder("AVAJ");
+	sb.reverse();
+	System.out.println(sb);
+
+Was ist das Ergebnis?
+
+
+
+( ) A. AVAJ.
+       
+( ) B. JAVA.
+       
+( ) C. Compilerfehler.
+       
+       
+       
+
+
+-----------
+QUESTION 36
+
+
+Gegeben:
+	
+	StringBuilder sb = new StringBuilder("Donnerstag");
+	System.out.print(sb.indexOf("nn") + " ");
+	System.out.print(sb.lastIndexOf("nn") + " ");
+	System.out.print(sb.indexOf("nn", 3) + " ");
+	System.out.print(sb.lastIndexOf("nn", 3) + " ");
+
+Was ist das Ergebnis?
+
+
+
+( ) A. 2 2 -1 2.
+       
+( ) B. 2 2 -1 -1.
+       
+( ) C. Compilerfehler.
+       
+( ) D. Exception.
+       
+       
+
+
+-----------
+QUESTION 37
+
+
+Gegeben:
+	
+	StringBuilder sb = new StringBuilder("Freitag");
+	String s1 = sb.substring(0, 3);
+	String s2 = sb.substring(3);
+	System.out.println( s1 + s2 );
+
+Was ist das Ergebnis?
+
+
+
+( ) A. Freitag
+       
+( ) B. Fretag
+       
+( ) C. Compilerfehler.
+       
+( ) D. Exception.
+       
+       
+
+
+-----------
+QUESTION 38
+
+
+Gegeben:
+	
+	StringBuilder sb = new StringBuilder()
+			.append("Montag")
+			.replace(0, 3, "Frei")
+			.substring(0, 4)
+			.append("!");
+		
+	System.out.println(sb);
+		
+Was ist das Ergebnis?
+
+
+
+( ) A. Frei!
+       
+( ) B. Compilerfehler.
+       
+( ) C. Exception.
+       
+       
+       
+
+
+-----------
+QUESTION 39
+
+
+Was ist richtig?
+
+
+
+( ) A. `StringBuilder` und `StringBuffer` lösen ähnliche Aufgaben.
+       
+( ) B. `StringBuilder` hat die IS-A-Beziehung mit `StringBuffer`.
+       
+       
+       
+
+
+-----------
+QUESTION 40
+
+
+Gegeben:
+
+	Byte v1 = 1;
+	Short v2 = 2;
+	Integer v3 = 3;
+	Long v4 = 4;
+	Float v5 = 5;
+	Double v6 = 6;
+	Character v7 = 7;
+	Boolean v8 = 8;
+
+Welche Variablen werden korrekt (kompilierbar) definiert?
+
+
+
+[ ] A. v1
+       
+[ ] B. v2
+       
+[ ] C. v3
+       
+[ ] D. v4
+       
+[ ] E. v5
+       
+[ ] F. v6
+       
+[ ] G. v7
+       
+[ ] H. v8
+       
+       
+       
+
+
+-----------
+QUESTION 41
+
+
+Gegeben:
+
+	List<int> list1 = new ArrayList<>(); 			// A
+	List<Integer> list2 = new ArrayList<>(); 	// B
+	
+Was ist richtig?
+
+
+
+( ) A. Compilerfehler in der Zeile A
+       
+( ) B. Compilerfehler in der Zeile B
+       
+       
+       
+
+
+-----------
+QUESTION 42
+
+
+Welche Zeilen kompilieren nicht?
+   
+	new Byte(22);			// A
+	new Byte( (byte)22 );	// B
+	new Byte("22");			// C
+	
+	new Integer(22);		// D
+	new Integer("22");		// E
+	
+
+
+( ) A. A
+       
+( ) B. B
+       
+( ) C. C
+       
+( ) D. D
+       
+( ) E. E
+       
+       
+
+
+-----------
+QUESTION 43
+
+
+Welche Basisklasse haben die Wrapper-Klassen `Byte`, `Short`, `Integer`, `Long`, `Float` und `Double`?
+
+
+
+( ) A. Number.
+       
+( ) B. Numeric.
+       
+( ) C. Comparable.
+       
+( ) D. Sie alle erweitern direkt die Klasse `Object`. 
+       
+       
+
+
+-----------
+QUESTION 44
+
+
+Welches Interface implementieren alle Wrapper-Klassen?
+
+
+
+( ) A. Number.
+       
+( ) B. Numeric.
+       
+( ) C. Comparable.
+       
+       
+       
+
+
+-----------
+QUESTION 45
+
+
+Welche Methoden deklariert oder definiert die Klasse java.lang.Number?
+
+
+
+[ ] A. int intValue()
+       
+[ ] B. E getValue()
+       
+[ ] C. floatValue()
+       
+[ ] D. double asDouble()
+       
+       
+
+
+-----------
+QUESTION 46
+
+
+Gegeben:
+
+	Integer x = new Integer(22);		// A
+	Integer y = Integer.valueOf(22);	// B
+	Integer z = 22;							// C
+	int a = 22;								// D
+	int b = x.intValue();					// E
+	int c = y;								// F
+
+   
+Wo gibt es Autounboxing?
+
+
+
+( ) A. A.
+       
+( ) B. B.
+       
+( ) C. C.
+       
+( ) D. D.
+       
+( ) E. E.
+       
+( ) F. F.
+       
+       
+       
+
+
+-----------
+QUESTION 47
+
+
+Gegeben:
+
+	Integer x = new Integer(22);		// A
+	Integer y = Integer.valueOf(22);	// B
+	Integer z = 22;							// C
+	int a = 22;								// D
+	int b = x.intValue();					// E
+	int c = y;								// F
+
+   
+Wo gibt es Autoboxing?
+
+
+
+( ) A. A.
+       
+( ) B. B.
+       
+( ) C. C.
+       
+( ) D. D.
+       
+( ) E. E.
+       
+( ) F. F.
+       
+       
+       
+
+
+-----------
+QUESTION 48
+
+
+Gibt es im folgenden Code Autoboxing und/oder Autounboxing?
+     
+	Integer x = 1000;
+	x++;
+
+
+
+( ) A. nur Autoboxing
+       
+( ) B. nur Autounboxing
+       
+( ) C. sowohl Autoboxing als auch Autounboxing
+       
+( ) D. weder Autoboxing noch Autounboxing
+       
+       
+
+
+-----------
+QUESTION 49
+
+
+Gegeben:
+
+	Integer x = new Integer(22);
+	Integer y = new Integer(22);
+	System.out.println(x.equals(y));
+
+Was ist das Ergebnis?
+
+
+
+( ) A. true
+       
+( ) B. false
+          
+       
+
+
+-----------
+QUESTION 50
+
+
+Für welche Wrapper-Klassen gibt es Konstanten-Pools?
+
+
+
+[ ] A. Byte
+       
+[ ] B. Short
+       
+[ ] C. Integer
+       
+[ ] D. Long
+       
+[ ] E. Float
+       
+[ ] F. Double
+       
+       
+
+
+-----------
+QUESTION 51
+
+
+Gegeben:
+
+	Integer a = new Integer(22);
+	Integer b = new Integer(22);
+	Integer c = 22;
+	Integer d = 22;
+	Integer e = Integer.valueOf(22);
+	
+	System.out.print( a == b );
+	System.out.print( a == c );
+	System.out.print( c == d );
+	System.out.print( a == e );
+	System.out.print( c == e );
+	System.out.print( a.equals(e) );
+
+
+
+( ) A. truetruetruetruetruetrue
+       
+( ) B. falsefalsetruefalsetruetrue
+       
+( ) C. falsetruetruefalsetruetrue
+       
+       
+       
+
+
+-----------
+QUESTION 52
+
+
+Wie viele neue Integer-Objekte werden im folgenden Code auf dem Heap erzeugt?
+
+    Integer x = 1000;
+    x++;
+
+
+
+( ) A. 0
+       
+( ) B. 1
+       
+( ) C. 2
+       
+       
+       
+
+
+-----------
+QUESTION 53
+
+
+Gegeben:
+
+	class Foo {
+	   static void print(int x) { System.out.print("int "); }
+	   static void print(Integer x) { System.out.print("Integer "); }
+	   static void print(int... x) { System.out.print("varargs "); }
+	   static void print(double x) { System.out.print("double "); }
+	
+	   public static void main(String... args) {
+	        print(1);
+	        print(new Integer(1));
+	        print(2L);
+	        print(new int[2]);
+	   }
+	}
+
+Was ist das Ergebnis?
+
+
+
+( ) A. int Integer double int 
+       
+( ) B. int Integer double varargs 
+       
+( ) C. int Integer int int 
+       
+( ) D. int int double varargs 
+       
+       
+       
+
+
+-----------
+QUESTION 54
+
+
+Gegeben:
+
+	LocalDate d1 = new LocalDate(); 			// A
+	LocalDate d2 = LocalDate.now();				// B
+	LocalDateTime t1 = date.atStartOfDay();	// C
+	LocalTime time = LocalTime.of(12, 3);		// D
+
+Welche Zeilen kompilieren?
+
+
+
+[ ] A. A.
+       
+[ ] B. B.
+       
+[ ] C. C.
+       
+[ ] D. D.
+       
+       
+
+
+-----------
+QUESTION 55
+
+
+Gegeben:
+
+	LocalDate date = LocalDate.of(2019, 5, 23);
+	date.plusYears(2);
+	System.out.println(date.getYear());
+
+Was ist das Ergebnis?
+
+
+
+( ) A. 2019.
+       
+( ) B. 2021.
+       
+( ) C. Exception.
+       
+       
+       
+
+
+-----------
+QUESTION 56
+
+
+Gegeben:
+
+	DateTimeFormatter fmt = DateTimeFormatter.ofPattern("d.M.yyyy - HH:mm:ss");
+	LocalDate date = LocalDate.of(2019, 5, 23);
+	String s = date.format(fmt);
+	System.out.println(s);
+
+Was ist das Ergebnis?
+
+
+
+( ) A. 23.5.2019 - 00:00:00.
+       
+( ) B. Exception.
+       
+       
+       
+
+
+-----------
+QUESTION 57
+
+
+Gegeben:
+
+	LocalDate start = LocalDate.now();
+	LocalDate end = startDateInclusive.plusDays(2);
+	Period p = Period.between(start, end);
+	System.out.print(p.getDays());
+		
+Was ist das Ergebnis?
+
+
+
+( ) A. 2
+       
+( ) B. Exception.
+       
+       
+
+
