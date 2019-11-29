@@ -8,6 +8,8 @@
 > Die Klausurnoten sind im CC-Portal.
 > Die Klausurbesprechung wird verschoben. Der neuer Termin steht noch nicht fest.
 
+> Wenn der Skype wieder geht, gibt es in dem temporären Raum eine Nachricht von mir.
+
 ## Wissensvermittlung
 - 08:00 - 09:30 Uhr
 - 09:45 - 11:15 Uhr
