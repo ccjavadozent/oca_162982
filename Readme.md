@@ -1,12 +1,12 @@
 # Achtung!
 
-> Massive Skype-Probleme überall!
+> Massive Skype-Probleme immer noch (29.11)!
 
-> Das es massive Skype-Probleme gibt, versuchen Sie bitte heute selbständig die Fragen aus dem OCA-Buch zu beantworten.
+> __Solange Skype nicht funktioniert__: versuchen Sie bitte selbständig die Fragen aus dem OCA-Buch zu beantworten.
 > Fragen gibt es nach jedem Kapitel. Dazu gibt es auf der CD zu dem Buch die Software, mit der sie die Prüfung simulieren können.
 
 > Die Klausurnoten sind im CC-Portal.
-> Die Klausurbesprechung wird auf Freitag, 29.11, 08:00 Uhr verschoben. 
+> Die Klausurbesprechung wird verschoben. Der neuer Termin steht noch nicht fest.
 
 ## Wissensvermittlung
 - 08:00 - 09:30 Uhr
@@ -29,7 +29,7 @@
 
 - Comcave-Klausur: 27.11.2019, 08:30 Uhr (Multiple-Choice, 90 Min, alle Hilfsmitteln erlaubt)
     - Note im CC-Portal
-    - Klausurbesprechung: 29.11, 08:00 Uhr
+    - Klausurbesprechung: verschoben, Termin folgt.
 
 - Oracle-Prüfung: 12.12.2019	
 
