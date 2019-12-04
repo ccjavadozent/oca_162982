@@ -1,14 +1,4 @@
-# Achtung!
-
-> Massive Skype-Probleme immer noch (29.11)!
-
-> __Solange Skype nicht funktioniert__: versuchen Sie bitte selbständig die Fragen aus dem OCA-Buch zu beantworten.
-> Fragen gibt es nach jedem Kapitel. Dazu gibt es auf der CD zu dem Buch die Software, mit der sie die Prüfung simulieren können.
-
-> Die Klausurnoten sind im CC-Portal.
-> Die Klausurbesprechung wird verschoben. Der neuer Termin steht noch nicht fest.
-
-> Wenn der Skype wieder geht, gibt es in dem temporären Raum eine Nachricht von mir.
+> imperative.tyt, Q9 
 
 ## Wissensvermittlung
 - 08:00 - 09:30 Uhr
@@ -28,13 +18,9 @@
 		Exakte Adresse: http://openbook.rheinwerk-verlag.de/javainsel/
 		(es und weitere Bücher: https://www.rheinwerk-verlag.de/openbook/)
 - Buch 2 (OCA-Buch). OCA Java SE 8 Programmer I Exam Guide 
-
 - Comcave-Klausur: 27.11.2019, 08:30 Uhr (Multiple-Choice, 90 Min, alle Hilfsmitteln erlaubt)
-    - Note im CC-Portal
-    - Klausurbesprechung: verschoben, Termin folgt.
 
 - Oracle-Prüfung: 12.12.2019	
-
 
 ## Prüfungsanmeldung
 > Prüfungsbeschreibung von Oracle: https://education.oracle.com/java-se-8-programmer-i/pexam_1Z0-808

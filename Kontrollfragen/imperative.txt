@@ -6,27 +6,27 @@ Welche sind primitive Datentypen?
 
 
 
-[ ] A. byte
+[X ] A. byte
        
-[ ] B. short
+[X ] B. short
        
 [ ] C. integer
        
-[ ] D. int
+[X ] D. int
        
-[ ] E. long
+[X ] E. long
        
-[ ] F. float
+[X ] F. float
        
-[ ] G. double
+[X ] G. double
        
 [ ] H. character
        
-[ ] I. char
+[X ] I. char
        
 [ ] J. bool
        
-[ ] K. boolean
+[X ] K. boolean
         
        
 
@@ -41,7 +41,7 @@ Welche Werte passen in den byte-Bereich?
 
 ( ) A. [0 .. 256] 
        
-( ) B. [-128 .. 127] 
+(X) B. [-128 .. 127] 
        
 ( ) C. [-127 .. 128] 
        
@@ -56,11 +56,11 @@ Was stimmt über den Typ 'char'?
 
 
 
-( ) A. char hat 16 bit 
+(X) A. char hat 16 bit 
        
 ( ) B. char Variablen können negativ sein
        
-( ) C. char Variablen können NICHT negativ sein
+(X) C. char Variablen können NICHT negativ sein
        
        
        
@@ -74,13 +74,13 @@ Was kompiliert?
 
 
 
-[ ] A. char ch1 = 0;
+[X] A. char ch1 = 0;
        
 [ ] B. char ch2 = "0";
        
-[ ] C. char ch3 = '0';
+[X] C. char ch3 = '0';
        
-[ ] D. char ch3 = '\uABCD';
+[X] D. char ch3 = '\uABCD';
        
        
        
@@ -90,26 +90,26 @@ Was kompiliert?
 QUESTION 5
 
 
-Was kompiliert?
+Was kompiliert in Java 8?
 
 
 
 [ ] A. int class = 12;
        
-[ ] B. int _ = 12;
+[X] B. int _ = 12;
        
-[ ] C. int __ = 12;
+[X] C. int __ = 12;
        
-[ ] D. int INT = 12;
+[X] D. int INT = 12;
        
-[ ] E. int x12 = 12;
+[X] E. int x12 = 12;
        
 [ ] F. int 12x = 12;
        
-[ ] G. int $ = 12;
+[X] G. int $ = 12;
        
        
-
+> B ist richtig für Java 8.
 
 -----------
 QUESTION 6
@@ -125,9 +125,9 @@ Welche Antworten kompilieren wenn man sie in der Zeile A einzeln einsetzt?
 
 
 
-[ ] A. `int a = 1_000_000;`
+[X] A. `int a = 1_000_000;`
        
-[ ] B. `int b = 1_0_00_000;`
+[X] B. `int b = 1_0_00_000;`
        
 [ ] C. `int c = _1_000;`
        
@@ -151,19 +151,19 @@ Welche Antworten kompilieren wenn man sie in der Zeile A einzeln einsetzt?
 
 
 
-[ ] A. int var = -22;
+[X] A. int var = -22;
        
-[ ] B. int var = +22;
+[X] B. int var = +22;
        
-[ ] C. int var = 010;
+[X] C. int var = 010;
        
-[ ] D. int var = 0x123DEF;
+[X] D. int var = 0x123DEF;
        
-[ ] E. int var = 0xDeadCafe;
+[X] E. int var = 0xDeadCafe;
        
-[ ] F. int var = 0xbabe;
+[X] F. int var = 0xbabe;
        
-[ ] G. int var = 0b101010;
+[X] G. int var = 0b101010;
        
        
        
@@ -183,19 +183,19 @@ Welche Antworten kompilieren wenn man sie in der Zeile A einzeln einsetzt?
 
 
 
-[ ] A. double d = 1.0;
+[X] A. double d = 1.0;
        
-[ ] B. double d = 1.;
+[X] B. double d = 1.;
        
-[ ] C. double d = .123;
+[X] C. double d = .123;
        
-[ ] D. double d = 2e3;
+[X] D. double d = 2e3;
        
-[ ] E. double d = -2e-3;
+[X] E. double d = -2e-3;
        
-[ ] F. double d = 2d;
+[X] F. double d = 2d;
        
-[ ] G. double d = 2D;
+[X] G. double d = 2D;
        
        
        
@@ -217,19 +217,19 @@ Welche Antworten kompilieren wenn man sie in der Zeile A einzeln einsetzt?
 
 [ ] A. float var = 1.0;
        
-[ ] B. float var = 1.0f;
+[X] B. float var = 1.0f;
        
-[ ] C. float var = 1.0F;
+[X] C. float var = 1.0F;
        
-[ ] D. float var = 1F;
+[X] D. float var = 1F;
        
-[ ] E. float var = 1;
+[X] E. float var = 1;
        
 [ ] F. float var = 1e2;
        
-[ ] G. float var = 1L;
+[X] G. float var = 1L;
        
-[ ] H. float var = 'a';
+[X] H. float var = 'a';
        
 [ ] I. float var = true;
        
