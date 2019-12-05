@@ -1,4 +1,4 @@
-> imperative.tyt, Q9 
+> imperative.txt, Q9 
 
 ## Wissensvermittlung
 - 08:00 - 09:30 Uhr

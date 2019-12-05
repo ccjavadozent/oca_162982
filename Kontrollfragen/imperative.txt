@@ -254,14 +254,14 @@ Was ist richtig?
 
 [ ] A. C1 ist eine lokale Konstante.
        
-[ ] B. C1 ist eine statische Konstante.
+[X] B. C1 ist eine statische Konstante.
        
-[ ] C. C1 soll explizit initialisiert werden.
+[X] C. C1 soll explizit initialisiert werden.
        
-[ ] D. C1 kann in einem statischen Initialisierungsblock initialisiert werden.
+[X] D. C1 kann in einem statischen Initialisierungsblock initialisiert werden.
        
        
-
+> Statische Konstanten müssen explizit initialisiert werden. 
 
 -----------
 QUESTION 11
@@ -280,7 +280,7 @@ Was ist richtig?
 
 
 
-( ) A. C1 ist eine lokale Konstante.
+(X) A. C1 ist eine lokale Konstante.
        
 ( ) B. C1 ist eine statische Konstante.
        
@@ -297,7 +297,7 @@ Gegeben:
 	public class Foo {
 		
 		static final int K0; 		// A
-		static final int K1 = 1; // B
+		static final int K1 = 1; 	// B
 		static final int K2;		// C
 	
 		static {
@@ -312,13 +312,13 @@ Welche Zeilen kompilieren?
 
 [ ] A. A
        
-[ ] B. B
+[X] B. B
        
-[ ] C. C
+[X] C. C
        
 [ ] D. D
        
-[ ] E. E
+[X] E. E
        
        
 
@@ -351,21 +351,21 @@ Welche Zeilen kompilieren?
 
 
 
-[ ] A. A
+[X] A. A
        
-[ ] B. B
+[X] B. B
        
-[ ] C. C
+[X] C. C
        
 [ ] D. D
        
-[ ] E. E
+[X] E. E
        
-[ ] F. F
+[X] F. F
        
-[ ] G. G
+[X] G. G
        
-       
+> A kompiliert, da der Fehler im Konstruktor markiert wird (dort sollte man die Konstante spätestens initialisieren) 
        
 
 
@@ -379,7 +379,7 @@ Gegeben:
 		int x = 22;
 		
 		Predicate<Integer> p = var -> {
-			x = 3;					// A
+			x = 3;				// A
 			return x == 7;		// B
 		};
 	}
@@ -390,7 +390,7 @@ Was ist richtig?
 
 ( ) A. Der Code kompiliert.
        
-( ) B. Compilerfehler in der Zeile A
+(X) B. Compilerfehler in der Zeile A
        
 ( ) C. Compilerfehler in der Zeile B
        
@@ -418,7 +418,7 @@ Was ist richtig?
        
 ( ) B. Compilerfehler in der Zeile A
        
-( ) C. Compilerfehler in der Zeile B
+(X) C. Compilerfehler in der Zeile B
        
        
        
@@ -432,19 +432,19 @@ Wählen Sie arithmetischen Operatoren aus:
 
 
 
-[ ] A. '+'
+[X] A. '+'
        
 [ ] B. '!'
        
-[ ] C. '-'
+[X] C. '-'
        
-[ ] D. '*'
+[X] D. '*'
        
-[ ] E. '/'
+[X] E. '/'
        
 [ ] F. '\'
        
-[ ] G. '%'
+[X] G. '%'
        
        
 
@@ -459,7 +459,7 @@ Was ist richtig über das Ergebnis einer arithmetischen Operation?
 
 ( ) A. Das Ergebns einer arithmetischen Operation ist immer int.
        
-( ) B. Das Ergebnis einer arithmetischen Operation hat den Typ des 'breitesten' (umfassenderen) Operanden, aber nicht 'enger' als int.
+(X) B. Das Ergebnis einer arithmetischen Operation hat den Typ des 'breitesten' (umfassenderen) Operanden, aber nicht 'enger' als int.
        
        
 
@@ -482,9 +482,9 @@ Was kompiliert einzeln in der Zeile A?
        
 [ ] B. byte c = (byte)a + b;
        
-[ ] C. byte c = (byte)(a + b);
+[X] C. byte c = (byte)(a + b);
        
-[ ] D. long c = a + b;
+[X] D. long c = a + b;
        
        
        
@@ -504,7 +504,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. Compilerfehler
+(X) A. Compilerfehler
        
 ( ) B. Der Code kompiliert und läuft, c ist 25.
        
@@ -527,7 +527,7 @@ Was ist das Ergebnis?
 
 ( ) A. Compilerfehler
        
-( ) B. Laufzeitfehler (Exception)
+(X) B. Laufzeitfehler (Exception)
        
 ( ) C. Infinity 
        
@@ -555,7 +555,7 @@ Was ist das Ergebnis?
        
 ( ) B. Laufzeitfehler (Exception)
        
-( ) C. Infinity 
+(X) C. Infinity 
        
 ( ) D. NaN 
        
@@ -573,13 +573,13 @@ Welche sind 'conditional' Operatoren?
 
 [ ] A. `==`
        
-[ ] B. `&&`
+[X] B. `&&`
        
-[ ] C. `||`
+[X] C. `||`
        
-[ ] D. `?:`
+[X] D. `?:`
        
-       
+> https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html       
 
 
 -----------
@@ -590,17 +590,19 @@ Welche sind 'logical' Operatoren?
 
 
 
-[ ] A. `!`
+[X] A. `!`
        
-[ ] B. `^`
+[X] B. `^`
        
 [ ] C. `~`
        
-[ ] D. `&`
+[X] D. `&`
        
-[ ] E. `|`
+[X] E. `|`
        
-       
+
+> https://docs.oracle.com/javase/specs/jls/se11/html/index.html
+
 
 
 -----------
@@ -622,7 +624,7 @@ Was ist das Ergebnis?
 
 ( ) A. false 0
        
-( ) B. false 1
+(X) B. false 1
        
 ( ) C. Compilerfehler
        
@@ -647,7 +649,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. false 0
+(X) A. false 0
        
 ( ) B. false 1
        
@@ -671,7 +673,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. falsefalsetruetrue
+(X) A. falsefalsetruetrue
        
 ( ) B. falsetruetruetrue
        
@@ -687,6 +689,13 @@ Gegeben:
 	int x = 2;
 	int y = x < 100 ? inc(x) < 100 ? 7 : inc(x) : x;
 	System.out.println( y + " " + x );
+
+
+Die Methode `inc`existiert:
+
+	static int inc(int x) {
+		return ++x;
+	}
 	
 Was ist das Ergebnis?
 
@@ -694,7 +703,7 @@ Was ist das Ergebnis?
 
 ( ) A. 7 8.
        
-( ) B. 7 2.
+(X) B. 7 2.
        
 ( ) C. 7 4.
        
@@ -702,7 +711,7 @@ Was ist das Ergebnis?
        
        
        
-       
+
 
 
 -----------
@@ -719,7 +728,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. 1.
+(X) A. 1.
        
 ( ) B. -1.
        
@@ -748,7 +757,7 @@ Was ist das Ergebnis?
        
 ( ) C. 3.
        
-( ) D. Compilerfehler.
+(X) D. Compilerfehler.
        
        
 
@@ -761,19 +770,19 @@ Welche sind Vergleichsoperatoren?
 
 
 
-[ ] A. `==` 
+[X] A. `==` 
        
-[ ] B. `!=` 
+[X] B. `!=` 
        
-[ ] C. `<` 
+[X] C. `<` 
        
-[ ] D. `<=` 
+[X] D. `<=` 
        
-[ ] E. `>` 
+[X] E. `>` 
        
-[ ] F. `>=` 
+[X] F. `>=` 
        
-[ ] G. `instanceof` 
+[X] G. `instanceof` 
        
        
 
@@ -796,15 +805,15 @@ Was kompiliert als Argument in der Zeile A?
 
 
 
-[ ] A. v1 == v2
+[X] A. v1 == v2
        
 [ ] B. v1 == v3
        
 [ ] C. v2 == v3
        
-[ ] D. v3 == v4
+[X] D. v3 == v4
        
-[ ] E. v1 == v5
+[X] E. v1 == v5
        
 [ ] F. v4 == v5
        
@@ -829,7 +838,7 @@ Was kompiliert als Argument in der Zeile A?
 
 
 
-[ ] A. v1 <= v2
+[X] A. v1 <= v2
        
 [ ] B. v1 <= v3
        
@@ -837,7 +846,7 @@ Was kompiliert als Argument in der Zeile A?
        
 [ ] D. v3 <= v4
        
-[ ] E. v1 <= v5
+[X] E. v1 <= v5
        
 [ ] F. v4 <= v5
        
@@ -865,7 +874,7 @@ Welche Zeilen beinhalten das implizite Casting?
        
 ( ) B. B
        
-( ) C. C
+(X) C. C
        
 ( ) D. D
        
@@ -891,9 +900,9 @@ Was ist das Ergebnis ?
        
 ( ) B. false.
        
-( ) C. 22
+(X) C. 22
        
-       
+> Das Ergebnis einer Zuweisung ist der neue Wert der Variable
 
 
 -----------
@@ -908,14 +917,14 @@ Unter welchen Umständen kompiliert folgende if-Abfrage?
 
 
 
-( ) A. Wenn 'var' von Typ `boolean` ist.
+(X) A. Wenn 'var' von Typ `boolean` ist.
        
 ( ) B. Wenn 'var' von Typ `int` ist.
        
 ( ) C. Immer.
           
        
-
+> Das Ergebnis einer Zuweisung ist der neue Wert der Variable
 
 -----------
 QUESTION 36
@@ -928,7 +937,7 @@ Kompiliert der Code?
 
 
 
-( ) A. Nein.
+(X) A. Nein.
        
 ( ) B. Ja.
        
@@ -946,7 +955,7 @@ Kompiliert der Code?
 
 
 
-( ) A. Nein.
+(X) A. Nein.
        
 ( ) B. Ja.
        
@@ -968,7 +977,7 @@ Was ist das Ergebnis?
 
 ( ) A. Compilerfehler.
        
-( ) B. v2 bekommt den Wert von v1.  
+(X) B. v2 bekommt den Wert von v1.  
        
        
 
@@ -987,11 +996,12 @@ Was ist richtig?
 
 
 
-( ) A. Zeile A kompiliert.
+(X) A. Zeile A kompiliert.
        
 ( ) B. Zeile B kompiliert.
        
        
+> https://docs.oracle.com/javase/specs/jls/se11/html/jls-15.html#jls-15.26.2
 
 
 -----------
@@ -1007,7 +1017,7 @@ Was ist richtig?
 
 
 
-( ) A. Der Code kompiliert.
+(X) A. Der Code kompiliert.
        
 ( ) B. Compilerfehler.
        
@@ -1030,7 +1040,7 @@ Was ist das Ergebnis?
 
 ( ) A. 00
        
-( ) B. 01
+(X) B. 01
        
 ( ) C. 11
        
@@ -1056,7 +1066,7 @@ Was ist das Ergebnis?
        
 ( ) B. 01
        
-( ) C. 11
+(X) C. 11
        
        
 
@@ -1077,13 +1087,13 @@ Was ist das Ergebnis?
 
 
 
-( ) A. 01
+(X) A. 01
        
 ( ) B. 11
        
 ( ) C. 12
        
-
+> Bitte so nicht programmieren
 
 -----------
 QUESTION 44
@@ -1103,7 +1113,7 @@ Was ist das Ergebnis?
 
 ( ) A. Compilerfehler
        
-( ) B. 14 20
+(X) B. 14 20
        
 ( ) C. 20 20
        
@@ -1128,7 +1138,7 @@ Was ist das Ergebnis?
        
 ( ) B. 23 - 5
        
-( ) C. 5 - 23
+(X) C. 5 - 23
        
 ( ) D. Compilerfehler
        
@@ -1151,7 +1161,7 @@ Was ist das Ergebnis?
 
 ( ) A. false
        
-( ) B. true
+(X) B. true
        
 ( ) C. Compilerfehler
        
@@ -1179,7 +1189,7 @@ Was ist das Ergebnis?
        
 ( ) B. b
        
-( ) C. ab
+(X) C. ab
        
        
 
@@ -1199,7 +1209,7 @@ Kompiliert folgender Code?
 
 ( ) A. Ja.
        
-( ) B. Nein.
+(X) B. Nein.
        
           
        
@@ -1219,7 +1229,7 @@ Unter welchen Umständen kompiliert folgender Code?
 
 ( ) A. Wenn x und y beide vom Typ `int` sind.
        
-( ) B. Wenn x und y beide vom Typ `boolean` sind.
+(X) B. Wenn x und y beide vom Typ `boolean` sind.
        
 ( ) C. Unter keinen Umständen.
        
@@ -1252,10 +1262,10 @@ Gegeben:
        
 ( ) C. C
        
-( ) D. Compilerfehler
+(X) D. Compilerfehler
        
        
-       
+> else if 
 
 
 -----------
@@ -1277,10 +1287,10 @@ Was ist das Ergebnis?
        
 ( ) B. Schleife gibt endlos 'laufe' aus.
        
-( ) C. Compilerfehler.
+(X) C. Compilerfehler.
        
        
-
+> unreachable code
 
 -----------
 QUESTION 52
@@ -1303,7 +1313,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. x x x y x x 
+(X) A. x x x y x x 
        
 ( ) B. x x y x x 
        
@@ -1328,7 +1338,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. 0 1 2
+(X) A. 0 1 2
        
 ( ) B. 1 2 3
        
@@ -1349,7 +1359,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. Schleife läuft endlos und gibt immer wieder 'laufe' aus.
+(X) A. Schleife läuft endlos und gibt immer wieder 'laufe' aus.
        
 ( ) B. Compilerfehler.
        
@@ -1377,9 +1387,9 @@ Was ist das Ergebnis?
        
 ( ) B. 1 2 3 4 done
        
-( ) C. Compilerfehler.
+(X) C. Compilerfehler.
        
-       
+> Semikolon fehlt
 
 
 -----------
@@ -1402,7 +1412,7 @@ Was ist das Ergebnis?
 
 ( ) A. 012345... usw.
        
-( ) B. 0123
+(X) B. 0123
        
 ( ) C. Compilerfehler.
        
@@ -1435,7 +1445,7 @@ Was ist das Ergebnis?
 
 ( ) A. 1 2 3 4 5
        
-( ) B. 1 2 4 5
+(X) B. 1 2 4 5
        
 ( ) C. Compilerfehler.
        
@@ -1473,7 +1483,7 @@ Was ist das Ergebnis?
        
 ( ) B. 0 1
        
-( ) C. 0 0 1
+(X) C. 0 0 1
        
 ( ) D. Compilerfehler.
        
@@ -1515,19 +1525,19 @@ Welche Variablen (vom Typ her) kann eine switch-Anweisung analysieren?
 
 
 
-[ ] A. byte und Byte
+[X] A. byte und Byte
        
-[ ] B. short und Short
+[X] B. short und Short
        
-[ ] C. int und Integer
+[X] C. int und Integer
        
 [ ] D. long und Long
        
-[ ] E. char und Character
+[X] E. char und Character
        
-[ ] F. enum-Variablen
+[X] F. enum-Variablen
        
-[ ] G. String-Variablen
+[X] G. String-Variablen
        
 [ ] H. Object-Variablen
        
@@ -1577,7 +1587,7 @@ Compiliert folgender Code?
 
 ( ) A. Ja.
        
-( ) B. Nein.
+(X) B. Nein.
        
        
 
@@ -1614,9 +1624,9 @@ Welche Fragmente kompilieren?
 
 
 
-[ ] A. A
+[X] A. A
        
-[ ] B. B
+[X] B. B
        
 [ ] C. C
        
@@ -1648,7 +1658,7 @@ Was ist das Ergebnis?
        
 ( ) B. Wochenende
        
-( ) C. Arbeitstag Wochenende 
+(X) C. Arbeitstag Wochenende 
        
 ( ) D. Compilerfehler
        
@@ -1662,22 +1672,22 @@ QUESTION 64
 Gegeben:
 
 	static short foo(byte b) {
-	    return (short) 2;			// Zeile A
+	    return (short) 2;		// Zeile A
 	}
 	
 	static void test() {
 	    byte b = (byte) 2;		// Zeile B
 	
-	    foo((byte) 2);				// Zeile C
+	    foo((byte) 2);			// Zeile C
 	}
 
-In welchen Zeilen ist Casting überflüssig?
+In welchen Zeilen ist explizites Casting überflüssig?
 
 
 
-[ ] A. A
+[X] A. A
        
-[ ] B. B
+[X] B. B
        
 [ ] C. C  
        
@@ -1692,13 +1702,13 @@ Woraus besteht jede statische Methode?
 
 
 
-[ ] A. Name
+[X] A. Name
        
-[ ] B. Liste der Parameter
+[X] B. Liste der Parameter
        
-[ ] C. Rückgabetyp
+[X] C. Rückgabetyp
        
-[ ] D. Rumpf
+[X] D. Rumpf
        
        
 
@@ -1711,13 +1721,10 @@ Was ist eine Methoden-Signatur?
 
 
 
-( ) A. Methodenname und die Liste der Parametertypen. 
+(X) A. Methodenname und die Liste der Parametertypen. 
        
 ( ) B. Methodenname und die Liste der Parametertypen mit den Parameternamen. 
        
-       
-       
-
 
 -----------
 QUESTION 67
@@ -1736,11 +1743,11 @@ Was ist richtig?
 
 [ ] A. 'var' ist der Parameter der Methode 'm'.
        
-[ ] B. 'var' ist eine lokale Variable.
+[X] B. 'var' ist eine lokale Variable.
        
-[ ] C. 'var' muss explizit initialisiert werden, damit sie in der Zeile B ausgegeben werden kann. 
+[X] C. 'var' musste explizit initialisiert werden, damit sie in der Zeile B ausgegeben werden kann. 
        
-[ ] D. 'var' ist bis zum Ende der Methode 'm' gültig.
+[X] D. 'var' ist bis zum Ende der Methode 'm' gültig.
        
        
        
@@ -1765,13 +1772,13 @@ Was ist richtig?
 
 
 
-[ ] A. 'var' ist eine Blockvariable.
+[X] A. 'var' ist eine Blockvariable.
        
 [ ] B. 'var' ist ein Methodenparameter.
        
 [ ] C. 'var' in der Zeile A gültig. 
        
-[ ] D. 'var' in der Zeile B gültig. 
+[X] D. 'var' in der Zeile B gültig. 
        
 [ ] E. 'var' in der Zeile C gültig. 
        
@@ -1800,7 +1807,7 @@ Welche Zeilen haben einen Compilerfehler?
 
 ( ) A. A.
        
-( ) B. B.
+(X) B. B.
        
 ( ) C. C.
        
@@ -1831,13 +1838,13 @@ Was ist richtig?
 
 [ ] A. 'var' ist ein Attribut.
        
-[ ] B. 'var' ist ein Methodenparameter.
+[X] B. 'var' ist ein Methodenparameter.
        
-[ ] C. 'var' in der Zeile A gültig. 
+[X] C. 'var' in der Zeile A gültig. 
        
-[ ] D. 'var' in der Zeile B gültig. 
+[X] D. 'var' in der Zeile B gültig. 
        
-[ ] E. 'var' in der Zeile C gültig. 
+[X] E. 'var' in der Zeile C gültig. 
        
        
 
@@ -1857,13 +1864,13 @@ Was ist richtig?
 
 
 
-[ ] A. 'm' ist überladen.
+[X] A. 'm' ist überladen.
        
 [ ] B. 'm' ist überschrieben.
        
 [ ] C. Die Klasse kompiliert nicht, da zwei Methoden denselben Namen haben.
        
-[ ] D. Die Klasse hat zwei gleichnamige Methoden mit unterschiedlichen Signaturen.
+[X] D. Die Klasse hat zwei gleichnamige Methoden mit unterschiedlichen Signaturen.
        
        
        
@@ -1889,13 +1896,13 @@ Welche Methoden kompilieren nicht?
 
 [ ] A. m1.
        
-[ ] B. m2.
+[x] B. m2.
        
-[ ] C. m3.
+[x] C. m3.
        
 [ ] D. m4.
        
-[ ] E. m5.
+[x] E. m5.
        
        
        
@@ -1920,7 +1927,7 @@ Was ist das Ergebnis?
 
 ( ) A. Der Code kompiliert.
        
-( ) B. Es gibt einen Compilerfehler.
+(x) B. Es gibt einen Compilerfehler.
        
        
        
@@ -1937,8 +1944,8 @@ Gegeben:
 			return a + b;
 		}
 		public static void main(String[] args) {
-			add(2, 3);					// A
-			Foo.add(2, 3);				// B
+			add(2, 3);				// A
+			Foo.add(2, 3);			// B
 			int x = Foo.add(2, 3);	// C
 		}
 	}
@@ -1947,7 +1954,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. Der Code kompiliert.
+(X) A. Der Code kompiliert.
        
 ( ) B. Compilerfehler in der Zeile A.
        
@@ -1974,8 +1981,8 @@ Gegeben:
 	}
 	class Foo {
 		public static void main(String[] args) {
-			add(2, 3);						// A
-			Bar.add(2, 3);					// B
+			add(2, 3);					// A
+			Bar.add(2, 3);				// B
 			int y = p1.Bar.add(2, 3);	// C
 		}
 	}
@@ -1986,7 +1993,7 @@ Was ist das Ergebnis?
 
 ( ) A. Der Code kompiliert.
        
-( ) B. Compilerfehler in der Zeile A.
+(X) B. Compilerfehler in der Zeile A.
        
 ( ) C. Compilerfehler in der Zeile B.
        
@@ -2019,7 +2026,7 @@ Was ist das Ergebnis?
        
 [ ] C. Der Code läuft endlos ohne Ausgaben.
        
-[ ] D. Der Code läuft ohne Ausgaben bis es eine StackOverflowException gibt.
+[X] D. Der Code läuft ohne Ausgaben bis es eine StackOverflowException gibt.
        
        
        
@@ -2034,15 +2041,15 @@ Gegeben:
 
 	public static void main(String... args) {
 
-		sum()							// A
+		sum();						// A
 		sum(2);						// B
 		sum(2, 3); 					// C
-		sum( new int[] {2, 3} ); // D
+		sum( new int[] {2, 3} ); 	// D
 		sum(2, 3, 4);				// E
 		sum(2, 3, 4, 5);			// F
 		
 		int[] arr = { 1, 2, 3 };
-		sum(arr);						// G
+		sum(arr);					// G
 	} 
 
 	static int sum(int... arr) {
@@ -2059,24 +2066,26 @@ Welche Zeilen kompilieren nicht?
 
 
 
-( ) A. Keine
+( ) A. A.
        
-( ) B. A.
+( ) B. B.
        
-( ) C. B.
+( ) C. C.
        
-( ) D. C.
+( ) D. D.
        
-( ) E. D.
+( ) E. E.
        
-( ) F. E.
+( ) F. F.
        
-( ) G. F.
+( ) G. G.
        
-( ) H. G.
+(X) H. Keine
        
        
-       
+>	static int sum(int... arr) { 
+> 	static int sum(int[] arr) {
+
 
 
 -----------
@@ -2101,7 +2110,7 @@ Was ist das Ergebnis, wenn die JVM die Klasse `Foo` finden kann?
 
 [ ] A. null
        
-[ ] B. 0
+[X] B. 0
        
 [ ] C. NullPointerException
        
@@ -2126,7 +2135,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. Compilerfehler.
+(X) A. Compilerfehler.
        
 ( ) B. Der Code kompiliert.
        
@@ -2152,11 +2161,11 @@ Welche Methoden kompilieren?
 
 
 
-[ ] A. m1.
+[X] A. m1.
        
 [ ] B. m2.
        
-[ ] C. m3.
+[X] C. m3.
        
 [ ] D. m4.
        
