@@ -486,7 +486,7 @@ Was ist richtig?
        
 ( ) D. Zeile D kompiliert nicht.
        
-( ) E. 1 2 3 4
+(X) E. 1 2 3 4
        
 ( ) F. Exception 
        

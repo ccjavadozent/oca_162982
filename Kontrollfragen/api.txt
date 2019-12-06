@@ -6,11 +6,11 @@ Was ist richtig über folgende Typen aus dem Package 'java.util'?
 
 
 
-[ ] A. `Collection` ist ein Interface.
+[X] A. `Collection` ist ein Interface.
        
 [ ] B. `List` ist eine Klasse.
        
-[ ] C. Die Klasse `ArrayList` implementiert das Interface `List`
+[X] C. Die Klasse `ArrayList` implementiert das Interface `List`
           
        
        
@@ -38,15 +38,15 @@ Welche Zuweisungen kompilieren in der Zeile A?
 
 [ ] A. List<String> a = new List<>();
        
-[ ] B. List<String> b = new ArrayList<>();
+[X] B. List<String> b = new ArrayList<>();
        
-[ ] C. ArrayList<String> c = new ArrayList<>();
+[X] C. ArrayList<String> c = new ArrayList<>();
        
 [ ] D. Collection<String> d = new Collection<>();
        
-[ ] E. Collection<String> e = new ArrayList<>();
+[X] E. Collection<String> e = new ArrayList<>();
        
-[ ] F. Object f = new ArrayList<>();
+[X] F. Object f = new ArrayList<>();
        
        
 
@@ -59,11 +59,11 @@ Welche Konstruktoren hat die Klasse `java.util.ArrayList`?
    
 
 
-[ ] A. ArrayList()
+[X] A. ArrayList()
        
-[ ] B. ArrayList(int)
+[X] B. ArrayList(int)
        
-[ ] C. ArrayList(Collection)
+[X] C. ArrayList(Collection)
        
 [ ] D. ArrayList(String[])
        
@@ -78,29 +78,29 @@ Welche Methoden hat die Klasse `java.util.ArrayList`?
 
 
 
-[ ] A. int size()
+[X] A. int size()
        
-[ ] B. boolean isEmpty()
+[X] B. boolean isEmpty()
        
-[ ] C. boolean add(E element)
+[X] C. boolean add(E element)
        
-[ ] D. void add(int index, E element)
+[X] D. void add(int index, E element)
        
-[ ] E. boolean remove(Object element)
+[X] E. boolean remove(Object element)
        
 [ ] F. boolean remove(E element)
        
-[ ] G. E remove(int index)
+[X] G. E remove(int index)
        
-[ ] H. E set(int index, E element) 
+[X] H. E set(int index, E element) 
        
-[ ] I. E get(int index) 
+[X] I. E get(int index) 
        
-[ ] J. int indexOf(Object element)
+[X] J. int indexOf(Object element)
        
-[ ] K. int lastIndexOf(Object element)
+[X] K. int lastIndexOf(Object element)
        
-[ ] L. boolean contains(Object element)
+[X] L. boolean contains(Object element)
        
 [ ] M. boolean contains(E element)
        
@@ -127,7 +127,7 @@ Was ist das Ergebnis?
 
 ( ) A. 2
        
-( ) B. 4
+(X) B. 4
        
 ( ) C. Compilerfehler
        
@@ -156,7 +156,7 @@ Was ist das Ergebnis?
 
 ( ) A. 1 2
        
-( ) B. 1 1 2 2
+(X) B. 1 1 2 2
        
 ( ) C. Compilerfehler
        
@@ -187,7 +187,7 @@ Was ist das Ergebnis?
    
 
 
-( ) A. false
+(X) A. false
        
 ( ) B. true
        
@@ -216,14 +216,15 @@ Was ist das Ergebnis?
    
 
 
-( ) A. false
+(X) A. false
        
 ( ) B. true
        
 ( ) C. Compilerfehler
        
        
-
+> equals wurde nicht überschrieben, sondern überladen. 
+> contains verwendet equals(Object)
 
 -----------
 QUESTION 9
@@ -251,13 +252,19 @@ Was ist richtig?
 
 [ ] A. Der Code kompiliert.
        
-[ ] B. Compilerfehler in der Zeile A.
+[X] B. Compilerfehler in der Zeile A.
        
 [ ] C. Compilerfehler in der Zeile B.
        
-[ ] D. Compilerfehler in der Zeile C.
+[X] D. Compilerfehler in der Zeile C.
        
-       
+
+> Nach der Parametrisierung mit <Kreis> hat die Methode 'add' den Parameter vom Typ 'Kreis'.
+> implizite Zuweisung beim übergeben vom Argument:
+> Zeile A: Kreis param = new Figur(); <- Keine IS-A von rechts nach links  
+> Zeile B: Kreis param = new Kreis(); <- OK  
+> Zeile C: Kreis param = new Rechteck(); <- Keine IS-A von rechts nach links
+
 
 
 -----------
