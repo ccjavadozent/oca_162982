@@ -6,7 +6,7 @@ Was ist richtig über Arrays?
 
 
 
-( ) A. Mit einem Array ist es möglich mehrere Elemente vom selben primitiven Typ zu verwalten. 
+(X) A. Mit einem Array ist es möglich mehrere Elemente vom selben primitiven Typ zu verwalten. 
        
 ( ) B. Mit einem Array ist es möglich mehrere Elemente vom unterschiedlichen primitiven Typen zu verwalten. 
        
@@ -25,19 +25,19 @@ Was ist richtig?
 
 
 
-[ ] A. `arr` ist eine Referenz vom Typ `int[].
+[X] A. `arr` ist eine Referenz vom Typ `int[]`.
        
-[ ] B. Im Code wird ein neues Objekt vom Typ `int[] mit dem new-Operator erzeugt.
+[X] B. Im Code wird ein neues Objekt vom Typ `int[]` mit dem new-Operator erzeugt.
        
-[ ] C. Das erzeugte Array hat das Attribut `length`.
+[X] C. Das erzeugte Array hat das Attribut `length`.
        
 [ ] D. Das erzeugte Array hat die Methode `length()`.
        
 [ ] E. Est möglich die Länge des erzeugten Arrays nachträglich zu ändern.
        
-[ ] F. Est möglich der Referenz `arr` nachträglich ein weiteres int-Array mit einer anderen Länge zuzuweisen.
+[X] F. Est möglich der Referenz `arr` nachträglich ein weiteres int-Array mit einer anderen Länge zuzuweisen.
        
-[ ] G. Est möglich die einzelnen Positionen im Array mit neuen Werten zu überschreiben.
+[X] G. Est möglich die einzelnen Positionen im Array mit neuen Werten zu überschreiben.
        
        
 
@@ -54,11 +54,11 @@ Was ist richtig?
 
 
 
-[ ] A. `arr` ist eine Referenz vom Typ `int[].
+[X] A. `arr` ist eine Referenz vom Typ `int[]`.
        
-[ ] B. Im Code wird ein neues Objekt vom Typ `int[] mit dem new-Operator erzeugt.
+[X] B. Im Code wird ein neues Objekt vom Typ `int[]` mit dem new-Operator erzeugt.
        
-[ ] C. Das erzeugte Array hat das Attribut `length`.
+[X] C. Das erzeugte Array hat das Attribut `length`.
        
 [ ] D. Das erzeugte Array hat die Methode `length()`.
        
@@ -66,7 +66,7 @@ Was ist richtig?
        
 [ ] F. Est möglich der Referenz `arr` nachträglich ein weiteres int-Array mit einer anderen Länge zuzuweisen.
        
-[ ] G. Est möglich die einzelnen Positionen im Array mit neuen Werten zu überschreiben.
+[X] G. Est möglich die einzelnen Positionen im Array mit neuen Werten zu überschreiben.
        
        
        
@@ -92,7 +92,7 @@ Was ist das Ergebnis?
        
 ( ) C. Compilerfehler
        
-( ) D. Exception
+(X) D. Exception
        
        
        
@@ -114,7 +114,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. Compilerfehler
+(X) A. Compilerfehler
        
 ( ) B. 0.0 0.0 0.0
        
@@ -141,7 +141,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. 0
+(X) A. 0
        
 ( ) B. 7
        
@@ -163,10 +163,10 @@ Gegeben:
 	arr2 = { 12, 13, 14 };			// D
 	
 	int[] arr3 = new int[] { 12, 13, 14 };	// E
-	arr3 = new int[] { 12, 13, 14 };			// F
+	arr3 = new int[] { 12, 13, 14 };		// F
 	
 	int[] arr4 = new int[3] { 12, 13, 14 };	// G
-	arr4 = new int[3] { 12, 13, 14 };			// H
+	arr4 = new int[3] { 12, 13, 14 };		// H
 
 Welche Zeilen haben einen Compilerfehler?
 
@@ -178,15 +178,15 @@ Welche Zeilen haben einen Compilerfehler?
        
 [ ] C. C.
        
-[ ] D. D.
+[X] D. D.
        
 [ ] E. E.
        
 [ ] F. F.
        
-[ ] G. G.
+[X] G. G.
        
-[ ] H. H.
+[X] H. H.
        
        
 
@@ -199,7 +199,7 @@ Was ist richtig über `java.util.Arrays`?
 
 
 
-( ) A. Es ist eine Utility-Klasse.
+(X) A. Es ist eine Utility-Klasse.
        
 ( ) B. Es ist ein Interface, das alle Arrays realisieren.
        
@@ -251,9 +251,9 @@ Welche Antworten kompilieren nicht in der Zeile A?
        
 [ ] C. int []a3[] = {};
        
-[ ] D. int [0]a4 = {};
+[X] D. int [0]a4 = {};
        
-[ ] E. int a5[0] = {};
+[X] E. int a5[0] = {};
        
        
        
@@ -271,7 +271,7 @@ Gegeben:
 			Object[] a1	= new String[2];	// A
 			Object[] a2	= new int[2];		// B
 			Object[] a3	= new int[2][];		// C
-			Object a4		= new int[2][];		// D
+			Object a4	= new int[2][];		// D
 			int[][] a5	= new int[2][];		// E
 			int[] a6 []	= new int[2][];		// F
 			int a7[][]	= new int[2][];		// G
@@ -283,19 +283,19 @@ Welche Zeilen kompilieren?
    
 
 
-[ ] A. A.
+[X] A. A.
        
 [ ] B. B.
        
-[ ] C. C.
+[X] C. C.
        
-[ ] D. D.
+[X] D. D.
        
-[ ] E. E.
+[X] E. E.
        
-[ ] F. F.
+[X] F. F.
        
-[ ] G. G.
+[X] G. G.
        
        
        
@@ -333,7 +333,7 @@ Was ist das Ergebnis?
        
 ( ) B. Tom.
        
-( ) C. Jerry.
+(X) C. Jerry.
        
 ( ) D. Compilerfehler.
        
@@ -353,7 +353,7 @@ Wie viele Objekte von Typ `String` (Elemente des Arrays) werden mit dem Code erz
 
 
 
-( ) A. 0
+(X) A. 0
        
 ( ) B. 6
        
@@ -390,13 +390,27 @@ Welche Zeilen kompilieren?
 
 [ ] A. A.
        
-[ ] B. B.
+[X] B. B.
        
-[ ] C. C.
+[X] C. C.
        
-[ ] D. D.
-       
-       
+[X] D. D.
+
+class Y {
+
+}
+
+class X {
+	Y hund;
+}
+
+...
+Y f1 = null;
+X f2 = null;
+
+f2.hund = f1; // +
+
+
        
 
 
@@ -411,7 +425,7 @@ Gegeben:
 			int[] arrA, arrB[], arrC[][], arrD;
 			
 			arrA = new int[2]; 		// A
-			arrB = new int[2][2];		// B
+			arrB = new int[2][2];	// B
 			arrC = new int[2][2][2]; // C
 			arrD = new int[2][2][2]; // D
 		}
@@ -421,11 +435,11 @@ Welche Zeilen kompilieren?
 
 
 
-[ ] A. A.
+[X] A. A.
        
-[ ] B. B.
+[X] B. B.
        
-[ ] C. C.
+[X] C. C.
        
 [ ] D. D.
        

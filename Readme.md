@@ -1,4 +1,11 @@
-> imperative.txt, Q9 
+> imperative.txt, fertig
+> arrays.txt
+
+# Achtung!
+
+Heute abweichende Sprechzeiten:
+- 08:00 - 09:30 Uhr
+- 11:30 - 12:15 Uhr
 
 ## Wissensvermittlung
 - 08:00 - 09:30 Uhr
