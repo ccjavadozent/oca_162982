@@ -290,7 +290,7 @@ Was ist das Ergebnis?
        
 ( ) B. AmpelFarbe@12ab34dc.
        
-( ) C. ROT.
+(X) C. ROT.
        
        
 
@@ -322,7 +322,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. 1.
+(X) A. 1.
        
 ( ) B. 2.
        
@@ -352,7 +352,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. SMALL BIG 
+(X) A. SMALL BIG 
        
 ( ) B. Compilerfehler
        
@@ -388,7 +388,7 @@ Was ist das Ergebnis?
        
 ( ) B. 5.
        
-( ) C. Compilerfehler
+(X) C. Compilerfehler
        
        
 
@@ -413,13 +413,13 @@ Was ist richtig?
 
 
 
-[ ] A. Die Zeile A gibt immer 'true' aus.
+[X] A. Die Zeile A gibt immer 'true' aus.
        
 [ ] B. Die Zeile A kann 'false' ausgeben.
        
 [ ] C. Die Zeile B gibt immer 'true' aus.
        
-[ ] D. Die Zeile B kann 'false' ausgeben.
+[X] D. Die Zeile B kann 'false' ausgeben.
        
 
 
@@ -448,7 +448,7 @@ Was ist das Ergebnis?
 
 ( ) A. true true true
        
-( ) B. true false true
+(X) B. true false true
        
 ( ) C. false false true
        
@@ -481,7 +481,7 @@ Was ist das Ergebnis?
        
 ( ) C. ava
        
-( ) D. java
+(X) D. java
        
        
        
@@ -507,7 +507,7 @@ Was ist das Ergebnis?
 
 ( ) A. JAVA
        
-( ) B. AVA
+(X) B. AVA
        
 ( ) C. ava
        
@@ -530,9 +530,9 @@ Welche Zeilen kompilieren?
 
 
 
-[ ] A. A.
+[X] A. A.
        
-[ ] B. B.
+[X] B. B.
        
 [ ] C. C.
        
@@ -555,9 +555,9 @@ Was ist das Ergebis?
 
 ( ) A. 4 a
        
-( ) B. 4 v
+(X) B. 4 v
        
-( ) C. Compielrfehler
+( ) C. Compilerfehler
        
        
        
@@ -578,7 +578,7 @@ Was ist das Ergebis?
 
 
 
-( ) A. JAVA! java!
+(X) A. JAVA! java!
        
 ( ) B. jAvA! jAvA!
        
@@ -608,7 +608,7 @@ Was ist das Ergebis?
        
 ( ) C. Compilerfehler
        
-( ) D. Exception
+(X) D. Exception
        
        
        
@@ -630,7 +630,7 @@ Was ist das Ergebis?
 
 ( ) A. true true
        
-( ) B. true false
+(X) B. true false
        
 ( ) C. Compilerfehler
        
@@ -656,7 +656,7 @@ Was ist das Ergebis?
 
 
 
-( ) A. abc abc
+(X) A. abc abc
        
 ( ) B. abc abcbc
        
@@ -685,7 +685,7 @@ Was ist das Ergebis?
 
 
 
-( ) A. 2 3 3 2 -1
+(X) A. 2 3 3 2 -1
        
 ( ) B. Compilerfehler
        
@@ -708,7 +708,7 @@ Was ist das Ergebis?
 
 
 
-( ) A. TAGFREI
+(X) A. TAGFREI
        
 ( ) B. TAGFREIT
        
@@ -727,7 +727,7 @@ Gegeben:
 
 	String s = "Java";
 	System.out.print(s.replace('a', 'A'));
-	System.out.print(s.replace("vA", "VA"'));
+	System.out.print(s.replace("vA", "VA"));
 
 	
 Was ist das Ergebis?
@@ -738,7 +738,7 @@ Was ist das Ergebis?
        
 ( ) B. JAvAJAvA
        
-( ) C. JAvAJava
+(X) C. JAvAJava
        
 ( ) D. Compilerfehler
        
@@ -764,7 +764,7 @@ Was könnte das Ergebis sein?
        
 ( ) B. [C@12ab13cd +8
        
-( ) C. Java 8
+(X) C. Java 8
        
 ( ) D. Java +8
        
@@ -798,7 +798,7 @@ Wie viele String-Objekte werden bei jedem Aufruf der Methode `method` erzeugt?
        
 ( ) C. 2.
        
-( ) D. 3.
+(X) D. 3.
        
 ( ) E. 4.
        
@@ -812,7 +812,7 @@ In welcher Java-Version erschien StringBuilder?
 
 
 
-( ) A. 5
+(X) A. 5
        
 ( ) B. 6
        
@@ -841,7 +841,7 @@ Was ist das Ergebnis?
        
 ( ) B. java20.
        
-( ) C. Compilerfehler
+(X) C. Compilerfehler
        
        
        
@@ -866,7 +866,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. 3.22 a true.
+(X) A. 3.22 a true.
        
 ( ) B. Compilerfehler
        
@@ -890,7 +890,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. FREI.
+(X) A. FREI.
        
 ( ) B. FRE.
        
@@ -916,7 +916,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. JAVA.
+(X) A. JAVA.
        
 ( ) B. Compilerfehler.
        
@@ -943,7 +943,7 @@ Was ist das Ergebnis?
 
 ( ) A. Montag 6.
        
-( ) B. Freitag 7.
+(X) B. Freitag 7.
        
 ( ) C. Freiag 6.
        
@@ -970,7 +970,7 @@ Was ist das Ergebnis?
 
 ( ) A. AVAJ.
        
-( ) B. JAVA.
+(X) B. JAVA.
        
 ( ) C. Compilerfehler.
        
@@ -994,7 +994,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. 2 2 -1 2.
+(X) A. 2 2 -1 2.
        
 ( ) B. 2 2 -1 -1.
        
@@ -1020,7 +1020,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. Freitag
+(X) A. Freitag
        
 ( ) B. Fretag
        
@@ -1051,7 +1051,7 @@ Was ist das Ergebnis?
 
 ( ) A. Frei!
        
-( ) B. Compilerfehler.
+(X) B. Compilerfehler.
        
 ( ) C. Exception.
        
@@ -1067,7 +1067,7 @@ Was ist richtig?
 
 
 
-( ) A. `StringBuilder` und `StringBuffer` lösen ähnliche Aufgaben.
+(X) A. `StringBuilder` und `StringBuffer` lösen ähnliche Aufgaben.
        
 ( ) B. `StringBuilder` hat die IS-A-Beziehung mit `StringBuffer`.
        
@@ -1094,11 +1094,11 @@ Welche Variablen werden korrekt (kompilierbar) definiert?
 
 
 
-[ ] A. v1
+[X] A. v1
        
-[ ] B. v2
+[X] B. v2
        
-[ ] C. v3
+[X] C. v3
        
 [ ] D. v4
        
@@ -1106,7 +1106,7 @@ Welche Variablen werden korrekt (kompilierbar) definiert?
        
 [ ] F. v6
        
-[ ] G. v7
+[X] G. v7
        
 [ ] H. v8
        
@@ -1120,14 +1120,14 @@ QUESTION 41
 
 Gegeben:
 
-	List<int> list1 = new ArrayList<>(); 			// A
+	List<int> list1 = new ArrayList<>(); 		// A
 	List<Integer> list2 = new ArrayList<>(); 	// B
 	
 Was ist richtig?
 
 
 
-( ) A. Compilerfehler in der Zeile A
+(X) A. Compilerfehler in der Zeile A
        
 ( ) B. Compilerfehler in der Zeile B
        
@@ -1150,7 +1150,7 @@ Welche Zeilen kompilieren nicht?
 	
 
 
-( ) A. A
+(X) A. A
        
 ( ) B. B
        
@@ -1171,7 +1171,7 @@ Welche Basisklasse haben die Wrapper-Klassen `Byte`, `Short`, `Integer`, `Long`,
 
 
 
-( ) A. Number.
+(X) A. Number.
        
 ( ) B. Numeric.
        
@@ -1194,7 +1194,7 @@ Welches Interface implementieren alle Wrapper-Klassen?
        
 ( ) B. Numeric.
        
-( ) C. Comparable.
+(X) C. Comparable.
        
        
        
@@ -1208,11 +1208,11 @@ Welche Methoden deklariert oder definiert die Klasse java.lang.Number?
 
 
 
-[ ] A. int intValue()
+[X] A. int intValue()
        
 [ ] B. E getValue()
        
-[ ] C. floatValue()
+[X] C. float floatValue()
        
 [ ] D. double asDouble()
        
@@ -1247,7 +1247,7 @@ Wo gibt es Autounboxing?
        
 ( ) E. E.
        
-( ) F. F.
+(X) F. F.
        
        
        

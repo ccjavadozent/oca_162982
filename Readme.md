@@ -2,12 +2,6 @@
 > arrays.txt(+)
 > api.txt
 
-# Achtung!
-
-Heute abweichende Sprechzeiten:
-- 08:00 - 09:30 Uhr
-- 11:30 - 12:15 Uhr
-
 ## Wissensvermittlung
 - 08:00 - 09:30 Uhr
 - 09:45 - 11:15 Uhr

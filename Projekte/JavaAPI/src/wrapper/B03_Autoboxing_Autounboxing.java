@@ -51,6 +51,8 @@ public class B03_Autoboxing_Autounboxing {
 		Integer sumC = Integer.valueOf( i3.intValue() + i4.intValue() ); // manuelles Unboxing und danach manuelles Boxing
 		System.out.println(sumC);
 		
+		int var = i3;
+		
 	} // 
 
 }
