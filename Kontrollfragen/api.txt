@@ -1275,7 +1275,7 @@ Wo gibt es Autoboxing?
        
 ( ) B. B.
        
-( ) C. C.
+(X) C. C.
        
 ( ) D. D.
        
@@ -1302,7 +1302,7 @@ Gibt es im folgenden Code Autoboxing und/oder Autounboxing?
        
 ( ) B. nur Autounboxing
        
-( ) C. sowohl Autoboxing als auch Autounboxing
+(X) C. sowohl Autoboxing als auch Autounboxing
        
 ( ) D. weder Autoboxing noch Autounboxing
        
@@ -1323,7 +1323,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. true
+(X) A. true
        
 ( ) B. false
           
@@ -1338,13 +1338,13 @@ Für welche Wrapper-Klassen gibt es Konstanten-Pools?
 
 
 
-[ ] A. Byte
+[X] A. Byte
        
-[ ] B. Short
+[X] B. Short
        
-[ ] C. Integer
+[X] C. Integer
        
-[ ] D. Long
+[X] D. Long
        
 [ ] E. Float
        
@@ -1376,7 +1376,7 @@ Gegeben:
 
 ( ) A. truetruetruetruetruetrue
        
-( ) B. falsefalsetruefalsetruetrue
+(X) B. falsefalsetruefalsetruetrue
        
 ( ) C. falsetruetruefalsetruetrue
        
@@ -1399,7 +1399,7 @@ Wie viele neue Integer-Objekte werden im folgenden Code auf dem Heap erzeugt?
        
 ( ) B. 1
        
-( ) C. 2
+(X) C. 2
        
        
        
@@ -1431,7 +1431,7 @@ Was ist das Ergebnis?
 
 ( ) A. int Integer double int 
        
-( ) B. int Integer double varargs 
+(X) B. int Integer double varargs 
        
 ( ) C. int Integer int int 
        
@@ -1449,7 +1449,7 @@ Gegeben:
 
 	LocalDate d1 = new LocalDate(); 			// A
 	LocalDate d2 = LocalDate.now();				// B
-	LocalDateTime t1 = date.atStartOfDay();	// C
+	LocalDateTime t1 = d1.atStartOfDay();		// C
 	LocalTime time = LocalTime.of(12, 3);		// D
 
 Welche Zeilen kompilieren?
@@ -1458,13 +1458,13 @@ Welche Zeilen kompilieren?
 
 [ ] A. A.
        
-[ ] B. B.
+[X] B. B.
        
-[ ] C. C.
+[X] C. C.
        
-[ ] D. D.
+[X] D. D.
        
-       
+
 
 
 -----------
@@ -1481,7 +1481,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. 2019.
+(X) A. 2019.
        
 ( ) B. 2021.
        
@@ -1508,7 +1508,7 @@ Was ist das Ergebnis?
 
 ( ) A. 23.5.2019 - 00:00:00.
        
-( ) B. Exception.
+(X) B. Exception.
        
        
        
@@ -1521,7 +1521,7 @@ QUESTION 57
 Gegeben:
 
 	LocalDate start = LocalDate.now();
-	LocalDate end = startDateInclusive.plusDays(2);
+	LocalDate end = start.plusDays(2);
 	Period p = Period.between(start, end);
 	System.out.print(p.getDays());
 		
@@ -1529,7 +1529,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. 2
+(X) A. 2
        
 ( ) B. Exception.
        

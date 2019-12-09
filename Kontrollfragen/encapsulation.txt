@@ -10,7 +10,7 @@ Welche Aussage beschreibt die Kapselung (encapsulation)?
        
 ( ) B. Wiederverwenden der Definitionen aus der Basisklasse.
        
-( ) C. Verweden der Sichtbarkeiten (access modifiers) zum Verstecken der Attribute in einer Klasse.
+(X) C. Verweden der Sichtbarkeiten (access modifiers) zum Verstecken der Attribute in einer Klasse.
        
 ( ) D. Bilden neuer Objekte.
        
@@ -48,11 +48,12 @@ Gegeben:
 		}
 	}
 
-Wie sollte die Klasse geändert werden, damit garantiert werden kann, dass die Methode `getFlaeche` immer den richtigen Wert liefert (abhängig von dem aktiellen Radius-Wert)?  
+Wie sollte die Klasse geändert werden, damit garantiert werden kann, dass die Methode `getFlaeche`
+immer den richtigen Wert liefert (abhängig von dem aktiellen Radius-Wert)?  
 
 
 
-[ ] A. Die beiden Attribute `radius` und `flaeche` sollten `private` werden.
+[X] A. Die beiden Attribute `radius` und `flaeche` sollten `private` werden.
        
 [ ] B. Der Konstruktor sollte `protected` werden.
        
@@ -60,12 +61,12 @@ Wie sollte die Klasse geändert werden, damit garantiert werden kann, dass die M
        
 [ ] D. Nur das Attribut `radius` sollte `private` werden.
        
-[ ] E. Die Methode `setRadius` sollte `final` werden.
+[X] E. Die Methode `setRadius` sollte `final` werden.
        
 [ ] F. Die Methode `getFlaeche` sollte `static` werden.
        
        
-       
+> SOLID-Programming
 
 
 -----------
@@ -76,13 +77,13 @@ Was ist richtig?
 
 
 
-[ ] A. Klassen aus dem Package 'java.lang' müssen nicht importiert werden.
+[X] A. Klassen aus dem Package 'java.lang' müssen nicht importiert werden.
        
 [ ] B. Klassen aus dem Package 'java.util' müssen nicht importiert werden.
        
-[ ] C. Nur 'sichtbare' Elemente können importiert werden.
+[X] C. Nur 'sichtbare' Elemente können importiert werden.
        
-[ ] D. Mit der import-Anweisung können Topleveltypen aus einem Package importiert werden.
+[X] D. Mit der import-Anweisung können Topleveltypen aus einem Package importiert werden.
        
        
 
@@ -107,13 +108,13 @@ Welche Zeilen kompilieren?
 
 
 
-[ ] A. A.
+[X] A. A.
        
-[ ] B. B.
+[X] B. B.
        
 [ ] C. C.
        
-[ ] D. D.
+[X] D. D.
        
        
 
@@ -141,11 +142,11 @@ Welche Zeilen kompilieren?
 
 
 
-[ ] A. A.
+[X] A. A.
        
 [ ] B. B.
        
-[ ] C. C.
+[X] C. C.
        
        
        
@@ -188,11 +189,11 @@ Was ist richtig über die Datei 'Rennwagen.java'?
 
 
 
-[ ] A. Zeile 6 kompiliert.
+[X] A. Zeile 6 kompiliert.
        
 [ ] B. Zeile 7 kompiliert.
        
-[ ] C. Zeile 11 kompiliert.
+[X] C. Zeile 11 kompiliert.
        
 [ ] D. Zeile 12 kompiliert.
        
@@ -217,13 +218,13 @@ Was muss gemacht werden, damit alle Compilerfehler verschwinden?
 
 
 
-[ ] A. Die Zeilen 01 und 02 vertauschen.
+[X] A. Die Zeilen 01 und 02 vertauschen.
        
 [ ] B. Die Zeile 01 nach der Zeile 03 verschieben.
        
 [ ] C. Den vollqualifizierten Namen `java.list.ArrayList` für das Attribut in der Zeile 05 verwenden.
        
-[ ] D. Die Klasse `MyNumbers` in `Values` umbenennen.
+[ X D. Die Klasse `MyNumbers` in `Values` umbenennen.
        
 [ ] E. Den expliziten Konstruktor definieren, in dem das Attribut `values` initialisiert wird.
        
@@ -248,7 +249,7 @@ Auto.java
 		private int v4 = 4;
 	}
 	
-Main.java
+Rennwagen.java
 
 	package rennen;
 	import autos.Auto;
@@ -272,7 +273,7 @@ Welche Zeilen kompilieren?
 
 
 
-[ ] A. A.
+[X] A. A.
        
 [ ] B. B.
        
@@ -280,9 +281,9 @@ Welche Zeilen kompilieren?
        
 [ ] D. D.
        
-[ ] E. E.
+[X] E. E.
        
-[ ] F. F.
+[X] F. F.
        
 [ ] G. G.
        
@@ -332,7 +333,7 @@ Falls beide Dateien kompilieren, wird danach die main-Methode aus der Klasse `Re
        
 ( ) B. 1880 1880 1880.
        
-( ) C. 1880 1880 1990.
+(X) C. 1880 1880 1990.
        
        
 
@@ -345,7 +346,7 @@ Die 'private' Elemente der Klasse `p1.Foo` sind
 
 
 
-( ) A. sichtbar nur in der Klasse `Foo`.
+(X) A. sichtbar nur in der Klasse `Foo`.
        
 ( ) B. sichtbar im Package `p1`.
        

@@ -1,6 +1,11 @@
 > imperative.txt (+),
 > arrays.txt(+)
-> api.txt
+> api.txt (+)
+> classes.txt (+)
+> encapsulation.txt (+)
+> exceptions.txt (q6)
+
+
 
 ## Wissensvermittlung
 - 08:00 - 09:30 Uhr

@@ -24,7 +24,7 @@ Was ist das Ergebnis?
 
 ( ) A. Compilerfehler.
        
-( ) B. 10.
+(X) B. 10.
        
 ( ) C. 11.
        
@@ -61,7 +61,7 @@ Was ist das Ergebnis?
 ( ) C. Compilerfehler.
        
        
-       
+> var ist lokal (muss vor dem Lesen initialisiert werden)
 
 
 -----------
@@ -100,7 +100,7 @@ Was ist das Ergebnis?
        
 ( ) C. null
        
-( ) D. Erde
+(X) D. Erde
        
        
 
@@ -141,7 +141,7 @@ Was ist das Ergebnis?
        
 ( ) C. Hund ist 3.
        
-( ) D. Hund ist 0.
+(X) D. Hund ist 0.
        
 ( ) E. Hund@abcdEFGH.
        
@@ -184,11 +184,11 @@ Welche Antworten einzeln eingesetzt in der Zeile A führen zu der Ausgabe 'Linux
 
 
 
-[ ] A. OS os1 = new OS("Linux");
+[X] A. OS os1 = new OS("Linux");
        
 [ ] B. OS os1 = new OS();
        
-[ ] C. OS os1 = new OS("Linux", 1);
+[X] C. OS os1 = new OS("Linux", 1);
        
 [ ] D. OS os1 = new OS(1);
        
@@ -223,7 +223,7 @@ Was ist das Ergebnis?
 
 
 
-[ ] A. false false
+[X] A. false false
        
 [ ] B. false true
        
@@ -272,7 +272,7 @@ Was ist das Ergebnis?
        
 ( ) C. i1 i2 c i1 i2 c
        
-( ) D. i1 i2 c c
+(X) D. i1 i2 c c
        
 ( ) E. i1 c i2 c
        
@@ -316,7 +316,7 @@ Was ist das Ergebnis?
        
 ( ) B. i1 c i2 i1 c i2
        
-( ) C. i1 i2 c i1 i2 c
+(X) C. i1 i2 c i1 i2 c
        
 ( ) D. i1 i2 c c
        
@@ -357,7 +357,7 @@ Welche Zeilen kompilieren nicht?
 
 
 
-[ ] A. A.
+[X] A. A.
        
 [ ] B. B.
        
@@ -365,11 +365,11 @@ Welche Zeilen kompilieren nicht?
        
 [ ] D. D.
        
-[ ] E. E.
+[X] E. E.
        
-[ ] F. F.
+[X] F. F.
        
-[ ] G. G.
+[X] G. G.
        
        
 
@@ -391,7 +391,7 @@ Welche Zeilen kompilieren nicht?
 
 
 
-( ) A. A.
+(X) A. A.
        
 ( ) B. B.
        
@@ -428,7 +428,7 @@ Welche Zeilen kompilieren nicht?
        
 ( ) D. D.
        
-( ) E. E.
+(X) E. E.
        
        
 

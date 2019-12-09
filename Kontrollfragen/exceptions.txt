@@ -27,7 +27,7 @@ Was ist das Ergebnis?
 
 ( ) A. m1 c a.
        
-( ) B. m1 c a gefolgt von der ArithmeticException.
+(X) B. m1 c a gefolgt von der ArithmeticException.
        
 ( ) C. m1 c a test b d m2
        
@@ -78,7 +78,7 @@ Was ist das Ergebnis?
 
 ( ) A. m1 c a m2 m4.
        
-( ) B. m1 c a m3 m4.
+(X) B. m1 c a m3 m4.
        
 ( ) C. m1 c a gefolgt von einer Exception.
        
@@ -111,7 +111,7 @@ Was ist das Ergebnis wenn in der Zeile A eine `ArithmeticException` geworfen wir
        
 ( ) C. e ae
        
-( ) D. Compilerfehler
+(X) D. Compilerfehler
        
        
 
@@ -134,7 +134,7 @@ Was ist das Ergebnis wenn in der Zeile A eine `ArithmeticException` geworfen wir
 
 
 
-( ) A. ae
+(X) A. ae
        
 ( ) B. e
        
@@ -167,7 +167,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. Compilerfehler.
+(X) A. Compilerfehler.
        
 ( ) B. Es wird die StringException geworfen.
        
@@ -208,7 +208,7 @@ Was ist das Ergebnis?
 
 ( ) A. Compilerfehler.
        
-( ) B. Beim Aufruf der main-Methode wird NullPointerException geworfen.
+(X) B. Beim Aufruf der main-Methode wird NullPointerException geworfen.
        
 ( ) C. Beim Aufruf der main-Methode wird die Anwendung ohne Exceptions ausgeführt.
        

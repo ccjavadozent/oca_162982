@@ -44,6 +44,8 @@ public class B05_Konstantenpools {
 		a++; b++;
 		System.out.println(a == b); // false
 		
+//		Long.valueOf(12);
+		
 		/*
 		 * Nicht in der Prüfung:
 		 *  Character hat auch einen Konstantenpool
