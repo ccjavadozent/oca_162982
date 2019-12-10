@@ -3,8 +3,9 @@
 > api.txt (+)
 > classes.txt (+)
 > encapsulation.txt (+)
-> exceptions.txt (q6)
-
+> exceptions.txt (+)
+> inheritance.txt (+)
+> interfaces.txt (+)
 
 
 ## Wissensvermittlung

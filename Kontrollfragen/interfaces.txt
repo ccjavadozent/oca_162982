@@ -15,9 +15,9 @@ Was ist richtig?
 
 
 
-[ ] A. Die Klasse `Elefant` hat IS-A-Beziehung mit dem Interface `Runnable`.
+[X] A. Die Klasse `Elefant` hat IS-A-Beziehung mit dem Interface `Runnable`.
        
-[ ] B. Die Klasse `Elefant` hat IS-A-Beziehung mit dem Interface `Comparable`.
+[X] B. Die Klasse `Elefant` hat IS-A-Beziehung mit dem Interface `Comparable`.
        
 [ ] C. Der Code kompiliert nicht.
        
@@ -32,9 +32,9 @@ QUESTION 2
 Gegeben:
 
 	interface MyInterface {
-		void m1() {}				// A
+		void m1() {}			// A
 		default void m2() {}	// B
-		void m3()					// C
+		void m3();				// C
 		static void m4() {} 	// D
 		static void m5(); 		// E
 	}
@@ -43,7 +43,7 @@ Welche Zeilen kompilieren nicht?
 
 
 
-[ ] A. A.
+[X] A. A.
        
 [ ] B. B.
        
@@ -51,7 +51,7 @@ Welche Zeilen kompilieren nicht?
        
 [ ] D. D.
        
-[ ] E. E.
+[X] E. E.
        
        
 
@@ -72,11 +72,11 @@ Was haben alle Methoden aus dem Interface `MyInterface` gemeinsam (auch implizit
 
 
 
-[ ] A. Sie sind public.
+[X] A. Sie sind public.
        
 [ ] B. Sie sind static.
        
-[ ] C. Sie sind abstract.
+[X] C. Sie sind abstract.
        
 [ ] D. Sie sind final.
        
@@ -100,13 +100,13 @@ Was haben alle Attribute aus dem Interface `MyInterface` gemeinsam (auch implizi
 
 
 
-[ ] A. Sie sind public.
+[X] A. Sie sind public.
        
-[ ] B. Sie sind static.
+[X] B. Sie sind static.
        
 [ ] C. Sie sind abstract.
        
-[ ] D. Sie sind final.
+[X] D. Sie sind final.
        
        
        
@@ -160,17 +160,17 @@ Welche Zeilen kompilieren nicht mit Java 11? (Private Methoden sind in einem Int
        
 [ ] B. B.
        
-[ ] C. C.
+[X] C. C.
        
-[ ] D. D.
+[X] D. D.
        
 [ ] E. E.
        
-[ ] F. F.
+[X] F. F.
        
-[ ] G. G.
+[X] G. G.
        
-[ ] H. H.
+[X] H. H.
        
 [ ] I. I.
        
@@ -203,7 +203,7 @@ Gegeben:
 		public static void main(String[] args) {
 			TextFormat fmt = new HtmlTextFormat();
 			fmt = new MarkdownTextFormat();
-			System.out.println( mdFmt.fett("Freitag") );
+			System.out.println( fmt.fett("Freitag") );
 		}
 	}
 
@@ -215,7 +215,7 @@ Was ist das Ergebnis?
        
 ( ) B. `__Freitag__`
        
-( ) C. Compilerfehler.
+(X) C. Compilerfehler.
        
 ( ) D. Exception.
        
@@ -240,13 +240,13 @@ Was ist richtig?
 
 
 
-[ ] A. Compilerfehler in der Zeile A.
+[X] A. Compilerfehler in der Zeile A.
        
 [ ] B. Compilerfehler in der Zeile B.
        
-[ ] C. Compilerfehler in der Zeile C.
+[X] C. Compilerfehler in der Zeile C.
        
-[ ] D. Compilerfehler in der Zeile D.
+[X] D. Compilerfehler in der Zeile D.
        
        
 

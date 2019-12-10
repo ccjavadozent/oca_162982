@@ -6,7 +6,7 @@ Welche Vorteile bekommt man mit Vererbung?
 
 
 
-( ) A. Gleicher Code wird in der Basisklasse nur ein Mal definiert und in abgeleiteten Klassen geerbt.
+(X) A. Gleicher Code wird in der Basisklasse nur ein Mal definiert und in abgeleiteten Klassen geerbt.
        
 ( ) B. Durch Vererbung ist das Definieren unveränderlicher Objekte einfacher.
        
@@ -21,7 +21,7 @@ Welche Klasse ist die Basisklasse für alle Java-Klassen?
 
 
 
-( ) A. Object
+(X) A. Object
        
 ( ) B. Java
        
@@ -37,7 +37,7 @@ Mit welchem Schlüßelwort wird die "IS-A" Beziehung zwischen Klassen in Java re
 
 
 
-( ) A. extends
+(X) A. extends
        
 ( ) B. inherits
        
@@ -61,7 +61,7 @@ Wie stehen die Typen `Text` und `HtmlText` zueinander?
        
 ( ) B. `Text` IST-EIN `HtmlText`.
        
-( ) C. `HtmlText` IST-EIN `Text`.
+(X) C. `HtmlText` IST-EIN `Text`.
        
        
        
@@ -78,7 +78,7 @@ Wird folgender Code kompilieren, wenn die Klasse `Hund` von der Klasse `Tier` er
 
 
 
-( ) A. Ja.
+(X) A. Ja.
        
 ( ) B. Nein.
        
@@ -89,7 +89,8 @@ Wird folgender Code kompilieren, wenn die Klasse `Hund` von der Klasse `Tier` er
 QUESTION 6
 
 
-Wird folgender Code kompilieren, wenn die Klasse `Hund` und die Klasse `Katze` die Klasse `Tier` erweitern (`Hund` und `Katze` sind Geschwisterklassen)?
+Wird folgender Code kompilieren, wenn die Klasse `Hund` und die Klasse `Katze` die Klasse `Tier` erweitern 
+(`Hund` und `Katze` sind Geschwisterklassen)?
 
 		  Hund h = new Hund();
 		  System.out.println( h instanceof Katze );
@@ -98,7 +99,7 @@ Wird folgender Code kompilieren, wenn die Klasse `Hund` und die Klasse `Katze` d
 
 ( ) A. Ja.
        
-( ) B. Nein.
+(X) B. Nein.
        
        
        
@@ -117,7 +118,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. Compilerfehler.
+(X) A. Compilerfehler.
        
 ( ) B. Der Code kompiliert.
        
@@ -140,7 +141,7 @@ Was ist das Ergebnis?
 
 ( ) A. ||
        
-( ) B. |null|
+(X) B. |null|
        
 ( ) C. Compilerfehler
        
@@ -174,13 +175,13 @@ Welche Zeilen kompilieren nicht?
 
 
 
-[ ] A. A.
+[X] A. A.
        
-[ ] B. B.
+[X] B. B.
        
 [ ] C. C.
        
-[ ] D. D.
+[X] D. D.
        
 [ ] E. E.
        
@@ -209,7 +210,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. Object[], Integer[] 
+(X) A. Object[], Integer[] 
        
 ( ) B. Object[], Object[] 
        
@@ -226,7 +227,7 @@ QUESTION 11
 Gegeben: 
 
 	Object[] a1 = { 1, 2 };
-	a1[0] = 7.2;							// A
+	a1[0] = 7.2;						// A
 	System.out.print(a1[0] + " "); 		
 	
 	Integer[] a2 = { 1, 2 };
@@ -247,10 +248,10 @@ Was ist richtig?
        
 ( ) D. Exception in der Zeile A 
        
-( ) E. Exception in der Zeile B 
+(X) E. Exception in der Zeile B 
        
        
-
+> ArrayStoreException
 
 -----------
 QUESTION 12
@@ -267,7 +268,7 @@ und folgendes Codefragment:
 	Hund h = null; 
 	Katze k = null;
 	
-	Tier t = h;	// A
+	Tier t = h;		// A
 	h = t;			// B
 	t = k;			// C
 	h = k;			// D
@@ -278,11 +279,11 @@ Welche Zeilen beinhalten einen Compilerfehler?
 
 [ ] A. A.
        
-[ ] B. B.
+[X] B. B.
        
 [ ] C. C.
        
-[ ] D. D.
+[X] D. D.
        
 [ ] E. Keine.
        
@@ -320,7 +321,7 @@ Wie kann die Klasse `Kreis` in der Zeile A die Klassen `Figur` und `Werkstueck` 
        
 ( ) B. Kreis extends Figur extends Werkstueck
        
-( ) C. Es geht nicht. 
+(X) C. Es geht nicht. 
        
        
 
@@ -339,7 +340,7 @@ Wie sieht der default-Constructor der Klasse `C1` aus?
 
 ( ) A. C1() { }
        
-( ) B. C1() { super(); }
+(X) B. C1() { super(); }
        
 ( ) C. C1() { this(); }
        
@@ -377,9 +378,10 @@ Was ist das Ergebnis?
 
 ( ) A. C1
        
-( ) B. Compilerfehler.
+(X) B. Compilerfehler.
        
-       
+
+> es gibt keinen noargs-Konstruktor
        
 
 
@@ -405,12 +407,12 @@ Was ist richtig?
 
 ( ) A. Die Klasse `BaseA` kompiliert nicht.
        
-( ) B. Die Klasse `DerivedA` kompiliert nicht.
+(X) B. Die Klasse `DerivedA` kompiliert nicht.
        
 ( ) C. Beide Klassen kompilieren.
        
-       
-
+> Fehler im default-Constructor:
+> DerivedA() { super(); }
 
 -----------
 QUESTION 17
@@ -440,7 +442,7 @@ Was kompiliert in der Zeile A?
        this(3);
        
        
-[ ] B. super(2);
+[X] B. super(2);
        this.y = 3;
        
        
@@ -479,13 +481,13 @@ Welche Zeilen müssen entfernt werden, damit die Klasse `Foo`kompiliert?
 
 
 
-[ ] A. A.
+[X] A. A.
        
 [ ] B. B.
        
-[ ] C. C.
+[X] C. C.
        
-[ ] D. D.
+[X] D. D.
        
 [ ] E. E.
        
@@ -510,20 +512,20 @@ Welche Klassen kompilieren?
 
 
 
-[ ] A. C0.
+[X] A. C0.
        
-[ ] B. C1.
+[X] B. C1.
        
 [ ] C. C2.
        
-[ ] D. C3.
+[X] D. C3.
        
 [ ] E. C4.
        
 [ ] F. C5.
        
        
-       
+> abstrakte Klassen dürfen (nicht müssen) abstrakte Methoden haben
 
 
 -----------
@@ -537,7 +539,7 @@ Gegeben:
 	abstract class Hund extends Tier { }
 	class Katze extends Tier { }
 
-Welche klassen kompilieren nicht?
+Welche Klassen kompilieren nicht?
 
 
 
@@ -549,7 +551,7 @@ Welche klassen kompilieren nicht?
        
 ( ) D. Katze.
        
-( ) E. Alle Klassen kompilieren.
+(X) E. Alle Klassen kompilieren.
        
        
        
@@ -590,7 +592,7 @@ Was ist das Ergebnis?
        
 ( ) D. Compilerfehler in der Klasse `Tier`.
        
-( ) E. Compilerfehler in der Klasse `Main`.
+(X) E. Compilerfehler in der Klasse `Main`.
        
        
 
@@ -631,7 +633,7 @@ Was ist das Ergebnis?
        
 ( ) B. A C.
        
-( ) C. C C.
+(X) C. C C.
        
        
        
@@ -666,7 +668,7 @@ Was ist das Ergebnis?
        
 ( ) B. true false false
        
-( ) C. true true false
+(X) C. true true false
        
 ( ) D. Compilerfehler.
        
@@ -704,7 +706,7 @@ Was ist das Ergebnis?
        
 ( ) C. true true false
        
-( ) D. Compilerfehler.
+(X) D. Compilerfehler.
        
        
 
@@ -740,7 +742,7 @@ Was ist das Ergebnis?
 
 ( ) A. Person Dozent.
        
-( ) B. Dozent Dozent.
+(X) B. Dozent Dozent.
        
 ( ) C. Compilerfehler.
        
@@ -780,7 +782,7 @@ Was ist das Ergebnis?
 
 ( ) A. Dozent Person.
        
-( ) B. Dozent Dozent.
+(X) B. Dozent Dozent.
        
 ( ) C. Person Person.
        
@@ -808,8 +810,8 @@ Gegeben:
 	class Main {
 		public static void main(String[] args) {
 			Person p = new Dozent();
-			System.out.println(p.gehalt);				// A
-			System.out.println((Dozent)p.gehalt);		// B
+			System.out.println(p.gehalt);			// A
+			System.out.println((Dozent)p.gehalt);	// B
 			System.out.println(((Dozent)p).gehalt);	// C
 		}
 	}
@@ -817,14 +819,13 @@ Gegeben:
 Was ist richtig?
 
 
-
-[ ] A. 800 800 800.
+[X] A. Compilerfehler in der Zeile A.
        
-[ ] B. Compilerfehler in der Zeile A.
+[X] B. Compilerfehler in der Zeile B.
        
-[ ] C. Compilerfehler in der Zeile B.
+[ ] C. Compilerfehler in der Zeile C.
        
-[ ] D. Compilerfehler in der Zeile C.
+[ ] D. 800 800 800.
        
        
        
@@ -864,7 +865,7 @@ Was ist richtig?
        
 ( ) C. Compilerfehler in der Zeile C.
        
-( ) D. Compilerfehler in der Zeile D.
+(X) D. Compilerfehler in der Zeile D.
        
 ( ) E. Der Code kompiliert, zur Laufzeit gibt es die ClassCastException.
        
@@ -904,7 +905,7 @@ Was ist das Ergebnis?
 
 ( ) A. 1 1 1 1.
        
-( ) B. 1 1 2 2.
+(X) B. 1 1 2 2.
        
 ( ) C. 1 1 1 2.
        
@@ -950,7 +951,7 @@ Was ist das Ergebnis?
        
 ( ) B. 1 1 2 2.
        
-( ) C. 1 2 2 2.
+(X) C. 1 2 2 2.
        
 ( ) D. Compilerfehler.
        
@@ -981,11 +982,11 @@ Was ist richtig?
 
 
 
-[ ] A. Klasse `DerivedA` kompiliert nicht.
+[X] A. Klasse `DerivedA` kompiliert nicht.
        
-[ ] B. Klasse `DerivedB` kompiliert nicht.
+[X] B. Klasse `DerivedB` kompiliert nicht.
        
-[ ] C. Klasse `DerivedC` kompiliert nicht.
+[X] C. Klasse `DerivedC` kompiliert nicht.
        
 [ ] D. Alle Klassen kompilieren.
        
@@ -1030,7 +1031,7 @@ Was ist das Ergebnis?
 
 ( ) A. Formatter.
        
-( ) B. HtmlFormatter.
+(X) B. HtmlFormatter.
        
 ( ) C. MarkdownFormatter.
        
@@ -1068,7 +1069,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. 1 1.
+(X) A. 1 1.
        
 ( ) B. 1 2.
        
@@ -1109,7 +1110,7 @@ Was ist das Ergebnis?
 
 ( ) A. 1 1.
        
-( ) B. 1 2.
+(X) B. 1 2.
        
 ( ) C. 2 2.
        
@@ -1125,7 +1126,7 @@ QUESTION 35
 Gegeben:
 
 	class Base {
-		final int x = 1;					// A
+		final int x = 1;				// A
 		final int getX() { return x; }	// B
 	}
 	
@@ -1152,7 +1153,7 @@ Was ist das Ergebnis?
        
 ( ) C. Compilerfehler in der Zeile C.
        
-( ) D. Compilerfehler in der Zeile D.
+(X) D. Compilerfehler in der Zeile D.
        
        
        
@@ -1165,7 +1166,7 @@ QUESTION 36
 Gegeben:
 
 	class Base {
-		public final int x = 1;						// A
+		public final int x = 1;					// A
 		private final int getX() { return x; }	// B
 	}
 	
@@ -1186,7 +1187,7 @@ Was ist das Ergebnis?
        
 [ ] D. Compilerfehler in der Zeile D.
        
-[ ] E. Keine Compilerfehler.
+[X] E. Keine Compilerfehler.
        
        
        
@@ -1230,7 +1231,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. false false false true
+(X) A. false false false true
        
 ( ) B. false false false false
        
@@ -1295,11 +1296,5 @@ Was ist richtig?
        
 ( ) G. Compilerfehler in der Zeile G.
        
-( ) H. Keine Compilerfehler.
+(X) H. Keine Compilerfehler.
        
-       
-       
-( ) I. Wann wird Schlüsselwort 'this' implizit eingesetzt?
-       
-
-

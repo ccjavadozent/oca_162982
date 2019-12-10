@@ -246,7 +246,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. Compilerfehler.
+(X) A. Compilerfehler.
        
 ( ) B. Beim Aufruf der main-Methode wird NullPointerException geworfen.
        
@@ -270,7 +270,7 @@ Welche Exception wird geworfen?
 
 ( ) A. Keine
        
-( ) B. NullPointerException
+(X) B. NullPointerException
        
 ( ) C. ArithmeticException
        
@@ -291,7 +291,7 @@ Welche Exception wird geworfen?
 
 
 
-( ) A. Keine
+(X) A. Keine
        
 ( ) B. NullPointerException
        
@@ -316,7 +316,7 @@ Welche Exception wird geworfen?
        
 ( ) B. NullPointerException
        
-( ) C. ArithmeticException
+(X) C. ArithmeticException
        
        
 
@@ -333,7 +333,7 @@ Welche Exception wird geworfen?
 
 
 
-( ) A. Keine
+(X) A. Keine
        
 ( ) B. NullPointerException
        
@@ -360,7 +360,7 @@ Welche Exception wird geworfen?
        
 ( ) B. NullPointerException
        
-( ) C. ArrayIndexOutOfBoundsException
+(X) C. ArrayIndexOutOfBoundsException
        
        
 
@@ -378,7 +378,7 @@ Welche Exception wird geworfen?
 
 
 
-( ) A. Keine
+(x) A. Keine
        
 ( ) B. NullPointerException
        
@@ -405,7 +405,7 @@ Welche Exception wird geworfen?
        
 ( ) B. NullPointerException
        
-( ) C. ClassCastException
+(X) C. ClassCastException
        
        
        
@@ -442,7 +442,7 @@ Was ist richtig?
 
 ( ) A. Compilerfehler in der Klasse `Auto`.
        
-( ) B. Compilerfehler in der Klasse `VW`.
+(X) B. Compilerfehler in der Klasse `VW`.
        
 ( ) C. Compilerfehler in der Klasse `Opel`.
        
@@ -478,15 +478,15 @@ Was könnte das Ergebnis sein, wenn die Methode `test` aufgerufen wird?
 
 
 
-[ ] A. a b c
+[X] A. a b c
        
-[ ] B. b c
+[X] B. b c
        
-[ ] C. a c
+[X] C. a c
        
-[ ] D. c gefolgt von einem Error
+[X] D. c gefolgt von einem Error
        
-[ ] E. keine Ausgaben, die Anwendung friert ein.
+[X] E. keine Ausgaben, die Anwendung friert ein.
        
        
 
