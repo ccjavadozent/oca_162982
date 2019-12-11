@@ -1,13 +1,3 @@
-> imperative.txt (+),
-> arrays.txt(+)
-> api.txt (+)
-> classes.txt (+)
-> encapsulation.txt (+)
-> exceptions.txt (+)
-> inheritance.txt (+)
-> interfaces.txt (+)
-
-
 ## Wissensvermittlung
 - 08:00 - 09:30 Uhr
 - 09:45 - 11:15 Uhr

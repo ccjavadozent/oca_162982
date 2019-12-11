@@ -270,7 +270,7 @@ Gegeben:
 	
 	class Oldtimer implements Fahrbar {
 		public void motorAn() { /* ... */ }
-		public void motorAus( { /* ... */ }
+		public void motorAus() { /* ... */ }
 	} 
 
 Was ist das Ergebnnis?
@@ -281,7 +281,7 @@ Was ist das Ergebnnis?
        
 ( ) B. Compilerfehler in der Klasse `Oldtimer`.
        
-( ) C. Keine Compilerfehler.
+(X) C. Keine Compilerfehler.
        
        
 
@@ -316,7 +316,7 @@ Was ist das Ergebnnis?
        
 ( ) B. Compilerfehler in der Klasse `Oldtimer`.
        
-( ) C. Keine Compilerfehler.
+(X) C. Keine Compilerfehler.
        
        
 
@@ -339,7 +339,7 @@ Welche Versionen der Klasse `Maus` kompilieren?
 
 
 
-[ ] A. Version 1:
+[X] A. Version 1:
        
        	class Maus implements NameHolder, Lebewesen {
        		public String getName() {
@@ -354,7 +354,7 @@ Welche Versionen der Klasse `Maus` kompilieren?
        	}
        
        
-[ ] C. Version 3:
+[X] C. Version 3:
        
        	class Maus implements NameHolder, Lebewesen {
        		public String getName() {
@@ -390,13 +390,17 @@ Was ist das Ergebnis?
 
 
 
-( ) A. hhhh
+(X) A. hhhh
        
 ( ) B. aaa
        
 ( ) C. aa
        
-       
+> 2. Parameter der sort: Comparator mit der abstrakten Methode 'int compare(param1, param2)'
+
+> "a".compareTo("b") -> negativ
+> "a".compareTo("a") -> 0
+> "b".compareTo("a") -> positiv
 
 
 -----------
@@ -422,7 +426,7 @@ Was ist das Ergebnis?
 
 ( ) A. Compilerfehler.
        
-( ) B. Der Code kompiliert und läuft ohne Ausgabe.
+(X) B. Der Code kompiliert und läuft ohne Ausgabe.
        
 ( ) C. Der Code kompiliert und läuft mit der Ausgabe 'Lambda'.
        
@@ -462,11 +466,11 @@ Welche sind funktionale Interfaces?
        
 [ ] B. I2.
        
-[ ] C. I3.
+[X] C. I3.
        
-[ ] D. I4.
+[X] D. I4.
        
-[ ] E. I5.
+[X] E. I5.
        
        
 
@@ -485,7 +489,7 @@ Welche sind korrekte Lambda-Realisierungen?
 
 
 
-[ ] A. Version 1:
+[X] A. Version 1:
        
        	Operation o = (int x) -> { 
        		return x*2; 
@@ -501,7 +505,7 @@ Welche sind korrekte Lambda-Realisierungen?
        
        
        
-[ ] C. Version 3:
+[X] C. Version 3:
        
        	Operation o = (x) -> { 
        		return x*2; 
@@ -509,7 +513,7 @@ Welche sind korrekte Lambda-Realisierungen?
        
        
        
-[ ] D. Version 4:
+[X] D. Version 4:
        
        	Operation o = x -> x*2;
        
@@ -537,7 +541,7 @@ Welche ist korrekte Lambda-Realisierung?
 
 
 
-( ) A. Version 1:
+(X) A. Version 1:
        
        	Operation o = x -> {
        		System.out.println(x); 
@@ -583,12 +587,9 @@ Was ist richtig?
        
 ( ) B. Mehrere Zeile kompilieren nicht.
        
-( ) C. Alle Zeile kompilieren.
+(X) C. Alle Zeile kompilieren.
        
        
-       
-
-
 -----------
 QUESTION 17
 
@@ -612,12 +613,14 @@ Was ist richtig?
 
 
 
-( ) A. Genau eine Zeile kompiliert nicht.
+(X) A. Genau eine Zeile kompiliert nicht.
        
 ( ) B. Mehrere Zeile kompilieren nicht.
        
 ( ) C. Alle Zeile kompilieren.
-       
+
+
+> die Lambda bei u4       
        
        
        
@@ -643,7 +646,7 @@ Was ist das Ergebnis?
 
 ( ) A. true.
        
-( ) B. false.
+(X) B. false.
        
 ( ) C. Compilerfehler.	
        
@@ -668,7 +671,7 @@ Was ist das Ergebnis?
        
 ( ) B. Compilerfehler in der Zeile B.
        
-( ) C. true
+(X) C. true
        
 ( ) D. false
        
@@ -695,7 +698,7 @@ Was ist das Ergebnis?
 
 ( ) A. 0
        
-( ) B. 1
+(X) B. 1
        
 ( ) C. 3
        
@@ -724,7 +727,7 @@ Was ist das Ergebnis?
 
 
 
-( ) A. 75.
+(X) A. 75.
        
 ( ) B. Compilerfehler in der Zeile A.
        
