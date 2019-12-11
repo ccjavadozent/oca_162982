@@ -26,7 +26,6 @@ public class DateAndTime {
 		DateTimeFormatter fmt = DateTimeFormatter.ISO_DATE;
 		TemporalAccessor ta1 = fmt.parse("2019-05-22");
 //		TemporalAccessor ta2 = fmt.parse("2019/05/22"); // Exception
-		
 	}
 
 	static void b2() {

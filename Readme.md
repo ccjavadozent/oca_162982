@@ -1,3 +1,18 @@
+# Am Tag der Prüfung (12.12)
+
+- Bitte zwei (!) gültige Identifikationsnachweise für die Prüfung mitnehmen
+
+- Es besteht die Anwesenheitspflicht (CC-Launcher muss laufen).
+- Teilen Sie dem Dozenten Ihre Prüfungszeit mit, damit er für die Zeit der Prüfung die Anwesenheitskontrollen auschaltet.
+
+- Am Standardprüfungstag (letzter Tag im Kurs) gibt es keine Wissensvermittlung. 
+
+__Aufgaben:__ 
+- Prüfung
+- eigenes Projekt weiterentwickeln
+- Recherchieren: Java EE, Spring, Unit-Tests, Maven, Git... 
+- PC aufräumen
+
 ## Wissensvermittlung
 - 08:00 - 09:30 Uhr
 - 09:45 - 11:15 Uhr
@@ -72,7 +87,7 @@
 
 ## Aufgaben
 
-#### 27.11 - 12.12
+#### 27.11 - 11.12
 - Prüfungsanmeldung (in den nächsten Tagen)
 - Wdh. mit dem OCA-Buch
 - Projekt (maximal 1 Stunde/Tag)
