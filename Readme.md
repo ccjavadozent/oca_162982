@@ -1,4 +1,4 @@
-# Am Tag der Prüfung (12.12)
+# Viel Erfolg bei der Prüfung!
 
 - Bitte zwei (!) gültige Identifikationsnachweise für die Prüfung mitnehmen
 
